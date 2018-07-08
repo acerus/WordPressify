@@ -26,6 +26,10 @@
 
 	if('dev.wordpressify.ru' == $server_name ){
 
+    define('WP_HOME','http://dev.wordpressify.ru');
+    define('WP_SITEURL','http://dev.wordpressify.ru');
+
+
 	 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 	 /** Имя базы данных для WordPress */
 	 define('DB_NAME', 'vagrant');
