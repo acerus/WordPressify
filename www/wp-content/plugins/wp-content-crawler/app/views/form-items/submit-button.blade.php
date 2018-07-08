@@ -1,1 +1,0 @@
-<button class="button button-primary button-large">{{ isset($text) ? $text : _wpcc('Submit') }}</button>
