@@ -3,3 +3,5 @@ logs/*.log
 www/phpmyadmin
 ubuntu-xenial-16.04-cloudimg-console.log
 www/wp-content/uploads
+www/wp-content/log
+wp-config-live.php
