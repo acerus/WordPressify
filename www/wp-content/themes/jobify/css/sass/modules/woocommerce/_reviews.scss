@@ -1,0 +1,116 @@
+.woocommerce-tabs .commentlist {
+	margin-top: 40px;
+}
+
+#reviews {
+	#reply-title {
+		margin-top: 40px;
+	}
+
+	.comment-form-rating label {
+		margin-bottom: 10px;
+		display: block;
+	}
+
+	p.stars {
+		position: relative;
+		font-size: 1em;
+
+		a {
+			display: inline-block;
+			font-weight: 700;
+			margin-right: 1em;
+			text-indent: -9999px;
+			position: relative;
+			border-bottom: 0 !important;
+			outline: 0;
+
+			&:last-child {
+				border-right: 0;
+			}
+
+			&.star-1,
+			&.star-2,
+			&.star-3,
+			&.star-4,
+			&.star-5 {
+				border-right: 1px solid #ccc;
+
+				&:after {
+					font-family: "Ionicons";
+					text-indent: 0;
+					position: absolute;
+					top: 0;
+					left: 0;
+				}
+
+			}
+
+			&.star-1 {
+				width: 2em;
+
+				&:after {
+					content: $ionicon-var-ios-star-outline;
+				}
+
+				&:hover:after,
+				&.active:after {
+					content: $ionicon-var-ios-star;
+				}
+			}
+
+			&.star-2 {
+				width: 3em;
+
+				&:after {
+					content: $ionicon-var-ios-star-outline$ionicon-var-ios-star-outline;
+				}
+
+				&:hover:after,
+				&.active:after {
+					content: $ionicon-var-ios-star$ionicon-var-ios-star;
+				}
+			}
+
+			&.star-3 {
+				width: 4em;
+
+				&:after {
+					content: $ionicon-var-ios-star-outline$ionicon-var-ios-star-outline$ionicon-var-ios-star-outline;
+				}
+
+				&:hover:after,
+				&.active:after {
+					content: $ionicon-var-ios-star$ionicon-var-ios-star$ionicon-var-ios-star;
+				}
+			}
+
+			&.star-4 {
+				width: 5em;
+
+				&:after {
+					content: $ionicon-var-ios-star-outline$ionicon-var-ios-star-outline$ionicon-var-ios-star-outline$ionicon-var-ios-star-outline;
+				}
+
+				&:hover:after,
+				&.active:after {
+					content: $ionicon-var-ios-star$ionicon-var-ios-star$ionicon-var-ios-star$ionicon-var-ios-star;
+				}
+			}
+
+			&.star-5 {
+				width: 6em;
+				border: 0;
+
+				&:after {
+					content: $ionicon-var-ios-star-outline$ionicon-var-ios-star-outline$ionicon-var-ios-star-outline$ionicon-var-ios-star-outline$ionicon-var-ios-star-outline;
+				}
+
+				&:hover:after,
+				&.active:after {
+					content: $ionicon-var-ios-star$ionicon-var-ios-star$ionicon-var-ios-star$ionicon-var-ios-star$ionicon-var-ios-star;
+				}
+			}
+		}
+	}
+}

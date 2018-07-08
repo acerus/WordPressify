@@ -1,0 +1,114 @@
+[
+	{
+		"id": "category-web-design",
+		"type": "term",
+		"data": {
+			"taxonomy": "resume_category",
+			"name": "Web Design/Development"
+		}
+	},
+	{
+		"id": "category-designer",
+		"type": "term",
+		"data": {
+			"taxonomy": "resume_category",
+			"name": "Designer"
+		}
+	},
+	{
+		"id": "category-management-and-finance",
+		"type": "term",
+		"data": {
+			"taxonomy": "resume_category",
+			"name": "Management and Finance"
+		}
+	},
+	{
+		"id": "category-marketing",
+		"type": "term",
+		"data": {
+			"taxonomy": "resume_category",
+			"name": "Marketing"
+		}
+	},
+	{
+		"id": "category-quality-assurance",
+		"type": "term",
+		"data": {
+			"taxonomy": "resume_category",
+			"name": "Quality Assurance"
+		}
+	},
+	{
+		"id": "category-software-development",
+		"type": "term",
+		"data": {
+			"taxonomy": "resume_category",
+			"name": "Sofwtare Development"
+		}
+	},
+	{
+		"id": "skill-swords",
+		"type": "term",
+		"data": {
+			"taxonomy": "resume_skill",
+			"name": "Sword Wielding"
+		}
+	},
+	{
+		"id": "skill-indesign",
+		"type": "term",
+		"data": {
+			"taxonomy": "resume_skill",
+			"name": "inDesign"
+		}
+	},
+	{
+		"id": "skill-development",
+		"type": "term",
+		"data": {
+			"taxonomy": "resume_skill",
+			"name": "Development"
+		}
+	},
+	{
+		"id": "skill-html-css",
+		"type": "term",
+		"data": {
+			"taxonomy": "resume_skill",
+			"name": "HTML/CSS"
+		}
+	},
+	{
+		"id": "skill-after-effects",
+		"type": "term",
+		"data": {
+			"taxonomy": "resume_skill",
+			"name": "After Effects"
+		}
+	},
+	{
+		"id": "skill-sketch",
+		"type": "term",
+		"data": {
+			"taxonomy": "resume_skill",
+			"name": "Sketch"
+		}
+	},
+	{
+		"id": "skill-finance",
+		"type": "term",
+		"data": {
+			"taxonomy": "resume_skill",
+			"name": "Finance"
+		}
+	},
+	{
+		"id": "skill-management",
+		"type": "term",
+		"data": {
+			"taxonomy": "resume_skill",
+			"name": "Management"
+		}
+	}
+]

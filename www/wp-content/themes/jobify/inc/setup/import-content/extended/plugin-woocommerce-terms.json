@@ -1,0 +1,50 @@
+[
+	{
+		"id": "product-category-bag",
+		"type": "term",
+		"data": {
+			"taxonomy": "product_cat",
+			"name": "Bag"
+		}
+	},
+	{
+		"id": "product-category-book",
+		"type": "term",
+		"data": {
+			"taxonomy": "product_cat",
+			"name": "Book"
+		}
+	},
+	{
+		"id": "product-category-coffee",
+		"type": "term",
+		"data": {
+			"taxonomy": "product_cat",
+			"name": "Coffee"
+		}
+	},
+	{
+		"id": "product-category-mug",
+		"type": "term",
+		"data": {
+			"taxonomy": "product_cat",
+			"name": "Mug"
+		}
+	},
+	{
+		"id": "product-category-spirits",
+		"type": "term",
+		"data": {
+			"taxonomy": "product_cat",
+			"name": "Spirits"
+		}
+	},
+	{
+		"id": "product-category-t-shirt",
+		"type": "term",
+		"data": {
+			"taxonomy": "product_cat",
+			"name": "T-Shirt"
+		}
+	}
+]

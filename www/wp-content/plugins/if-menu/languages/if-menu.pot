@@ -1,0 +1,53 @@
+# Copyright (C) 2016 If Menu
+# This file is distributed under the same license as the If Menu package.
+msgid ""
+msgstr ""
+"Project-Id-Version: If Menu 0.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/if-menu\n"
+"POT-Creation-Date: 2016-07-27 07:34:16+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: if-menu.php:138
+msgid "Enable Conditional Logic"
+msgstr ""
+
+#: if-menu.php:144
+msgid "Show"
+msgstr ""
+
+#: if-menu.php:145
+msgid "Hide"
+msgstr ""
+
+#: if-menu.php:181
+msgid "AND"
+msgstr ""
+
+#: if-menu.php:182
+msgid "OR"
+msgstr ""
+
+#: if-menu.php:203
+msgid "%s if %s"
+msgstr ""
+
+#: if-menu.php:203
+msgid "and 1 more condition"
+msgstr ""
+
+#: if-menu.php:203
+msgid "and %d more conditions"
+msgstr ""
+
+#: if-menu.php:60
+msgid "<b>If Menu</b> plugin detected a conflict with another plugin or theme and may not work as expected. <a href=\"%s\" target=\"_blank\">Read more about the issue here</a>"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Show/hide menu items with conditional statements"
+msgstr ""

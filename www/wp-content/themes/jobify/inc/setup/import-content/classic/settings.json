@@ -1,0 +1,12 @@
+[
+	{
+		"type": "thememod",
+		"id": "color-link",
+		"data": "#6d6d6d"
+	},
+	{
+		"type": "thememod",
+		"id": "job-display-sidebar",
+		"data": "side"
+	}
+]

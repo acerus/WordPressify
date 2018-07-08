@@ -1,0 +1,23 @@
+/**
+ * Theme Name: Jobify - Extended
+ * Theme URI: https://astoundify.com/
+ * Author: Astoundify
+ * Author URI: http://astoundify.com
+ * Description: Everything you need to build a professional job board.
+ * Version: 1.0.0
+ * License: GNU General Public License v2 or later
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ * Tags: white, one-column, right-sidebar, fixed-width, custom-background, custom-header, theme-options, full-width-template, featured-images, flexible-header, custom-menu, translation-ready
+ * Template: jobify
+*/
+/**
+ * The parent theme's CSS is automatically included so there is no need
+ * to use the @import rule to include the parent theme CSS.
+ *
+ * Place Custom CSS Below this.
+ */
+
+
+h1.site-title{font-family: 'Permanent Marker', cursive;}
+.footer-cta{margin:0}
+.um-profile-meta .um-meta{display:none}

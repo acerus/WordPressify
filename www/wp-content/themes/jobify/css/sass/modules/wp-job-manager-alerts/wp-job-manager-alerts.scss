@@ -1,0 +1,17 @@
+@import "alert_link";
+
+p.job-manager-single-alert-link {
+	a {
+		@extend .button;
+		@extend .button--size-medium;
+		display: inline-block;
+		
+		&:before {
+			@extend .ion;
+			content: $ionicon-var-android-alert;
+			font-size: 20px;
+			margin: -2px 10px 0 0;
+			vertical-align: middle;
+		}
+	}
+}

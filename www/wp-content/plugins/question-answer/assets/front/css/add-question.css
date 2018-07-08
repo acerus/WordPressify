@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+.qa_add_question{}
+
+
+.question-submit{}
+.question-submit .validations{}
+.question-submit .validations .failed {
+  color: #f0611a;
+  font-size: 12px;
+  padding: 3px 1px;
+}
+
+.question-submit .validations .success {
+  color: #54c671;
+  font-size: 12px;
+  padding: 3px 1px;
+}
+
+
+
+
+
+
+
+.question-submit .steps{}
+
+.question-submit .steps ul, .question-submit .actions ul {
+  background: #f2f2f2 none repeat scroll 0 0;
+  margin: 0;
+  padding: 0;
+}
+
+.question-submit .steps ul li, .question-submit .actions ul li{
+  background: #f2f2f2 none repeat scroll 0 0;
+  border-right: 1px solid #ddd;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+
+.question-submit .steps ul li:last-child, .question-submit .actions ul li:nth-child(2) {
+  border: medium none;
+}
+
+.question-submit .steps-title.title {
+  display: none;
+}
+
+
+.question-submit .steps ul li.current {
+  background: #e7e6e6 none repeat scroll 0 0;
+}
+
+.question-submit .steps ul li a, .question-submit .actions ul li a {
+  display: inline-block;
+  outline: medium none;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+
+.question-submit .steps ul li .current-info,  .question-submit .steps ul li .number{
+  display: none;
+}
+
+.question-submit .actions {
+  margin-top: 20px;
+}
+
+
+
+.question-submit .question-submit-button > input[type="submit"] {
+
+}
+
+.question-submit input[type="text"], .question-submit textarea {
+  font-size: 13px;
+  padding: 5px 10px;
+  width: 50%;
+}
+
+.question-submit label {
+  display: block;
+  font-size: 13px;
+}
+
+.question-submit #post_title {
+  width: 90%;
+}
+
+
+.qa-suggestions{}
+
+.qa-suggestions .suggestion-title {
+  font-weight: bold;
+  display: none;
+}
+
+.qa-suggestions .loading {
+  display: none;
+}
+
+.qa-suggestions li{}
+.qa-suggestions li a {
+  display: block;
+  font-size: 13px;
+  margin: 3px 0;
+  text-decoration: none;
+}
+
+
+
+
+

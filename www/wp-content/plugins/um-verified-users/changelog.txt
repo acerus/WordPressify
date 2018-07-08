@@ -1,0 +1,41 @@
+Version 2.0.2
+
+* Added: Loading translation from "wp-content/languages/plugins/" directory
+
+Version 2.0.1
+
+* Fixed: Autoverify users after registration
+* Tweak: UM2.0 compatibility
+
+Version 1.0.8
+
+* New: allow bulk verify/unverify for user accounts in backend
+* New: added option to prevent specific user role from requesting verification
+
+Version 1.0.7
+
+* Fixed: missing email template argument
+
+Version 1.0.6
+
+* Tweak: compatibility with WP 4.4
+
+Version 1.0.5
+
+* New: Added french language support
+
+Version 1.0.4
+
+* Tweak: added language / translation support
+
+Version 1.0.3
+
+* Fixed: bug when user is updated in backend
+
+Version 1.0.2
+
+* Fixed: Email notification sent to user with wrong details
+
+Version 1.0.1
+
+* Fixed: removed verification badge from bbpress (due to incompatibility)

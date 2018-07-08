@@ -1,0 +1,17 @@
+Version 2.0.3
+
+* Added: GDPR compatibility
+* Fixed: Display online field settings in privacy tab account
+
+Version 2.0.2
+
+* Fixed version
+
+Version 2.0.1
+
+* Added: Loading translation from "wp-content/languages/plugins/" directory
+* Fixed: Online Users shortcode
+
+Version 2.0
+
+* Tweak: UM2.0 compatibility

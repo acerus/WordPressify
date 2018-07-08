@@ -1,0 +1,70 @@
+.post-type-archive-product {
+	#content .page-title {
+		display: none;
+	}
+
+	#content {
+		padding-top: 60px;
+	}
+}
+
+.woocommerce,
+.woocommerce-page {
+
+	.price {
+		line-height: normal;
+		
+		del {
+			color: inherit;
+		}
+
+		ins {
+			color: #fff;
+			border-radius: 3px;
+			padding: 3px 5px;
+		}
+	}
+
+	ul.products {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		li.product {
+			width: 30%;
+
+			a:hover {
+				text-decoration: none;
+			}
+
+			img {
+				border-radius: 4px;
+			}
+			
+			.onsale {
+				position: absolute;
+				top: -20px;
+				right: 10px;
+				width: 60px;
+				height: 60px;
+				border-radius: 50%;
+				color: white;
+				text-align: center;
+				line-height: 63px;
+			}
+
+			h3 {
+				font-weight: normal;
+				margin-bottom: 0;
+			}
+
+			.button {
+				font-size: 15px;
+				padding: 14px 24px;
+				display: block;
+				margin-top: 1em;
+			}
+		}
+	}
+}
+

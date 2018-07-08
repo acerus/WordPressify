@@ -1,0 +1,71 @@
+[
+	{
+		"id": "nav-menu-item-find-a-job",
+		"type": "nav-menu-item",
+		"priority": 5,
+		"data": {
+			"menu_name": "Primary",
+			"menu-item-title": "Find A Job",
+			"menu-item-type": "custom",
+			"menu-item-url": "#",
+			"menu-item-position": 1
+		}
+	},
+
+	{
+		"id": "nav-menu-item-ontario",
+		"type": "nav-menu-item",
+		"priority": 10,
+		"data": {
+			"menu_name": "Primary",
+			"menu-item-type": "taxonomy",
+			"menu-item-object-title": "Ontario",
+			"menu-item-title": "Ontario",
+			"menu-item-object": "job_listing_region",
+			"menu-item-parent-title": "Find A Job",
+			"menu-item-position": 1
+		}
+	},
+	{
+		"id": "nav-menu-item-daly-city",
+		"type": "nav-menu-item",
+		"priority": 10,
+		"data": {
+			"menu_name": "Primary",
+			"menu-item-type": "taxonomy",
+			"menu-item-object-title": "Daly City",
+			"menu-item-title": "Daly City",
+			"menu-item-object": "job_listing_region",
+			"menu-item-parent-title": "Find A Job",
+			"menu-item-position": 5
+		}
+	},
+	{
+		"id": "nav-menu-item-sacramento",
+		"type": "nav-menu-item",
+		"priority": 10,
+		"data": {
+			"menu_name": "Primary",
+			"menu-item-type": "taxonomy",
+			"menu-item-object-title": "Sacramento",
+			"menu-item-title": "Sacramento",
+			"menu-item-object": "job_listing_region",
+			"menu-item-parent-title": "Find A Job",
+			"menu-item-position": 7
+		}
+	},
+	{
+		"id": "nav-menu-item-santa-rosa",
+		"type": "nav-menu-item",
+		"priority": 10,
+		"data": {
+			"menu_name": "Primary",
+			"menu-item-type": "taxonomy",
+			"menu-item-object-title": "Santa Rosa",
+			"menu-item-title": "Santa Rosa",
+			"menu-item-object": "job_listing_region",
+			"menu-item-parent-title": "Find A Job",
+			"menu-item-position": 8
+		}
+	}
+]

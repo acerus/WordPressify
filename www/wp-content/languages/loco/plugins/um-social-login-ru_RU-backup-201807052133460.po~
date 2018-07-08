@@ -1,0 +1,358 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Social Login\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-05 21:31+0000\n"
+"PO-Revision-Date: 2018-07-05 21:32+0000\n"
+"Last-Translator: nobody <paul.fedorov@gmail.com>\n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: includes/core/filters/um-social-login-account.php:14
+#, php-format
+msgid " This %s account is already linked to another user."
+msgstr ""
+
+#: includes/core/filters/um-social-login-settings.php:84
+#, php-format
+msgid "%s Social Connect"
+msgstr ""
+
+#: includes/core/um-social-login-init.php:119
+#: includes/core/um-social-login-init.php:155
+#: includes/core/class-social-login-setup.php:99
+#: includes/core/class-social-login-setup.php:135
+msgid "API Key"
+msgstr ""
+
+#: includes/core/um-social-login-init.php:120
+#: includes/core/um-social-login-init.php:156
+#: includes/core/class-social-login-setup.php:100
+#: includes/core/class-social-login-setup.php:136
+msgid "API Secret"
+msgstr ""
+
+#: includes/core/um-social-login-init.php:65
+#: includes/core/class-social-login-setup.php:45
+msgid "App ID"
+msgstr ""
+
+#: includes/core/um-social-login-init.php:66
+#: includes/core/class-social-login-setup.php:46
+msgid "App Secret"
+msgstr ""
+
+#: includes/admin/templates/buttons.php:31
+msgid "Assign Role"
+msgstr ""
+
+#: includes/admin/templates/buttons.php:45
+msgid "Button Appearance"
+msgstr ""
+
+#: includes/admin/templates/buttons.php:95
+msgid "Button Min Width"
+msgstr ""
+
+#: includes/admin/templates/buttons.php:103
+msgid "Button Padding"
+msgstr ""
+
+#: includes/admin/templates/buttons.php:82
+msgid "Button Style"
+msgstr ""
+
+#: includes/core/um-social-login-init.php:101
+#: includes/core/um-social-login-init.php:137
+#: includes/core/class-social-login-setup.php:81
+#: includes/core/class-social-login-setup.php:117
+msgid "Client ID"
+msgstr ""
+
+#: includes/core/um-social-login-init.php:138
+#: includes/core/class-social-login-setup.php:118
+msgid "Client Secret"
+msgstr ""
+
+#: includes/core/um-social-login-init.php:102
+#: includes/core/class-social-login-setup.php:82
+msgid "Client secret"
+msgstr ""
+
+#: includes/core/um-social-login-init.php:742
+msgid "Complete Registration"
+msgstr ""
+
+#: includes/core/filters/um-social-login-account.php:70
+#: includes/core/filters/um-social-login-account.php:94
+#: includes/core/filters/um-social-login-account.php:94
+#, php-format
+msgid "Connect to %s"
+msgstr ""
+
+#: includes/core/um-social-login-init.php:83
+#: includes/core/class-social-login-setup.php:63
+msgid "Consumer Key"
+msgstr ""
+
+#: includes/core/um-social-login-init.php:84
+#: includes/core/class-social-login-setup.php:64
+msgid "Consumer Secret"
+msgstr ""
+
+#: includes/admin/templates/buttons.php:110
+msgid "Container Appearance"
+msgstr ""
+
+#: includes/admin/templates/buttons.php:129
+msgid "Container Margin"
+msgstr ""
+
+#: includes/admin/templates/buttons.php:137
+msgid "Container Padding"
+msgstr ""
+
+#: includes/admin/templates/shortcode.php:3
+msgid ""
+"Copy/paste the following shortcode to embed this social login anywhere on "
+"your site or within UM forms."
+msgstr ""
+
+#: includes/admin/templates/buttons.php:10
+#, php-format
+msgid "Enable <b>%s</b>"
+msgstr ""
+
+#: includes/core/filters/um-social-login-settings.php:54
+msgid "Enable/disable the Social account tab in account page"
+msgstr ""
+
+#: includes/core/um-social-login-init.php:58
+#: includes/core/class-social-login-setup.php:38
+msgid "Facebook"
+msgstr ""
+
+#: includes/admin/templates/buttons.php:87
+msgid "Floated"
+msgstr ""
+
+#: includes/admin/templates/buttons.php:68
+msgid "Font Size"
+msgstr ""
+
+#: includes/admin/templates/buttons.php:22
+msgid "General Settings"
+msgstr ""
+
+#: includes/core/um-social-login-init.php:94
+#: includes/core/class-social-login-setup.php:74
+msgid "Google+"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://ultimatemember.com/"
+msgstr ""
+
+#: includes/admin/templates/buttons.php:76
+#: includes/admin/templates/buttons.php:121
+msgid "Icon Size"
+msgstr ""
+
+#: includes/core/um-social-login-init.php:130
+#: includes/core/class-social-login-setup.php:110
+msgid "Instagram"
+msgstr ""
+
+#: includes/core/um-social-login-init.php:112
+#: includes/core/class-social-login-setup.php:92
+msgid "LinkedIn"
+msgstr ""
+
+#: includes/admin/templates/form/login.php:13
+#: includes/admin/templates/form/register.php:13
+#: includes/admin/templates/form/register.php:24
+msgid "No"
+msgstr ""
+
+#: includes/admin/templates/metabox.php:52
+msgid "Not enough data to show visual stats"
+msgstr ""
+
+#: includes/admin/templates/buttons.php:85
+msgid "One button per line"
+msgstr ""
+
+#: includes/core/class-social-login-admin.php:82
+msgid "Options"
+msgstr ""
+
+#: includes/admin/templates/form/register.php:21
+msgid ""
+"Please note only one registration form can be used for social overlay and "
+"this form should only be used for completion of social registration and not "
+"regular registration"
+msgstr ""
+
+#: includes/admin/templates/buttons.php:3
+msgid "Provider Settings"
+msgstr ""
+
+#: includes/admin/templates/buttons.php:86
+msgid "Responsive"
+msgstr ""
+
+#: includes/core/class-social-login-admin.php:83
+msgid "Shortcode"
+msgstr ""
+
+#: includes/admin/templates/buttons.php:38
+msgid "Show for logged-in users?"
+msgstr ""
+
+#: includes/admin/templates/buttons.php:54
+msgid "Show icon in the social login button?"
+msgstr ""
+
+#: includes/admin/templates/buttons.php:60
+msgid "Show label in the social login button?"
+msgstr ""
+
+#: includes/core/filters/um-social-login-settings.php:65
+msgid "Show social connect on login forms"
+msgstr ""
+
+#: includes/core/filters/um-social-login-settings.php:59
+msgid "Show social connect on registration forms"
+msgstr ""
+
+#: includes/admin/templates/form/login.php:10
+#: includes/admin/templates/form/register.php:10
+msgid "Show social connect on this form?"
+msgstr ""
+
+#: includes/core/filters/um-social-login-settings.php:66
+msgid "Show/hide social connect on all login forms by default"
+msgstr ""
+
+#: includes/core/filters/um-social-login-settings.php:60
+msgid "Show/hide social connect on all registration forms by default"
+msgstr ""
+
+#: includes/core/um-social-login-init.php:59
+#: includes/core/class-social-login-setup.php:39
+msgid "Sign in with Facebook"
+msgstr "Войти с Facebook"
+
+#: includes/core/um-social-login-init.php:95
+#: includes/core/class-social-login-setup.php:75
+msgid "Sign in with Google+"
+msgstr "Войти с Google+"
+
+#: includes/core/um-social-login-init.php:131
+#: includes/core/class-social-login-setup.php:111
+msgid "Sign in with Instagram"
+msgstr ""
+
+#: includes/core/um-social-login-init.php:113
+#: includes/core/class-social-login-setup.php:93
+msgid "Sign in with LinkedIn"
+msgstr ""
+
+#: includes/core/um-social-login-init.php:77
+#: includes/core/class-social-login-setup.php:57
+msgid "Sign in with Twitter"
+msgstr ""
+
+#: includes/core/um-social-login-init.php:149
+#: includes/core/class-social-login-setup.php:129
+msgid "Sign in with VK"
+msgstr "Войти с VK"
+
+#: includes/core/filters/um-social-login-settings.php:53
+msgid "Social Account Tab"
+msgstr ""
+
+#: includes/core/filters/um-social-login-account.php:41
+msgid "Social Connect"
+msgstr ""
+
+#: includes/core/actions/um-social-login-admin.php:13
+#: includes/core/actions/um-social-login-admin.php:14
+#: includes/core/filters/um-social-login-settings.php:48
+msgid "Social Login"
+msgstr ""
+
+#: includes/core/filters/um-social-login-settings.php:40
+msgid "Social Login License Key"
+msgstr ""
+
+#: includes/core/class-social-login-setup.php:199
+msgid "Social Registration"
+msgstr ""
+
+#. Description of the plugin
+msgid "Social registration and login for Ultimate Member plugin."
+msgstr ""
+
+#: includes/core/class-social-login-admin.php:37
+msgid "Social Signups"
+msgstr ""
+
+#: um-social-login.php:35 um-social-login.php:51
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+
+#: includes/core/um-social-login-init.php:76
+#: includes/core/class-social-login-setup.php:56
+msgid "Twitter"
+msgstr ""
+
+#. Author of the plugin
+msgid "Ultimate Member"
+msgstr ""
+
+#. Name of the plugin
+msgid "Ultimate Member - Social Login"
+msgstr ""
+
+#: includes/core/filters/um-social-login-profile.php:17
+#: includes/core/filters/um-social-login-profile.php:20
+#: includes/core/filters/um-social-login-profile.php:29
+msgid "Use this avatar"
+msgstr ""
+
+#: includes/admin/templates/form/register.php:20
+msgid "Use this form in the overlay?"
+msgstr ""
+
+#: includes/core/filters/um-social-login-settings.php:12
+#, php-format
+msgid "user connects with %s"
+msgstr ""
+
+#: includes/core/filters/um-social-login-settings.php:24
+#, php-format
+msgid "user disconnects from %s"
+msgstr ""
+
+#: includes/core/um-social-login-init.php:148
+#: includes/core/class-social-login-setup.php:128
+msgid "VK"
+msgstr ""
+
+#: includes/admin/templates/form/login.php:14
+#: includes/admin/templates/form/register.php:14
+#: includes/admin/templates/form/register.php:25
+msgid "Yes"
+msgstr ""

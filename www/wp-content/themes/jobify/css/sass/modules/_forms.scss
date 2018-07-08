@@ -1,0 +1,22 @@
+/* Form fields, general styles first. */
+label {
+	font: bold 14px/normal 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+
+body .wp_themeSkin table.mceLayout,
+#wp-resume_content-wrap,
+.wp-editor-wrap {
+	border: 1px solid #ccc;
+}
+
+/* Buttons */
+button,
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+}

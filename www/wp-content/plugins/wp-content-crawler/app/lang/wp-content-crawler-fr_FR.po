@@ -1,0 +1,2448 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Content Crawler 1.0\n"
+"POT-Creation-Date: 2016-05-16 13:46+0300\n"
+"PO-Revision-Date: 2016-09-20 14:16+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _wpcc;__;_e\n"
+"Last-Translator: Turgut Sarıçam <turgutsaricam@gmail.com>\n"
+"Language: fr\n"
+"X-Poedit-SearchPath-0: storage/cache\n"
+"X-Poedit-SearchPath-1: services\n"
+"X-Poedit-SearchPath-2: AssetManager.php\n"
+"X-Poedit-SearchPath-3: WPTSLMClient.php\n"
+
+#: AssetManager.php:41
+#: storage/cache/a3fc0628e48060db055b0e90841f805ecd6270f4.php:8
+msgid "An error occurred."
+msgstr "Une erreur s’est produite."
+
+#: AssetManager.php:42
+msgid "Press {0} to copy"
+msgstr "Appuyez sur {0} pour copier"
+
+#: AssetManager.php:43
+msgid "Copied!"
+msgstr "Copié !"
+
+#: AssetManager.php:87 AssetManager.php:102
+msgid "An error occurred"
+msgstr "Une erreur est survenue"
+
+#: AssetManager.php:103
+msgid "No result."
+msgstr "Pas de résultat."
+
+#: WPTSLMClient.php:65 WPTSLMClient.php:96
+msgid "License Settings"
+msgstr "Paramètres de Licence"
+
+#: WPTSLMClient.php:66
+#, php-format
+msgid "%s License Settings"
+msgstr "%s: Paramètres de Licence"
+
+#: WPTSLMClient.php:202
+#, php-format
+msgid ""
+"Your %1$s license has expired. Please get a new license until %2$s to "
+"continue using %3$s."
+msgstr ""
+"Votre %1$s licence a expiré. S’il vous plaît obtenir une nouvelle licence "
+"jusqu’à %2$s pour continuer à utiliser %3$s."
+
+#: WPTSLMClient.php:205
+#, php-format
+msgid ""
+"Your %1$s license has expired and you did not provide a new license. The "
+"features are disabled.\n"
+"                        Please get a new license to continue using %2$s."
+msgstr ""
+"Votre %1$s licence a expiré et vous n’avez pas fourni une nouvelle licence. "
+"Les fonctionnalités sont désactivées.\n"
+"                        S’il vous plaît obtenir une nouvelle licence pour "
+"continuer à l’aide de %2$s."
+
+#: WPTSLMClient.php:210
+#, php-format
+msgid ""
+"Please enter your license key for %s to use its features and get updates."
+msgstr ""
+"Veuillez entrer votre clé de licence pour %s pour utiliser ses "
+"fonctionnalités et mises à jour."
+
+#: WPTSLMClient.php:218
+msgid "Message"
+msgstr "Message"
+
+#: WPTSLMClient.php:222
+msgid "Complete the setup now."
+msgstr "Terminez la configuration maintenant."
+
+#: WPTSLMClient.php:253
+#, php-format
+msgid "License Settings for %s"
+msgstr "Paramètres de licence pour %s"
+
+#: WPTSLMClient.php:256
+msgid "License settings updated."
+msgstr "Mise à jour des réglages de licence."
+
+#: WPTSLMClient.php:268
+msgid "License Key"
+msgstr "Clé de la Licence"
+
+#: WPTSLMClient.php:321
+msgid ""
+"The license could not be checked with the server. Please try saving your "
+"license\n"
+"                settings again in a few minutes. If the error persists, "
+"please contact the developer."
+msgstr ""
+"La licence ne pouvait pas être vérifiée avec le serveur. S’il vous plaît "
+"essayez d’enregistrer les paramètres de votre licence à nouveau dans "
+"quelques minutes. Si l’erreur persiste, contactez le développeur."
+
+#: services/GeneralSettingsService.php:71
+#: services/GeneralSettingsService.php:72
+#: storage/cache/a3fc0628e48060db055b0e90841f805ecd6270f4.php:12
+msgid "General Settings"
+msgstr "Paramètres Généraux"
+
+#: services/GeneralSettingsService.php:154
+msgid "Publish"
+msgstr "Publier"
+
+#: services/GeneralSettingsService.php:155
+msgid "Draft"
+msgstr "Brouillon"
+
+#: services/GeneralSettingsService.php:202 services/PostService.php:373
+msgid "Settings are updated, but password could not be changed."
+msgstr ""
+"Paramètres sont mises à jour, mais le mot de passe ne pouvait pas être "
+"changé."
+
+#: services/GeneralSettingsService.php:257
+msgid "Passwords do not match."
+msgstr "Les mots de passe ne correspondent pas."
+
+#: services/PostService.php:185 services/PostService.php:201
+#: services/TestService.php:70 services/ToolsService.php:72
+msgid "Data does not exist in your request. The request should include 'data'"
+msgstr ""
+"Données n’existent pas dans votre demande. La demande doit inclure des « "
+"données »"
+
+#: services/PostService.php:186
+msgid ""
+"Post ID does not exist in your request. The request should have 'post_id'."
+msgstr ""
+"ID du message n’existe pas dans votre demande. La demande doit avoir « "
+"post_id »."
+
+#: services/PostService.php:445
+msgid "Sites"
+msgstr "Sites"
+
+#: services/PostService.php:446
+#: storage/cache/5440d531c36671296df7d099a45ad85ef1d4bc76.php:9
+#: storage/cache/88d405ee10577c9c41353d02156ed694199bbdcf.php:19
+#: storage/cache/9a44ecc43b4bd815c0017d13a8f6a421631467eb.php:19
+msgid "Site"
+msgstr "Site"
+
+#: services/PostService.php:447
+msgid "Content Crawler"
+msgstr "Crawler le contenu"
+
+#: services/PostService.php:448
+msgid "Content Crawler Site"
+msgstr "Crawler le contenu du Site"
+
+#: services/PostService.php:449
+#: storage/cache/2f4e73ebd7900fdcd78d0ab8c06caca8558bf4d7.php:23
+msgid "Add New"
+msgstr "Ajouter"
+
+#: services/PostService.php:450
+msgid "Add New Site"
+msgstr "Ajouter un Nouveau Site"
+
+#: services/PostService.php:451
+msgid "New Site"
+msgstr "Nouveau Site"
+
+#: services/PostService.php:452
+msgid "Edit Site"
+msgstr "Modifier Site"
+
+#: services/PostService.php:453
+msgid "View Site"
+msgstr "Voir le Site"
+
+#: services/PostService.php:454
+msgid "All Sites"
+msgstr "Tous les Sites"
+
+#: services/PostService.php:455
+msgid "Search Sites"
+msgstr "Recherche de sites"
+
+#: services/PostService.php:456
+msgid "Parent Sites:"
+msgstr "Parent de Sites:"
+
+#: services/PostService.php:457
+msgid "No sites found."
+msgstr "Aucun site trouvé."
+
+#: services/PostService.php:458
+msgid "No sites found in Trash."
+msgstr "Aucun site trouvé dans la corbeille."
+
+#: services/PostService.php:464
+msgid "A custom post type which stores sites to be crawled"
+msgstr "Un type de message personnalisé qui stocke les sites pour être exploré"
+
+#: services/PostService.php:482
+msgid "Author"
+msgstr "Auteur"
+
+#: services/PostService.php:483
+msgid "Active"
+msgstr "Activé"
+
+#: services/PostService.php:484
+msgid "Saved Post Count"
+msgstr "Enregistré le nombre d’article"
+
+#: services/PostService.php:485
+msgid "Posts in Queue"
+msgstr "Articles dans la file d’attente"
+
+#: services/PostService.php:486
+msgid "Last URL Collection"
+msgstr "Dernière Collection d’URL"
+
+#: services/PostService.php:487
+msgid "Last Post Crawl"
+msgstr "Dernier article explorer"
+
+#: services/PostService.php:488
+msgid "Date"
+msgstr "Date"
+
+#: services/PostService.php:573 services/PostService.php:576
+msgid "Site updated."
+msgstr "Site mis à jour."
+
+#: services/PostService.php:574
+msgid "Custom field updated."
+msgstr "Champ personnalisé mis à jour avec succès."
+
+#: services/PostService.php:575
+msgid "Custom field deleted."
+msgstr "Champ personnalisé effacé."
+
+#: services/PostService.php:577
+#, php-format
+msgid "Site restored to revision from %s"
+msgstr "Site restauré avec la révision de %s"
+
+#: services/PostService.php:578
+msgid "Site published."
+msgstr "Site publié."
+
+#: services/PostService.php:579
+msgid "Site saved."
+msgstr "Site enregistré."
+
+#: services/PostService.php:580
+msgid "Site submitted."
+msgstr "Site soumis."
+
+#: services/PostService.php:582
+#, php-format
+msgid "Site scheduled for: <strong>%1$s</strong>."
+msgstr "Site prévue pour le : <strong>%1$s</strong>."
+
+#: services/PostService.php:585
+msgid "Site draft updated."
+msgstr "Brouillon de site mis à jour."
+
+#: services/PostService.php:593
+msgid "Enter site name here"
+msgstr "Entrez le nom du site ici"
+
+#: services/PostService.php:635
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:18
+msgid "Settings"
+msgstr "Paramètres"
+
+#: services/PostService.php:645
+msgid "Simple Notes"
+msgstr "Notes simples"
+
+#: services/PostService.php:746
+msgid "Main post title"
+msgstr "Titre de l’article principal"
+
+#: services/PostService.php:750
+msgid "Main post excerpt"
+msgstr "Extrait principal de l’article"
+
+#: services/PostService.php:754
+msgid "Main post content"
+msgstr "Contenu principal de l’article"
+
+#: services/PostService.php:758
+msgid "List items"
+msgstr "Liste d’éléments"
+
+#: services/PostService.php:762
+msgid "Gallery items"
+msgstr "Galerie articles"
+
+#: services/PostService.php:766
+msgid ""
+"Full URL of the target page. You can use this to reference the source page. "
+"E.g. <a href='[wcc-source-url]'>Source</a>"
+msgstr ""
+"URL complète de la page cible. Vous pouvez utiliser ceci pour référencer la "
+"page source. Par exemple la <a href=‘[wcc-source-url]’>Source</a>"
+
+#: services/PostService.php:777
+msgid "List item title"
+msgstr "Titre de l’élément de la liste"
+
+#: services/PostService.php:781
+msgid "List item content"
+msgstr "Contenu de l’élément de la liste"
+
+#: services/PostService.php:785
+msgid "The position of the item."
+msgstr "La position de l’élément."
+
+#: services/PostService.php:796
+msgid "Gallery item URL"
+msgstr "Galerie article URL"
+
+#: services/SchedulingService.php:956
+msgid "Every minute"
+msgstr "Chaque minute"
+
+#: services/SchedulingService.php:957
+msgid "Every 2 minutes"
+msgstr "Toutes les 2 minutes"
+
+#: services/SchedulingService.php:958
+msgid "Every 3 minutes"
+msgstr "Toutes les 3 minutes"
+
+#: services/SchedulingService.php:959
+msgid "Every 5 minutes"
+msgstr "Toutes les 5 minutes"
+
+#: services/SchedulingService.php:960
+msgid "Every 10 minutes"
+msgstr "Toutes les 10 minutes"
+
+#: services/SchedulingService.php:961
+msgid "Every 15 minutes"
+msgstr "Toutes les 15 minutes"
+
+#: services/SchedulingService.php:962
+msgid "Every 20 minutes"
+msgstr "Toutes les 20 minutes"
+
+#: services/SchedulingService.php:963
+msgid "Every 30 minutes"
+msgstr "Toutes les 30 minutes"
+
+#: services/SchedulingService.php:964
+msgid "Every 45 minutes"
+msgstr "Toutes les 45 minutes"
+
+#: services/SchedulingService.php:965
+msgid "Every hour"
+msgstr "Chaque heure"
+
+#: services/SchedulingService.php:966
+msgid "Every 2 hours"
+msgstr "Toutes les 2 heures"
+
+#: services/SchedulingService.php:967
+msgid "Every 3 hours"
+msgstr "Toutes les 3 heures"
+
+#: services/SchedulingService.php:968
+msgid "Every 4 hours"
+msgstr "Toutes les 4 heures"
+
+#: services/SchedulingService.php:969
+msgid "Every 6 hours"
+msgstr "Toutes les 6 heures"
+
+#: services/SchedulingService.php:970
+msgid "Twice a day"
+msgstr "Deux fois par jour"
+
+#: services/SchedulingService.php:971
+msgid "Once a day"
+msgstr "Une fois par jour"
+
+#: services/SchedulingService.php:972
+msgid "Every 2 days"
+msgstr "Tous les 2 jours"
+
+#: services/SchedulingService.php:973
+msgid "Once a week"
+msgstr "Une fois par semaine"
+
+#: services/SchedulingService.php:974
+msgid "Every 2 weeks"
+msgstr "Toutes les 2 semaines"
+
+#: services/SchedulingService.php:975
+msgid "Once a month"
+msgstr "Une fois par mois"
+
+#: services/TestService.php:35 services/TestService.php:158
+msgid "Post Page"
+msgstr "Page d’article"
+
+#: services/TestService.php:36 services/TestService.php:159
+msgid "Category Page"
+msgstr "Page de catégorie"
+
+#: services/TestService.php:45 services/TestService.php:46
+msgid "Tester"
+msgstr "Testeur"
+
+#: services/TestService.php:102
+#, php-format
+msgid "Test result for find %1$s and replace with %2$s"
+msgstr "Résultat du test pour trouver %1$s et remplacer par %2$s"
+
+#: services/TestService.php:108
+msgid "(as regex)"
+msgstr "(comme regex)"
+
+#: services/TestService.php:192
+msgid "Styling can be different on front page depending on your theme."
+msgstr ""
+"Un style peut être différent sur la page de couverture selon votre thème."
+
+#: services/TestService.php:238
+msgid "Title"
+msgstr "Titre"
+
+#: services/TestService.php:239
+msgid "Meta Keywords"
+msgstr "Méta mots-clés"
+
+#: services/TestService.php:240
+msgid "Meta Keywords As Tags"
+msgstr "Mots clés sous forme de tags"
+
+#: services/TestService.php:241
+msgid "Meta Description"
+msgstr "Méta description"
+
+#: services/TestService.php:242
+msgid "Excerpt"
+msgstr "Extrait"
+
+#: services/TestService.php:243
+msgid "Tags"
+msgstr "Tags"
+
+#: services/TestService.php:244
+msgid "Prepared Post Tags"
+msgstr "Préparé Post Tags"
+
+#: services/TestService.php:247
+#: storage/cache/88d405ee10577c9c41353d02156ed694199bbdcf.php:71
+msgid "Featured Image URL"
+msgstr "URL de l’image à la une"
+
+#: services/TestService.php:258
+msgid "Gallery Item"
+msgstr "Article de la galerie"
+
+#: services/TestService.php:261
+msgid "Attachments"
+msgstr "Pièces jointes"
+
+#: services/TestService.php:265
+#: storage/cache/f53e0af99b707e5b407181e5c3a0aaa21683f2a4.php:10
+msgid "Next Page URL"
+msgstr "URL de la Page suivante"
+
+#: services/TestService.php:270
+msgid "Next Page URLs"
+msgstr "URL des Pages suivante"
+
+#: services/TestService.php:277
+msgid "Memory Used"
+msgstr "Mémoire utilisée"
+
+#: services/TestService.php:278
+msgid "Time"
+msgstr "Temps"
+
+#: services/TestService.php:355
+#, php-format
+msgid "Test results for %1$s%2$son %3$s:"
+msgstr "Résultats de la recherche entre %1$s%2$son %3$s:"
+
+#: services/ToolsService.php:20 services/ToolsService.php:21
+#: storage/cache/5d682b1dc328b84f0063b9e31edbcd6e431a7d59.php:2
+#: storage/cache/756b6ae679fb9342422fcde05edb60c407238136.php:2
+msgid "Tools"
+msgstr "Outils"
+
+#: services/ToolsService.php:90
+msgid "The post is saved. You can check it here"
+msgstr "Le message est enregistré. Vous pouvez le vérifier ici"
+
+#: services/ToolsService.php:120
+msgid "Deleted successfully."
+msgstr "Supprimée avec succès"
+
+#: services/ToolsService.php:124
+msgid "You did not check the safety checkbox."
+msgstr "Vous n’avez pas coché la case à cocher sécurité."
+
+#: services/ToolsService.php:182
+msgid "In Queue"
+msgstr "En attente"
+
+#: services/ToolsService.php:183
+msgid "Already Saved"
+msgstr "Déjà enregistré"
+
+#: services/ToolsService.php:184
+msgid "All"
+msgstr "Tous"
+
+#: storage/cache/2df1644536ccfcbe14ae5513543424d2f225cdf9.php:2
+msgid "Save Changes"
+msgstr "Enregistrer toutes les modifications"
+
+#: storage/cache/35a6ff11cb98d9681e9b60839c99baa45ebe7b2a.php:4
+msgid "Template"
+msgstr "Modèle"
+
+#: storage/cache/35a6ff11cb98d9681e9b60839c99baa45ebe7b2a.php:8
+msgid "Go to details"
+msgstr "Voir les détails"
+
+#: storage/cache/35a6ff11cb98d9681e9b60839c99baa45ebe7b2a.php:23
+msgid "Details"
+msgstr "Détails"
+
+#: storage/cache/35a6ff11cb98d9681e9b60839c99baa45ebe7b2a.php:24
+#: storage/cache/35a6ff11cb98d9681e9b60839c99baa45ebe7b2a.php:75
+msgid "Go to top"
+msgstr "Retourner en haut"
+
+#: storage/cache/35a6ff11cb98d9681e9b60839c99baa45ebe7b2a.php:29
+msgid "Info"
+msgstr "Info"
+
+#: storage/cache/35a6ff11cb98d9681e9b60839c99baa45ebe7b2a.php:36
+msgid "Error"
+msgstr "Erreur"
+
+#: storage/cache/35a6ff11cb98d9681e9b60839c99baa45ebe7b2a.php:63
+msgid "Source Code"
+msgstr "Code source"
+
+#: storage/cache/35a6ff11cb98d9681e9b60839c99baa45ebe7b2a.php:69
+msgid "Data"
+msgstr "Données"
+
+#: storage/cache/362db798a2359ffe96922ca5e2202b0778a437d6.php:3
+msgid "Old password"
+msgstr "Ancien mot de passe"
+
+#: storage/cache/362db798a2359ffe96922ca5e2202b0778a437d6.php:4
+msgid "New password"
+msgstr "Nouveau mot de passe"
+
+#: storage/cache/362db798a2359ffe96922ca5e2202b0778a437d6.php:5
+msgid "New password again"
+msgstr "Confirmez nouveau mot de passe"
+
+#: storage/cache/412d6ea0f6d54c39cdc146737288d5e9eccadabe.php:13
+msgid "Single?"
+msgstr "Unique?"
+
+#: storage/cache/412d6ea0f6d54c39cdc146737288d5e9eccadabe.php:16
+#: storage/cache/7a4ae616cc95080fd7e4951b142385009b877915.php:13
+#: storage/cache/fbe36cfaa065da89f06d950b6b28d3fbd3e2b8fc.php:16
+msgid "Selector"
+msgstr "Sélecteur"
+
+#: storage/cache/412d6ea0f6d54c39cdc146737288d5e9eccadabe.php:19
+#: storage/cache/7a4ae616cc95080fd7e4951b142385009b877915.php:16
+#: storage/cache/fbe36cfaa065da89f06d950b6b28d3fbd3e2b8fc.php:19
+#, php-format
+msgid "Attribute (default: %s)"
+msgstr "Attribut (valeur par défaut : %s)"
+
+#: storage/cache/412d6ea0f6d54c39cdc146737288d5e9eccadabe.php:22
+msgid "Shortcode without brackets"
+msgstr "Shortcode sans crochets"
+
+#: storage/cache/45c2942ed4d2fbef24591acc36c23cb1b9fe3f49.php:4
+msgid "Test this URL"
+msgstr "Tester cette URL"
+
+#: storage/cache/4943d84df19f74988c5d320d823a0fad1123a47c.php:1
+msgid "Toggle info texts"
+msgstr "Basculer texte info"
+
+#: storage/cache/5440d531c36671296df7d099a45ad85ef1d4bc76.php:2
+msgid "Site Tester"
+msgstr "Testeur de Site"
+
+#: storage/cache/5440d531c36671296df7d099a45ad85ef1d4bc76.php:16
+msgid "Test Type"
+msgstr "Testeur de Type"
+
+#: storage/cache/5440d531c36671296df7d099a45ad85ef1d4bc76.php:23
+msgid "Test URL"
+msgstr "Testeur d’URL"
+
+#: storage/cache/5440d531c36671296df7d099a45ad85ef1d4bc76.php:24
+msgid "Full URL or URL without domain"
+msgstr "URL complète ou sans nom de domaine"
+
+#: storage/cache/5440d531c36671296df7d099a45ad85ef1d4bc76.php:25
+msgid "Test"
+msgstr "Test"
+
+#: storage/cache/58a6b08965762fbd93d56d01a14c22b90e29d591.php:1
+msgid "Submit"
+msgstr "Soumettre"
+
+#: storage/cache/756b6ae679fb9342422fcde05edb60c407238136.php:7
+msgid "Crawl a post"
+msgstr "Analyser (Crawl) un article"
+
+#: storage/cache/7f7518b38467bebd43084430c90b29b04e478e45.php:10
+msgid "No result"
+msgstr "Aucun résultat"
+
+#: storage/cache/88d405ee10577c9c41353d02156ed694199bbdcf.php:2
+msgid "Manually crawl and save a post"
+msgstr "Analyser (crawl) manuellement et sauvegardé l’article"
+
+#: storage/cache/88d405ee10577c9c41353d02156ed694199bbdcf.php:20
+msgid "Select the site for the post you want to save."
+msgstr "Sélectionnez le site pour l’article que vous souhaitez enregistrer."
+
+#: storage/cache/88d405ee10577c9c41353d02156ed694199bbdcf.php:36
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:10
+msgid "Category"
+msgstr "Catégorie"
+
+#: storage/cache/88d405ee10577c9c41353d02156ed694199bbdcf.php:37
+msgid "Select the category in which you want the post saved."
+msgstr ""
+"Sélectionnez la catégorie dans laquelle vous souhaitez sauvegardé l’article"
+
+#: storage/cache/88d405ee10577c9c41353d02156ed694199bbdcf.php:53
+msgid "Post URL"
+msgstr "URL de l’article"
+
+#: storage/cache/88d405ee10577c9c41353d02156ed694199bbdcf.php:54
+msgid "Full URL for the post you want to save."
+msgstr "URL complète pour l’article que vous souhaitez enregistrer."
+
+#: storage/cache/88d405ee10577c9c41353d02156ed694199bbdcf.php:72
+msgid ""
+"Full URL for the featured image of the post, if there is a featured image."
+msgstr "URL complète pour l’image à la une, s’il y a une image à la une."
+
+#: storage/cache/88d405ee10577c9c41353d02156ed694199bbdcf.php:86
+msgid "Crawl and Save"
+msgstr "Analyser (crawl) et enregistrer"
+
+#: storage/cache/96701da54f258f36311598021a1a65d1a7f26851.php:2
+#: storage/cache/96701da54f258f36311598021a1a65d1a7f26851.php:4
+#: storage/cache/bd7ed08991ef9d30bf561c86a319a1cf21558d17.php:2
+#: storage/cache/bd7ed08991ef9d30bf561c86a319a1cf21558d17.php:4
+msgid "Hide"
+msgstr "Cacher"
+
+#: storage/cache/9a44ecc43b4bd815c0017d13a8f6a421631467eb.php:2
+msgid "Clear URLs"
+msgstr "Effacer les URLs"
+
+#: storage/cache/9a44ecc43b4bd815c0017d13a8f6a421631467eb.php:20
+msgid "Select the site whose URLs you want to be deleted from the database."
+msgstr ""
+"Sélectionnez le site dont l’URL que vous voulez supprimé de la base de "
+"données."
+
+#: storage/cache/9a44ecc43b4bd815c0017d13a8f6a421631467eb.php:36
+msgid "URL Type"
+msgstr "Type d’URL"
+
+#: storage/cache/9a44ecc43b4bd815c0017d13a8f6a421631467eb.php:37
+msgid ""
+"Select URL types to be cleared for the specified site. If you clear the "
+"URLs\n"
+"                                waiting in the queue, those URLs will not be "
+"saved, unless they are collected again. If you\n"
+"                                clear already-saved URLs, those URLs may end "
+"up in the queue again, and they may be saved\n"
+"                                as posts again. So, you may want to delete "
+"the posts as well, unless you want duplicate content."
+msgstr ""
+"Sélectionnez les types d'URL à effacer pour le site spécifié. Si vous "
+"désactivez les URL\n"
+"\t\ten attente dans la file d'attente, ces URL ne seront pas enregistrées, "
+"sauf si elles sont à nouveau relevées. Si vous\n"
+"\t\tURL claires déjà enregistrées, ces URL peuvent se retrouver dans la file "
+"d'attente à nouveau, et ils peuvent être sauvés\n"
+"\t\tque les messages à nouveau. Donc, vous voudrez peut-être supprimer les "
+"messages aussi bien, sauf si vous voulez dupliquer le contenu."
+
+#: storage/cache/9a44ecc43b4bd815c0017d13a8f6a421631467eb.php:56
+msgid "I'm sure"
+msgstr "Je suis sûr"
+
+#: storage/cache/9a44ecc43b4bd815c0017d13a8f6a421631467eb.php:57
+msgid "Check this to indicate that you are sure about this."
+msgstr "Cochez cette case pour indiquer que vous êtes sûr à ce sujet."
+
+#: storage/cache/9a44ecc43b4bd815c0017d13a8f6a421631467eb.php:69
+msgid "Delete URLs"
+msgstr "Supprimer les URLs"
+
+#: storage/cache/a3fc0628e48060db055b0e90841f805ecd6270f4.php:7
+msgid "Settings updated."
+msgstr "Paramètres à jour"
+
+#: storage/cache/a88f328358097a1ff133ac2beaaf05480e2a379d.php:7
+msgid "Dismiss this notice."
+msgstr "Ignorer cette notice."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:9
+msgid "Main"
+msgstr "Principal"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:11
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:11
+msgid "Post"
+msgstr "Article"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:12
+msgid "Templates"
+msgstr "Modèles"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:13
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1558
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1568
+msgid "Notes"
+msgstr "Notes"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:33
+msgid "Main Settings"
+msgstr "Paramètres principaux"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:34
+msgid "Set main page URL and active status"
+msgstr "Définir l’URL de la page d’accueil et de l’état actif"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:43
+msgid "Site URL"
+msgstr "URL Site"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:44
+msgid ""
+"Main URL of the site. E.g. <span class=\"highlight url\">http://wordpress."
+"org</span>.\n"
+"                            You must fill this field."
+msgstr ""
+"URL principale du site. Par exemple <span class=« highlight url »>http://"
+"wordpress.org</span>.\n"
+"                            Vous devez renseigner ce champ."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:55
+msgid "Active?"
+msgstr "Actif ?"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:56
+msgid ""
+"If you want to activate this site for crawling, check this. If you do not "
+"check this,\n"
+"                            the site will not be crawled, no posts will be "
+"saved."
+msgstr ""
+"Si vous souhaitez activer ce site pour l’analyse, cochez cette case. Si vous "
+"ne cochez pas cela, le site n’est pas analysé, aucun poste n’est "
+"enregistrées."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:73
+msgid "Use custom general settings?"
+msgstr "Utilisez les paramètres généraux personnalisés ?"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:74
+msgid ""
+"If you want to specify different settings for this site (not use general "
+"settings),\n"
+"                            check this. When you check this, settings tabs "
+"will appear."
+msgstr ""
+"Si vous souhaitez spécifier des paramètres différents pour ce site (pas "
+"utilisation des paramètres généraux), cochez cette case. Lorsque vous "
+"vérifiez cela, onglets paramètres seront affiché."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:93
+msgid "Category Page Settings"
+msgstr "Paramètres de la page catégorie"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:94
+msgid ""
+"Category mapping and other settings to be used when crawling category pages"
+msgstr ""
+"Mappage de catégorie et d’autres paramètres à utiliser lors de l’analyse des "
+"pages de catégories"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:103
+msgid "Category List Page URL"
+msgstr "Catégorie liste des URL de la Page"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:104
+msgid ""
+"The URL to get category links from. The page should include a container "
+"having category URLs.\n"
+"                            This will be used to automatically insert "
+"category URLs for category map."
+msgstr ""
+"L’URL pour obtenir des liens de catégorie. La page doit comporter un "
+"conteneur ayant la catégorie URL.\n"
+"                            Cela servira à insérer automatiquement l’URL de "
+"la catégorie pour la correspondance des catégories."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:115
+msgid "Category List URL Selectors"
+msgstr "Catégorie liste URL sélecteurs"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:116
+msgid ""
+"CSS selectors for category links. This is used to get category URLs "
+"automatically for category map.\n"
+"                            Gets \"href\" attributes of \"a\" tags. E.g. "
+"<span class=\"highlight selector\">.top-level-navigation ul > li > a</"
+"span>.\n"
+"                            Before using the insert button, make sure you "
+"filled the category list page URL."
+msgstr ""
+"Sélecteurs CSS pour les liens de la catégorie. Cela est utilisé pour obtenir "
+"la catégorie URL automatiquement pour la correspondance des catégories.\n"
+"                            Obtient les attributs de « href » des « tags ». "
+"Par exemple <span class=\"highlight selector\">.top-level-navigation ul > li "
+"> a</span>.\n"
+"                            Avant d’utiliser le bouton Insérer, assurez-vous "
+"que vous avez rempli l’URL de la page de liste de catégorie."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:126
+msgid "Find and add category links for mapping"
+msgstr "Trouver et ajouter des liens de la catégorie pour la cartographie"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:141
+msgid "Category Map"
+msgstr "Catégorie carte"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:142
+msgid ""
+"Map the categories to target site's URLs. You can write the URLs relative to "
+"the\n"
+"                            main site URL. E.g. <span class=\"highlight url"
+"\">/category/art</span>. Category URLs should\n"
+"                            be added once, no duplicates allowed. <b>Note "
+"that</b> changing category map will clear the\n"
+"                            post URLs waiting to be saved."
+msgstr ""
+"Mapper les catégories à l’URL du site cible. Vous pouvez écrire les URL "
+"relatives à l’URL du site principal. Par exemple <span class=« highlight "
+"url »>/category/art</span>. URL de la catégorie ne doit être ajouté une "
+"fois, aucun doublon autorisés. <b>Notez que</b> changement de catégorie "
+"carte efface le post URL en attente d’être sauvés."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:152
+msgid "Category URL"
+msgstr "URL des catégories"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:168
+msgid "Test Category URL"
+msgstr "URL de catégorie de test"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:169
+msgid ""
+"A full category URL to be used to perform the tests for category page CSS "
+"selectors."
+msgstr ""
+"Une URL de la catégorie complet à utiliser pour effectuer des essais pour "
+"des sélecteurs CSS page catégorie."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:179
+msgid "Category Post URL Selectors"
+msgstr "Catégorie Article URL sélecteurs"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:180
+msgid ""
+"CSS selectors for the post URLs in category pages. Gets \"href\" attributes "
+"of \"a\" tags.\n"
+"                            E.g. <span class=\"highlight selector\">article."
+"post > h2 > a</span>. When testing, make sure you\n"
+"                            filled the category test URL. If you give more "
+"than one selector, each selector will be used\n"
+"                            to get URLs and the results will be combined."
+msgstr ""
+"Sélecteurs CSS pour le post URL dans les pages de catégories. Obtient les "
+"attributs de « href » des « tags ».\n"
+"                            Par exemple <span class=« highlight "
+"selector »>article.post > h2 > un</span>. Lors du test, assurez-vous que "
+"vous avez rempli l’URL de test de catégorie. Si vous donnez plus d’un "
+"sélecteur, chaque sélecteur va être utilisée pour obtenir les URL et les "
+"résultats seront combinés."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:205
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:756
+msgid "Unnecessary Element Selectors"
+msgstr "Sélecteurs d’élément inutile"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:206
+msgid ""
+"CSS selectors for unwanted elements in the category page. Specified elements "
+"will be\n"
+"                            removed from the HTML of the page. Content "
+"extraction will be done after the page is cleared\n"
+"                            from unnecessary elements."
+msgstr ""
+"Sélecteurs CSS pour les éléments indésirables dans la page de catégorie. "
+"Certains de ses éléments seront supprimés du code HTML de la page. "
+"Extraction de contenu se fera après avoir effacé la page des éléments "
+"inutiles."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:233
+msgid "Save featured images?"
+msgstr "Enregistrer des images en vedette ?"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:234
+msgid ""
+"If there are featured images for each post on category page and you want to\n"
+"                            save the featured images for the posts, check "
+"this."
+msgstr ""
+"S'il y a des images présentées pour chaque poste sur la page catégorie et "
+"que vous voulez\n"
+"\t\t\tenregistrer les images présentées pour les postes, vérifier."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:258
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1130
+msgid "Featured Image Selectors"
+msgstr "Sélecteurs image à la une"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:259
+msgid ""
+"CSS selectors for post featured images in a category page. Gets \"src\" "
+"attributes of \"img\" tags.\n"
+"                            E.g. <span class=\"highlight selector\">.post-"
+"item > img</span>. When testing, make sure you\n"
+"                            filled the category test URL. If you give more "
+"than one selector, the first match will be used."
+msgstr ""
+"Sélecteurs CSS pour poste en vedette images dans une page de catégorie. "
+"Obtient des attributs de balises « img » « src ».\n"
+"                            Par exemple <span class=« highlight selector »>. "
+"point après > img</span>. Lors du test, assurez-vous que vous avez rempli "
+"l’URL de test de catégorie. Si vous donnez plus d’un sélecteur, le premier "
+"correspondance sera utilisé."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:285
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1156
+msgid "Test Featured Image URL"
+msgstr "Testé l’image à la une"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:286
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1157
+msgid ""
+"A full image URL to be used to perform tests for the find-replace settings\n"
+"                            for featured image URL."
+msgstr ""
+"Une URL d’image complet à utiliser pour effectuer des tests pour les "
+"paramètres de rechercher-remplacer\n"
+"\t\tpour l’image à la une"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:298
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1169
+msgid "Find and replace in featured image URL"
+msgstr "Rechercher et remplacer pour l’image à la une"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:299
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1170
+msgid ""
+"If you want some things to be replaced with some other things in <b>URL of "
+"the\n"
+"                            featured image</b>, this is the place. The "
+"replacement will be done before saving the image.\n"
+"                            You can write plain text or regular expressions. "
+"When writing regex, do\n"
+"                            not put slashes before and after the expression, "
+"and make sure the checkbox is checked. You\n"
+"                            can test your regex <a href=\"https://regex101."
+"com/\" target=\"_blank\">here</a>."
+msgstr ""
+"Si vous voulez des choses à être remplacées par d'autres choses dans <b>URL "
+"of the\n"
+"\t\tl'image à la une </b>, c'est l'endroit. Le remplacement se fera avant "
+"d'enregistrer l'image.\n"
+"\t\tVous pouvez écrire du texte brut ou des expressions régulières. Lors de "
+"l'écriture regex, faire\n"
+"\t\tne pas mettre les slashes avant et après l'expression, et assurez-vous "
+"que la case est cochée. Toi\n"
+"\t\tpeut tester votre regex<a href=\"https://regex101.com/\" target=\"_blank"
+"\">ici</a>."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:330
+msgid "Post links come before featured images?"
+msgstr "Poster des liens avant les images à la une?"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:331
+msgid ""
+"If the links for the posts in the category page come before the featured "
+"images,\n"
+"                            considering the position of the featured image "
+"and link in the HTML of the page, check this."
+msgstr ""
+"Si les liens pour les articles dans la catégorie page viennent avant les "
+"images recommandés, considérant la position de l’image à la une et un lien "
+"dans le code HTML de la page, cochez cette case."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:349
+msgid "Category Next Page URL Selectors"
+msgstr "Page suivante de la Catégorie sélecteurs d’URL"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:350
+msgid ""
+"CSS selectors for next page URL in a category page. Gets \"href\" attributes "
+"of \"a\" tags.\n"
+"                            E.g. <span class=\"highlight selector\">."
+"pagination > a.next</span>. When testing, make sure you\n"
+"                            filled the category test URL. If you give more "
+"than one selector, the first\n"
+"                            match will be used."
+msgstr ""
+"Sélecteurs CSS pour la page suivante URL dans une page de catégorie. Obtient "
+"\"href\" les attributs de \"a\" tags.\n"
+"\t\tPar exemple. <span class=\"highlight selector\">.pagination >a.next</ "
+"span.>. Lors du test, assurez-vous \n"
+" \n"
+"\t\tl'URL catégorie de test est rempli. Si vous donnez plus d'un sélecteur, "
+"le premier \\ n\n"
+"                             correspondance sera utilisé."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:381
+msgid "Test code for find-and-replaces in category HTML"
+msgstr "Code d’essai pour trouver-et-remplace dans la catégorie HTML"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:382
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1233
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1367
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:214
+msgid ""
+"A piece of code to be used when testing find-and-replace settings below."
+msgstr ""
+"Un morceau de code à utiliser lors du test des paramètres de recherche et de "
+"remplacement ci-dessous."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:388
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1239
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1373
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:220
+msgid "The code which will be used to test find-and-replace settings"
+msgstr ""
+"Le code qui sera utilisé pour tester les paramètres de recherche et de "
+"remplacement"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:397
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1248
+msgid "Find and replace in HTML at first load"
+msgstr "Rechercher et remplacer dans HTML au premier chargement"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:398
+msgid ""
+"If you want some things to be replaced with some other things in <b>HTML of\n"
+"                            the category page at first load</b>, this is the "
+"place. The replacement will be done after\n"
+"                            the HTML is retrieved, i.e, before everything. "
+"You can write plain text or regular expressions.\n"
+"                            When writing regex, do not put slashes before "
+"and after the expression, and make sure the\n"
+"                            checkbox is checked. You can test your regex <a "
+"href=\"https://regex101.com/\" target=\"_blank\">here</a>."
+msgstr ""
+"Si vous voulez des choses à être remplacées par d’autres choses dans <b>HTML "
+"of\n"
+"\t\t\tla page categorie chargera en premier </ b>, c’est l’endroit. Le "
+"remplacement se fera après\n"
+"\t\t\tle code HTML est récupéré, i.e, avant tout. Vous pouvez écrire du "
+"texte brut ou des expressions régulières.\n"
+"\t\t\tLors de l’écriture regex, ne mettez pas les barres obliques avant et "
+"après l’expression, et assurez-vous le\n"
+"\t\t\tcase est cochée. Vous pouvez tester votre regex <a href=« https://"
+"regex101.com/«  target=« _blank »>ici</a>."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:428
+msgid "Post Page Settings"
+msgstr "Paramètres Article/Page"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:429
+msgid "Selectors and options to be used when crawling post pages"
+msgstr ""
+"Sélecteurs et options à utiliser lors de l’exploration(crawling) des articles"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:438
+msgid "Test Post URL"
+msgstr "Test Post URL"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:439
+msgid ""
+"A full post URL to be used to perform the tests for post page CSS selectors."
+msgstr ""
+"Une URL de l’article complet à utiliser pour effectuer des essais pour des "
+"sélecteurs CSS page catégorie."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:449
+msgid "Post Title Selectors"
+msgstr "Titre Du Post Sélecteurs"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:450
+msgid ""
+"CSS selectors for post title. E.g. <span class=\"highlight selector\">h1</"
+"span>. This\n"
+"                            gets text of the specified element. If you give "
+"more than one selector, the first match will\n"
+"                            be used."
+msgstr ""
+"Sélecteurs CSS pour le titre de l’article. Exemple <span class=\"highlight "
+"selector\">h1</span> Cela devient le texte de l’élément spécifié. Si vous "
+"donnez plus d’un sélecteur, le premier match sera utilisé."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:474
+msgid "Post Excerpt Selectors"
+msgstr "Sélecteur d’extrait de l’article"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:475
+msgid ""
+"CSS selectors for the post excerpt, if exists. E.g. <span class=\"highlight "
+"selector\">p.excerpt</span>.\n"
+"                            This gets html of the specified element. If you "
+"give more than one selector, the first match will\n"
+"                            be used."
+msgstr ""
+"Sélecteurs CSS pour le poste extrait, si existe. <span class=« highlight "
+"selector »>P.excerpt</span> Eg. ça obtien l’élément HTML spécifié. Si vous "
+"donnez plus d’un sélecteur, le premier match sera utilisé."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:499
+msgid "Post Content Selectors"
+msgstr "Sélecteur de contenu d’article"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:500
+msgid ""
+"CSS selectors for the post content. This gets HTML of specified element. E."
+"g.\n"
+"                            <span class=\"highlight selector\">.post-content "
+"> p</span>. If you give more than one selector,\n"
+"                            each match will be crawled and the results will "
+"be merged."
+msgstr ""
+"Sélecteurs CSS pour le contenu du message. Cet exemple obtient HTML de "
+"l’élément spécifié. Par exemple\n"
+"                            <span class=« highlight selector »>.post-content "
+"> p</span>. Si vous donnez plus d’un sélecteur, chaque correspondance est "
+"analysé et les résultats seront fusionnés."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:524
+msgid "Custom Content Selectors for Shortcodes"
+msgstr "Sélecteurs de contenu personnalisés pour les Shortcodes"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:525
+msgid ""
+"CSS selectors for HTML elements whose contents can be used in post template\n"
+"                            by defined shortcode. If more than one element "
+"is found, their content will be merged. If\n"
+"                            you do not want them merged, check the \"single"
+"\" checkbox to get the first found result.\n"
+"                            By default, this gets HTML of the found element. "
+"If you want the text of the target element,\n"
+"                            write \"text\" for attribute. You can also use "
+"any other attribute of the found element, such\n"
+"                            as \"src\", \"href\"... Write your shortcodes "
+"without brackets, e.g. <b>\"item-price\"</b>. Next, you\n"
+"                            can use it <b>in the main post template by "
+"writing [item-price]</b>"
+msgstr ""
+"Sélecteurs CSS pour les éléments HTML dont le contenu peut être utilisé en "
+"article modèle\n"
+"\tpar shortcode défini. Si plus d'un élément est trouvé, leur contenu sera "
+"fusionné. Si\n"
+"\tvous ne voulez pas les fusionner, cochez la case \"single\" pour obtenir "
+"le premier résultat trouvé.\n"
+"\tPar défaut, cela devient HTML de l'élément trouvé. Si vous voulez que le "
+"texte de l'élément cible, \\n\n"
+"écrire \"texte\" pour l'attribut. Vous pouvez également utiliser tout autre "
+"attribut de l'élément trouvé, comme \\ n\n"
+"comme \"src\", \"href\" ... Ecrivez vos shortcodes sans parenthèses, par "
+"exemple <B> \"item-prix\" </ b>. Ensuite, vous \\ n\n"
+"                             peut l'utiliser <b> dans le modèle de poste "
+"principal en écrivant [item-price] </ b>"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:558
+msgid "Post Tag Selectors"
+msgstr "Sélecteurs Tag Article"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:559
+msgid ""
+"CSS selectors for post tags. By default, this gets \"text\" of the "
+"specified\n"
+"                            elements. You can also use any attribute of the "
+"elements. If you give more than one selector,\n"
+"                            the results will be combined to create post tags."
+msgstr ""
+"Sélecteurs CSS pour les balises de la poste. Par défaut, cela devient "
+"« texte » des éléments spécifiés. Vous pouvez également utiliser n’importe "
+"quel attribut d’éléments. Si vous donnez plus d’un sélecteur, les résultats "
+"seront regroupés afin de créer des balises de post."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:589
+msgid "Posts are list type?"
+msgstr "Les articles sont des type liste ?"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:590
+msgid ""
+"If the target post is list type, and you want to import it as a list, check "
+"this."
+msgstr ""
+"Si le message cible est le type de liste, et vous souhaitez l’importer sous "
+"forme de liste, cochez cette case."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:615
+msgid "List Items Start After Selectors"
+msgstr "Liste Des Éléments Start Après Sélecteurs"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:616
+msgid ""
+"CSS selectors for the elements come just before the first list item. This "
+"will be used\n"
+"                            to detect list item contents accurately. The "
+"position of the first match of any given selector\n"
+"                            will be compared to others and the greatest "
+"position will be used. You can give a selector\n"
+"                            for the first item. It'll do the job. E.g. <span "
+"class='highlight selector'>.entry > .list-item</span>"
+msgstr ""
+"Sélecteurs CSS pour les éléments viennent juste avant le premier élément de "
+"la liste. Cela servira à détecter avec précision les contenu d’élément de "
+"liste. La position du premier match de n’importe quel sélecteur donné est "
+"comparée aux autres et la plus grande position sera utilisée. Vous pouvez "
+"donner un sélecteur pour le premier article. Ça va faire le travail. Par "
+"exemple <span class=‘highlight selector’>.entry >.list-point</span>"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:642
+msgid "List Item Number Selectors"
+msgstr "Élément De Liste Numérotée"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:643
+msgid ""
+"CSS selectors for each list item's number, if the target post is list type. "
+"This gets\n"
+"                            the text of specified element. If you give more "
+"than one selector, the first match will\n"
+"                            be used."
+msgstr ""
+"Sélecteurs CSS pour chacun la liste numéro de l’article, si la cible est "
+"type de liste. Cet exemple obtient le texte de l’élément spécifié. Si vous "
+"donnez plus d’un sélecteur, le premier match sera utilisé."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:668
+msgid "Insert list item numbers automatically?"
+msgstr "Insérer les numéros liste automatiquement ?"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:669
+msgid ""
+"If you want to insert list item numbers automatically when there is no item "
+"number,\n"
+"                            then check this. The items will be numbered "
+"starting from 1."
+msgstr ""
+"Si vous souhaitez insérer les numéros liste automatiquement lorsqu’il n’y a "
+"aucun chiffre, puis vérifier cela. Les éléments sont numérotés à partir de 1."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:687
+msgid "List Item Title Selectors"
+msgstr "La Liste Élément Titre Sélecteurs"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:688
+msgid ""
+"CSS selectors for each list item's title, if the target post is list type. "
+"This gets\n"
+"                            the text of specified element. If you give more "
+"than one selector, the first match will\n"
+"                            be used."
+msgstr ""
+"Sélecteurs CSS pour chaque listent de titre de l’article, si la cible est "
+"type de liste. Cet exemple obtient le texte de l’élément spécifié. Si vous "
+"donnez plus d’un sélecteur, le premier match sera utilisé."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:713
+msgid "List Item Content Selectors"
+msgstr "Contenu de l’élément de la liste."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:714
+msgid ""
+"CSS selector for each list item's content, if the target post is list type. "
+"This gets\n"
+"                            the HTML of specified element. If you give more "
+"than one selector, the results will be\n"
+"                            combined when creating each list item's content."
+msgstr ""
+"Sélecteur CSS pour le contenu de chaque élément de liste, si la cible est "
+"type de liste. Cet exemple obtient le code HTML de l’élément spécifié. Si "
+"vous donnez plus d’un sélecteur, les résultats seront regroupés lors de la "
+"création de contenu de l’élément de chaque liste."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:739
+msgid "Insert list in reverse order?"
+msgstr "Insérer la liste dans l’ordre inverse ?"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:740
+msgid ""
+"If you want to insert the list into the post in reverse order, then check "
+"this."
+msgstr ""
+"Si vous souhaitez insérer la liste dans le post dans l’ordre inverse, puis "
+"vérifier cela."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:757
+msgid ""
+"CSS selectors for unwanted elements in the post page. Specified elements "
+"will be\n"
+"                            removed from the HTML of the page. Content "
+"extraction will be done after the page is cleared\n"
+"                            from unnecessary elements."
+msgstr ""
+"Sélecteurs CSS pour les éléments indésirables dans la page de post. Certains "
+"de ses éléments seront supprimés du code HTML de la page. Extraction de "
+"contenu se fera après avoir effacé la page des éléments inutiles."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:783
+msgid "Paginate Posts"
+msgstr "Pagination d’article"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:784
+msgid ""
+"If the target post is paginated, and you want it imported as paginated, "
+"check this."
+msgstr ""
+"Si le message cible est paginé et vous voulez qu’il importé comme paginé, "
+"cochez cette case."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:802
+msgid "Post Next Page URL Selectors"
+msgstr "Page suivante de la Catégorie sélecteurs d’URL"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:803
+msgid ""
+"CSS selector for next page URL, used to get \"href\" attribute of \"a\" tag. "
+"E.g.\n"
+"                            <span class=\"highlight selector\">.pagination > "
+"a.next</span>. If you give more than one selector,\n"
+"                            the first match will be used."
+msgstr ""
+"Sélecteur CSS pour l’URL de la page suivante, utilisée pour obtenir "
+"l’attribut « href » de « a » tag. Par exemple\n"
+"                            <span class=« highlight selector »>.pagination > "
+"a.next</span>. Si vous donnez plus d’un sélecteur, le premier match sera "
+"utilisé."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:833
+msgid "Post All Page URLs Selectors"
+msgstr "Afficher Tous Les Sélecteurs D’URL De Page"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:834
+msgid ""
+"CSS selectors for all page URLs. Sometimes there is no next page URL. "
+"Instead, the\n"
+"                            post page has all of the post pages (or parts) "
+"in one place. If this is the case, you should\n"
+"                            use this. This is used to get \"href\" attribute "
+"of \"a\" tag. E.g. <span class=\"highlight selector\">.post > .parts > a</"
+"span>.\n"
+"                            If you give more than one selector, then the "
+"first match will be used."
+msgstr ""
+"Sélecteurs CSS pour tous page URL. Il n’y a parfois aucune URL de la page "
+"suivante. Au lieu de cela, la page post a toutes les pages de post (ou "
+"pièces) en un seul endroit. Si c’est le cas, vous devez utiliser cela. Ceci "
+"est utilisé pour obtenir l’attribut « href » de « a » balise. Par exemple "
+"<span class=« highlight selector »>.post >.parts > un</span>.\n"
+"                            Si vous donnez plus d’un sélecteur, puis le "
+"premier match servira."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:865
+msgid "Save meta keywords?"
+msgstr "Enregistrez les mots-clés meta ?"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:866
+msgid "Check this if you want to save meta keywords of the target post."
+msgstr ""
+"Cochez cette case si vous souhaitez enregistrer les mots clés du poste cible."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:884
+msgid "Add meta keywords as tags?"
+msgstr "Ajouter les mots-clés meta tags ?"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:885
+msgid ""
+"Check this if you want each meta keyword should be added as tag to the "
+"crawled post."
+msgstr ""
+"Cochez cette case si vous souhaitez que chaque mot clé méta doit être ajouté "
+"comme balise au poste explorée."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:902
+msgid "Save meta description?"
+msgstr "Sauver la description meta ?"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:903
+msgid "Check this if you want to save meta description of the target post."
+msgstr ""
+"Cochez cette case si vous souhaitez enregistrer la description meta du poste "
+"cible."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:921
+msgid "Save images as media?"
+msgstr "Enregistrer des images en tant que média ?"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:922
+msgid ""
+"If you want the images in the post content to be saved as media and included "
+"in\n"
+"                            the post from your server, check this. <b>Note "
+"that</b> saving images will increase the time\n"
+"                            required to save the posts, and hence memory "
+"usage."
+msgstr ""
+"Si vous souhaitez que les images du contenu message soit enregistré en tant "
+"que médias et inclus dans le message de votre serveur, cochez cette case. "
+"<b>Notez que</b> sauvegarder des images augmentera le temps requis pour "
+"enregistrer les messages et donc utilisation de la mémoire."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:955
+msgid "Save images as gallery?"
+msgstr "Enregistrer les images sous galerie ?"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:956
+msgid "If you want to save specific images as a gallery, check this."
+msgstr ""
+"Si vous souhaitez enregistrer des images spécifiques comme une galerie, "
+"cochez cette case."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:978
+msgid "Gallery Image URL Selectors"
+msgstr "Galerie Image URL Sélecteurs"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:979
+msgid ""
+"CSS selectors for <b>image URLs in the HTML of the page</b>. This gets the\n"
+"                                        \"src\" attribute of specified "
+"element by default. If you give more than one selector, each\n"
+"                                        match will be used when saving "
+"images and creating the gallery. Note that these elements\n"
+"                                        will be removed from the HTML after "
+"URL is acquired from them."
+msgstr ""
+"Sélecteurs CSS pour les <b>URL d’image dans le code HTML de la page</b>. Cet "
+"exemple obtient l’attribut « src » de l’élément spécifié par défaut. Si vous "
+"donnez plus d’un sélecteur, chaque match sera utilisé quand sauvegarder des "
+"images et la création de la Galerie. Notez que ces éléments seront "
+"supprimées du code html après l’acquisition de leur URL."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1011
+msgid "Save images as WooCommerce product gallery?"
+msgstr "Enregistrer des images comme Galerie de produit WooCommerce ?"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1012
+msgid ""
+"If you set post type as WooCommerce product and you want to save\n"
+"                                            the gallery as the product's "
+"gallery, check this."
+msgstr ""
+"Si vous définissez type de post comme WooCommerce produit et vous souhaitez "
+"enregistrer la galerie galerie du produit, cochez cette case."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1036
+msgid "Image URL Selectors"
+msgstr "Sélecteurs D’URL Image"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1037
+msgid ""
+"CSS selectors for images <b>in the post content</b>. This gets the \"src\" "
+"attribute of\n"
+"                            specified element. If you give more than one "
+"selector, each match will be used when saving\n"
+"                            images. E.g. <span class=\"highlight selector"
+"\">img</span>"
+msgstr ""
+"Sélecteurs CSS pour les images <b>dans le contenu du message</b>. Cet "
+"exemple obtient l’attribut « src » de l’élément spécifié. Si vous donnez "
+"plus d’un sélecteur, chaque correspondance servira lors de l’enregistrement "
+"des images. P. ex. <span class=« highlight selector »>img</span>"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1062
+msgid "Test Image URL"
+msgstr "URL De L’Image Test"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1063
+msgid ""
+"A full image URL to be used to perform tests for the find-replace settings "
+"for image URLs."
+msgstr ""
+"Une URL d’image complet à utiliser pour effectuer des tests pour les "
+"paramètres de rechercher-remplacer pour les URL de l’image."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1074
+msgid "Find and replace in image URLs"
+msgstr "Rechercher et remplacer dans les URL de l’image"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1075
+msgid ""
+"If you want some things to be replaced with some other things in <b>URLs of "
+"the\n"
+"                            found images</b>, this is the place. The "
+"replacement will be done before saving the image.\n"
+"                            You can write plain text or regular expressions. "
+"When writing regex, do\n"
+"                            not put slashes before and after the expression, "
+"and make sure the checkbox is checked. You\n"
+"                            can test your regex <a href=\"https://regex101."
+"com/\" target=\"_blank\">here</a>."
+msgstr ""
+"Si vous voulez des choses à être remplacées par d'autres choses dans <b> URL "
+"de la \\ n\n"
+"                             images trouvées </ b>, c'est l'endroit. Le "
+"remplacement se fera avant d'enregistrer l'image. \\ N\n"
+"                             Vous pouvez écrire du texte brut ou des "
+"expressions régulières. Lors de l'écriture regex, faire \\ n\n"
+"                             ne pas mettre les barres obliques avant et "
+"après l'expression, et assurez-vous que la case est cochée. Vous n \\\n"
+"                             peut tester votre regex <a href=\"https://"
+"regex101.com/\" target=\"_blank\"> </a>."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1106
+msgid "Save featured image, if it is not found in category page?"
+msgstr ""
+"Enregistrer l’image à la une, si elle ne trouve pas dans la catégorie page ?"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1107
+msgid ""
+"If you want to save an image from post page as featured image, when there is "
+"no\n"
+"                            featured image found in category page, check "
+"this."
+msgstr ""
+"Si vous souhaitez enregistrer une image de page de message comme image à la "
+"une, quand il n’y a aucune image à la une trouvée dans la page de catégorie, "
+"cochez cette case."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1131
+msgid ""
+"CSS selectors for featured image <b>in HTML of the post page</b>. This gets "
+"the \"src\"\n"
+"                            attribute of <b>the first found element</b>. If "
+"you give more than one selector, the first match will\n"
+"                            be used. E.g. <span class=\"highlight selector"
+"\">img.featured</span>"
+msgstr ""
+"Sélecteurs CSS pour l’image à la une <b>en HTML de la page de post</b>. Cet "
+"exemple obtient l’attribut « src » du <b>premier élément trouvé</b>. Si vous "
+"donnez plus d’un sélecteur, le premier correspondance sera utilisé. Par "
+"exemple <span class=« highlight selector »>img.featured</span>"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1200
+msgid "Custom Meta Selectors"
+msgstr "Sélecteurs De Meta Personnalisés"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1201
+msgid ""
+"CSS selectors for custom meta values. You can use this to save anything "
+"from\n"
+"                            target post as post meta of to-be-saved post. "
+"You can write \"html\", \"text\", or an attribute\n"
+"                            of the target element for attribute input."
+msgstr ""
+"Sélecteurs CSS pour des valeurs de métadonnées personnalisées. Vous pouvez "
+"utiliser ceci pour sauver quoi que ce soit du poste cible comme étant le "
+"meta de post to-be-sauvé. Vous pouvez écrire « html », « texte » ou un "
+"attribut de l’élément cible de l’attribut d’entrée."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1232
+msgid "Test code for find-and-replaces in post HTML"
+msgstr "Code d’essai pour trouver-et-remplace dans l’article HTML"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1249
+msgid ""
+"If you want some things to be replaced with some other things in <b>HTML of\n"
+"                            the post page at first load</b>, this is the "
+"place. <b>The replacements will be applied after\n"
+"                            the HTML is retrieved and replacements defined "
+"in general settings page are applied</b>. You\n"
+"                            can write plain text or regular expressions. "
+"When writing regex, do not put slashes before\n"
+"                            and after the expression, and make sure the "
+"checkbox is checked. You can test your regex\n"
+"                            <a href=\"https://regex101.com/\" target=\"_blank"
+"\">here</a>."
+msgstr ""
+"Si vous voulez des choses à être remplacées par d'autres choses dans <b> "
+"HTML \\ n\n"
+"                             la page de poste de première charge </ b>, "
+"c'est l'endroit. <B> Les remplacements seront appliqués après \\ n\n"
+"                             le code HTML est récupéré et les remplacements "
+"définis dans la page des paramètres généraux sont appliqués </ b>. Vous n "
+"\\\n"
+"                             peut écrire du texte brut ou des expressions "
+"régulières. Lors de l'écriture regex, ne mettez pas les barres obliques "
+"avant \\ n\n"
+"                             et après l'expression, et assurez-vous que la "
+"case est cochée. Vous pouvez tester votre regex \\ n\n"
+"                             <a href=\"https://regex101.com/\" target="
+"\"_blank\"> </a>."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1281
+msgid "Template Settings"
+msgstr "Paramètres du modèle"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1282
+msgid "Set templates for the post, find and replace things..."
+msgstr ""
+"Utilisez des modèles pour le poste, rechercher et remplacer des choses…"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1291
+msgid "Main Post Template"
+msgstr "Modèle de l’article principal"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1292
+msgid ""
+"Main template used for the posts. The buttons above the editor holds short "
+"codes which\n"
+"                                    are used to place certain elements into "
+"the post page. You can hover over the buttons\n"
+"                                    to see what they are used to show in "
+"post page, and <b>click them to copy the code</b>. After\n"
+"                                    copying, just place the short codes into "
+"anywhere you want in the editor. <b>You must\n"
+"                                    fill the template.<b>"
+msgstr ""
+"Modèle principal utilisé pour les postes. Les boutons au-dessus de l'éditeur "
+"détient les codes courts qui \\ n\n"
+"                                     sont utilisés pour placer certains "
+"éléments dans la page de poste. Vous pouvez passer la souris sur les boutons "
+"\\ n\n"
+"                                     pour voir ce qu'ils sont utilisés pour "
+"montrer en post page et <b> cliquez dessus pour copier le code </ b>. Après "
+"\\ n\n"
+"                                     la copie, il suffit de placer les codes "
+"courts en partout où vous voulez dans l'éditeur. <B> Vous devez \\ n\n"
+"                                     remplir le modèle. <b>\n"
+"Google Traduction pour les entreprises :Google Kit du traducteurGadget "
+"TraductionOutil d'aide à l'export"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1306
+msgid "List Item Template"
+msgstr "Modèle De Liste"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1307
+msgid ""
+"This template is used for the list. If you set the post list type and wrote "
+"some selectors\n"
+"                                    for the list items, then the list items "
+"will be crawled. Here, you can set a template\n"
+"                                    to be used for <b>each</b> list item. "
+"You can include the entire list in main post\n"
+"                                    template. <b>You must fill the template "
+"if you expect a list from the target page.</b>"
+msgstr ""
+"Ce modèle est utilisé pour la liste. Si vous définissez le type de liste de "
+"post et a écrit quelques sélecteurs pour les éléments de liste, puis seront "
+"analysés, les éléments de liste. Ici, vous pouvez définir un modèle à "
+"utiliser pour <b>chaque</b> élément de la liste. Vous pouvez inclure "
+"l’intégralité de list dans le modèle de poste principal. <b>Vous devez "
+"compléter le modèle si vous prévoyez une liste de la page cible.</b>"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1320
+msgid "Gallery Item Template"
+msgstr "Article De La Galerie"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1321
+msgid ""
+"This template is used for the gallery. If you activated saving images as "
+"gallery\n"
+"                                    and wrote some selectors for the image "
+"URLs, then the gallery items will be crawled.\n"
+"                                    Here, you can set a template to be used "
+"for <b>each</b> gallery image. You can\n"
+"                                    include the entire gallery in main post "
+"template. <b>You must fill the template if\n"
+"                                    you expect a gallery from the target "
+"page.</b>"
+msgstr ""
+"Ce modèle est utilisé pour la galerie. Si vous avez activé l'enregistrement "
+"des images que la galerie \\ n\n"
+"                                     et a écrit des sélecteurs pour les URL "
+"d'image, puis la galerie articles seront explorés. \\ n\n"
+"                                     Ici, vous pouvez définir un modèle à "
+"utiliser pour <b> chaque </ b> l'image de la galerie. Vous pouvez \\ n\n"
+"                                     inclure la totalité de la galerie dans "
+"le principal modèle de poste. <B> Vous devez remplir le modèle si \\ n\n"
+"                                     vous vous attendez à une galerie de la "
+"page cible. </ b>"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1336
+msgid "Template Unnecessary Element Selectors"
+msgstr "Sélecteurs D’Élément Inutile De Modèle"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1337
+msgid ""
+"CSS selectors for unwanted elements in the template. Specified elements will "
+"be\n"
+"                            removed from the HTML of the template. The "
+"removal will be done after the shortcodes are replaced.\n"
+"                            Find-and-replaces will be done after the "
+"template is cleared from unnecessary elements. <b>This\n"
+"                            will use test post URL on Post tab to conduct "
+"the tests.</b>"
+msgstr ""
+"Sélecteurs CSS pour les éléments indésirables dans le modèle. Certains de "
+"ses éléments seront supprimés du code HTML du modèle. L’enlèvement se fera "
+"après que les shortcodes sont remplacées.\n"
+"                            Rechercher-et-remplace se fera après avoir "
+"effacé le modèle d’éléments inutiles. <b>Ceci utilisera test post URL sur "
+"l’onglet message pour effectuer les essais.</b>"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1366
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:213
+msgid "Find and Replace Test Code"
+msgstr "Rechercher et remplacer le Code de Test"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1382
+msgid "Find and replace in post's content"
+msgstr "Rechercher et remplacer dans le contenu du post"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1383
+msgid ""
+"If you want some things to be replaced with some other things in <b>HTML of "
+"post's content</b>,\n"
+"                            this is the place. The replacement will be done "
+"after the final post template is ready. You\n"
+"                            can write plain text or regular expressions. "
+"When writing regex, do not put slashes before\n"
+"                            and after the expression, and make sure the "
+"checkbox is checked. You can test your regex\n"
+"                            <a href=\"https://regex101.com/\" target=\"_blank"
+"\">here</a>."
+msgstr ""
+"Si vous voulez des choses à être remplacées par d'autres choses dans <b> "
+"HTML du contenu du message </ b>, \\ n\n"
+"                             c'est l'endroit. Le remplacement se fera après "
+"le modèle de poste finale est prête. Vous n \\\n"
+"                             peut écrire du texte brut ou des expressions "
+"régulières. Lors de l'écriture regex, ne mettez pas les barres obliques "
+"avant \\ n\n"
+"                             et après l'expression, et assurez-vous que la "
+"case est cochée. Vous pouvez tester votre regex \\ n\n"
+"                             <a href=\"https://regex101.com/\" target="
+"\"_blank\"> </a>."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1412
+msgid "Find and replace in post's title"
+msgstr "Rechercher et remplacer dans le titre du post"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1413
+msgid ""
+"If you want some things to be replaced with some other things in <b>post's "
+"title</b>,\n"
+"                            this is the place. You can write plain text or "
+"regular expressions. When writing regex, do\n"
+"                            not put slashes before and after the expression, "
+"and make sure the checkbox is checked. You\n"
+"                            can test your regex <a href=\"https://regex101."
+"com/\" target=\"_blank\">here</a>."
+msgstr ""
+"Si vous voulez des choses doit être remplacé par d’autres choses dans le "
+"<b>titre du post</b>, c’est l’endroit. Vous pouvez écrire le texte brut ou "
+"des expressions régulières. Lors de l’écriture regex, ne pas mettre les "
+"barres obliques avant et après l’expression et assurez-vous que la case à "
+"cocher est activée. Vous pouvez tester votre regex <a href=« https://"
+"regex101.com/«  target=« _blank »>ici</a>."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1441
+msgid "Find and replace in post's excerpt"
+msgstr "Rechercher et remplacer dans l’extrait de l’article"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1442
+msgid ""
+"If you want some things to be replaced with some other things in <b>post's "
+"excerpt</b>,\n"
+"                            this is the place. You can write plain text or "
+"regular expressions. When writing regex, do\n"
+"                            not put slashes before and after the expression, "
+"and make sure the checkbox is checked. You\n"
+"                            can test your regex <a href=\"https://regex101."
+"com/\" target=\"_blank\">here</a>."
+msgstr ""
+"Si vous voulez des choses doit être remplacé par d’autres choses dans "
+"<b>extrait de la poste</b>, c’est l’endroit. Vous pouvez écrire le texte "
+"brut ou des expressions régulières. Lors de l’écriture regex, ne pas mettre "
+"les barres obliques avant et après l’expression et assurez-vous que la case "
+"à cocher est activée. Vous pouvez tester votre regex <a href=« https://"
+"regex101.com/«  target=« _blank »>ici</a>."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1470
+msgid "Find and replace in post's each tag"
+msgstr "Rechercher et remplacer dans chaque balise article"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1471
+msgid ""
+"If you want some things to be replaced with some other things in <b>post's "
+"each tag</b>,\n"
+"                            this is the place. You can write plain text or "
+"regular expressions. When writing regex, do\n"
+"                            not put slashes before and after the expression, "
+"and make sure the checkbox is checked. You\n"
+"                            can test your regex <a href=\"https://regex101."
+"com/\" target=\"_blank\">here</a>."
+msgstr ""
+"Si vous voulez des choses doit être remplacé par d’autres choses dans "
+"<b>chaque balise de post</b>, c’est l’endroit. Vous pouvez écrire le texte "
+"brut ou des expressions régulières. Lors de l’écriture regex, ne pas mettre "
+"les barres obliques avant et après l’expression et assurez-vous que la case "
+"à cocher est activée. Vous pouvez tester votre regex <a href=« https://"
+"regex101.com/«  target=« _blank »>ici</a>."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1499
+msgid "Find and replace in meta keywords"
+msgstr "Rechercher et remplacer dans les meta  mots-clés"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1500
+msgid ""
+"If you want some things to be replaced with some other things in <b>post's "
+"meta keywords</b>,\n"
+"                            this is the place. You can write plain text or "
+"regular expressions. When writing regex, do\n"
+"                            not put slashes before and after the expression, "
+"and make sure the checkbox is checked. You\n"
+"                            can test your regex <a href=\"https://regex101."
+"com/\" target=\"_blank\">here</a>."
+msgstr ""
+"Si vous voulez des choses doit être remplacé par d’autres choses en <b>Mots-"
+"clés meta de postes</b>, c’est l’endroit. Vous pouvez écrire le texte brut "
+"ou des expressions régulières. Lors de l’écriture regex, ne pas mettre les "
+"barres obliques avant et après l’expression et assurez-vous que la case à "
+"cocher est activée. Vous pouvez tester votre regex <a href=« https://"
+"regex101.com/«  target=« _blank »>ici</a>."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1528
+msgid "Find and replace in meta description"
+msgstr "Rechercher et remplacer dans la méta description"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1529
+msgid ""
+"If you want some things to be replaced with some other things in <b>post's "
+"meta description</b>,\n"
+"                            this is the place. You can write plain text or "
+"regular expressions. When writing regex, do\n"
+"                            not put slashes before and after the expression, "
+"and make sure the checkbox is checked. You\n"
+"                            can test your regex <a href=\"https://regex101."
+"com/\" target=\"_blank\">here</a>."
+msgstr ""
+"Si vous voulez des choses doit être remplacé par d’autres choses dans <b>la "
+"description de méta de la poste</b>, c’est l’endroit. Vous pouvez écrire le "
+"texte brut ou des expressions régulières. Lors de l’écriture regex, ne pas "
+"mettre les barres obliques avant et après l’expression et assurez-vous que "
+"la case à cocher est activée. Vous pouvez tester votre regex <a "
+"href=« https://regex101.com/«  target=« _blank »>ici</a>."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1559
+msgid ""
+"You can write your notes about this site here. It is just for you to keep "
+"notes."
+msgstr ""
+"Vous pouvez écrire vos notes sur ce site ici. C’est juste pour que vous "
+"conserviez les notes."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1569
+msgid "Write anything..."
+msgstr "Écrire n’importe quoi…"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1580
+msgid "Import/Export Settings"
+msgstr "Paramètres Importer/Exporter"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1581
+msgid ""
+"Import settings from another site or copy the settings to import for another "
+"site"
+msgstr ""
+"Importer les paramètres d’un autre site ou copier les paramètres "
+"d’importation pour un autre site"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1590
+msgid "Import Settings"
+msgstr "Importer la configuration"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1591
+msgid ""
+"Paste the settings exported from another site to import. <b>Current "
+"settings\n"
+"                            will be overridden.</b>"
+msgstr ""
+"Coller les paramètres exportés depuis un autre site à importer. "
+"<b>Paramètres actuels seront substituées.</b>"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1598
+msgid "Paste settings and update. Note: This will override all settings."
+msgstr ""
+"Coller les paramètres et mettre à jour. Remarque : Ceci remplacera tous les "
+"paramètres."
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1607
+msgid "Export Settings"
+msgstr "Paramètres d’exportation"
+
+#: storage/cache/abca2d6e3eaab204066181a1ccc9b52785910b84.php:1608
+msgid ""
+"You can copy the settings here and use the copied code to export settings "
+"to\n"
+"                            another site."
+msgstr ""
+"Vous pouvez copier les paramètres ici et utilisez le code copié pour "
+"exporter les paramètres vers un autre site."
+
+#: storage/cache/c5c77ff39be2448921ecf725ea74b10e9983fd22.php:13
+msgid "Regex?"
+msgstr "Regex?"
+
+#: storage/cache/c5c77ff39be2448921ecf725ea74b10e9983fd22.php:16
+msgid "Find"
+msgstr "Trouver"
+
+#: storage/cache/c5c77ff39be2448921ecf725ea74b10e9983fd22.php:19
+msgid "Replace"
+msgstr "Remplacer"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:12
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:166
+msgid "SEO"
+msgstr "SEO"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:18
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:266
+msgid "Scheduling"
+msgstr "Planification"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:21
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:376
+msgid "Advanced"
+msgstr "Avancé"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:29
+msgid "Post Settings"
+msgstr "Paramètres D’Articles"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:30
+msgid "Set post settings"
+msgstr "Réglages des paramètres d’articles"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:39
+msgid "Allow Comments"
+msgstr "Permettre les commentaires."
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:40
+msgid ""
+"If you want to allow comments for automatically inserted posts,\n"
+"                        check this."
+msgstr ""
+"Si vous souhaitez autoriser les commentaires des postes insérés "
+"automatiquement, cochez cette case."
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:55
+msgid "Post Status"
+msgstr "Statut De La Publication"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:56
+msgid "Set the status of automatically inserted posts."
+msgstr "Définir l’état des messages automatiquement insérés."
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:72
+msgid "Post Type"
+msgstr "Type de contenu"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:73
+msgid "Set the type of automatically inserted posts."
+msgstr "Définissez le type de postes insérés automatiquement."
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:89
+msgid "Post Author"
+msgstr "Auteur Article"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:90
+msgid "Set the author of automatically inserted posts."
+msgstr "Définir l’auteur des messages automatiquement insérés."
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:106
+msgid "Maximum number of tags"
+msgstr "Nombre maximum de mots clés"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:107
+msgid ""
+"How many tags at maximum can be added to a post? Set this <b>0</b> if you do "
+"not\n"
+"                        want to set a limit and get all available tags. The "
+"default value is 0."
+msgstr ""
+"Combien de tags au maximum peut être ajoutés à un poste ? Définissez cette "
+"<b>0</b> si vous ne souhaitez pas définir une limite et obtenir toutes les "
+"balises disponibles. La valeur par défaut est 0."
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:125
+msgid "Change Password"
+msgstr "Modifier le mot de passe"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:126
+msgid "If you want to change post password, check this."
+msgstr "Si vous souhaitez modifier le message mot de passe, cochez cette case."
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:141
+msgid "Post Password"
+msgstr "Mot de passe article"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:142
+msgid ""
+"Set the password for automatically inserted posts. The value you\n"
+"                        enter here will be stored as raw text in the "
+"database, without encryption.\n"
+"                        If anyone accesses your database, he/she will be "
+"able to see your password.\n"
+"                        <br /><br />\n"
+"                        If you want to delete the password, just leave the "
+"new password fields empty.\n"
+"                        When you change the password, new password will be "
+"effective for new posts,\n"
+"                        and passwords for old posts will not be changed.\n"
+"                        <br /><br />\n"
+"                        <b>Leave old password field empty if you did not set "
+"any password before.</b>"
+msgstr ""
+"Définissez le mot de passe pour les messages insérés automatiquement. La "
+"valeur que vous n \\\n"
+"                         entrez ici sera stocké sous forme de texte brut "
+"dans la base de données, sans cryptage. \\ n\n"
+"                         Si quelqu'un accède à votre base de données, il / "
+"elle sera en mesure de voir votre mot de passe. \\ N\n"
+"                         <br /> <br /> \\ n\n"
+"                         Si vous voulez supprimer le mot de passe, il suffit "
+"de laisser les nouveaux champs de mot de passe vide. \\ N\n"
+"                         Lorsque vous modifiez le mot de passe, nouveau mot "
+"de passe sera efficace pour les nouveaux messages, \\ n\n"
+"                         et les mots de passe pour les anciens messages ne "
+"seront pas modifiés. \\ n\n"
+"                         <br /> <br /> \\ n\n"
+"                         <B> Laissez ancien champ de mot de passe vide si "
+"vous ne définissez un mot de passe avant. </ B>"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:167
+msgid "Set meta keywords and description keys"
+msgstr "Réglé Méta Mot clé et Méta description"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:176
+msgid "Meta Keywords Key"
+msgstr "Méta Mots-Clés"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:177
+msgid ""
+"Set the key under which the meta keywords are saved. This key depends\n"
+"                            on your SEO plugin. If you do not set a key, "
+"meta keywords will not be saved. If you use\n"
+"                            Yoast SEO, this key is <span class=\"highlight "
+"variable\">_yoast_wpseo_metakeys</span>"
+msgstr ""
+"Affectez à la clé, dans lesquelles sont enregistrées les mots-clés meta. "
+"Cette touche dépend de votre plugin SEO. Si vous ne définissez pas une clé, "
+"Mots clés ne seront pas enregistrées. Si vous utilisez Yoast SEO, cette clé "
+"est <span class=« highlight variable »>_yoast_wpseo_metakeys</span>"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:194
+msgid "Meta Description Key"
+msgstr "Meta Description Clé"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:195
+msgid ""
+"Set the key under which the meta description is saved. This key depends\n"
+"                            on your SEO plugin. If you do not set a key, "
+"meta description will not be saved. If you use\n"
+"                            Yoast SEO, this key is <span class=\"highlight "
+"variable\">_yoast_wpseo_metadesc</span>"
+msgstr ""
+"Affectez à la clé, dans lesquelles la description meta est enregistrée. "
+"Cette touche dépend de votre plugin SEO. Si vous ne définissez pas une clé, "
+"description meta n’est pas enregistrée. Si vous utilisez Yoast SEO, cette "
+"clé est <span class=« highlight variable »>_yoast_wpseo_metadesc</span>"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:229
+msgid "Find and replace in all post pages"
+msgstr "Rechercher et remplacer dans toutes les pages de post"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:230
+msgid ""
+"If you want some things to be replaced with some other things in <b>HTML of\n"
+"                            the post page</b>, this is the place. The "
+"replacements will be done after the HTML of target page\n"
+"                            is loaded, and <i>before the replacements (for "
+"HTML of the page at first load) of the site\n"
+"                            being crawled is applied</i>. So, these are the\n"
+"                            first replacements that will be done before "
+"everything else. <b>These replacements will be\n"
+"                            applied to all of the active sites.</b> You can "
+"write plain text or regular expressions.\n"
+"                            When writing regex, do not put slashes before "
+"and after the expression, and make sure the\n"
+"                            checkbox is checked. You can test your regex\n"
+"                            <a href=\"https://regex101.com/\" target=\"_blank"
+"\">here</a>."
+msgstr ""
+"Si vous voulez des choses à être remplacées par d'autres choses dans <b> "
+"HTML \\ n\n"
+"                             la page de poste </ b>, c'est l'endroit. Les "
+"remplacements seront effectués après le code HTML de la page cible \\ n\n"
+"                             est chargé, et <i> avant que les remplacements "
+"(pour HTML de la page à la première charge) du site \\ n\n"
+"                             en cours d'analyse est appliquée </ i>. Donc, "
+"ce sont les \\ n\n"
+"                             premiers remplacements qui seront effectués "
+"avant tout le reste. <B> Ces remplacements seront \\ n\n"
+"                             appliqué à tous les sites actifs. </ b> Vous "
+"pouvez écrire du texte brut ou des expressions régulières. \\ n\n"
+"                             Lors de l'écriture regex, ne mettez pas les "
+"barres obliques avant et après l'expression, et assurez-vous que le \\ n\n"
+"                             case est cochée. Vous pouvez tester votre regex "
+"\\ n\n"
+"                             <a href=\"https://regex101.com/\" target="
+"\"_blank\"> </a>."
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:267
+msgid "Set time intervals to crawl the sites"
+msgstr "Définir des intervalles de temps à analyser les sites"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:277
+msgid "Scheduling is active?"
+msgstr "Planification est actif?"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:278
+msgid ""
+"If you want to activate automated checking and crawling for the\n"
+"                            active sites, check this."
+msgstr ""
+"Si vous souhaitez activer la vérification automatisée et d’exploré "
+"(crawling) pour les sites actifs, cochez cette case."
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:294
+msgid "Maximum number of pages to crawl per category"
+msgstr "Nombre maximal de pages à analyser par catégorie"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:295
+msgid ""
+"How many pages at maximum can be crawled for each category of each\n"
+"                        site? Set this <b>0</b> to get all available pages "
+"for each category."
+msgstr ""
+"Combien de pages au maximum peut être exploré(crawled) pour chaque catégorie "
+"de chaque site ? Définissez cette <b>0</b> pour obtenir toutes les pages "
+"disponibles pour chaque catégorie."
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:313
+msgid "Maximum number of pages to check to find new post URLs"
+msgstr ""
+"Nombre maximal de pages à vérifier pour trouver de nouvelles URLs articles"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:314
+msgid ""
+"How many pages should be checked before going back checking the first\n"
+"                        page of the category, if there is no new URLs found? "
+"Default is <b>0</b>,\n"
+"                        meaning that all of the pages will be checked until "
+"the last page.\n"
+"                        <br /><br />\n"
+"                        For example, if you say 3 pages and there is no new "
+"posts found in 3 different\n"
+"                        pages of a category in a row, e.g. 4th, 5th, and 6th "
+"pages, then the crawler\n"
+"                        goes to the first page to check for new URLs, "
+"without trying 7th and pages\n"
+"                        coming after 7th page."
+msgstr ""
+"Combien de pages doit être vérifié avant de revenir vérifier la première\n"
+"\t\t\tpage de la catégorie, s’il n’y a pas de nouvelles adresses URL? Par "
+"défaut <b>0</b>,\n"
+"\t\t\tce qui signifie que toutes les pages seront vérifiés jusqu’à la "
+"dernière page.\n"
+"\t\t\t<br /><br />\n"
+"\t\t\tPar exemple, si vous dites 3 pages et il n’y a pas de nouveaux "
+"messages trouvés dans 3 différents\n"
+"\t\t\tpages d’une catégorie dans une rangée,exemple 4e, 5e, et 6e pages, le "
+"robot\n"
+"\t\t\tva à la première page pour vérifier les nouvelles URL, sans essayer 7e "
+"et pages\n"
+"\t\t\tvenant après 7 Page"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:339
+msgid "Post URL Collection Interval"
+msgstr "Régler l’intervalle pour l’article d’URL collection."
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:340
+msgid "Set interval for post URL collection."
+msgstr "Régler l’intervalle pour l’article d’URL collection."
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:356
+msgid "Post Crawl Interval"
+msgstr "Intervalle d’analyse (crawler) d’article"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:357
+msgid ""
+"Set interval for post crawling, i.e. saving posts by visiting collected\n"
+"                            URLs."
+msgstr ""
+"Régler l’intervalle pour l’article d’analyse (crawler), c’est-à-dire sauver "
+"messages par visite URL collectées."
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:377
+msgid "Advanced settings for crawler"
+msgstr "Paramètres avancés pour l’analyse (crawler)"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:386
+msgid "HTTP User Agent"
+msgstr "L’agent d’utilisateur HTTP"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:387
+msgid ""
+"The user agent to be used when crawling, i.e.\n"
+"                    <span class=\"highlight variable\">HTTP_USER_AGENT</"
+"span>. If you leave this empty, the default value\n"
+"                    will be used. You can find user agent strings\n"
+"                    <a target=\"_blank\" href=\"http://www.useragentstring."
+"com/pages/useragentstring.php\">here</a>."
+msgstr ""
+"L’agent d’utilisateur à utiliser lors de l’analyse, c’est-à-dire\n"
+"                    <span class=« highlight variable »>HTTP_USER_AGENT</"
+"span>. Si vous laissez ce vide, la valeur par défaut va être utilisée. Vous "
+"pouvez trouver des chaînes de l’agent utilisateur <a target=« _blank » "
+"href=« http://www.useragentstring.com/pages/useragentstring.php »>ici</a>."
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:405
+msgid "HTTP Accept"
+msgstr "HTTP  Accepter"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:406
+msgid ""
+"HTTP accept value to be used when crawling, i.e.\n"
+"                        <span class=\"highlight variable\">HTTP_ACCEPT</"
+"span>. If you leave this empty, the default value\n"
+"                        will be used."
+msgstr ""
+"Valeur à utiliser lors de l’analyse, c’est-à-dire accepter les HTTP\n"
+"                        <span class=« highlight variable »>HTTP_ACCEPT</"
+"span>. Si vous laissez ce vide, la valeur par défaut va être utilisée."
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:423
+msgid "Allow cookies?"
+msgstr "Autoriser les cookies ?"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:424
+msgid "If you want to allow cookies when crawling, check this."
+msgstr ""
+"Si vous souhaitez autoriser les cookies lors de l’analyse, cochez cette case."
+
+#: storage/cache/e92b4d0cf032f719aba18e1cd3f553177163d533.php:2
+msgid "Please fix the errors."
+msgstr "S’il vous plaît corriger les erreurs."
+
+#: storage/cache/f53e0af99b707e5b407181e5c3a0aaa21683f2a4.php:2
+msgid "Post URLs"
+msgstr "URL de l’article"
+
+#: storage/cache/fbe36cfaa065da89f06d950b6b28d3fbd3e2b8fc.php:13
+msgid "Multiple?"
+msgstr "Multiples"
+
+#: storage/cache/fbe36cfaa065da89f06d950b6b28d3fbd3e2b8fc.php:22
+msgid "Meta key"
+msgstr "Clé méta"
+
+msgid ""
+"Please enter your email and license key for %s to use its features and get "
+"updates."
+msgstr ""
+"Veuillez entrer votre email et licence clé pour %s utiliser ses "
+"fonctionnalités et mises à jour."
+
+msgid "License Email Address"
+msgstr "Adresse de courriel de licence"
+
+msgid ""
+"CSS selectors for custom meta values. You can use this to save anything "
+"from\n"
+"                            target post as post meta of to-be-saved post."
+msgstr ""
+"Sélecteurs CSS pour des valeurs de métadonnées personnalisées. Vous pouvez "
+"utiliser ceci pour sauver quoi que ce soit du poste cible comme étant le "
+"meta d’article auto-savugardé"
+
+msgid ""
+"CSS selectors for featured image <b>in the post content</b>. This gets the "
+"\"src\"\n"
+"                            attribute of <b>the first found element</b>. If "
+"you give more than one selector, the first match will\n"
+"                            be used. E.g. <span class=\"highlight selector"
+"\">img.featured</span>"
+msgstr ""
+"Sélecteurs CSS pour l’image à la une <b>dans le contenu de l’article</b>. "
+"Cet exemple obtient l’attribut « src » du <b>premier élément trouvé</b>. Si "
+"vous donnez plus d’un sélecteur, le premier correspondance sera utilisé. Par "
+"exemple <span class=« highlight selector »>img.featured</span>"
+
+msgid "Test results for %1$s on %2$s:"
+msgstr "Résultats des tests de %1$s %2$s :"
+
+msgid "Import/Export"
+msgstr "Importer / exporter"
+
+msgid ""
+"If you want some things to be replaced with some other things in <b>HTML of\n"
+"                            the post page at first load</b>, this is the "
+"place. The replacement will be done after\n"
+"                            the HTML is retrieved, i.e, before everything. "
+"You can write plain text or regular expressions.\n"
+"                            When writing regex, do not put slashes before "
+"and after the expression, and make sure the\n"
+"                            checkbox is checked. You can test your regex <a "
+"href=\"https://regex101.com/\" target=\"_blank\">here</a>."
+msgstr ""
+"Si vous voulez des choses à être remplacées par d'autres choses dans <b>HTML "
+"of\n"
+"\t\t\tla page article de premier chargement </ b>, c'est l'endroit. Le "
+"remplacement se fera après\n"
+"\t\t\tle code HTML est récupéré, i.e, avant tout. Vous pouvez écrire du "
+"texte brut ou des expressions régulières.\n"
+"\t\t\tLors de l'écriture regex, ne mettez pas les barres obliques avant et "
+"après l'expression, et assurez-vous le\n"
+"\t\t\tcase est cochée. Vous pouvez tester votre regex <a href=\"https://"
+"regex101.com/\" target=\"_blank\">ici</a>."
+
+msgid ""
+"How many pages at maximum can be crawled for each category of each\n"
+"                            site? Set this <b>0</b> to get all available "
+"pages for each category."
+msgstr ""
+"Combien de pages au maximum peut être analysé pour chaque catégorie de "
+"chaque site ? Définissez cette <b>0</b> pour obtenir toutes les pages "
+"disponibles pour chaque catégorie."
+
+msgid ""
+"How many pages should be checked before going back checking the first\n"
+"                            page of the category, if there is no new URLs "
+"found? Default is <b>0</b>,\n"
+"                            meaning that all of the pages will be checked "
+"until the last page.\n"
+"                            <br /><br />\n"
+"                            For example, if you say 3 pages and there is no "
+"new posts found in 3 different\n"
+"                            pages of a category in a row, e.g. 4th, 5th, and "
+"6th pages, then the crawler\n"
+"                            goes to the first page to check for new URLs, "
+"without trying 7th and pages\n"
+"                            coming after 7th page."
+msgstr ""
+"Combien de pages doit être vérifié avant de revenir vérifier la première\n"
+"\t\t\tpage de la catégorie, s'il n'y a pas de nouvelles adresses URL? Par "
+"défaut <b>0</b>,\n"
+"\t\t\tce qui signifie que toutes les pages seront vérifiés jusqu'à la "
+"dernière page.\n"
+"\t\t\t<br /><br />\n"
+"\t\t\tPar exemple, si vous dites 3 pages et il n'y a pas de nouveaux "
+"messages trouvés dans 3 différents\n"
+"\t\t\tpages d'une catégorie dans une rangée,exemple 4e, 5e, et 6e pages, le "
+"robot\n"
+"\t\t\tva à la première page pour vérifier les nouvelles URL, sans essayer 7e "
+"et pages\n"
+"\t\t\tvenant après 7 Page"
+
+msgid "Test code for find and replaces in category HTML"
+msgstr "Code d’essai pour trouver et remplace dans la catégorie HTML"
+
+msgid "Test code for find and replaces in post HTML"
+msgstr "Code d’essai pour trouver et remplace en post HTML"
+
+msgid ""
+"Set the key under which the meta keywords are saved. This key depends\n"
+"                            on your SEO plugin. If you do not set a key, "
+"meta keywords will not be saved."
+msgstr ""
+"Mettre la clé sous laquelle la meta keywords est enregistré. Cette clé "
+"dépend\n"
+"sur votre plugin SEO. Si vous ne définissez pas une clé, meta keywords ne "
+"sera pas enregistrée."
+
+msgid ""
+"Set the key under which the meta description is saved. This key depends\n"
+"                            on your SEO plugin. If you do not set a key, "
+"meta description will not be saved."
+msgstr ""
+"Mettre la clé sous laquelle la meta description est enregistré. Cette clé "
+"dépend\n"
+"sur votre plugin SEO. Si vous ne définissez pas une clé, meta description ne "
+"sera pas enregistrée."
+
+msgid "Save thumbnails?"
+msgstr "Enregistrer les miniatures ?"
+
+msgid "Thumbnail Selectors"
+msgstr "Sélecteurs de la miniature"
+
+msgid "Post links come before thumbnails?"
+msgstr "Articles des liens viennent avant les photos ?"
+
+msgid "Save thumbnail image, if it is not found in category page?"
+msgstr ""
+"Enregistrer l’image miniature, si elle ne trouve pas dans la catégorie page ?"
+
+msgid "Thumbnail Image Selectors"
+msgstr "Sélecteurs de la miniature"

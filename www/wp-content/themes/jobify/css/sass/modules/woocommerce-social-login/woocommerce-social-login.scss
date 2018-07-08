@@ -1,0 +1,17 @@
+@import "modal";
+
+.wc-social-login {
+	margin-bottom: 30px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+
+	p {
+		padding: 0;
+	}
+
+	.button-social-login:hover {
+		color: #fff;
+		text-decoration: none;
+	}
+}

@@ -1,0 +1,7 @@
+td.styling { border-left: 1px solid #000; padding-left: 10px; }
+td blockquote, p.shortcode { font-family: monospace; }
+#ecs-pro-description { padding: 10px; border: 2px solid #f77530; background: white; }
+#ecs-pro-description h3.additional-options { padding-top: 30px; }
+#ecs-pro-description .ecs-button { text-decoration: none; padding: 6px 12px; background-color: #f77530; color: white; display: inline-block; text-align: center; }
+#ecs-pro-designs { text-align:center; }
+#ecs-pro-designs a { padding-bottom: 20px; }

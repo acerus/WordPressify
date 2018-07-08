@@ -1,0 +1,93 @@
+// home
+@import "widget--home-featured-resumes";
+@import "resume-spotlights";
+@import "resume-spotlight";
+
+// resume filters/archives
+@import "search_resumes";
+@import "resumes";
+@import "showing_resumes";
+@import "no_resumes_found";
+@import "load_more_resumes";
+
+// resume content
+@import "resume";
+@import "resume-clickbox";
+@import "resume-logo";
+@import "resume-about";
+@import "resume-candidate";
+@import "resume-title";
+@import "resume-candidate-title";
+@import "resume-location";
+@import "resume-meta";
+@import "resume-date";
+@import "resume-category";
+@import "resume-file";
+@import "resume-links";
+
+// single resume
+@import "widget-title--resume";
+@import "widget--resume";
+
+@import "resume_contact";
+@import "resume-overview-content";
+@import "resume-info";
+@import "resume-description";
+@import "resume-manager-education";
+@import "resume-manager-experience";
+
+// dashboard
+@import "resume-manager-resumes";
+@import "candidate-dashboard-actions";
+
+.fieldset-links .fieldset-name,
+.fieldset-links .fieldset-url {
+	margin-bottom: 0;
+	float: left;
+}
+
+.fieldset-links .fieldset-name {
+	width: 30%;
+	margin-right: 4%;
+}
+
+.fieldset-links .fieldset-url {
+	width: 66%;
+}
+
+.fieldset-links .resume-manager-data-row,
+.fieldset-candidate_education .resume-manager-data-row,
+.fieldset-candidate_experience .resume-manager-data-row {
+	margin-bottom: 20px;
+	padding: 30px;
+	background: #fafafa;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	position: relative;
+}
+
+.fieldset-links .resume-manager-data-row {
+	overflow: hidden;
+}
+
+.fieldset-links > .field,
+.fieldset-candidate_education > .field,
+.fieldset-candidate_experience > .field {
+	margin-top: 10px;
+}
+
+.fieldset-candidate_education .resume-manager-data-row fieldset,
+.fieldset-candidate_experience .resume-manager-data-row fieldset {
+	margin-bottom: 20px;
+}
+
+.fieldset-candidate_education .resume-manager-data-row fieldset:last-child,
+.fieldset-candidate_experience .resume-manager-data-row fieldset:last-child {
+	margin-bottom: 0;
+}
+
+.resume-manager-remove-row {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}

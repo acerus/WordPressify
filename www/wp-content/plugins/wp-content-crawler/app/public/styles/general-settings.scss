@@ -1,0 +1,16 @@
+@import "details";
+
+.container-general-settings {
+  .nav-tab-wrapper {
+    margin-top: 12px !important;
+  }
+
+  .button-container {
+    &.top {
+      margin-bottom: 8px;
+    }
+    &.right {
+      text-align: right;
+    }
+  }
+}

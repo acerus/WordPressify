@@ -1,0 +1,29 @@
+/**
+ * Jobs (and Resume) Archives.
+ *
+ * Includes sorting filters and overview displays
+ */
+
+
+/** Map */
+
+.job_listing-map,
+.resume-map {
+	position: relative;
+	top: auto;
+	right: auto;
+	left: auto;
+	bottom: auto;
+	background: rgba(0, 0, 0, .25);
+	overflow: hidden;
+	z-index: 5;
+}
+
+.job_listing-map,
+#job_listing-map-canvas,
+.resume-map,
+#resume-map-canvas {
+	width: 100%;
+	height: 400px;
+}
+

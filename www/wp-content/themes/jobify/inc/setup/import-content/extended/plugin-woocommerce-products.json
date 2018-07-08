@@ -1,0 +1,62 @@
+[
+	{
+		"id": "jobify-tote-bag",
+		"type": "object",
+		"priority": 20,
+		"data": {
+			"post_type": "product",
+			"post_title": "Jobify Tote Bag",
+			"post_content": "Soft, finely grained canvas distinguishes a modern, minimalist tote designed with T-shaped logo paneling outlined in tonal topstitching. An interior zip-top pouch serves as a convenient pocket, or can be snapped out and carried on its own for quick outings.",
+			"post_excerpt": "Minimalist tote designed with the Jobify  logo paneling outlined in tonal topstitching.",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/woocommerce-product-1.jpg",
+			"comment_status": "closed",
+			"price": "34.99",
+			"meta": {
+				"_sku": "01"
+			},
+			"terms": {
+				"product_cat": [ "bag" ]
+			}
+		}
+	},
+	{
+		"id": "jobify-coffee",
+		"type": "object",
+		"priority": 20,
+		"data": {
+			"post_type": "product",
+			"post_title": "Jobify Coffee",
+			"post_content": "With an eye for experimentation and a knack for producing exceptional coffee, we have scored a few bags of the famous Jobify variety from the dynamic team from the misty hills of Northern Toronto.",
+			"post_excerpt": "Your perfect cup of coffee is just a pour away.",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/woocommerce-product-2.jpg",
+			"comment_status": "closed",
+			"price": "17.99",
+			"meta": {
+				"_sku": "02"
+			},
+			"terms": {
+				"product_cat": [ "coffee" ]
+			}
+		}
+	},
+	{
+		"id": "jobify-mug",
+		"type": "object",
+		"priority": 20,
+		"data": {
+			"post_type": "product",
+			"post_title": "Jobify Mug",
+			"post_content": "Your perfect cup of tea is just a pour away. Our lovely set includes a generously sized tea cup making it perfect for work or school. The set comes beautifully boxed and makes the perfect gift for any tea lover. Mug is dishwasher- and microwave-safe.",
+			"post_excerpt": "Your perfect cup of tea is just a pour away.",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/woocommerce-product-3.jpg",
+			"comment_status": "closed",
+			"price": "23.99",
+			"meta": {
+				"_sku": "03"
+			},
+			"terms": {
+				"product_cat": [ "coffee" ]
+			}
+		}
+	}
+]

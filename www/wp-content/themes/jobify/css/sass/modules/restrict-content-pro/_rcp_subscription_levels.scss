@@ -1,0 +1,12 @@
+#rcp_subscription_levels {
+	@extend .jobify-level-selection;
+	margin: 2em 0;
+}
+
+.rcp_form .rcp_subscription_level {
+	@extend .jobify-level-selection__item;
+
+	.rcp_Level {
+		margin-top: 2px;
+	}
+}

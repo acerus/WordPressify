@@ -1,0 +1,85 @@
+Version 2.0.4
+
+* Added: GDPR compatibility for download conversations history
+* Added: GDPR compatibility on users delete
+* Fixed: User should be able to reply to message even if they cant start a conversation in conversations
+* Fixed: Account Privacy tab field
+
+Version 2.0.3
+
+* Added: Loading translation from "wp-content/languages/plugins/" directory
+
+Version 2.0.2
+
+* Tweak: UM2.0 compatibility
+
+Version 1.1.2
+
+* Tweak: Update EDD plugin updater
+* Added: MomentJS Library
+* Fixed: Timezone issue
+* Fixed: Real-time replies
+* Fixed: Remove notices
+
+Version 1.1.1
+
+* Tweak: update EDD plugin updater
+* Tweak: update English translation files.
+* New: UM Friends extension integration
+* New: allow conversations template to be customized in theme folder.
+* Added: Brazil and French translation .mo and .po files
+* Added: action hook `um_messaging_button_in_profile`
+* Fixed: timezone UTC support
+* Fixed: saving of privacy option
+* Fixed: redirect url
+* Fixed: message template in shortcode
+* Fixed: message box styles
+* Fixed: remove notices and fix sql prepare statement
+* Fixed: refactor and optimize database query
+* Fixed: count messages in SQL query
+* Fixed: redirection after login
+
+Version 1.1.0
+
+* Tweak: Update EDD_SL_Plugin_Updater.php
+* Fixed: Fix new message notification
+
+Version 1.0.9
+
+* Tweak: UI and CSS improved
+* Tweak: exclude blocked users from unread messages
+* Tweak: hides conversations from deleted users
+* Fixed: db setup error
+
+Version 1.0.8
+
+* Fixed: conflicts with WP-CLI and cron jobs
+
+Version 1.0.7
+
+* Fixed: conflict with social login
+
+Version 1.0.6
+
+* Fixed: unread messages count problem
+
+Version 1.0.5
+
+* Tweak: improved e-mail notifications for new messages
+
+Version 1.0.4
+
+* Fixed: linebreaks in private messages
+
+Version 1.0.3
+
+* Fixed: send message button disappears if message limit is around 500
+
+Version 1.0.2
+
+* New: added option to show/hide PM button on each member directory
+
+Version 1.0.1
+
+* New: added Message button to member directory
+* Fixed: several JS bugs

@@ -1,0 +1,33 @@
+.widget--footer {
+	color: #adadad;
+	border-bottom: 0;
+	padding-bottom: 0;
+	margin-bottom: 2em;
+
+	// override .widget:last-child
+	&:last-child {
+		margin-bottom: 2em;
+	}
+
+	@include bp(lg) {
+		&:last-child,
+		&:only-child {
+			margin-bottom: 0;
+		}
+	}
+
+	a {
+		color: #adadad;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: inside disc none;
+	}
+}
+
+// janky
+.widget--footer .searchform__input {
+	border: 0;
+}

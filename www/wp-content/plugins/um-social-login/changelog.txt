@@ -1,0 +1,164 @@
+Version 2.0.2
+
+* Fixed: Fixed VK connect
+* Fixed: Add all user meta from providers
+
+Version 2.0.1
+
+* Fixed: Facebook autoload
+* Tweak: UM2.0 compatibility
+
+Version 1.4.6
+
+* Fixed: Redirection after authentication
+* Fixed: Redirection on UM Message login modal
+* Fixed: LinkedIn provider authentication
+* Fixed: Specific roles and widget redirections
+* Fixed: Google API library integration
+* Fixed: Remove notices from Ajax Requests
+* Fixed: Remove notices from WP CLI
+* Fixed: Shortcode Login Redirection
+* Fixed: After disconnection's redirection
+
+Version 1.4.5
+* Fixed: Twitter authentication invalid oauth_verifier
+* Fixed: Remove notices
+
+Version 1.4.4
+
+* Tweak: Update linkedin to oauth2
+* Tweak: Update EDD update class
+* Added: Add filter hooks in facebook init
+* Added: redirect url as button attributes
+* Added: filter hooks and Fix profile photo URLs
+* Added: an option to assign custom role in social button shortcodes
+* Fixed: social login buttons and sessions
+* Fixed: Remove notices
+* Fixed: facebook authentication
+* Fixed: license and updater
+* Fixed: plugin updater
+* Fixed: login and pending review users
+* Fixed: Allow form without first name and last name
+* Fixed: redirection
+* Fixed: user email and notification
+* Fixed: loading social buttons via Ajax
+* Fixed: Allow authentication in any pages
+* Fixed: translation string
+* Fixed: duplicate class call
+
+
+Version 1.4.3
+
+* Fixed: Fix callback URLs to avoid mismatch URI authorization
+* Fixed: Fix twitter callback URL on active page refresh
+* Tweak: Update Google API Library
+
+Version 1.4.2
+
+* Fixed: Fix script enqueue
+* Fixed: Fix social authentication
+* Fixed: Add trim to remove whitespace from API keys and secrets
+
+Version 1.4.1
+
+* Tweak: Update Facebook API library
+* Tweak: Update twitter api library
+* Tweak: Set current url as api callback for all providers and display overlay
+* Fixed: Fix facebook api sessions
+* Fixed: Fix redirect URIs in account page
+* Fixed: Fix social overlay form option
+* Fixed: Fix google authentication
+* Fixed: Fix instagram api
+* Fixed: Remove notice
+
+Version 1.4.0
+
+* Tweak: Plugin updater updated to latest version
+* Tweak: Add option to change social login/register form in the overlay
+
+Version 1.3.9
+
+* New: added Dutch language support
+* Fixed: Fix facebook cross site forgery issue in filezilla
+* Fixed: Fixed duplicate recaptcha validation
+* Fixed facebook cross site origin issue
+* Fixed: Added email validation
+* Fixed: Show overlay on social login form's current url
+* Fixed: Fix fb auth processed when registering
+
+Version 1.3.8
+
+* Tweak: Cleaner way to get callback url
+* Fixed: Compatibility fix for showing overlay code in footer
+
+Version 1.3.7
+
+* Fixed: Facebook mismatched csrf tokens
+* Fixed: Twitter consumer validation and notices
+
+Version 1.3.6
+
+* Tweak: compatibility with WP 4.4
+
+Version 1.3.5
+
+* Fixed: VK.com SSL issue
+* Fixed: Login redirect issue
+
+Version 1.3.4
+
+* Fixed: facebook social connect from Account issue
+
+Version 1.3.3
+
+* Tweak: updated Facebook SDK to latest version
+
+Version 1.3.2
+
+* Fixed: facebook social login issue
+
+Version 1.3.1
+
+* Fixed: Linkedin profile photo issue
+
+Version 1.3.0
+
+* Fixed: php and session issues with Linkedin signin
+
+Version 1.1.9
+
+* Fixed: css problem causing dropdown fields to stop working
+
+Version 1.1.8
+
+* Fixed: optimised social login extension to speed up load time
+
+Version 1.1.7
+
+* Fixed: oauth class conflict with other plugins
+
+Version 1.1.6
+
+* New: allow social login templates to be overridden via theme templates
+
+Version 1.1.5
+
+* New: Added Instagram social login/registration support
+* New: Added VK (Vkontakte) social login/registration support
+
+Version 1.1.4
+
+* Fixed: Facebook login session issue
+* Fixed: long-lived login state
+
+Version 1.1.3
+
+* Fixed: compatibility issue was causing buttons to not appear
+
+Version 1.1.2
+
+* Tweak: added PHP requirement notice to avoid php errors on screen
+
+Version 1.1.1
+
+* Fixed: PHP backward compatibility issues (Recommended: update php to 5.4 at least)

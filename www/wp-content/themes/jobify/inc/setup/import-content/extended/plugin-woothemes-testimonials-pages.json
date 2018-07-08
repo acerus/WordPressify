@@ -1,0 +1,24 @@
+[
+	{
+		"id": "testimonials",
+		"type": "object",
+		"priority": 40,
+		"data": {
+			"post_type": "page",
+			"post_title": "Testimonials",
+			"post_name": "customer-testimonials",
+			"post_content": "",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/template-widgetized.php"
+			},
+			"menus": {
+				"Primary": {
+					"menu-item-title": "Testimonials",
+					"menu-item-position": 3,
+					"menu-item-parent-title": "Pages"
+				}
+			}
+		}
+	}
+]

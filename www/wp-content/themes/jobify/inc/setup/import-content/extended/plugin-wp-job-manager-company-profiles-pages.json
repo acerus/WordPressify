@@ -1,0 +1,20 @@
+[
+	{
+		"id": "companies",
+		"type": "object",
+		"priority": 0,
+		"data": {
+			"post_type": "page",
+			"post_title": "Companies",
+			"post_content": "[job_manager_companies]",
+			"comment_status": "closed",
+			"menus": {
+				"Primary": {
+					"menu-item-title": "Companies",
+					"menu-item-parent-title": "Candidates",
+					"menu-item-position": 2
+				}
+			}
+		}
+	}
+]

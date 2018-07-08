@@ -1,0 +1,50 @@
+.job-stats {
+	text-align: center;
+	list-style: none;
+	padding: 0;
+}
+
+.job-stat {
+	font-size: 18px;
+	text-align: center;
+	padding: 1.5em 0;
+	border-bottom: 1px solid #ddd;
+	display: inline-block;
+
+	strong {
+		font-size: 38px;
+		line-height: 38px;
+		font-weight: normal;
+		display: block;
+	}
+
+	&:last-child {
+		border-bottom: 0;
+		border-right: 0;
+	}
+
+	@include bp(sm) {
+		border-right: 1px solid #ddd;
+
+		&:nth-child(2n) {
+			border-right: 0;
+		}
+
+		&:last-child {
+			border-bottom: 1px solid #ddd;
+		}
+	}
+
+	@include bp(md) {
+		border-bottom: 0;
+		float: none;
+
+		&:nth-child(2n) {
+			border-right: 1px solid #ddd;
+		}
+
+		&:last-child {
+			border: 0;
+		}
+	}
+}

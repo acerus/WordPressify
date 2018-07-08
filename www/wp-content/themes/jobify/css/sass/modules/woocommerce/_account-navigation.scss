@@ -1,0 +1,23 @@
+.woocommerce-account .woocommerce-MyAccount-navigation {
+	@extend .wc-tabs-wrapper;
+	margin-top: 0;
+	float: none;
+	width: 100%;
+
+	ul {
+		@extend .wc-tabs;
+	}
+}
+
+.woocommerce-account .woocommerce-MyAccount-content {
+	width: 100%;
+	float: none;
+}
+
+.woocommerce-MyAccount-navigation-link {
+	display: inline-block;
+}
+
+.woocommerce-MyAccount-content {
+	margin-top: 2em;
+}

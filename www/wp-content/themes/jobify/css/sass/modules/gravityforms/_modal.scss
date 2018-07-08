@@ -1,0 +1,52 @@
+.gravityforms-contact-resume-form .resume_contact_details_inner {
+	padding: 0;
+}
+
+.modal {
+	.gform_wrapper {
+		max-width: 100%;
+		margin-bottom: 0;
+
+		.gform_heading {
+			@extend .modal-title;
+
+			width: 100%;
+
+			.gform_title {
+				margin: 0;
+				font-weight: normal;
+				font-size: 28px;
+			}
+		}
+
+		.gform_body {
+			@extend .modal-content;
+		}
+
+		.gform_footer {
+			@extend .modal-submit;
+		}
+	}
+
+	.gform_confirmation_message {
+		padding: 30px;
+		margin-right: 30px;
+	}
+}
+
+.gform_drop_area {
+    padding: 25px;
+    border: 2px dashed #DDD;
+    text-align: center;
+    color: #AAA;
+    margin-bottom: 10px;
+}
+
+.gform_drop_area .button {
+	@extend .button--size-medium;
+}
+
+.gform_drop_instructions {
+	color: #aaa;
+	display: block;
+}

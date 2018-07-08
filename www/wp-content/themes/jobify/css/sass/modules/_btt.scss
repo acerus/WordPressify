@@ -1,0 +1,17 @@
+.btt {
+	text-align: center;
+	color: #adadad;
+	font-size: 20px;
+	display: block;
+
+	&:before {
+		@extend .ion;
+		content: $ionicon-var-android-arrow-dropup-circle;
+	}
+}
+
+.btt--no-social {
+	@include bp(sm) {
+		float: right
+	}
+}

@@ -1,0 +1,41 @@
+.job_types {
+	@extend .clear;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 1px solid #ccc;
+	border-width: 0 1px;
+}
+
+.job_types li {
+	font: bold 12px/normal 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	border-bottom: 1px solid #ccc;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+
+	@include bp(sm) {
+		border: 1px solid #ccc;
+		border-width: 0 1px 1px 0;
+		width: 50%;
+		float: left;
+
+		&:nth-child(2n) {
+			border-right: 0;
+		}
+	}
+
+	@include bp(md) {
+		border-width: 0 1px 0 0;
+		width: auto;
+
+		&:nth-child(2n) {
+			border-right: 1px solid #ccc;
+		}
+	}
+
+	&:last-child {
+		border-bottom: 0;
+	}
+}

@@ -1,0 +1,44 @@
+.site-header {
+    position: relative;
+    z-index: 200; // above google maps
+    box-shadow: inset rgba(0, 0, 0, .10) 0 -1px 0;
+
+    -webkit-transition: all 0.3s;
+    -moz-transition:    all 0.3s;
+    transition:         all 0.3s;
+
+    .container {
+        position: relative;
+        padding: 1.5em;
+		width: 100%;
+
+		@include bp(sm) {
+			.nav-menu-break-small & {
+				display: table;
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+
+		@include bp(md) {
+			.nav-menu-break-medium & {
+				display: table;
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+
+		@include bp(lg) {
+			.nav-menu-break-large & {
+				display: table;
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+    }
+}
+
+.site-header__wrap {
+	display: table-row;
+	width: 100%;
+}

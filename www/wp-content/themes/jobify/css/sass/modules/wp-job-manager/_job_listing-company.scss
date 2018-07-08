@@ -1,0 +1,8 @@
+.job_listing-company {
+	font-size: 14px;
+}
+
+.job-company:before {
+	@extend .ion;
+	content: $ionicon-var-home;
+}

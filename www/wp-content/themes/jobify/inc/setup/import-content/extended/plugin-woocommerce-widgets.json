@@ -1,0 +1,28 @@
+[
+	{
+		"id": "woocommerce_product_search",
+		"type": "widget",
+		"data": {
+			"sidebar": "widget-area-sidebar-shop",
+			"widget": "woocommerce_product_search"
+		}
+	},
+	{
+		"id": "woocommerce_price_filter",
+		"type": "widget",
+		"data": {
+			"sidebar": "widget-area-sidebar-shop",
+			"widget": "woocommerce_price_filter",
+			"title": "Filter by Price"
+		}
+	},
+	{
+		"id": "woocommerce_products",
+		"type": "widget",
+		"data": {
+			"sidebar": "widget-area-sidebar-shop",
+			"widget": "woocommerce_products",
+			"title": "Products"
+		}
+	}
+]

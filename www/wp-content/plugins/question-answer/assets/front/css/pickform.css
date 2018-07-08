@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+
+.pickform{}
+
+
+.pickform .option {
+  margin: 40px 0;
+}
+
+
+.pickform  .option .title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.pickform  .option .details {
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+
+
+.pickform .option .plupload-upload-ui{
+border: 1px solid rgba(0,0,0,0);
+}
+
+.pickform .option .plupload-upload-ui.drag-drop.drag-over{
+border: 1px dashed #999;
+}
+
+
+
+
+
+.pickform .option .plupload-upload-ui .drag-drop-area {
+  background: #f8f8f8 none repeat scroll 0 0;
+  padding: 10px 20px;
+  text-align: center;
+  
+}
+
+
+.pickform .option .plupload-upload-ui .drag-drop-inside{
+
+}
+
+.pickform .option .plupload-upload-ui .drag-drop-inside p {
+  color: #999;
+}
+
+.pickform .option .plupload-upload-ui .drag-drop-buttons{
+
+}
+
+.pickform .option .plupload-upload-ui #plupload-browse-button{
+
+}
+
+.pickform .option .plupload-upload-ui .drag-drop-inside .item {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 0 7px 10px -4px #999;
+  cursor: move;
+  display: inline-block;
+  height: 130px;
+  margin: 5px;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  vertical-align: top;
+  width: 130px;
+}
+
+.pickform .option .plupload-upload-ui .drag-drop-inside .item img {
+  border-radius: 0;
+  box-shadow: none;
+  height: auto;
+  max-width: 100%;
+}
+
+.pickform .option .plupload-upload-ui .drag-drop-inside .item .delete {
+  background: #fd6022 none repeat scroll 0 0;
+  bottom: 0;
+  color: #fff;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+

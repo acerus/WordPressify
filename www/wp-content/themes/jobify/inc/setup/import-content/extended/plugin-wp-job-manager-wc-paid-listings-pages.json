@@ -1,0 +1,28 @@
+[
+	{
+		"id": "pricing",
+		"type": "object",
+		"data": {
+			"post_type": "page",
+			"post_title": "Pricing",
+			"post_content": "",
+			"comment_status": "closed",
+			"menus": [
+				{
+					"menu-item-title": "Pricing",
+					"menu-item-position": 2,
+					"menu_name": "Primary"
+				},
+				{
+					"menu-item-title": "Pricing",
+					"menu-item-parent-title": "Employers",
+					"menu-item-position": 3,
+					"menu_name": "Primary"
+				}
+			],
+			"meta": {
+				"_wp_page_template": "page-templates/template-widgetized.php"
+			}
+		}
+	}
+]

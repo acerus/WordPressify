@@ -1,0 +1,116 @@
+Version 2.0.3
+
+* Added: Loading translation from "wp-content/languages/plugins/" directory
+
+Version 2.0.2
+
+* Tweak: UM2.0 compatibility
+
+Version 1.4.2
+
+* Added: Page restriction
+* Added: Notification page in UM Setup
+* Tweak: Update translation files: EN, DE
+* Fixed: Empty notification settings
+* Fixed: Deduction strings
+* Fixed: myCRED Notification
+* Fixed: Time difference in mysql
+* Fixed: Timezone issue
+* Fixed: Plugin updater
+* Fixed: Notification not showing if icon is disabled.
+* Fixed: Medial URL protocol
+* Fixed: Comment reply notification
+
+
+Version 1.4.1
+
+* Tweak: increased check delay to improve performance
+* Tweal: responsive notifications panel on all devices
+* Fixed: potentially wrong php syntax
+* Fixed: css issues on notifications page
+
+Version 1.4.0
+
+* New: added swedish language support
+* Tweak: added notification icon option
+* Fixed: missing profile photos
+* Fixed: sql query
+
+Version 1.3.9
+
+* Fixed: sql injection vulnerability found. credits to @DaveRossow
+
+Version 1.3.8
+
+* Fixed: missing avatars
+
+Version 1.3.7
+
+* Fixed: show notification bell always 
+
+Version 1.3.6
+
+* Fixed: bug with role change notification
+
+Version 1.3.4
+
+* Tweak: moved CSS effects to global core plugin
+
+Version 1.3.3
+
+* New: [new notification] when someone replies to one of my comments
+
+Version 1.3.2
+
+* Fixed: conflict with mycred extension and user registration
+
+Version 1.3.1
+
+* Fixed: major bug with account page
+
+Version 1.3.0
+
+* Fixed: compatibility with updated UM core
+
+Version 1.2.9
+
+* Tweak: Notifications are removed when user is deleted
+* Fixed: bug with long activity URLs
+
+Version 1.2.8
+
+* Fixed: bug with wrong decimal points calculation
+
+Version 1.2.7
+
+* Fixed: Major bug with myCRED awarding points
+
+Version 1.2.6
+
+* Tweak: added default myCRED actions in the points notifications
+
+Version 1.2.5
+
+* Tweak: re-coded the plugin to store the notifications in a seperate database table
+
+Version 1.2.4
+
+* Tweak: Notification button appear only when there are new notifications
+
+Version 1.2.3
+
+* Tweak: added a close icon to the notifications feed popup
+* Fixed: major bug with guest profile view
+
+Version 1.2.2
+
+* New: plugin is now fully localized
+* Tweak: changed notification actions for myCRED tasks
+
+Version 1.2.1
+
+* Fixed: z-index issue on notification button
+
+Version 1.2.0
+
+* Fixed: Major performance update

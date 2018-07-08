@@ -1,0 +1,1881 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Question Answer\n"
+"POT-Creation-Date: 2018-02-01 22:09+0600\n"
+"PO-Revision-Date: 2018-02-01 22:09+0600\n"
+"Last-Translator: \n"
+"Language-Team: pickplugins <support@pickplugins.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__\n"
+"X-Poedit-SearchPath-0: includes\n"
+"X-Poedit-SearchPath-1: templates\n"
+
+#: includes/classes/class-admin-setup-wizard.php:29
+msgid ""
+"<strong>Welcome to Question Answer</strong> &#8211; You did not run the "
+"setup wizard yet. You can do that now."
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:31
+msgid "Run setup wizard"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:32
+msgid "Skip setup"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:48
+msgid "Introduction"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:53
+#: includes/classes/class-admin-setup-wizard.php:160
+msgid "Page setup"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:58
+#: includes/classes/class-answer-column.php:31
+#: includes/classes/class-post-types.php:25 includes/menus/settings.php:110
+msgid "Question"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:63
+#: includes/classes/class-post-types.php:140 includes/menus/settings.php:226
+#: templates/question-archive/answer-count.php:31
+msgid "Answer"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:68
+msgid "Ready!"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:113
+msgid "Question Answer &rsaquo; Setup sizard"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:127
+msgid "Return to the WordPress dashboard"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:162
+#, php-format
+msgid ""
+"Your website needs a few essential %spages%s. The following will be created "
+"automatically (if they do not already exist):"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:166
+msgid "Page name"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:167
+msgid "Description"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:173
+msgid "This page will display a form where visitor can submit new question."
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:177
+msgid "This page will show all the live questions."
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:181
+msgid "This page will show your user account info."
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:186
+#, php-format
+msgid ""
+"Once created, these pages can be managed from your admin dashboard on the "
+"%sPages screen%s. <br> You can control which pages are shown on your website "
+"via %sAppearance > Menus%s."
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:190
+#: includes/classes/class-admin-setup-wizard.php:295
+#: includes/classes/class-admin-setup-wizard.php:362
+msgid "Skip this step"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:256
+#: includes/classes/class-admin-setup-wizard.php:329
+msgid "Question settings"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:261
+#: includes/classes/class-admin-setup-wizard.php:334
+msgid "Item per page"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:267
+msgid "Excerpt length in question archive"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:273
+msgid "Account required to submit question?"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:276
+#: includes/classes/class-admin-setup-wizard.php:343
+#: includes/menus/settings.php:32 includes/menus/settings.php:77
+#: includes/menus/settings.php:93 includes/menus/settings.php:103
+#: includes/menus/settings.php:146 includes/menus/settings.php:162
+#: includes/menus/settings.php:283 includes/menus/settings.php:292
+#: includes/menus/settings.php:311 includes/menus/settings.php:415
+msgid "Yes"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:277
+#: includes/classes/class-admin-setup-wizard.php:344
+#: includes/menus/settings.php:32 includes/menus/settings.php:77
+#: includes/menus/settings.php:93 includes/menus/settings.php:103
+#: includes/menus/settings.php:146 includes/menus/settings.php:162
+#: includes/menus/settings.php:283 includes/menus/settings.php:292
+#: includes/menus/settings.php:311 includes/menus/settings.php:415
+msgid "No"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:282
+msgid "New submitted question status ?"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:285
+#: includes/classes/class-admin-setup-wizard.php:352
+#: includes/classes/class-answer-column.php:98
+#: includes/classes/class-question-column.php:40
+#: includes/classes/class-question-column.php:129
+#: includes/menus/settings.php:85 includes/menus/settings.php:154
+#: templates/my-account/question-list.php:97
+msgid "Pending"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:286
+#: includes/classes/class-admin-setup-wizard.php:353
+#: includes/menus/settings.php:85 includes/menus/settings.php:154
+msgid "Draft"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:287
+#: includes/classes/class-admin-setup-wizard.php:354
+#: includes/menus/settings.php:85 includes/menus/settings.php:154
+msgid "Published"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:288
+#: includes/classes/class-admin-setup-wizard.php:355
+msgid "Privated"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:289
+#: includes/classes/class-admin-setup-wizard.php:356
+msgid "Trashed"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:340
+msgid "Account required to submit answer?"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:349
+msgid "New submitted answer status ?"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:390
+msgid "Your website is ready!"
+msgstr ""
+
+#: includes/classes/class-answer-column.php:34
+msgid "Answer title"
+msgstr ""
+
+#: includes/classes/class-answer-column.php:37
+msgid "Answered by"
+msgstr ""
+
+#: includes/classes/class-answer-column.php:60
+#: includes/classes/class-post-types.php:38
+#: includes/classes/class-post-types.php:153
+#: includes/classes/class-post-types.php:202
+#: templates/single-question/answer-content.php:97
+msgid "Edit"
+msgstr ""
+
+#: includes/classes/class-answer-column.php:62
+#: templates/question-archive/view-count.php:35
+msgid "View"
+msgstr ""
+
+#: includes/classes/class-answer-column.php:66
+#: includes/classes/class-post-meta-answer.php:37
+msgid "This question is not exist any more !"
+msgstr ""
+
+#: includes/classes/class-answer-column.php:97
+#: includes/classes/class-question-column.php:39
+msgid "Any status"
+msgstr ""
+
+#: includes/classes/class-answer-column.php:99
+#: includes/classes/class-question-column.php:41
+#: includes/classes/class-question-column.php:135
+#: templates/my-account/question-list.php:102
+msgid "On discussion"
+msgstr ""
+
+#: includes/classes/class-answer-column.php:100
+#: includes/classes/class-question-column.php:42
+#: includes/classes/class-question-column.php:138
+msgid "On hold"
+msgstr ""
+
+#: includes/classes/class-answer-column.php:101
+#: includes/classes/class-functions.php:206
+#: includes/classes/class-question-column.php:43
+#: includes/classes/class-question-column.php:141 includes/functions.php:417
+#: includes/functions.php:2146 includes/functions.php:2830
+#: templates/my-account/question-list.php:108
+#: templates/my-notifications.php:355
+#: templates/question-archive/single-question.php:66
+#: templates/single-question/meta.php:76
+msgid "Solved"
+msgstr ""
+
+#: includes/classes/class-dashboard.php:67
+msgid "Account"
+msgstr ""
+
+#: includes/classes/class-dashboard.php:74
+msgid "Account edit"
+msgstr ""
+
+#: includes/classes/class-dashboard.php:80
+msgid "My notifications"
+msgstr ""
+
+#: includes/classes/class-dashboard.php:86
+msgid "My questions"
+msgstr ""
+
+#: includes/classes/class-dashboard.php:92
+msgid "My answers"
+msgstr ""
+
+#: includes/classes/class-dashboard.php:210
+#: templates/my-account/my-account.php:26
+#: templates/template-registration-form.php:65
+msgid "Register"
+msgstr ""
+
+#: includes/classes/class-dashboard.php:250
+#: includes/classes/class-dashboard.php:264
+#: templates/my-account/my-account.php:65
+#: templates/my-account/my-account.php:79
+msgid "Login"
+msgstr ""
+
+#: includes/classes/class-dashboard.php:261
+#: templates/my-account/my-account.php:76
+msgid "Username or email address"
+msgstr ""
+
+#: includes/classes/class-dashboard.php:262
+#: templates/my-account/my-account.php:77
+#: templates/template-registration-form.php:52
+msgid "Password"
+msgstr ""
+
+#: includes/classes/class-dashboard.php:263
+#: templates/my-account/my-account.php:78
+msgid "Remember Me"
+msgstr ""
+
+#: includes/classes/class-functions.php:30
+msgid "Core"
+msgstr ""
+
+#: includes/classes/class-functions.php:35
+msgid "Single question page full width issue"
+msgstr ""
+
+#: includes/classes/class-functions.php:41
+msgid "Question page 404 error"
+msgstr ""
+
+#: includes/classes/class-functions.php:78
+msgid "Facebook"
+msgstr ""
+
+#: includes/classes/class-functions.php:86
+msgid "Twitter"
+msgstr ""
+
+#: includes/classes/class-functions.php:93
+msgid "Google Plus"
+msgstr ""
+
+#: includes/classes/class-functions.php:138
+msgid "Ask Question"
+msgstr ""
+
+#: includes/classes/class-functions.php:143 includes/menus/settings.php:316
+msgid "Dashboard"
+msgstr ""
+
+#: includes/classes/class-functions.php:148
+msgid "My Question"
+msgstr ""
+
+#: includes/classes/class-functions.php:161
+msgid "Default Sorting"
+msgstr ""
+
+#: includes/classes/class-functions.php:162
+msgid "Sort by Title"
+msgstr ""
+
+#: includes/classes/class-functions.php:163
+msgid "Sort by Comment Count"
+msgstr ""
+
+#: includes/classes/class-functions.php:164
+msgid "Sort by Older Questions"
+msgstr ""
+
+#: includes/classes/class-functions.php:181
+#: includes/classes/class-functions.php:249
+msgid "Question Title"
+msgstr ""
+
+#: includes/classes/class-functions.php:185 includes/functions.php:104
+msgid "Status"
+msgstr ""
+
+#: includes/classes/class-functions.php:189
+msgid "Date"
+msgstr ""
+
+#: includes/classes/class-functions.php:193
+#: includes/classes/class-post-types.php:141
+#: templates/my-account/question-list.php:131
+#: templates/single-question/answer-section.php:68
+#: templates/single-question/meta.php:58
+msgid "Answers"
+msgstr ""
+
+#: includes/classes/class-functions.php:203
+msgid "All"
+msgstr ""
+
+#: includes/classes/class-functions.php:204
+msgid "Processing"
+msgstr ""
+
+#: includes/classes/class-functions.php:205
+msgid "Hold"
+msgstr ""
+
+#: includes/classes/class-functions.php:211
+msgid "None"
+msgstr ""
+
+#: includes/classes/class-functions.php:238
+msgid "reCaptcha"
+msgstr ""
+
+#: includes/classes/class-functions.php:239
+msgid "reCaptcha test."
+msgstr ""
+
+#: includes/classes/class-functions.php:250
+msgid "Write question title"
+msgstr ""
+
+#: includes/classes/class-functions.php:260
+msgid "Question Descriptions"
+msgstr ""
+
+#: includes/classes/class-functions.php:261
+msgid "Write question descriptions here"
+msgstr ""
+
+#: includes/classes/class-functions.php:273
+msgid "Is private?"
+msgstr ""
+
+#: includes/classes/class-functions.php:274
+msgid "If this is private question."
+msgstr ""
+
+#: includes/classes/class-functions.php:277
+msgid "Public"
+msgstr ""
+
+#: includes/classes/class-functions.php:277 includes/menus/settings.php:85
+#: includes/menus/settings.php:154
+#: templates/single-question/answer-content.php:116
+msgid "Private"
+msgstr ""
+
+#: includes/classes/class-functions.php:289
+#: includes/classes/class-post-types.php:65
+msgid "Question Category"
+msgstr ""
+
+#: includes/classes/class-functions.php:290
+msgid "Select question category."
+msgstr ""
+
+#: includes/classes/class-functions.php:301
+#: includes/classes/class-question-column.php:109
+msgid "Question tags"
+msgstr ""
+
+#: includes/classes/class-functions.php:302
+msgid "Choose question tags, comma separated."
+msgstr ""
+
+#: includes/classes/class-post-meta-answer.php:32
+msgid "See more"
+msgstr ""
+
+#: includes/classes/class-post-meta-answer.php:48
+msgid "Databox"
+msgstr ""
+
+#: includes/classes/class-post-meta.php:24
+msgid "Question Data Box"
+msgstr ""
+
+#: includes/classes/class-post-meta.php:42
+msgid "Question Status"
+msgstr ""
+
+#: includes/classes/class-post-meta.php:57
+msgid "Featured question?"
+msgstr ""
+
+#: includes/classes/class-post-meta.php:59
+msgid "<option value=\"no\">No</option>"
+msgstr ""
+
+#: includes/classes/class-post-meta.php:60
+#, php-format
+msgid "<option %s value=\"yes\">Yes</option>"
+msgstr ""
+
+#: includes/classes/class-post-types.php:26
+#: templates/question-archive/question-archive.php:184
+msgid "Questions"
+msgstr ""
+
+#: includes/classes/class-post-types.php:35
+#: includes/classes/class-post-types.php:80
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: includes/classes/class-post-types.php:36
+#: includes/classes/class-post-types.php:151
+#: includes/classes/class-post-types.php:200
+msgid "Add "
+msgstr ""
+
+#: includes/classes/class-post-types.php:37
+#: includes/classes/class-post-types.php:152
+#: includes/classes/class-post-types.php:201
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: includes/classes/class-post-types.php:39
+#: includes/classes/class-post-types.php:83
+#: includes/classes/class-post-types.php:118
+#: includes/classes/class-post-types.php:154
+#: includes/classes/class-post-types.php:203
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: includes/classes/class-post-types.php:40
+#: includes/classes/class-post-types.php:155
+#: includes/classes/class-post-types.php:204
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: includes/classes/class-post-types.php:41
+#: includes/classes/class-post-types.php:42
+#: includes/classes/class-post-types.php:156
+#: includes/classes/class-post-types.php:157
+#: includes/classes/class-post-types.php:205
+#: includes/classes/class-post-types.php:206
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: includes/classes/class-post-types.php:43
+#: includes/classes/class-post-types.php:79
+#: includes/classes/class-post-types.php:114
+#: includes/classes/class-post-types.php:158
+#: includes/classes/class-post-types.php:207
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: includes/classes/class-post-types.php:44
+#: includes/classes/class-post-types.php:159
+#: includes/classes/class-post-types.php:208
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: includes/classes/class-post-types.php:45
+#: includes/classes/class-post-types.php:160
+#: includes/classes/class-post-types.php:209
+#, php-format
+msgid "No %s found in trash"
+msgstr ""
+
+#: includes/classes/class-post-types.php:46
+#: includes/classes/class-post-types.php:81
+#: includes/classes/class-post-types.php:116
+#: includes/classes/class-post-types.php:161
+#: includes/classes/class-post-types.php:210
+#, php-format
+msgid "Parent %s"
+msgstr ""
+
+#: includes/classes/class-post-types.php:48
+#: includes/classes/class-post-types.php:163
+#: includes/classes/class-post-types.php:212
+#, php-format
+msgid "This is where you can create and manage %s."
+msgstr ""
+
+#: includes/classes/class-post-types.php:66
+msgid "Questions Categories"
+msgstr ""
+
+#: includes/classes/class-post-types.php:82
+#: includes/classes/class-post-types.php:117
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: includes/classes/class-post-types.php:84
+#: includes/classes/class-post-types.php:119
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: includes/classes/class-post-types.php:85
+#: includes/classes/class-post-types.php:120
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: includes/classes/class-post-types.php:86
+#: includes/classes/class-post-types.php:121
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: includes/classes/class-post-types.php:100
+msgid "Question Tag"
+msgstr ""
+
+#: includes/classes/class-post-types.php:101
+msgid "Question Tags"
+msgstr ""
+
+#: includes/classes/class-post-types.php:189
+msgid "Keyword"
+msgstr ""
+
+#: includes/classes/class-post-types.php:190
+msgid "Keywords"
+msgstr ""
+
+#: includes/classes/class-question-column.php:100
+msgid "Question status"
+msgstr ""
+
+#: includes/classes/class-question-column.php:103
+msgid "Question title"
+msgstr ""
+
+#: includes/classes/class-question-column.php:106
+msgid "Created by"
+msgstr ""
+
+#: includes/classes/class-question-column.php:112
+msgid "Questions categories"
+msgstr ""
+
+#: includes/classes/class-settings.php:21
+msgid "Settings"
+msgstr ""
+
+#: includes/classes/class-settings.php:22
+msgid "Help"
+msgstr ""
+
+#: includes/classes/class-settings.php:23
+msgid "Addons"
+msgstr ""
+
+#: includes/classes/class-widget-categories.php:15
+msgid "Question Answer - Categories"
+msgstr ""
+
+#: includes/classes/class-widget-categories.php:15
+msgid "Show Categories."
+msgstr ""
+
+#: includes/classes/class-widget-categories.php:108
+#: includes/classes/class-widget-categories.php:116
+msgid "Categories"
+msgstr ""
+
+#: includes/classes/class-widget-categories.php:111
+#: includes/classes/class-widget-latest-questions.php:65
+#: includes/classes/class-widget-leaderboard.php:296
+#: includes/classes/class-widget-tags.php:90
+#: includes/classes/class-widget-top-questions.php:353
+#: includes/classes/class-widget-website-stats.php:88
+msgid "Title:"
+msgstr ""
+
+#: includes/classes/class-widget-categories.php:119
+#: includes/classes/class-widget-tags.php:107
+#: includes/classes/class-widget-website-stats.php:101
+msgid "Display count:"
+msgstr ""
+
+#: includes/classes/class-widget-categories.php:133
+#: includes/classes/class-widget-tags.php:121
+#: includes/classes/class-widget-website-stats.php:115
+msgid "Display type:"
+msgstr ""
+
+#: includes/classes/class-widget-latest-questions.php:15
+msgid "Question Answer - Latest Questions"
+msgstr ""
+
+#: includes/classes/class-widget-latest-questions.php:15
+msgid "Show Latest Questions."
+msgstr ""
+
+#: includes/classes/class-widget-latest-questions.php:48
+#, php-format
+msgid "<b>%s</b> Answer(s)"
+msgstr ""
+
+#: includes/classes/class-widget-latest-questions.php:59
+msgid "Latest Questions"
+msgstr ""
+
+#: includes/classes/class-widget-latest-questions.php:70
+msgid "Title Word Limit:"
+msgstr ""
+
+#: includes/classes/class-widget-latest-questions.php:78
+msgid "Total Question:"
+msgstr ""
+
+#: includes/classes/class-widget-leaderboard.php:15
+msgid "Question Answer - Leaderboard"
+msgstr ""
+
+#: includes/classes/class-widget-leaderboard.php:15
+msgid "Show Leaderboard."
+msgstr ""
+
+#: includes/classes/class-widget-leaderboard.php:250
+#, php-format
+msgid "Total answers: %s"
+msgstr ""
+
+#: includes/classes/class-widget-leaderboard.php:289
+#: includes/classes/class-widget-leaderboard.php:301
+msgid "Leaderboard"
+msgstr ""
+
+#: includes/classes/class-widget-leaderboard.php:304
+#: includes/classes/class-widget-top-questions.php:361
+msgid "Limit:"
+msgstr ""
+
+#: includes/classes/class-widget-leaderboard.php:309
+#: includes/classes/class-widget-top-questions.php:381
+msgid "Date Ranges:"
+msgstr ""
+
+#: includes/classes/class-widget-tags.php:15
+msgid "Question Answer - Tags"
+msgstr ""
+
+#: includes/classes/class-widget-tags.php:15
+msgid "Show Tags."
+msgstr ""
+
+#: includes/classes/class-widget-tags.php:86
+msgid "Tags"
+msgstr ""
+
+#: includes/classes/class-widget-tags.php:96
+msgid "Max Count:"
+msgstr ""
+
+#: includes/classes/class-widget-top-questions.php:15
+msgid "Question Answer - Top Questions"
+msgstr ""
+
+#: includes/classes/class-widget-top-questions.php:15
+msgid "Show Top Questions."
+msgstr ""
+
+#: includes/classes/class-widget-top-questions.php:304
+msgid "View count."
+msgstr ""
+
+#: includes/classes/class-widget-top-questions.php:305
+msgid "Total vote."
+msgstr ""
+
+#: includes/classes/class-widget-top-questions.php:306
+msgid "Total up vote."
+msgstr ""
+
+#: includes/classes/class-widget-top-questions.php:307
+msgid "Total down vote."
+msgstr ""
+
+#: includes/classes/class-widget-top-questions.php:325
+msgid "No question found."
+msgstr ""
+
+#: includes/classes/class-widget-top-questions.php:343
+msgid "Top Questions"
+msgstr ""
+
+#: includes/classes/class-widget-top-questions.php:366
+msgid "Sort by:"
+msgstr ""
+
+#: includes/classes/class-widget-website-stats.php:15
+msgid "Question Answer - Website Stats"
+msgstr ""
+
+#: includes/classes/class-widget-website-stats.php:15
+msgid "Website Stats."
+msgstr ""
+
+#: includes/classes/class-widget-website-stats.php:46
+msgid "Total Question"
+msgstr ""
+
+#: includes/classes/class-widget-website-stats.php:54
+msgid "Total Answer"
+msgstr ""
+
+#: includes/classes/class-widget-website-stats.php:63
+msgid "Total Comments"
+msgstr ""
+
+#: includes/classes/class-widget-website-stats.php:70
+msgid "Total user"
+msgstr ""
+
+#: includes/classes/class-widget-website-stats.php:84
+msgid "Website Stats"
+msgstr ""
+
+#: includes/functions.php:44 includes/functions.php:70
+msgid "Something went wrong!"
+msgstr ""
+
+#: includes/functions.php:51
+msgid "Empty content can\"t be a valid answer!"
+msgstr ""
+
+#: includes/functions.php:58
+msgid "#Replay"
+msgstr ""
+
+#: includes/functions.php:101
+msgid "Answer submission successful"
+msgstr ""
+
+#: includes/functions.php:154 includes/functions.php:2565
+#: templates/my-notifications.php:84
+#: templates/single-question/answer-content.php:78
+#: templates/single-question/answer-reply.php:82
+#: templates/single-question/answer-reply.php:205
+#: templates/single-question/content.php:38
+#: templates/single-question/content.php:244
+msgid "Anonymous"
+msgstr ""
+
+#: includes/functions.php:168 includes/functions.php:2581
+#: templates/my-notifications.php:106
+msgid "posted"
+msgstr ""
+
+#: includes/functions.php:168 includes/functions.php:2581
+#: templates/my-notifications.php:106
+msgid "New Question"
+msgstr ""
+
+#: includes/functions.php:183 includes/functions.php:2596
+#: templates/my-notifications.php:121
+msgid "Answered"
+msgstr ""
+
+#: includes/functions.php:198 includes/functions.php:2611
+#: templates/my-notifications.php:136
+msgid "Choosed best answer"
+msgstr ""
+
+#: includes/functions.php:213 includes/functions.php:2626
+#: templates/my-notifications.php:151
+msgid "Removed best answer"
+msgstr ""
+
+#: includes/functions.php:251 includes/functions.php:2664
+#: templates/my-notifications.php:189
+msgid "Commented"
+msgstr ""
+
+#: includes/functions.php:290 includes/functions.php:2703
+#: templates/my-notifications.php:228
+msgid "Flagged comment"
+msgstr ""
+
+#: includes/functions.php:326 includes/functions.php:2739
+#: templates/my-notifications.php:264
+msgid "comment vote up"
+msgstr ""
+
+#: includes/functions.php:361 includes/functions.php:2774
+#: templates/my-notifications.php:299
+msgid "comment vote down"
+msgstr ""
+
+#: includes/functions.php:384 includes/functions.php:2797
+#: templates/my-notifications.php:322
+msgid "Vote Up"
+msgstr ""
+
+#: includes/functions.php:400 includes/functions.php:2813
+#: templates/my-notifications.php:338
+msgid "Vote Down"
+msgstr ""
+
+#: includes/functions.php:417 includes/functions.php:432
+#: includes/functions.php:2830 includes/functions.php:2845
+#: templates/my-notifications.php:355 templates/my-notifications.php:370
+msgid "marked"
+msgstr ""
+
+#: includes/functions.php:432 includes/functions.php:2845
+#: templates/my-notifications.php:370
+#: templates/question-archive/single-question.php:71
+msgid "Not Solved"
+msgstr ""
+
+#: includes/functions.php:460 includes/functions.php:2873
+#: templates/my-notifications.php:398
+#, php-format
+msgid "flagged your %s"
+msgstr ""
+
+#: includes/functions.php:488 includes/functions.php:2901
+#: templates/my-notifications.php:426
+msgid "unflagged "
+msgstr ""
+
+#: includes/functions.php:520
+msgid "Search Count"
+msgstr ""
+
+#: includes/functions.php:560
+msgid "Ask question"
+msgstr ""
+
+#: includes/functions.php:597
+msgid "Polls"
+msgstr ""
+
+#: includes/functions.php:598
+msgid "Add your polls"
+msgstr ""
+
+#: includes/functions.php:676 includes/functions.php:726
+msgid "year ago"
+msgstr ""
+
+#: includes/functions.php:680 includes/functions.php:730
+msgid "month ago"
+msgstr ""
+
+#: includes/functions.php:684 includes/functions.php:734
+msgid "day ago"
+msgstr ""
+
+#: includes/functions.php:688 includes/functions.php:738
+msgid "hour ago"
+msgstr ""
+
+#: includes/functions.php:692 includes/functions.php:742
+msgid "minute ago"
+msgstr ""
+
+#: includes/functions.php:696 includes/functions.php:746
+msgid "second ago"
+msgstr ""
+
+#: includes/functions.php:1145
+msgid "Please login first."
+msgstr ""
+
+#: includes/functions.php:1152
+msgid "Sorry you can't choose best answer."
+msgstr ""
+
+#: includes/functions.php:1162
+msgid "Removed Best answer"
+msgstr ""
+
+#: includes/functions.php:1179
+msgid "Marked as Best answer"
+msgstr ""
+
+#: includes/functions.php:1271
+msgid "Removed from featured"
+msgstr ""
+
+#: includes/functions.php:1277
+msgid "Successfully featured"
+msgstr ""
+
+#: includes/functions.php:1338 templates/single-question/answer-content.php:104
+#: templates/single-question/answer-reply.php:238
+#: templates/single-question/content.php:108
+#: templates/single-question/content.php:258
+msgid "Unflag"
+msgstr ""
+
+#: includes/functions.php:1338
+msgid "Undo Report"
+msgstr ""
+
+#: includes/functions.php:1340 templates/single-question/answer-content.php:108
+#: templates/single-question/answer-reply.php:242
+#: templates/single-question/content.php:112
+#: templates/single-question/content.php:262
+msgid "Flag"
+msgstr ""
+
+#: includes/functions.php:1340 templates/single-question/answer-content.php:35
+#: templates/single-question/answer-reply.php:181
+#: templates/single-question/content.php:230
+msgid "Report this"
+msgstr ""
+
+#: includes/functions.php:1368 includes/functions.php:1518
+#: includes/functions.php:1686
+msgid "Please login"
+msgstr ""
+
+#: includes/functions.php:1389 includes/functions.php:1702
+msgid "Report removed."
+msgstr ""
+
+#: includes/functions.php:1400 includes/functions.php:1413
+#: includes/functions.php:1434 includes/functions.php:1712
+#: includes/functions.php:1723 includes/functions.php:1740
+msgid "Thanks for report."
+msgstr ""
+
+#: includes/functions.php:1535 includes/functions.php:1556
+#: includes/functions.php:1584
+msgid "Vote Down."
+msgstr ""
+
+#: includes/functions.php:1543 includes/functions.php:1564
+#: includes/functions.php:1593
+msgid "Vote Up."
+msgstr ""
+
+#: includes/functions.php:1881
+msgid "Something went wrong !"
+msgstr ""
+
+#: includes/functions.php:1886
+msgid "Please login to post comments"
+msgstr ""
+
+#: includes/functions.php:1925
+#: templates/question-archive/question-archive.php:184
+#: templates/single-question/content.php:162
+msgid "Total:"
+msgstr ""
+
+#: includes/functions.php:1935
+msgid "Please login."
+msgstr ""
+
+#: includes/functions.php:1966 includes/functions.php:2013
+msgid "Login first to Review !"
+msgstr ""
+
+#: includes/functions.php:1992
+msgid "Already Reviewed !"
+msgstr ""
+
+#: includes/functions.php:2039
+msgid "Already Reviewed!"
+msgstr ""
+
+#: includes/functions.php:2071
+msgid "Unsubscribe from this question"
+msgstr ""
+
+#: includes/functions.php:2085
+msgid "Subscribed to this question"
+msgstr ""
+
+#: includes/functions.php:2098
+msgid "Please login first!"
+msgstr ""
+
+#: includes/functions.php:2125
+msgid "Successfully marked as unsolved"
+msgstr ""
+
+#: includes/functions.php:2126 includes/functions.php:2128
+#: templates/single-question/meta.php:83 templates/single-question/meta.php:85
+msgid "Mark as Solved"
+msgstr ""
+
+#: includes/functions.php:2145
+msgid "Successfully marked as Solved"
+msgstr ""
+
+#: includes/functions.php:2148
+msgid "Mark as Unsolved"
+msgstr ""
+
+#: includes/functions.php:2167
+msgid "Access Denied!"
+msgstr ""
+
+#: includes/functions.php:2313
+msgid "Select category"
+msgstr ""
+
+#: includes/functions.php:2395
+msgid "Select a Category"
+msgstr ""
+
+#: includes/functions.php:2415
+msgid "Category"
+msgstr ""
+
+#: includes/functions.php:2448
+msgid "Word moderate."
+msgstr ""
+
+#: includes/functions.php:2530
+msgid "Notifications"
+msgstr ""
+
+#: includes/functions.php:2531 templates/my-notifications.php:52
+msgid "Refresh"
+msgstr ""
+
+#: includes/functions.php:2928 includes/menus/settings.php:322
+msgid "Question Archive"
+msgstr ""
+
+#: includes/menus/addons.php:93
+msgid "Version:"
+msgstr ""
+
+#: includes/menus/addons.php:97
+msgid "Free"
+msgstr ""
+
+#: includes/menus/addons.php:103
+msgid "Price:"
+msgstr ""
+
+#: includes/menus/addons.php:104
+msgid "Download"
+msgstr ""
+
+#: includes/menus/addons.php:142
+#, php-format
+msgid "%s - Addons"
+msgstr ""
+
+#: includes/menus/help.php:21
+#, php-format
+msgid "%s Help"
+msgstr ""
+
+#: includes/menus/help.php:26
+msgid "Help & Support"
+msgstr ""
+
+#: includes/menus/help.php:36
+msgid "Need Help ?"
+msgstr ""
+
+#: includes/menus/help.php:37
+msgid ""
+"Feel free to contact with any issue for this plugin, Ask any question via "
+"forum"
+msgstr ""
+
+#: includes/menus/help.php:44
+msgid "FAQ"
+msgstr ""
+
+#: includes/menus/settings.php:28
+msgid "Filter badword ?"
+msgstr ""
+
+#: includes/menus/settings.php:29
+msgid "Do you want to filter badwords automatically? <br>Default: Yes."
+msgstr ""
+
+#: includes/menus/settings.php:37
+msgid "Define badwords ?"
+msgstr ""
+
+#: includes/menus/settings.php:38
+msgid "Add all the possible badwords here.(Comma separeted)"
+msgstr ""
+
+#: includes/menus/settings.php:45
+msgid "Badwords replacer ?"
+msgstr ""
+
+#: includes/menus/settings.php:46
+msgid ""
+"What you want to show in the place of any badwords. You can use HTML "
+"formating also."
+msgstr ""
+
+#: includes/menus/settings.php:53
+msgid "Options"
+msgstr ""
+
+#: includes/menus/settings.php:59
+msgid "Question - Item per Page"
+msgstr ""
+
+#: includes/menus/settings.php:60
+msgid "Question per page in Question Archive page. <br>Default: 10."
+msgstr ""
+
+#: includes/menus/settings.php:66
+msgid "Question - Excerpt Length in Question Archive"
+msgstr ""
+
+#: includes/menus/settings.php:67
+msgid ""
+"Set the maximum words count should show in the question archove. "
+"<br>Default: 20."
+msgstr ""
+
+#: includes/menus/settings.php:73 includes/menus/settings.php:142
+msgid "Account Required ?"
+msgstr ""
+
+#: includes/menus/settings.php:74
+msgid "Account required to post new Question from frontend. <br>Default: Yes"
+msgstr ""
+
+#: includes/menus/settings.php:81
+msgid "New Submitted Question Status ?"
+msgstr ""
+
+#: includes/menus/settings.php:82
+msgid "Submitted question status.<br>Default: Pending."
+msgstr ""
+
+#: includes/menus/settings.php:85 includes/menus/settings.php:154
+msgid "Trash"
+msgstr ""
+
+#: includes/menus/settings.php:89
+msgid "Allow Comments in Question ?"
+msgstr ""
+
+#: includes/menus/settings.php:90
+msgid "<br>Default: Yes."
+msgstr ""
+
+#: includes/menus/settings.php:99
+msgid "Enable poll ?"
+msgstr ""
+
+#: includes/menus/settings.php:100
+msgid "Enable polls on question"
+msgstr ""
+
+#: includes/menus/settings.php:116
+msgid "Quick note for answers ?"
+msgstr ""
+
+#: includes/menus/settings.php:117
+msgid "Useful for quick reply."
+msgstr ""
+
+#: includes/menus/settings.php:120
+msgid "Dummy"
+msgstr ""
+
+#: includes/menus/settings.php:126
+msgid "Who can see quick notes (by role) ?"
+msgstr ""
+
+#: includes/menus/settings.php:127
+msgid "You can select roles to set who can see quick notes."
+msgstr ""
+
+#: includes/menus/settings.php:135
+msgid "Answer - Item per Page"
+msgstr ""
+
+#: includes/menus/settings.php:136
+msgid "Answer per page in Answer list. <br>Default: 10."
+msgstr ""
+
+#: includes/menus/settings.php:143
+msgid "Account required to post new Answer from frontend. <br>Default: Yes"
+msgstr ""
+
+#: includes/menus/settings.php:150
+msgid "New Submitted Answer Status ?"
+msgstr ""
+
+#: includes/menus/settings.php:151
+msgid "Submitted answer status.<br>Default: Pending."
+msgstr ""
+
+#: includes/menus/settings.php:158
+msgid "Show Answer filtering ?"
+msgstr ""
+
+#: includes/menus/settings.php:159
+msgid ""
+"Do you want to show filtering in answer section under single question. "
+"<br>Default: Yes."
+msgstr ""
+
+#: includes/menus/settings.php:166
+msgid "Select Filter Options."
+msgstr ""
+
+#: includes/menus/settings.php:167
+msgid "Select answer filtering options. <br>Default: All."
+msgstr ""
+
+#: includes/menus/settings.php:171
+msgid "Voted Answer"
+msgstr ""
+
+#: includes/menus/settings.php:172
+msgid "Top Voted Answer"
+msgstr ""
+
+#: includes/menus/settings.php:173
+msgid "Older Answer"
+msgstr ""
+
+#: includes/menus/settings.php:181
+msgid "Who can post answer (by role) ?"
+msgstr ""
+
+#: includes/menus/settings.php:182
+msgid "You can select roles to set who can only post answer for question."
+msgstr ""
+
+#: includes/menus/settings.php:190
+msgid "Who can post comment on answer (by role) ?"
+msgstr ""
+
+#: includes/menus/settings.php:191
+msgid "You can select roles to set who can only post comment on answer."
+msgstr ""
+
+#: includes/menus/settings.php:200
+msgid "Editor type for answer posting."
+msgstr ""
+
+#: includes/menus/settings.php:201
+msgid "Choose editor type on answer posting."
+msgstr ""
+
+#: includes/menus/settings.php:210
+msgid "Enable media upload button on editor."
+msgstr ""
+
+#: includes/menus/settings.php:232
+msgid "Page - Question Submission"
+msgstr ""
+
+#: includes/menus/settings.php:233
+msgid ""
+"Select the page where you want to do question submission. <br>Default: N/A."
+msgstr ""
+
+#: includes/menus/settings.php:239
+msgid "Page - Question Archive"
+msgstr ""
+
+#: includes/menus/settings.php:240
+msgid ""
+"Select the page where you want to display all questions. <br>Default: N/A."
+msgstr ""
+
+#: includes/menus/settings.php:247
+msgid "Page - Dashboard"
+msgstr ""
+
+#: includes/menus/settings.php:248
+msgid "Select the page where you want to display dashboard. <br>Default: N/A."
+msgstr ""
+
+#: includes/menus/settings.php:262
+msgid "Pages"
+msgstr ""
+
+#: includes/menus/settings.php:268
+msgid "Question Per Page"
+msgstr ""
+
+#: includes/menus/settings.php:269
+msgid "Set the value for question per page in dashboard page. <br>Default: 10."
+msgstr ""
+
+#: includes/menus/settings.php:272
+msgid "10"
+msgstr ""
+
+#: includes/menus/settings.php:279
+msgid "Show Question List?"
+msgstr ""
+
+#: includes/menus/settings.php:280
+msgid "Show questions by you list in dashboard area. <br>Default: Yes."
+msgstr ""
+
+#: includes/menus/settings.php:288
+msgid "Show Login Form?"
+msgstr ""
+
+#: includes/menus/settings.php:289
+msgid ""
+"Show login form in dashboard area for logged out users. <br>Default: Yes."
+msgstr ""
+
+#: includes/menus/settings.php:298
+msgid "After login redirect to page"
+msgstr ""
+
+#: includes/menus/settings.php:299
+msgid "You can set custom page to redirect after login."
+msgstr ""
+
+#: includes/menus/settings.php:307
+msgid "Show Register Form?"
+msgstr ""
+
+#: includes/menus/settings.php:308
+msgid ""
+"Show register form in dashboard area for logged out users. <br>Default: Yes."
+msgstr ""
+
+#: includes/menus/settings.php:323
+msgid "Answer count text color"
+msgstr ""
+
+#: includes/menus/settings.php:330
+msgid "Question view count color"
+msgstr ""
+
+#: includes/menus/settings.php:331
+msgid "View count text color"
+msgstr ""
+
+#: includes/menus/settings.php:339
+msgid "User role text color"
+msgstr ""
+
+#: includes/menus/settings.php:340
+msgid "User role text color in single question page."
+msgstr ""
+
+#: includes/menus/settings.php:346
+msgid "User role background color"
+msgstr ""
+
+#: includes/menus/settings.php:347
+msgid "User role background color in single question page."
+msgstr ""
+
+#: includes/menus/settings.php:353
+msgid "Comment button background color"
+msgstr ""
+
+#: includes/menus/settings.php:354
+msgid "Comment button background color in single question page."
+msgstr ""
+
+#: includes/menus/settings.php:360
+msgid "Best answer background color"
+msgstr ""
+
+#: includes/menus/settings.php:361
+msgid "Best answer background color in single question page."
+msgstr ""
+
+#: includes/menus/settings.php:368
+msgid "Ask button background color"
+msgstr ""
+
+#: includes/menus/settings.php:369
+msgid "Select background color for ask button on top."
+msgstr ""
+
+#: includes/menus/settings.php:376
+msgid "Ask button text color"
+msgstr ""
+
+#: includes/menus/settings.php:377
+msgid "Select text color for ask button on top."
+msgstr ""
+
+#: includes/menus/settings.php:385
+msgid "Vote button background color"
+msgstr ""
+
+#: includes/menus/settings.php:386
+msgid "Select Vote button background color."
+msgstr ""
+
+#: includes/menus/settings.php:393
+msgid "Flag button background color"
+msgstr ""
+
+#: includes/menus/settings.php:394
+msgid "Select Flag button background color."
+msgstr ""
+
+#: includes/menus/settings.php:404
+msgid "Colors"
+msgstr ""
+
+#: includes/menus/settings.php:411
+msgid "reCAPTCHA enable in Question?"
+msgstr ""
+
+#: includes/menus/settings.php:412
+msgid ""
+"Enable reCAPTCHA to protect spam while posting new Question. <br>Default: No."
+msgstr ""
+
+#: includes/menus/settings.php:419
+msgid "reCAPTCHA site key"
+msgstr ""
+
+#: includes/menus/settings.php:420
+msgid ""
+"reCAPTCHA site key, please go <a href=\"https://www.google.com/recaptcha"
+"\">google.com/reCAPTCHA</a> and register your site to get site key."
+msgstr ""
+
+#: includes/menus/settings.php:426
+msgid "reCAPTCHA secret key"
+msgstr ""
+
+#: includes/menus/settings.php:427
+msgid ""
+"reCAPTCHA site key, please go <a href=\"https://www.google.com/recaptcha"
+"\">google.com/reCAPTCHA</a> and register your site to get secret key."
+msgstr ""
+
+#: includes/menus/settings.php:433
+msgid "Recapcha"
+msgstr ""
+
+#: includes/menus/settings.php:506 includes/menus/settings.php:515
+#: includes/menus/settings.php:520 includes/pickform/class-pickform.php:515
+#: includes/pickform/class-pickform.php:527
+#: includes/pickform/class-pickform.php:537
+msgid "Remove"
+msgstr ""
+
+#: includes/menus/settings.php:524 includes/pickform/class-pickform.php:544
+msgid "Add more"
+msgstr ""
+
+#: includes/menus/settings.php:595
+msgid "Choose File"
+msgstr ""
+
+#: includes/menus/settings.php:703
+msgid "Changes Saved."
+msgstr ""
+
+#: includes/menus/settings.php:721
+#, php-format
+msgid "%s Settings"
+msgstr ""
+
+#: includes/menus/settings.php:743
+msgid "Save Changes"
+msgstr ""
+
+#: includes/pickform/class-pickform.php:744
+msgid "Drop files here"
+msgstr ""
+
+#: includes/pickform/class-pickform.php:745
+msgid "Select Files"
+msgstr ""
+
+#: includes/pickform/class-pickform.php:765
+msgid "Allowed Files"
+msgstr ""
+
+#: includes/shortcodes/class-shortcode-qa-edit-account.php:43
+msgid "Profile updated."
+msgstr ""
+
+#: includes/shortcodes/class-shortcode-qa-edit-account.php:74
+msgid "Display name"
+msgstr ""
+
+#: includes/shortcodes/class-shortcode-qa-edit-account.php:79
+#: includes/shortcodes/class-shortcode-qa-my-account.php:45
+#: templates/my-account/profile.php:90
+msgid "Website"
+msgstr ""
+
+#: includes/shortcodes/class-shortcode-qa-edit-account.php:84
+#: includes/shortcodes/class-shortcode-qa-my-account.php:50
+#: templates/my-account/profile.php:99
+msgid "Biographical Info"
+msgstr ""
+
+#: includes/shortcodes/class-shortcode-qa-edit-account.php:89
+#: templates/single-question/admin-actions.php:74
+msgid "Update"
+msgstr ""
+
+#: includes/shortcodes/class-shortcode-qa-my-account.php:36
+msgid "Logout"
+msgstr ""
+
+#: includes/shortcodes/class-shortcode-qa-my-account.php:40
+#: templates/template-registration-form.php:58
+msgid "Email"
+msgstr ""
+
+#: templates/add-question/add-question.php:35
+#, php-format
+msgid "Please <a href=\"%s\">login</a> to submit question."
+msgstr ""
+
+#: templates/add-question/add-question.php:79
+#: templates/add-question/add-question.php:85
+#: templates/add-question/add-question.php:92
+msgid "missing"
+msgstr ""
+
+#: templates/add-question/add-question.php:105
+#: templates/add-question/add-question.php:122
+#, php-format
+msgid "<b>%s</b> missing"
+msgstr ""
+
+#: templates/add-question/add-question.php:214
+msgid "Question Submitted."
+msgstr ""
+
+#: templates/add-question/add-question.php:215
+msgid "Submission Status:"
+msgstr ""
+
+#: templates/add-question/add-question.php:291
+#: templates/single-question/answer-reply.php:383
+#: templates/single-question/content.php:342
+msgid "Submit"
+msgstr ""
+
+#: templates/add-question/ajax-suggestions.php:12
+msgid "Please check these topics first."
+msgstr ""
+
+#: templates/my-account/my-account.php:93
+#, php-format
+msgid "Please <a href=\"%s\">login</a> to access this page"
+msgstr ""
+
+#: templates/my-account/profile.php:54
+msgid "Profile Management"
+msgstr ""
+
+#: templates/my-account/profile.php:60
+msgid "Name"
+msgstr ""
+
+#: templates/my-account/profile.php:61
+msgid "Contact"
+msgstr ""
+
+#: templates/my-account/profile.php:62
+msgid "About Yourself"
+msgstr ""
+
+#: templates/my-account/profile.php:73
+msgid "First Name"
+msgstr ""
+
+#: templates/my-account/profile.php:74
+msgid "First name"
+msgstr ""
+
+#: templates/my-account/profile.php:76
+msgid "Last Name"
+msgstr ""
+
+#: templates/my-account/profile.php:77
+msgid "Last name"
+msgstr ""
+
+#: templates/my-account/profile.php:87
+msgid "Email (Required)"
+msgstr ""
+
+#: templates/my-account/profile.php:100
+msgid "Some text..."
+msgstr ""
+
+#: templates/my-account/profile.php:108
+msgid "Save Data"
+msgstr ""
+
+#: templates/my-account/question-list.php:32
+msgid "Questions by You"
+msgstr ""
+
+#: templates/my-account/question-list.php:105
+msgid "On Hold"
+msgstr ""
+
+#: templates/my-notifications.php:446
+msgid "No notification right now."
+msgstr ""
+
+#: templates/question-archive/question-archive.php:90
+msgid "keywords"
+msgstr ""
+
+#: templates/question-archive/question-archive.php:96
+msgid "Select a category"
+msgstr ""
+
+#: templates/question-archive/question-archive.php:140
+msgid "Search"
+msgstr ""
+
+#: templates/question-archive/question-archive.php:145
+msgid "Keyword:"
+msgstr ""
+
+#: templates/question-archive/question-archive.php:146
+msgid "Date:"
+msgstr ""
+
+#: templates/question-archive/question-archive.php:147
+msgid "Category:"
+msgstr ""
+
+#: templates/question-archive/question-archive.php:148
+#: templates/single-question/answer-section.php:73
+msgid "Sort By:"
+msgstr ""
+
+#: templates/question-archive/question-archive.php:149
+msgid "Author:"
+msgstr ""
+
+#: templates/question-archive/question-archive.php:222
+msgid "No question found"
+msgstr ""
+
+#: templates/single-question/answer-content.php:63
+msgid "Choose best answer"
+msgstr ""
+
+#: templates/single-question/answer-content.php:145
+msgid "Answer is private, only admins or its author or questioner can read."
+msgstr ""
+
+#: templates/single-question/answer-posting.php:28
+#: templates/single-question/answer-posting.php:79
+msgid "Submit Answer"
+msgstr ""
+
+#: templates/single-question/answer-posting.php:34
+#, php-format
+msgid ""
+"<form class=\"nodisplay\">Please <a href=\"%s\">login</a> to submit answer.</"
+"form>"
+msgstr ""
+
+#: templates/single-question/answer-posting.php:47
+msgid "Quick notes"
+msgstr ""
+
+#: templates/single-question/answer-posting.php:71
+msgid "Make your answer private."
+msgstr ""
+
+#: templates/single-question/answer-posting.php:78
+msgid "Answer will review"
+msgstr ""
+
+#: templates/single-question/answer-reply.php:122
+#: templates/single-question/answer-reply.php:357
+msgid "Sign in to Reply"
+msgstr ""
+
+#: templates/single-question/answer-reply.php:131
+#: templates/single-question/answer-reply.php:366
+#: templates/single-question/content.php:335
+msgid "Reply on This"
+msgstr ""
+
+#: templates/single-question/answer-reply.php:381
+#: templates/single-question/content.php:340
+msgid "Replying as"
+msgstr ""
+
+#: templates/single-question/answer-section.php:75
+msgid "All Answers"
+msgstr ""
+
+#: templates/single-question/answer-section.php:78
+msgid "Voted Answers"
+msgstr ""
+
+#: templates/single-question/answer-section.php:82
+msgid "Top Voted Answers"
+msgstr ""
+
+#: templates/single-question/answer-section.php:86
+msgid "Older Answers"
+msgstr ""
+
+#: templates/single-question/answer-section.php:116
+msgid "Best Answer"
+msgstr ""
+
+#: templates/single-question/content.php:100
+#, php-format
+msgid "Member Since %s"
+msgstr ""
+
+#: templates/single-question/content.php:207
+msgid "N/A"
+msgstr ""
+
+#: templates/single-question/content.php:211
+msgid "Tags: "
+msgstr ""
+
+#: templates/single-question/content.php:221
+msgid "Login First"
+msgstr ""
+
+#: templates/single-question/meta.php:107
+msgid "Subscribed"
+msgstr ""
+
+#: templates/single-question/meta.php:113
+msgid "Subscribe"
+msgstr ""
+
+#: templates/single-question/question-edit.php:94
+msgid "Edit:"
+msgstr ""
+
+#: templates/single-question/subscriber.php:17
+msgid "Subscribers"
+msgstr ""
+
+#: templates/template-migration.php:26
+msgid "Answers:"
+msgstr ""
+
+#: templates/template-migration.php:31
+msgid "Start Update"
+msgstr ""
+
+#: templates/template-registration-form.php:46
+msgid "Username"
+msgstr ""
+
+#: templates/template-registration-form.php:83
+msgid "Nonce error"
+msgstr ""
+
+#: templates/template-registration-form.php:88
+msgid "Required form field is missing"
+msgstr ""
+
+#: templates/template-registration-form.php:92
+msgid "Username too short. At least 4 characters is required"
+msgstr ""
+
+#: templates/template-registration-form.php:96
+msgid "Sorry, that username already exists!"
+msgstr ""
+
+#: templates/template-registration-form.php:99
+msgid "Sorry, the username you entered is not valid"
+msgstr ""
+
+#: templates/template-registration-form.php:103
+msgid "Password length must be greater than 5"
+msgstr ""
+
+#: templates/template-registration-form.php:107
+msgid "Email is not valid"
+msgstr ""
+
+#: templates/template-registration-form.php:111
+msgid "Email Already in use"
+msgstr ""
+
+#: templates/template-registration-form.php:120
+msgid "ERROR"
+msgstr ""
+
+#: templates/template-registration-form.php:136
+msgid "Registration complete."
+msgstr ""

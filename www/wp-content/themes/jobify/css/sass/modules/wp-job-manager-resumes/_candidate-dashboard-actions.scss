@@ -1,0 +1,23 @@
+.candidate-dashboard-actions {
+	@extend .job-dashboard-actions;
+}
+
+.candidate-dashboard-action-edit:before {
+	@extend .job-dashboard-action-edit;
+}
+
+.candidate-dashboard-action-hide:before {
+	content: $ionicon-var-minus-circled;
+}
+
+.candidate-dashboard-action-publish:before {
+	content: $ionicon-var-plus-circled;
+}
+
+.candidate-dashboard-action-relist:before {
+	@extend .job-dashboard-action-relist;
+}
+
+.candidate-dashboard-action-delete:before {
+	@extend .job-dashboard-action-delete;
+}

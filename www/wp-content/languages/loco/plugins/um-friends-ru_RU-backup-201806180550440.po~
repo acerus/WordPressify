@@ -1,0 +1,229 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Friends\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-18 05:47+0000\n"
+"PO-Revision-Date: 2018-06-18 05:50+0000\n"
+"Last-Translator: nobody <paul.fedorov@gmail.com>\n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: includes/core/filters/um-friends-profile.php:75
+#, php-format
+msgid "%s's friends"
+msgstr ""
+
+#. Description of the plugin
+msgid "Add a friendship system for your community users easily."
+msgstr ""
+
+#: includes/core/class-friends-main-api.php:65
+#: includes/core/class-friends-main-api.php:101
+msgid "Add Friend"
+msgstr "Добавить в друзья"
+
+#: includes/admin/templates/role/friends.php:12
+msgid "Can friend others?"
+msgstr ""
+
+#: includes/admin/templates/role/friends.php:20
+msgid "Can friend these user roles only"
+msgstr ""
+
+#: includes/admin/templates/role/friends.php:13
+msgid "Can this role friend other members or not."
+msgstr ""
+
+#: includes/core/class-friends-main-api.php:85
+msgid "Cancel"
+msgstr "Отменить"
+
+#: includes/core/class-friends-main-api.php:97
+msgid "Cancel Friend Request"
+msgstr "Отозвать приглашение"
+
+#: includes/core/class-friends-main-api.php:83
+#: includes/core/class-friends-main-api.php:92
+msgid "Confirm"
+msgstr "Подтвердить"
+
+#: includes/core/class-friends-main-api.php:84
+#: includes/core/class-friends-main-api.php:93
+msgid "Delete Request"
+msgstr "Удалить запрос"
+
+#: templates/friends.php:34
+msgid "Edit profile"
+msgstr "Редактировать профиль"
+
+#: includes/core/class-friends-main-api.php:97
+msgid "Friend Request Sent"
+msgstr "Приглашение отправлено"
+
+#: includes/core/filters/um-friends-profile.php:93
+msgid "Friend Requests"
+msgstr "Запросы на дружбу"
+
+#: includes/core/filters/um-friends-profile.php:94
+msgid "Friend Requests Sent"
+msgstr "Приглашения дружить отправлены"
+
+#: includes/core/class-friends-main-api.php:105
+#: includes/core/um-friends-widget.php:47
+#: includes/core/actions/um-friends-admin.php:22
+#: includes/core/filters/um-friends-settings.php:22
+#: includes/core/filters/um-friends-profile.php:27
+#: includes/core/filters/um-friends-profile.php:48
+msgid "Friends"
+msgstr "Друзья"
+
+#: includes/core/class-friends-shortcode.php:105
+#: includes/core/actions/um-friends-members.php:20
+msgid "friends"
+msgstr "друзей"
+
+#: includes/core/filters/um-friends-settings.php:14
+msgid "Friends License Key"
+msgstr ""
+
+#: includes/core/class-friends-shortcode.php:31
+#: includes/core/class-friends-shortcode.php:86
+#: includes/core/actions/um-friends-members.php:13
+#: includes/core/filters/um-friends-profile.php:13
+#: includes/core/filters/um-friends-profile.php:112
+#: includes/core/filters/um-friends-profile.php:134
+msgid "Friends only"
+msgstr "Только для друзей"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://ultimatemember.com/"
+msgstr ""
+
+#: includes/core/filters/um-friends-account.php:50
+msgid "I have got a new friend"
+msgstr ""
+
+#: includes/core/actions/um-friends-admin.php:58
+msgid "Least friends"
+msgstr ""
+
+#: includes/core/actions/um-friends-admin.php:57
+msgid "Most friends"
+msgstr ""
+
+#: includes/core/filters/um-friends-profile.php:75
+msgid "My Friends"
+msgstr "Мои друзья тут"
+
+#: includes/core/filters/um-friends-settings.php:77
+msgid "New Friend Notification"
+msgstr ""
+
+#: includes/core/filters/um-friends-settings.php:63
+msgid "New Friend Request Notification"
+msgstr ""
+
+#: includes/core/filters/um-friends-account.php:16
+msgid "Notifications"
+msgstr "Уведомления"
+
+#: includes/core/class-friends-main-api.php:80
+msgid "Respond to Friend Request"
+msgstr ""
+
+#: includes/core/filters/um-friends-settings.php:84
+msgid "Send a notification to user when a friend request get approved"
+msgstr ""
+
+#: includes/core/filters/um-friends-settings.php:70
+msgid "Send a notification to user when they receive a new friend request"
+msgstr ""
+
+#: includes/core/filters/um-friends-settings.php:32
+msgid "Show friend button in member directory"
+msgstr ""
+
+#: includes/core/filters/um-friends-settings.php:27
+msgid "Show friends stats in member directory"
+msgstr ""
+
+#: includes/core/filters/um-friends-settings.php:49
+msgid "Show only friends activity in the social wall"
+msgstr ""
+
+#: includes/core/um-friends-widget.php:18
+msgid "Shows user friends in a widget."
+msgstr ""
+
+#: um-friends.php:39 um-friends.php:55
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+
+#: templates/friends-mini.php:24 templates/friends.php:3
+msgid "This user does not have any friends yet."
+msgstr ""
+
+#. Author of the plugin
+msgid "Ultimate Member"
+msgstr ""
+
+#. Widget name will appear in UI
+#. Name of the plugin
+#: includes/core/um-friends-widget.php:15
+msgid "Ultimate Member - Friends"
+msgstr ""
+
+#: includes/core/class-friends-main-api.php:105
+msgid "Unfriend"
+msgstr ""
+
+#: includes/core/filters/um-friends-account.php:17
+msgid "Update Notifications"
+msgstr ""
+
+#: includes/core/class-friends-setup.php:39
+#: includes/core/filters/um-friends-settings.php:105
+msgid "User get a new friend"
+msgstr ""
+
+#: includes/core/class-friends-setup.php:33
+#: includes/core/filters/um-friends-settings.php:99
+msgid "User get a new friend request"
+msgstr ""
+
+#: includes/core/class-friends-setup.php:41
+#: includes/core/filters/um-friends-settings.php:107
+msgid "When someone accepts friendship"
+msgstr ""
+
+#: includes/core/class-friends-setup.php:35
+#: includes/core/filters/um-friends-settings.php:101
+msgid "When someone requests friendship"
+msgstr ""
+
+#: templates/friends-mini.php:24 templates/friends.php:3
+msgid "You do not have any friends yet."
+msgstr ""
+
+#: templates/friends.php:6
+msgid "You do not have pending friend requests yet."
+msgstr ""
+
+#: templates/friends.php:10
+msgid "You have not sent any friend requests yet."
+msgstr ""
+
+#: includes/core/filters/um-friends-profile.php:114
+msgid "You must be a friend of this user to view their profile"
+msgstr ""

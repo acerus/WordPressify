@@ -1,0 +1,21 @@
+.job_listing-about {
+	width: 70%;
+	margin-left: 5%;
+	display: inline-block;
+
+	@include bp(sm) {
+		width: 77%;
+		margin-left: 3%;
+		vertical-align: middle; 
+	}
+
+	@include bp(md) {
+		width: 88%;
+		margin-left: 2%;
+	}
+
+	@include bp(lg) {
+		width: 92%;
+		margin-left: 2%;
+	}
+}

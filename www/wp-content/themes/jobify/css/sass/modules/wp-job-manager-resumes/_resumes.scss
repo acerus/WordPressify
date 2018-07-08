@@ -1,0 +1,12 @@
+ul.resumes {
+	@extend ul.job_listings;
+}
+
+.resume_filters ~ ul.resumes {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+
+	.resume:first-child {
+		border-top-left-radius: 0;
+	}
+}

@@ -1,0 +1,67 @@
+Version 2.0.3
+
+* Added: GDPR compatibility on delete users
+
+Version 2.0.2
+
+* Added: Loading translation from wp-content/languages/plugins/ directory
+
+Version 2.0.1
+
+* Tweak: UM2.0 compatibility
+
+Version 1.2.1
+
+* Tweak: update EDD plugin updater
+* Added: 'um_followers_hide_button' filter hook to modify the follow button visibility.
+* Added: 'um_followers_button_redirect_url' filter hook to modify follow button redirect url
+* Fixed: Grammatical errors
+
+Version 1.2.0
+
+* Tweak: update EDD plugin updater
+* Added: Hide followers stats and tabs for non-followers
+* Added: Deutch translation .mo and .po files
+* Fixed: saving of privacy settings
+
+Version 1.1.9
+
+* Fixed: exclude deleted users
+
+Version 1.1.8
+
+* New: order members by followers
+* New: adds a "follows you" text in profile header
+
+Version 1.1.7
+
+* New: added spanish and swedich language support
+* Tweak: css changes
+
+Version 1.1.6
+
+* Fixed: compatibility with WordPress 4.3
+
+Version 1.1.5
+
+* Fixed: minor bug fixes and improved compatibility with PM
+
+Version 1.1.4
+
+* Tweak: Compatibility with Private Messages
+
+Version 1.1.3
+
+* Fixed: minor bug fixes and tweaks
+
+Version 1.1.2
+
+* Tweak: translation ready
+
+Version 1.1.1
+
+* Fixed: Some css and layout issues
+
+Version 1.1.0
+
+* Tweak: Followers data is removed when user is deleted

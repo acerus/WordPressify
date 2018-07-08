@@ -1,0 +1,132 @@
+[
+	{
+		"id": "testimonial-company-1",
+		"type": "object",
+		"data": {
+			"post_title": "Company #1",
+			"post_type": "testimonial",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/testimonial-company-1.png",
+			"post_content": "",
+			"terms": {
+				"testimonial-category": [ "company" ]
+			}
+		}
+	},
+	{
+		"id": "testimonial-company-2",
+		"type": "object",
+		"data": {
+			"post_title": "Company #2",
+			"post_type": "testimonial",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/testimonial-company-2.png",
+			"post_content": "",
+			"terms": {
+				"testimonial-category": [ "company" ]
+			}
+		}
+	},
+	{
+		"id": "testimonial-company-3",
+		"type": "object",
+		"data": {
+			"post_title": "Company #3",
+			"post_type": "testimonial",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/testimonial-company-3.png",
+			"post_content": "",
+			"terms": {
+				"testimonial-category": [ "company" ]
+			}
+		}
+	},
+	{
+		"id": "testimonial-company-4",
+		"type": "object",
+		"data": {
+			"post_title": "Company #4",
+			"post_type": "testimonial",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/testimonial-company-4.png",
+			"post_content": "",
+			"terms": {
+				"testimonial-category": [ "company" ]
+			}
+		}
+	},
+	{
+		"id": "testimonial-company-5",
+		"type": "object",
+		"data": {
+			"post_title": "Company #5",
+			"post_type": "testimonial",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/testimonial-company-5.png",
+			"post_content": "",
+			"terms": {
+				"testimonial-category": [ "company" ]
+			}
+		}
+	},
+	{
+		"id": "testimonial-customer-1",
+		"type": "object",
+		"data": {
+			"post_title": "Customer #1",
+			"post_type": "testimonial",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/testimonial-1.jpg",
+			"post_content": "Excellent service offering a personal touch, if I had an issue they were no longer than a phone call away and were always quick to respond.",
+			"terms": {
+				"testimonial-category": [ "individual" ]
+			}
+		}
+	},
+	{
+		"id": "testimonial-customer-2",
+		"type": "object",
+		"data": {
+			"post_title": "Customer #2",
+			"post_type": "testimonial",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/testimonial-2.jpg",
+			"post_content": "Jobify offer an amazing service and I couldn't be happier! They are dedicated to helping recruiters find great candidates, wonderful service!",
+			"terms": {
+				"testimonial-category": [ "individual" ]
+			}
+		}
+	},
+	{
+		"id": "testimonial-customer-3",
+		"type": "object",
+		"data": {
+			"post_title": "Customer #3",
+			"post_type": "testimonial",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/testimonial-3.jpg",
+			"post_content": "If I didn't find Jobify I'm pretty sure i'd be no where, they helped me find a job in less than 2 days and the job is amazing,  amazing service!",
+			"terms": {
+				"testimonial-category": [ "individual" ]
+			}
+		}
+	},
+	{
+		"id": "testimonial-customer-4",
+		"type": "object",
+		"data": {
+			"post_title": "Customer #4",
+			"post_type": "testimonial",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/testimonial-4.jpg",
+			"post_content": "Wow just Wow! Jobify is an excellent service that offers personal one to one help finding a job and they know how to please, i'd use them again!",
+			"terms": {
+				"testimonial-category": [ "individual" ]
+			}
+		}
+	},
+	{
+		"id": "testimonial-customer-5",
+		"type": "object",
+		"data": {
+			"post_title": "Customer #5",
+			"post_type": "testimonial",
+			"featured_image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/testimonial-5.jpg",
+			"post_content": "Without Jobify i'd be homeless, they found me a job and got me sorted out quickly with everything! Can't quite believe the service level that they offer!",
+			"terms": {
+				"testimonial-category": [ "individual" ]
+			}
+		}
+	}
+]

@@ -1,0 +1,17 @@
+.widget--home {
+	margin: 3em auto;
+	padding: 0;
+	border: 0;
+
+	@include bp(md) {
+		margin: 3.5em auto;
+	}
+
+	@include bp(lg) {
+		margin: 5em auto;
+	}
+}
+
+.widget--home--no-margin {
+	margin: 0;
+}

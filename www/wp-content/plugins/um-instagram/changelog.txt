@@ -1,0 +1,25 @@
+Version 2.0.1
+
+* Added: Loading translation from "wp-content/languages/plugins/" directory
+
+Version 2.0
+
+* Fixed: Image standard and thumbnail
+* Tweak: UM2.0 compatibility
+
+Version 1.0.3
+
+* Tweak: Update EDD plugin updater library
+* Added: filter 'um_instagram_callback_url' to modify the instagram callback url
+* Added: English translation files
+* Fixed: Instagram core requirements
+* Fixed: Translation strings
+
+Version 1.0.2
+
+* Fixed: license and plugin updater
+* Fixed: authenticate user and session issue
+
+Version 1.0.1
+
+* Fixed: Registration process and field visibility

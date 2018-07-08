@@ -1,0 +1,18 @@
+.woocommerce,
+.woocommerce-page {
+	form {
+		.form-row label {
+			margin-bottom: 3px;
+		}
+	}
+
+	label[for="rememberme"] {
+		font-family: "Varela Round",Helvetica,sans-serif;
+		text-transform: none;
+		font-weight: normal;
+	}
+
+	input[name="login"] {
+		margin-bottom: 20px;
+	}
+}

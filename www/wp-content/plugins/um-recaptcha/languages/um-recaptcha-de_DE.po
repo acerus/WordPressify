@@ -1,0 +1,141 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Google reCAPTCHA\n"
+"POT-Creation-Date: 2015-03-09 17:25+0100\n"
+"PO-Revision-Date: 2015-03-09 17:35+0100\n"
+"Last-Translator: Bastian ZImmermann <bastianzimmermann@me.com>\n"
+"Language-Team: Bastian ZImmermann <bastianzimmermann@me.com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/templates/form/login_recaptcha.php:7
+#: admin/templates/form/register_recaptcha.php:7
+msgid ""
+"Google reCAPTCHA seems to be <strong style=\"color:#7ACF58\">enabled</"
+"strong> by default."
+msgstr ""
+"Google reCAPTCHA scheint standardmäßig <strong style=\"color:"
+"#7ACF58\">aktiviert</strong> zu sein."
+
+#: admin/templates/form/login_recaptcha.php:11
+#: admin/templates/form/register_recaptcha.php:11
+msgid ""
+"Google reCAPTCHA seems to be <strong style=\"color:#C74A4A\">disabled</"
+"strong> by default."
+msgstr ""
+"Google reCAPTCHA scheint standardmäßig <strong style=\"color:#C74A4A"
+"\">deaktiviert</strong> zu sein."
+
+#: admin/templates/form/login_recaptcha.php:16
+#: admin/templates/form/register_recaptcha.php:16
+msgid "reCAPTCHA status on this form"
+msgstr "reCAPTCHA Status in diesem Formular"
+
+#: admin/templates/form/login_recaptcha.php:19
+#: admin/templates/form/register_recaptcha.php:19
+msgid "On"
+msgstr "An"
+
+#: admin/templates/form/login_recaptcha.php:19
+#: admin/templates/form/register_recaptcha.php:19
+msgid "Off"
+msgstr "Aus"
+
+#: core/actions/um-recaptcha-admin.php:10
+#: core/actions/um-recaptcha-admin.php:21
+#: core/filters/um-recaptcha-settings.php:12
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+#: core/filters/um-recaptcha-form.php:9
+msgid "Please confirm you are not a robot"
+msgstr "Bitte bestätigen Sie, dass Sie kein Roboter sind"
+
+#: core/filters/um-recaptcha-settings.php:18
+msgid "Enable Google reCAPTCHA"
+msgstr "Google reCAPTCHA aktivieren"
+
+#: core/filters/um-recaptcha-settings.php:20
+msgid ""
+"Turn on or off your Google reCAPTCHA on your site registration and login "
+"forms by default."
+msgstr ""
+"Aktivieren oder deaktivieren Sie Google reCAPTCHA auf all Ihren "
+"Registrierungs- und Anmeldeformularen "
+
+#: core/filters/um-recaptcha-settings.php:26
+msgid "Site Key"
+msgstr "Seitenschlüssel"
+
+#: core/filters/um-recaptcha-settings.php:27
+msgid ""
+"You can register your site and generate a site key via <a href=\"https://www."
+"google.com/recaptcha/\">Google reCAPTCHA</a>"
+msgstr ""
+"Sie können Ihre Seite auf <a href=\"https://www.google.com/recaptcha/"
+"\">Google reCAPTCHA</a> registrieren und einen kostenlosen Schlüssel erhalten"
+
+#: core/filters/um-recaptcha-settings.php:33
+msgid "Secret Key"
+msgstr "geheimer Schlüssel"
+
+#: core/filters/um-recaptcha-settings.php:34
+msgid ""
+"Keep this a secret. You can get your secret key via <a href=\"https://www."
+"google.com/recaptcha/\">Google reCAPTCHA</a>"
+msgstr ""
+"Behalten Sie dies geheim. Sie können einen geheimen Schlüssel auf <a href="
+"\"https://www.google.com/recaptcha/\">Google reCAPTCHA</a> erhalten"
+
+#: core/um-recaptcha-init.php:22
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+"Die <strong>%s</strong> -Erweiterung benötigt das Ultimate Member-Plugin, um "
+"richtig zu arbeiten. Sie können es <a href=\"https://wordpress.org/plugins/"
+"ultimate-member\">hier</a> herunterladen"
+
+#: core/um-recaptcha-init.php:27
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires a <a href=\"https://wordpress.org/"
+"plugins/ultimate-member\">newer version</a> of Ultimate Member to work "
+"properly."
+msgstr ""
+"Die <strong>%s</strong> -Erweiterung erfordert eine <a href=\"https://"
+"wordpress.org/plugins/ultimate-member\">neuere Version</a> von Ultimate "
+"Member um richtig zu arbeiten."
+
+#: core/um-recaptcha-notices.php:30
+#, php-format
+msgid ""
+"Google reCAPTCHA is active on your site. However you need to fill in both "
+"your <strong>site key and secret key</strong> to start protecting your site "
+"against spam. <a href=\"%s\">Hide this notice</a>"
+msgstr ""
+"Google ReCAPTCHA ist läuft auf Ihrer Website. Sie müssen jedoch Ihren "
+"<strong>Webseiten-Schlüssel und geheimen Schlüssel</strong> eingeben, damit "
+"Ihre Webseite gegen Spam geschützt ist. <a href=\"%s\">Dies nicht mehr "
+"anzeigen</a>"
+
+#: core/um-recaptcha-notices.php:34
+msgid "I already have the keys"
+msgstr "Ich habe die Schlüssel bereits"
+
+#: core/um-recaptcha-notices.php:35
+msgid "Generate your site and secret key"
+msgstr "Generieren Sie Ihren Seiten-Schlüssel und geheimen Schlüssel"

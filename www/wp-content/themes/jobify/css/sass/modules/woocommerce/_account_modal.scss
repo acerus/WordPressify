@@ -1,0 +1,87 @@
+.logged-in .modal .woocommerce {
+	@extend .modal-content;
+}
+
+.modal .woocommerce .woocommerce-customer-login {
+	margin-top: -100px;
+	position: relative;
+
+	form .form-row {
+		margin-bottom: 30px;
+	}
+
+	&:before {
+		content: ' ';
+		background: white;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		border-bottom: 1px solid #ccc;
+		height: 100px;
+		border-top-left-radius: 6px;
+		border-top-right-radius: 6px;
+		z-index: 0;
+	}
+
+	h2 {
+		position: relative;
+		padding: 34px 30px 0;
+		margin-top: 0;
+		margin-bottom: 40px;
+	}
+
+	.login,
+	.register {
+		@extend .modal-content;
+		position: relative;
+
+		[type="submit"] {
+			font-size: 15px;
+			padding: 14px 24px;
+			margin-bottom: 1rem;
+
+			&:hover {
+				background: #fff;
+			}
+		}
+
+		p.lost_password,
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	*:not(.col-1) .login {
+		padding-right: 0;
+	}
+
+	.register {
+		padding-left: 0;
+	}
+
+	#customer_login .col-2 h2 {
+		padding-left: 0;
+	}
+}
+
+.modal .registration-form {
+	@extend .modal-content;
+	padding-bottom: 0;
+
+	h2 {
+		display: none;
+	}
+
+	.woocommerce-simple-registration-login-link {
+		position: absolute;
+		right: 30px;
+		bottom: 25px;
+	}
+
+	// This is misspelled in the plugin but helps us target it...
+	.woocomerce-FormRow {
+		@extend .modal-submit;
+		margin: 0 -30px 0;
+	}
+}

@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+@import url("single-question.css");
+@import url("question-archive.css");
+@import url("add-question.css");
+@import url("myaccount-profile.css");
+@import url("myaccount-question-list.css");
+@import url("breadcrumb.css");
+@import url("style-responsive.css");
+@import url("widgets.css");
+
+
+.content a { text-decoration:none; }
+
+
+/* Single Question */
+
+
+.qa_is_solved {
+    position: absolute;
+    margin-left: -35px;
+}
+
+span.qa-meta-item {
+  display: inline-block;
+
+}
+
+span.qa-meta-item i {
+}
+
+
+/*paginate*/
+.questions-archive .paginate, .container-answer-section .paginate {
+  margin: 30px 0;
+  text-align: center;
+}
+.questions-archive .paginate .page-numbers, .container-answer-section .paginate .page-numbers {
+  background: #f2f2f2 none repeat scroll 0 0;
+  margin: 0 2px;
+  padding: 9px 15px;
+  text-decoration: none;
+}
+
+.questions-archive .paginate .current, .container-answer-section .paginate .current {
+  background: #ddd none repeat scroll 0 0;
+}
+.questions-archive .paginate .pre,
+.container-answer-section .paginate .prev{
+
+}
+
+.questions-archive .paginate .next,
+.container-answer-section .paginate .next{
+}
+
+
+
+.qa_front_notice {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.qa_success { 
+	border-left: 3px solid #16A05C;
+}
+
+.qa_error {
+    border-left: 3px solid #DD4F43;
+}
+
+
+
+.qa-user-role-editor { background-color : #1488C4; }
+.qa-user-role-admin { background-color : #826ECC; }
+.qa-user-role-administrator { background-color : #3879D9; }
+
+
+
+.qa-deprecated {
+    margin-bottom: 20px;
+    background: #ff7474;
+    padding: 4px 10px;
+    color: #fff;
+}
+
+.qa-deprecated code {
+    background: rgb(174, 76, 76);
+    padding: 2px 6px;
+}
+
+
+
+.qa_button{
+	background: #826ecc none repeat scroll 0 0;
+    color: #fff;
+    padding: 5px 15px;
+    text-decoration: none;
+    border-radius: 3px;
+    text-align: center;
+	cursor:pointer;
+	transition: all 0.3s ease 0s;
+}
+.qa_button:hover{
+	background: #413080 none repeat scroll 0 0;
+}
+
+.qa_notice {
+    margin: 12px 0 !important;
+    background: #daa9a9;
+    color: #fff;
+    padding: 5px 10px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-left: 7px solid #bb4109;
+    font-size: 13px;
+}
+.qa_notice.qa_notice_success {
+    background: #84b0b5;
+    border-left: 7px solid #0c8440;
+}
+
+
+
+
+
+
+
+

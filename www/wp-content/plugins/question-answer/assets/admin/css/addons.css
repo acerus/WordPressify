@@ -1,0 +1,68 @@
+/*
+Admin css
+*/
+
+	
+.qa-addons {
+  margin: 40px 0;
+}
+	
+.qa-addons .single {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  border: 1px solid rgb(221, 221, 221);
+  display: inline-block;
+  margin: 20px 10px;
+  overflow: hidden;
+  padding: 0 0 15px;
+  vertical-align: top;
+  width: 325px;
+}
+	
+.qa-addons .thumb {
+  max-height: 180px;
+  overflow: hidden;
+}
+.qa-addons .thumb img {
+  width: 100%;
+}
+.qa-addons .title {
+  font-size: 16px;
+  margin: 15px 0;
+  padding: 0 8px;
+}
+.qa-addons .title a{
+text-decoration:none;
+}
+
+
+.qa-addons .content {
+  font-size: 13px;
+  margin: 8px 0;
+  padding: 0 8px;
+}
+
+.qa-addons .meta {
+  display: inline-block;
+  margin: 0 10px;
+  vertical-align: top;
+}
+
+.qa-addons .meta a{
+	text-decoration:none;
+}
+
+.qa-addons .version {
+
+}
+	
+.qa-addons .download {
+  background: #42b1ff none repeat scroll 0 0;
+  border-radius: 2px;
+  float: right;
+  padding: 3px 10px;
+}	
+	
+
+.qa-addons .download a{
+  color: #fff;
+}

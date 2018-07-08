@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ===== MYACCOUNT PROFILE ===== */
+
+
+.myaccount-profile-container {
+	border: 1px solid rgba(1, 20, 37, 0.1);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 8px 14px rgba(1, 20, 37, 0.04);
+    padding: 15px;
+}
+
+.myaccount-profile-container .tab-nav li{
+    text-align: center;
+}
+
+.myaccount-profile-container .tab-nav li i{
+	margin-right:5px;
+}
+
+
+.myaccount-profile-container input{
+    width: 220px;
+}
+
+.qa-profile-savebutton {
+	float: right !important;
+    padding: 12px 0 !important;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04) !important;
+    box-shadow: 0 8px 14px rgba(1, 20, 37, 0.04) !important;
+    border: 1px solid #bbb !important;
+    outline: none !important;
+
+}
+
+
+.qa_register, 
+.qa_login {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  width: 49%;
+}
+
+.qa_login .login-username label, .qa_login  .login-password label{
+	display: block;
+}

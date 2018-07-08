@@ -1,0 +1,329 @@
+# Translation of Plugins - Testimonials by WooThemes - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Testimonials by WooThemes - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-10-05 01:50:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Testimonials by WooThemes - Stable (latest release)\n"
+
+#. Author of the plugin/theme
+msgid "WooThemes"
+msgstr "WooThemes"
+
+#. Description of the plugin/theme
+msgid "Hi, I'm your testimonials management plugin for WordPress. Show off what your customers or website users are saying about your business and how great they say you are, using our shortcode, widget or template tag."
+msgstr "Привет, я ваш плагин управления отзывами для WordPress. Покажите всем, что говорят клиенты или пользователи сайта о вашем сайте, и насколько они остались довольны вашей работой. Используйте наш шорткод, виджет или тег шаблона."
+
+#. #-#-#-#-#  tmp-testimonials-by-woothemes.pot (Testimonials 1.5.4)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  tmp-testimonials-by-woothemes.pot (Testimonials 1.5.4)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://woothemes.com/"
+msgstr "http://woothemes.com/"
+
+#: woothemes-testimonials-template.php:168
+msgid "Next"
+msgstr "Далее"
+
+#: woothemes-testimonials-template.php:167
+msgid "Previous"
+msgstr "Предыдущий"
+
+#: woothemes-testimonials-template.php:149
+msgid "Read full testimonial..."
+msgstr "Прочитать отзыв полностью..."
+
+#: classes/class-woothemes-widget-testimonials.php:264
+msgid "Descending"
+msgstr "По убыванию"
+
+#: classes/class-woothemes-widget-testimonials.php:263
+msgid "Ascending"
+msgstr "По возрастанию"
+
+#: classes/class-woothemes-widget-testimonials.php:252
+msgid "Random Order"
+msgstr "Произвольный порядок"
+
+#: classes/class-woothemes-widget-testimonials.php:251
+msgid "Specified Order Setting"
+msgstr "Сортировать по указанным ID отзывов"
+
+#: classes/class-woothemes-widget-testimonials.php:250
+msgid "Date Added"
+msgstr "Дата добавления"
+
+#: classes/class-woothemes-widget-testimonials.php:249
+msgid "Title"
+msgstr "По названию"
+
+#: classes/class-woothemes-widget-testimonials.php:248
+msgid "Entry ID"
+msgstr "По ID отзыва"
+
+#: classes/class-woothemes-widget-testimonials.php:247
+msgid "No Order"
+msgstr "Без сортировки"
+
+#: classes/class-woothemes-widget-testimonials.php:236
+msgid "Display a specific testimonial, rather than a list."
+msgstr "Отобразите конкретный отзыв, а не список отзывов."
+
+#: classes/class-woothemes-widget-testimonials.php:233
+msgid "Specific ID (optional):"
+msgstr "ID конкретного отзыва (необязательно):"
+
+#: classes/class-woothemes-widget-testimonials.php:227
+msgid "All"
+msgstr "Всё"
+
+#: classes/class-woothemes-widget-testimonials.php:225
+msgid "Category:"
+msgstr "Рубрика:"
+
+#: classes/class-woothemes-widget-testimonials.php:221
+msgid "Display URL"
+msgstr "Показать URL-адрес"
+
+#: classes/class-woothemes-widget-testimonials.php:216
+msgid "Display Avatar"
+msgstr "Показать аватар"
+
+#: classes/class-woothemes-widget-testimonials.php:211
+msgid "Display Author"
+msgstr "Показать автора"
+
+#: classes/class-woothemes-widget-testimonials.php:201
+msgid "Order Direction:"
+msgstr "Направление сортировки:"
+
+#: classes/class-woothemes-widget-testimonials.php:192
+msgid "Order By:"
+msgstr "Сортировать по:"
+
+#: classes/class-woothemes-widget-testimonials.php:187
+msgid "Image Size (in pixels):"
+msgstr "Размер изображения (в пикселях):"
+
+#: classes/class-woothemes-widget-testimonials.php:182
+msgid "Testimonials Per Row:"
+msgstr "Отзывов в строке:"
+
+#: classes/class-woothemes-widget-testimonials.php:177
+msgid "Limit:"
+msgstr "Лимит:"
+
+#: classes/class-woothemes-widget-testimonials.php:172
+msgid "Title (optional):"
+msgstr "Заголовок (необязательно)"
+
+#: classes/class-woothemes-widget-testimonials.php:42
+msgid "Recent testimonials on your site."
+msgstr "Новые отзывы на вашем сайте."
+
+#: classes/class-woothemes-testimonials.php:368
+msgid "Enter a URL that applies to this customer (for example: http://woothemes.com/)."
+msgstr "Введите URL-адрес, который относится к этому автору отзыва (например: http://woothemes.com/)."
+
+#: classes/class-woothemes-testimonials.php:367
+msgid "URL"
+msgstr "Ссылка"
+
+#: classes/class-woothemes-testimonials.php:360
+msgid "Enter a byline for the customer giving this testimonial (for example: \"CEO of WooThemes\")."
+msgstr "Добавьте подпись для автора этого отзыва (например: «Генеральный директор WooThemes»)."
+
+#: classes/class-woothemes-testimonials.php:359
+msgid "Byline"
+msgstr "Подпись"
+
+#: classes/class-woothemes-testimonials.php:352
+msgid "Enter in an e-mail address, to use a %sGravatar%s, instead of using the \"Featured Image\"."
+msgstr "Введите адрес электронной почты, чтобы использовать %sGravatar%s, вместо изображения записи."
+
+#: classes/class-woothemes-testimonials.php:351
+msgid "Gravatar E-mail Address"
+msgstr "Адрес электронной почты Gravatar"
+
+#: classes/class-woothemes-testimonials.php:325
+msgid "Enter the customer's name here"
+msgstr "Введите имя автора отзыва здесь"
+
+#: classes/class-woothemes-testimonials.php:226
+msgid "Testimonial Details"
+msgstr "Детали отзыва"
+
+#: classes/class-woothemes-testimonials.php:212
+msgid "Testimonial draft updated. %sPreview testimonial%s"
+msgstr "Черновик отзыва обновлён. %sПросмотреть отзыв%s"
+
+#. translators: Publish box date format, see http:php.net/date
+#: classes/class-woothemes-testimonials.php:211
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: classes/class-woothemes-testimonials.php:209
+msgid "Testimonial scheduled for: %1$s. %2$sPreview testimonial%3$s"
+msgstr "Отзыв запланирован на: %1$s. %2$sПросмотреть отзыв%3$s"
+
+#: classes/class-woothemes-testimonials.php:208
+msgid "Testimonial submitted. %sPreview testimonial%s"
+msgstr "Отзыв отправлен. %sПросмотреть отзыв%s"
+
+#: classes/class-woothemes-testimonials.php:207
+msgid "Testimonial saved."
+msgstr "Отзыв сохранен."
+
+#: classes/class-woothemes-testimonials.php:206
+msgid "Testimonial published. %sView testimonial%s"
+msgstr "Отзыв опубликован. %sПросмотреть отзыв%s"
+
+#. translators: %s: date and time of the revision
+#: classes/class-woothemes-testimonials.php:205
+msgid "Testimonial restored to revision from %s"
+msgstr "Отзыв восстановлен из редакции от %s"
+
+#: classes/class-woothemes-testimonials.php:203
+msgid "Testimonial updated."
+msgstr "Отзыв обновлен."
+
+#: classes/class-woothemes-testimonials.php:202
+msgid "Custom field deleted."
+msgstr "Произвольное поле удалено."
+
+#: classes/class-woothemes-testimonials.php:201
+msgid "Custom field updated."
+msgstr "Произвольное поле обновлено."
+
+#: classes/class-woothemes-testimonials.php:200
+msgid "Testimonial updated. %sView testimonial%s"
+msgstr "Отзыв обновлен. %sСмотреть отзыв%s"
+
+#: classes/class-woothemes-testimonials.php:166
+msgid "Image"
+msgstr "Изображение"
+
+#: classes/class-woothemes-testimonials.php:96
+msgctxt "post archive url slug"
+msgid "testimonials"
+msgstr "testimonials"
+
+#: classes/class-woothemes-testimonials.php:95
+msgctxt "single post url slug"
+msgid "testimonial"
+msgstr "testimonial"
+
+#: classes/class-woothemes-testimonials.php:89
+msgid "No %s Found In Trash"
+msgstr "%s в корзине не найдены"
+
+#: classes/class-woothemes-testimonials.php:88
+msgid "No %s Found"
+msgstr "%s не найдены"
+
+#: classes/class-woothemes-testimonials.php:87
+msgid "Search %a"
+msgstr "Поиск %a"
+
+#: classes/class-woothemes-testimonials.php:86
+msgid "View %s"
+msgstr "Смотреть %s"
+
+#. #-#-#-#-#  tmp-testimonials-by-woothemes.pot (Testimonials 1.5.4)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: classes/class-woothemes-testimonials.php:85
+#: classes/class-woothemes-testimonials.php:87
+#: classes/class-woothemes-testimonials.php:88
+#: classes/class-woothemes-testimonials.php:89
+#: classes/class-woothemes-testimonials.php:91
+#: classes/class-woothemes-widget-testimonials.php:44
+msgid "Testimonials"
+msgstr "Отзывы"
+
+#: classes/class-woothemes-testimonials.php:84
+msgid "New %s"
+msgstr "Новый %s"
+
+#: classes/class-woothemes-testimonials.php:82
+#: classes/class-woothemes-testimonials.php:83
+#: classes/class-woothemes-testimonials.php:84
+#: classes/class-woothemes-testimonials.php:86
+msgid "Testimonial"
+msgstr "Отзыв"
+
+#: classes/class-woothemes-testimonials.php:81
+msgctxt "testimonial"
+msgid "Add New"
+msgstr "Добавить новый"
+
+#: classes/class-woothemes-testimonials.php:80
+msgctxt "post type singular name"
+msgid "Testimonial"
+msgstr "Отзыв"
+
+#: classes/class-woothemes-testimonials.php:79
+msgctxt "post type general name"
+msgid "Testimonials"
+msgstr "Отзывы"
+
+#: classes/class-woothemes-testimonials-taxonomy.php:115
+msgid "%s"
+msgstr "%s"
+
+#: classes/class-woothemes-testimonials-taxonomy.php:114
+msgid "New %s Name"
+msgstr "Новое название %s"
+
+#: classes/class-woothemes-testimonials-taxonomy.php:113
+#: classes/class-woothemes-testimonials.php:82
+msgid "Add New %s"
+msgstr "Добавить новый %s"
+
+#: classes/class-woothemes-testimonials-taxonomy.php:112
+msgid "Update %s"
+msgstr "Обновить %s"
+
+#: classes/class-woothemes-testimonials-taxonomy.php:111
+#: classes/class-woothemes-testimonials.php:83
+msgid "Edit %s"
+msgstr "Изменить %s"
+
+#: classes/class-woothemes-testimonials-taxonomy.php:110
+msgid "Parent %s:"
+msgstr "Родительская %s:"
+
+#: classes/class-woothemes-testimonials-taxonomy.php:109
+msgid "Parent %s"
+msgstr "Родительская %s"
+
+#: classes/class-woothemes-testimonials-taxonomy.php:108
+#: classes/class-woothemes-testimonials.php:85
+msgid "All %s"
+msgstr "Все %s"
+
+#: classes/class-woothemes-testimonials-taxonomy.php:107
+msgid "Search %s"
+msgstr "Поиск %s"
+
+#: classes/class-woothemes-testimonials-taxonomy.php:106
+msgctxt "taxonomy singular name"
+msgid "%s"
+msgstr "%s"
+
+#: classes/class-woothemes-testimonials-taxonomy.php:105
+msgctxt "taxonomy general name"
+msgid "%s"
+msgstr "%s"
+
+#: classes/class-woothemes-testimonials-taxonomy.php:72
+msgid "Categories"
+msgstr "Рубрики"
+
+#: classes/class-woothemes-testimonials-taxonomy.php:71
+msgid "Category"
+msgstr "Рубрика"

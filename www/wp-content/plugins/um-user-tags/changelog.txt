@@ -1,0 +1,23 @@
+Version 2.0.2
+
+* Added: GDPR compatibility on delete users
+* Fixed: Translations of the tags titles
+
+Version 2.0.1
+
+* Added: Loading translation from "wp-content/languages/plugins/" directory
+* Fixed: User Tags count displaying and order in widget
+* Fixed: re-count user tags on user delete
+
+Version 2.0
+
+* Added: UM2.0 compatibility
+* Fixed: tags structure fixes
+
+Version 1.0.2
+
+* Fixed: Fixed undefined function in admin
+
+Version 1.0.1
+
+* Fixed: popular user tags count in widget

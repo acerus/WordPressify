@@ -1,0 +1,65 @@
+.single-product	.page-header {
+	.sale .onsale {
+		@extend .job-type;
+	}
+
+	.woocommerce-review-link {
+		display: none;
+	}
+}
+
+.single-product #content {
+	margin-top: 60px;
+
+	.single_add_to_cart_button {
+		@extend .button--type-action;
+	}
+
+	img {
+		border-radius: 4px;
+	}
+
+	.summary {
+		.price {
+			@extend .widget-title--job_listing-top;
+		}
+
+		overflow: hidden;
+	}
+
+	.quantity {
+		float: left;
+		margin-right: 10px;
+
+		input {
+			width: 100px;
+			padding: 15px;
+		}
+	}
+
+	.product_meta {
+		.posted_in,
+		.tagged_as {
+			display: block;
+		}
+	}
+
+	.thumbnails {
+		margin-top: 10px;
+	}
+
+	.woocommerce-tabs {
+		margin-top: 80px;
+		overflow: hidden;
+	}
+
+	.product_meta {
+		@extend .well;
+		margin-top: 1em;
+	}
+
+	.posted_in {
+		margin-top: 1em;
+	}
+
+}

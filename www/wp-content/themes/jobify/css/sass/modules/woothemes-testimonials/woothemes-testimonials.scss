@@ -1,0 +1,26 @@
+.page-template-testimonials {
+	.individual-testimonial p {
+		border: 1px solid #ccc;
+
+		&:after,
+		&:before {
+			content: ' ';
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 12px 12px 0;
+			border-color: #ccc transparent transparent;
+			position: absolute;
+			display: block;
+			bottom: -12px;
+			left: 50%;
+			margin-left: -12px;
+		}
+
+		&:before {
+			border-color: #fff transparent transparent;
+			bottom: -11px;
+			z-index: 5;
+		}
+	}
+}

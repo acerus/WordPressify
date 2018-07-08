@@ -1,0 +1,113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-29 14:39+0200\n"
+"PO-Revision-Date: 2015-05-16 21:27-0500\n"
+"Last-Translator: Calum Allison <umplugin@gmail.com>\n"
+"Language-Team: Ultimate Member <umplugin@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Language: es\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: core/actions/um-online-account.php:14
+msgid "Hide my online status?"
+msgstr "¿Ocultar estado de conectado?"
+
+#: core/actions/um-online-account.php:15
+msgid "Do you want other people to see that you are online?"
+msgstr "¿Permitir que otros usuarios me vean como conectado?"
+
+#: core/actions/um-online-account.php:23 core/actions/um-online-account.php:28
+msgid "No"
+msgstr "No"
+
+#: core/actions/um-online-account.php:24 core/actions/um-online-account.php:29
+msgid "Yes"
+msgstr "Si"
+
+#: core/actions/um-online-profile.php:11 core/filters/um-online-fields.php:35
+msgid "online"
+msgstr "Conectado"
+
+#: core/filters/um-online-fields.php:10 core/filters/um-online-fields.php:13
+msgid "Online Status"
+msgstr "Estado"
+
+#: core/filters/um-online-fields.php:37
+msgid "offline"
+msgstr "Desconectado"
+
+#: core/um-online-init.php:28
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+"La extensión<strong>%s</strong> requiere Ultimate Member Plugin para "
+"activarse y funcionar correctamente. Usted puede descargarla <a href="
+"\"https://wordpress.org/plugins/ultimate-member\">aquí</a>"
+
+#: core/um-online-init.php:33
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires a <a href=\"https://wordpress.org/"
+"plugins/ultimate-member\">newer version</a> of Ultimate Member to work "
+"properly."
+msgstr ""
+"La extensión <strong>%s</strong> requiere la <a href=\"https://wordpress.org/"
+"plugins/ultimate-member\">nueva versión</a> de Ultimate Member para "
+"funcionar correctamente."
+
+#: core/um-online-widget.php:13
+msgid "Ultimate Member - Online Users"
+msgstr "Ultimate Member - Estado de Usuarios"
+
+#: core/um-online-widget.php:16
+msgid "Shows your online users."
+msgstr "Mostrar los usuarios conectados."
+
+#: core/um-online-widget.php:46
+msgid "Who is Online"
+msgstr "Usuarios Conectados"
+
+#: core/um-online-widget.php:65
+msgid "Title:"
+msgstr "Título:"
+
+#: core/um-online-widget.php:70
+msgid "Maximum number of users in first view:"
+msgstr "Número máximo de usuarios en la primera vista:"
+
+#: core/um-online-widget.php:75
+msgid "Show specific community role?"
+msgstr "¿Mostrar a un rol específico de la comunidad?"
+
+#: core/um-online-widget.php:77
+msgid "All roles"
+msgstr "Todos los roles"
+
+#: templates/nobody.php:1
+msgid "No one is online right now"
+msgstr "Nadie esta conectado."
+
+msgid "outdatedBrowser_page_message"
+msgstr ""
+"The site you are visiting can only be viewed using a modern browser. Please "
+"upgrade your browser to increase safety and your browsing experience. Choose "
+"one of the browsers above. If you don't care <a href=\"?"
+"forwardOutdatedBrowser=1\">click here</a>"
+
+msgid "404_page_message"
+msgstr ""
+"The Page you are looking for doesn't exist or an other error occurred. <a "
+"href=\"javascript:history.go(-1)\">Go back</a>, or head over to <a href=\"%s"
+"\">%s</a> to choose a new direction."

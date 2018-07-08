@@ -1,0 +1,20 @@
+{
+    "name": "layered/if-menu",
+    "description": "Control menu items visibility with custom rules",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Andrei Igna",
+            "email": "andrei.igna@layered.studio"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Layered\\IfMenu\\": "src/"
+        }
+    }
+}

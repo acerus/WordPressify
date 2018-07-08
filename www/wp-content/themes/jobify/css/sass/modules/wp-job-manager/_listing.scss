@@ -1,0 +1,77 @@
+
+/**
+ * Submit Job
+ */
+.job-manager-form {
+	margin: 0 auto;
+}
+
+.job-manager-form h2 {
+	font-size: 23px;
+	font-weight: normal;
+	margin: 40px 0;
+}
+
+.jobify-form-row,
+.job-manager-form fieldset,
+body.woocommerce form .form-row,
+body.woocommerce-page form .form-row {
+	margin: 0 0 2.5em;
+	padding: 0;
+	border: 0;
+}
+
+.entry-content .job-manager-form p {
+	margin: 40px 0;
+}
+
+.account-sign-in {
+	@extend .well;
+}
+
+.account-sign-in .button {
+	font-size: 12px;
+	padding: 5px 10px;
+	border-radius: 4px;
+	margin-top: 1em;
+	display: block;
+
+	@include bp(sm) {
+		margin-top: -3px;
+		margin-left: 10px;
+		float: right;
+		display: inline-block;
+	}
+}
+
+.job_listing_preview_title,
+.resume_preview_title {
+	font-weight: normal;
+	text-align: center;
+	line-height: 66px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #eee;
+	overflow:  hidden;
+}
+
+.job_listing_preview_title input[name="continue"],
+.resume_preview_title input[name="continue"] {
+	float: right;
+}
+
+.job_listing_preview_title input[name="edit_job"],
+.resume_preview_title input[name="edit_resume"] {
+	float: left;
+}
+
+.job_listing_preview_title h2,
+.resume_preview_title h2 {
+	padding-top: 40px;
+}
+
+.job_listing_preview,
+.resume_preview {
+    > h1 {
+        display: none;
+    }
+}

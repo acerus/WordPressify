@@ -1,0 +1,31 @@
+@import "details";
+@import "colors";
+
+.details {
+  > h2 {
+    button {
+      position: absolute;
+      right: 4px;
+      top: 3px;
+      font-size: 11px;
+      font-weight: normal;
+
+      span {
+        margin-top: 3px;
+      }
+    }
+  }
+}
+
+.test-results {
+  .content {
+    margin: 12px 0;
+  }
+
+  &.loading {
+    .content {
+      margin: 0;
+    }
+  }
+
+}

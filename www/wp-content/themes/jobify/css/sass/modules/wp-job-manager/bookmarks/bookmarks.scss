@@ -1,0 +1,75 @@
+ul.job_listings,
+ul.resumes {
+	// @hack
+	.listing-favorited h3:before,
+	.listing-bookmarked h3:before {
+		@extend .ion;
+		content: $ionicon-var-bookmark;
+		float: none;
+		color: inherit;
+		font-size: 20px;
+		margin: -2px 5px 0 0;
+		vertical-align: middle;
+	}
+}
+
+.job-manager-form.wp-job-manager-bookmarks-form {
+	max-width: none;
+	margin: 1em 0;
+	border: 0;
+	border-radius: 0;
+
+	a.bookmark-notice,
+	a.remove-bookmark {
+		@extend .button;
+		@extend .button--type-action;
+
+		&:before {
+			display: none;
+		}
+	}
+
+	a.remove-bookmark {
+		display: none;
+	}
+}
+
+.job-manager-form.wp-job-manager-bookmarks-form,
+.modal form.wp-job-manager-bookmarks-form {
+	margin: 1em 0;
+	border: 0;
+	background: none;
+	max-width: 100%;
+}
+
+.job-meta.col-md-2 .wp-job-manager-bookmarks-form a.bookmark-notice {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.modal .job-manager-form.wp-job-manager-bookmarks-form {
+	margin: 0;
+
+	div {
+		margin: 0;
+		padding: 30px;
+		display: block;
+	}
+
+	div:first-child:not(:only-child) {
+		display: none;
+	}
+
+	a.remove-bookmark {
+		display: inline-block;
+		margin: 0 0 1em;
+		float: left;
+	}
+
+    p:last-child {
+		@extend .modal-submit;
+        margin: 30px -30px -30px;
+    }
+
+}

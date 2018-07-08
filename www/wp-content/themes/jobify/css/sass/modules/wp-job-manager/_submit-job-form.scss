@@ -1,0 +1,26 @@
+.submit-job-form {
+
+	input[name=job_location] {
+		padding-right: 35px;
+	}
+
+}
+
+.file-field-label {
+	display: block;
+	cursor: pointer;
+
+	input[type=file] {
+		width: 0.1px;
+		height: 0.1px;
+		opacity: 0;
+		overflow: hidden;
+		position: absolute;
+		z-index: -1;
+	}
+
+}
+
+.geo-tag .location.loading {
+	@include animation( 'rotate' );
+}

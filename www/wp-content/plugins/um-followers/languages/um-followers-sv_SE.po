@@ -1,0 +1,220 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-29 14:10+0200\n"
+"PO-Revision-Date: 2015-04-29 14:10+0200\n"
+"Last-Translator: Calum Allison <umplugin@gmail.com>\n"
+"Language-Team: Ultimate Member <umplugin@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: EDD_SL_Plugin_Updater.php:177
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:184
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:324
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:324
+msgid "Error"
+msgstr ""
+
+#: admin/templates/role/followers.php:8
+msgid "Can follow others?"
+msgstr ""
+
+#: admin/templates/role/followers.php:8
+msgid "Can this role follow other members or not."
+msgstr ""
+
+#: admin/templates/role/followers.php:13
+msgid "Can follow these user roles only"
+msgstr ""
+
+#: core/actions/um-followers-admin.php:22
+#: core/filters/um-followers-profile.php:9
+#: core/filters/um-followers-profile.php:41
+#: core/filters/um-followers-profile.php:63
+#: core/filters/um-followers-settings.php:60 core/um-followers-widget.php:126
+msgid "Followers"
+msgstr ""
+
+#: core/actions/um-followers-members.php:14 core/um-followers-shortcode.php:33
+msgid "followers"
+msgstr ""
+
+#: core/actions/um-followers-members.php:15 core/um-followers-shortcode.php:37
+msgid "following"
+msgstr ""
+
+#: core/actions/um-followers-members.php:24 templates/followers.php:16
+#: templates/following.php:31
+msgid "Edit profile"
+msgstr ""
+
+#: core/filters/um-followers-account.php:23
+#: core/filters/um-followers-account.php:31
+msgid "I'm followed by someone new"
+msgstr ""
+
+#: core/filters/um-followers-profile.php:8
+#: core/filters/um-followers-profile.php:46
+#: core/filters/um-followers-profile.php:69
+msgid "Only people I follow can view my profile"
+msgstr ""
+
+#: core/filters/um-followers-profile.php:43
+msgid "You must follow this user to view profile"
+msgstr ""
+
+#: core/filters/um-followers-profile.php:48
+msgid "You cannot view this profile because the user has not followed you"
+msgstr ""
+
+#: core/filters/um-followers-settings.php:13
+msgid "Show followers stats in member directory"
+msgstr ""
+
+#: core/filters/um-followers-settings.php:20
+msgid "Show follow button in member directory"
+msgstr ""
+
+#: core/filters/um-followers-settings.php:27
+#: core/filters/um-followers-settings.php:35
+#: core/filters/um-followers-settings.php:45
+msgid "New Follower Notification"
+msgstr ""
+
+#: core/filters/um-followers-settings.php:29
+msgid "Send a notification to user when he receives a new review"
+msgstr ""
+
+#: core/filters/um-followers-settings.php:36
+msgid "Subject Line"
+msgstr ""
+
+#: core/filters/um-followers-settings.php:39
+msgid "This is the subject line of the e-mail"
+msgstr ""
+
+#: core/filters/um-followers-settings.php:46
+msgid "Message Body"
+msgstr ""
+
+#: core/filters/um-followers-settings.php:76
+msgid "User get followed by a person"
+msgstr ""
+
+#: core/filters/um-followers-settings.php:78
+msgid "When someone follows me"
+msgstr ""
+
+#: core/um-followers-api.php:52 core/um-followers-api.php:59
+msgid "Follow"
+msgstr ""
+
+#: core/um-followers-api.php:61 core/um-followers-widget.php:47
+msgid "Following"
+msgstr ""
+
+#: core/um-followers-api.php:61
+msgid "Unfollow"
+msgstr ""
+
+#: core/um-followers-init.php:22
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+
+#: core/um-followers-init.php:27
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires a <a href=\"https://wordpress.org/"
+"plugins/ultimate-member\">newer version</a> of Ultimate Member to work "
+"properly."
+msgstr ""
+
+#: core/um-followers-widget.php:13
+msgid "Ultimate Member - Following"
+msgstr ""
+
+#: core/um-followers-widget.php:16
+msgid "Shows users they follow in a widget."
+msgstr ""
+
+#: core/um-followers-widget.php:60 core/um-followers-widget.php:139
+msgid "Title:"
+msgstr ""
+
+#: core/um-followers-widget.php:65 core/um-followers-widget.php:144
+msgid "Maximum number of users in first view:"
+msgstr ""
+
+#: core/um-followers-widget.php:92
+msgid "Ultimate Member - Followers"
+msgstr ""
+
+#: core/um-followers-widget.php:95
+msgid "Shows user followers in a widget."
+msgstr ""
+
+#: templates/followers-mini.php:15 templates/followers.php:50
+msgid "You do not have any followers yet."
+msgstr ""
+
+#: templates/followers-mini.php:15 templates/followers.php:50
+msgid "This user do not have any followers yet."
+msgstr ""
+
+#: templates/followers.php:29 templates/following.php:19
+msgid "You"
+msgstr ""
+
+#: templates/followers.php:31 templates/following.php:21
+msgid "Follows you"
+msgstr ""
+
+#: templates/following-mini.php:15 templates/following.php:50
+msgid "You did not follow anybody yet."
+msgstr ""
+
+#: templates/following-mini.php:15 templates/following.php:50
+msgid "This user did not follow anybody yet."
+msgstr ""
+
+#~ msgid "outdatedBrowser_page_message"
+#~ msgstr ""
+#~ "The site you are visiting can only be viewed using a modern browser. "
+#~ "Please upgrade your browser to increase safety and your browsing "
+#~ "experience. Choose one of the browsers above. If you don't care <a href="
+#~ "\"?forwardOutdatedBrowser=1\">click here</a>"
+
+#~ msgid "404_page_message"
+#~ msgstr ""
+#~ "The Page you are looking for doesn't exist or an other error occurred. <a "
+#~ "href=\"javascript:history.go(-1)\">Go back</a>, or head over to <a href="
+#~ "\"%s\">%s</a> to choose a new direction."

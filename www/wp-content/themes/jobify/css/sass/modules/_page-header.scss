@@ -1,0 +1,21 @@
+.page-header {
+	text-align: center;
+	overflow: hidden;
+	padding: 20px 0;
+	background: #fafafa;
+	border-bottom: 1px solid rgba(204, 204, 204, 0.41);
+
+	&.has-image {
+		padding: 0;
+		border: 0;
+		max-height: 400px;
+		overflow: hidden;
+
+		img {
+			min-width: 100%;
+			width: auto;
+			height: auto;
+			display: block;
+		}
+	}
+}

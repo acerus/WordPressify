@@ -1,0 +1,12 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_jobify">
+					<key name="cta-text" />
+					<key name="copyright" />
+        </key>
+        <key name="theme_mods_jobify-child">
+					<key name="cta-text" />
+					<key name="copyright" />
+        </key>
+    </admin-texts>
+</wpml-config>

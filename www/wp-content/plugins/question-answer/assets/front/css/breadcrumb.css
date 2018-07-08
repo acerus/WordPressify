@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.qa-breadcrumb {
+  margin-bottom: 20px;
+}
+
+.qa-breadcrumb .menu-box {
+  background: #f2f2f2 none repeat scroll 0 0;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 21px;
+  height: 30px;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  width: 30px;
+  float: left;
+}
+/* .qa-breadcrumb .menu-box:hover .menu-box-hover{
+	display:block;
+} */
+
+.qa-breadcrumb .menu-box-hover {
+  background: #f2f2f2 none repeat scroll 0 0;
+  box-shadow: 5px 7px 16px 1px rgba(88, 88, 88, 0.22);
+  display: none;
+  font-size: 14px;
+  padding: 10px;
+  position: absolute;
+  text-align: left;
+  width: 350px;
+  z-index:100;
+}
+
+
+
+.qa-breadcrumb .menu-box-hover .item {
+  line-height: normal;
+  padding: 5px;
+  border-left: 2px solid rgba(0,0,0,0);
+}
+
+.qa-breadcrumb .menu-box-hover .item:hover {
+  border-left: 2px solid #ddd;
+}
+
+.qa-breadcrumb .menu-box-hover a {
+  text-decoration: none;
+}
+
+
+.qa-breadcrumb .bubble {
+  background: #ff5858 none repeat scroll 0 0;
+  border-radius: 3px;
+  color: #fff;
+  font-size: 11px;
+  padding: 3px;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  width: auto;
+  display:none;
+}
+
+
+
+@keyframes example {
+    from {transform: scale(1.3);;
+	
+	}
+    to {transform: scale(1.0);;
+	
+	}
+}
+
+.qa-breadcrumb .bubble.pending {
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-name: example;
+  display: block;
+}
+
+
+
+
+.qa-breadcrumb .links {
+  display: inline;
+  margin: 0 10px;
+
+}
+.qa-breadcrumb .links .separator{
+  display: inline-block;
+}
+
+.qa-breadcrumb .links .separator, .qa-breadcrumb .links .link {
+  /* display: inline-block; */
+  text-decoration: none;
+  hyphens: none;
+}
+
+
+.qa-breadcrumb .notifications {
+  margin: 10px 0;
+}
+
+.qa-breadcrumb .notifications .fa-cog {
+    font-size: 50px;
+    text-align: center;
+    display: inherit;
+    margin: 35px 0;
+}
+
+.qa-breadcrumb .notifications .title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+.qa-breadcrumb .notifications .qa_breadcrumb_refresh {
+  background: #826ECC;
+  margin-right: 10px;
+  float: right;
+  padding: 1px 15px;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+}
+
+
+
+
+.qa-breadcrumb .notifications .item {
+  font-size: 12px;
+}
+.qa-breadcrumb .notifications .item .thumb {
+  float: left;
+  margin-right: 10px;
+}
+.qa-breadcrumb .notifications .item .meta {
+  margin-top: 10px;
+  text-align: right;
+}
+
+
+.qa-breadcrumb .notifications .item .notify-time {
+  display: inline-block;
+  /* padding: 8px 0; */
+}
+
+
+.qa-breadcrumb .notifications .item .notify-mark {
+  background: #ddd none repeat scroll 0 0;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  height: 18px;
+  text-align: center;
+  width: 18px;
+}
+.qa-breadcrumb .notifications .item .notify-mark:hover {
+  border: 1px solid #999;
+  transform: scale(1.3);
+}
+
+
+.qa-breadcrumb .notifications .item .name {
+  font-weight: bold;
+}
+
+.qa-breadcrumb .notifications .item .action {
+  text-decoration: underline;
+}
+
+.qa-breadcrumb .notifications .item .link{
+
+}
+
+
+
+.qa-breadcrumb .add-question {
+  background: #826ecc none repeat scroll 0 0;
+  color: #fff;
+  display: inline-block;
+  float: right;
+  margin: 0 5px;
+  padding: 3px 15px;
+  text-decoration: none;
+  vertical-align: top;
+  border-radius: 3px;
+}
+
+.qa-breadcrumb .add-question:visited,  .qa-breadcrumb .add-question:hover{
+
+  color: #fff;
+
+}
+
+
+
+
+
+
+
+

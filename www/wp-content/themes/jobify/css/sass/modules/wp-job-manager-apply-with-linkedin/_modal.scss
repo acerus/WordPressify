@@ -1,0 +1,30 @@
+.apply-with-linkedin-details.modal {
+	.apply-with-linkedin-profile {
+		@extend .modal-content;
+	}
+
+	h2.profile-name {
+		@extend .modal-title;
+		font-weight: normal;
+		margin-top: -30px;
+		margin-left: -30px;
+		margin-right: -30px;
+		margin-bottom: 30px;
+	}
+
+	dl {
+		margin: 1em 0 0;
+	}
+
+	.apply-with-linkedin-submit {
+		@extend .modal-submit;
+		margin: -30px;
+		margin-top: 30px;
+
+		input {
+			display: block;
+			margin-bottom: 1em;
+		}
+	}
+}
+

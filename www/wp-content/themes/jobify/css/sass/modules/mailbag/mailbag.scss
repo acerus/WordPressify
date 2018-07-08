@@ -1,0 +1,43 @@
+// janky and global
+.widget--footer {
+	input[type="text"],
+	input[type="email"] {
+		border: 0;
+	}
+
+	input[type="submit"],
+	button[type="submit"] {
+		@extend .button--size-medium;
+	}
+
+	label {
+		display: block;
+		margin-bottom: 3px;
+	}
+}
+
+.mailbag-input {
+	margin-bottom: 1em;
+	
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+// throwing this in here
+
+#pmc_mailchimp {
+	margin: 2em 0;
+
+	br {
+		display: none;
+	}
+
+	> div {
+		margin-bottom: 1em;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

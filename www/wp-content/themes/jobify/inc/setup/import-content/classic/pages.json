@@ -1,0 +1,72 @@
+[
+	{
+		"id": "home",
+		"type": "object",
+		"priority": 0,
+		"data": {
+			"post_type": "page",
+			"post_title": "Home",
+			"post_content": "",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/jobify.php"
+			}
+		}
+	},
+	{
+		"id": "blog",
+		"type": "object",
+		"data": {
+			"post_type": "page",
+			"post_title": "Blog",
+			"post_content": "",
+			"comment_status": "closed",
+			"menus": {
+				"Primary": {
+					"menu-item-title": "Blog",
+					"menu-item-position": 4
+				}
+			}
+		}
+	},
+	{
+		"id": "pricing",
+		"type": "object",
+		"data": {
+			"post_type": "page",
+			"post_title": "Pricing",
+			"post_content": "",
+			"comment_status": "closed",
+			"menus": {
+				"Primary": {
+					"menu-item-title": "Pricing",
+					"menu-item-parent-title": "Pages",
+					"menu-item-position": 1
+				}
+			},
+			"meta": {
+				"_wp_page_template": "page-templates/template-widgetized.php"
+			}
+		}
+	},
+	{
+		"id": "tos",
+		"type": "object",
+		"data": {
+			"post_type": "page",
+			"post_title": "Terms of Service",
+			"post_content": "Please read these Terms of Service ('Terms', 'Terms of Service') carefully before using the demo.astoundify.com/listify website (the 'Service') operated by Listify ('us', 'we', or 'our'). Your access to and use of the Service is conditioned on your acceptance of and compliance with these Terms. These Terms apply to all visitors, users and others who access or use the Service.",
+			"featured_image": "",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/single-column.php"
+			},
+			"menus": {
+				"Primary": {
+					"menu-item-parent-title": "Pages",
+					"menu-item-position": 5
+				}
+			}
+		}
+	}
+]

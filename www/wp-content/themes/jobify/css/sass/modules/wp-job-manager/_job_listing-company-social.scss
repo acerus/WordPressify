@@ -1,0 +1,47 @@
+.job_listing-company-social {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	li {
+		margin-right: 10px;
+		display: inline-block;
+	}
+
+	a {
+		color: inherit;
+
+		&:hover {
+			text-decoration: none;
+		}
+
+		&:before {
+			@extend .ion;
+			font-size: 19px;
+			margin-right: 4px;
+			margin-top: -5px;
+			vertical-align: middle;
+		}
+	}
+}
+
+.job_listing-website:before {
+	content: $ionicon-var-link;
+}
+
+.job_listing-twitter:before {
+	content: $ionicon-var-social-twitter;
+}
+
+.job_listing-facebook:before {
+	content: $ionicon-var-social-facebook;
+}
+
+.job_listing-googleplus:before {
+	content: $ionicon-var-social-googleplus;
+	margin-top: 0;
+}
+
+.job_listing-linkedin:before {
+	content: $ionicon-var-social-linkedin;
+}

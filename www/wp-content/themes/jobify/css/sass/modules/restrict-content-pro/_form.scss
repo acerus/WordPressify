@@ -1,0 +1,11 @@
+.entry-content .rcp_form {
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+        @extend .jobify-input;
+    }
+
+    p {
+        @extend .jobify-form-row;
+    }
+}

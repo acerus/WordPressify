@@ -1,0 +1,30 @@
+.application_details.modal {
+	hr {
+		display: none;
+	}
+}
+
+.application_button,
+.application_button_link {
+	@extend .button--type-action;
+}
+
+.job-meta.col-md-2 .application_button_link,
+.job-meta.col-md-2 .application_button {
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 100%;
+}
+
+.wp-job-manager-apply-email:not(.wp-job-manager-contact-listing):not(.wp-job-manager-applications) .application_details {
+	@extend .modal-content;
+	padding: 30px;
+
+	p:last-of-type {
+		margin-bottom: 0;
+	}
+
+	p:only-of-type {
+		padding: 0;
+	}
+}

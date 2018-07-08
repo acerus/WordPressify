@@ -1,0 +1,151 @@
+.feature-callout {
+	position: relative;
+	z-index: 1;
+}
+
+.feature-callout-image-pull,
+.feature-callout-cover {
+	background-size: cover;
+	background-position: center;
+}
+
+.feature-callout-image-pull {
+	min-height: 200px;
+}
+
+	@include bp(sm) {
+		.feature-callout-image-pull {
+			position: absolute;
+			top: 0;
+			bottom: 0;
+		}
+	}
+
+.feature-callout-cover {
+	.container {
+		position: relative;
+		z-index: 2;
+	}
+
+	&:after {
+		content: ' ';
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		top: 0;
+		width: 100%;
+	}
+}
+
+.feature-callout-cover--overlay-gradient-right:after,
+.feature-callout-cover--overlay-gradient-left:after,
+.feature-callout-cover--overlay-full:after {
+	background: rgba(0,0,0,.50);
+}
+
+.feature-callout.text-right {
+	.feature-callout-content {
+		text-align: right;
+	}
+
+	.feature-callout-cover {
+		background-position: center left;
+	}
+}
+
+.feature-callout.text-left .feature-callout-cover {
+	background-position: center right;
+}
+
+.feature-callout.text-center .feature-callout-cover {
+	text-align: center;
+}
+
+	@include bp(md) {
+		.feature-callout.text-center .callout-feature-content {
+			max-width: 75%;
+			margin: 0 auto;
+		}
+
+		.feature-callout.text-center h2 {
+			font-size: 48px;
+			font-weight: normal;
+		}
+	}
+
+.callout-feature-content {
+	padding: 3em 0;
+
+	@include bp(sm) {
+		padding-top: 6em;
+		padding-bottom: 6em;
+	}
+
+	h2 {
+		font-weight: 400;
+		font-size: 24px;
+		margin-top: 0;
+
+		@include bp(sm) {
+			font-size: 30px;
+			line-height: 1.4;
+			margin: 0;
+		}
+	}
+
+	p {
+		line-height: 1.75;
+
+		-webkit-hyphens: none;
+		-moz-hyphens:    none;
+		-ms-hyphens:     none;
+		hyphens:         none;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		@include bp(sm) {
+			line-height: 2;
+			margin: 1.5em 0;
+		}
+	}
+}
+
+.callout-feature-content--height-small {
+}
+
+.callout-feature-content--height-medium {
+	@include bp(md) {
+		padding-top: 8em;
+		padding-bottom: 8em;
+	}
+
+	@include bp(lg) {
+		padding-top: 10em;
+		padding-bottom: 10em;
+	}
+}
+
+.callout-feature-content--height-large {
+	@include bp(lg) {
+		padding-top: 13em;
+		padding-bottom: 13em;
+	}
+}
+
+.feature-callout.text-left .callout-feature-content {
+	padding-right: 2em;
+
+	@include bp(lg) {
+		padding-right: 3em;
+	}
+}
+
+.feature-callout.text-right .callout-feature-content {
+	padding-left: 2em;
+	
+	@include bp(lg) {
+		padding-left: 3em;
+	}
+}

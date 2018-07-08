@@ -1,0 +1,44 @@
+.job-dashboard-actions {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	li {
+		display: inline-block;
+		margin-right: 1.5em;
+	}
+
+	a {
+		color: inherit;
+		font-size: 12px;
+
+		&:before {
+			@extend .ion;
+			margin-right: 5px;
+		}
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+.job-dashboard-action-edit:before {
+	content: $ionicon-var-edit;
+}
+
+.job-dashboard-action-mark_filled:before {
+	content: $ionicon-var-ios-circle-filled;
+}
+
+.job-dashboard-action-mark_not_filled:before {
+	content: $ionicon-var-ios-circle-outline;
+}
+
+.job-dashboard-action-delete:before {
+	content: $ionicon-var-close-round;
+}
+
+.job-dashboard-action-relist:before {
+	content: $ionicon-var-checkmark;
+}

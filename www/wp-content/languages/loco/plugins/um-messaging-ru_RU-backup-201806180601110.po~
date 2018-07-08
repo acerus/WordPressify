@@ -1,0 +1,312 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Private Messages\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-06-18 05:55+0000\n"
+"PO-Revision-Date: 2018-06-18 06:00+0000\n"
+"Last-Translator: nobody <paul.fedorov@gmail.com>\n"
+"Language-Team: Русский\n"
+"Language: ru_RU\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
+"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: includes/core/class-messaging-main-api.php:1002
+#, php-format
+msgid "%s Please login to message <strong>%s</strong>"
+msgstr ""
+
+#: includes/core/class-messaging-main-api.php:637
+#, php-format
+msgid "%sd"
+msgstr ""
+
+#: includes/core/class-messaging-main-api.php:632
+#, php-format
+msgid "%sh"
+msgstr ""
+
+#. min=minute
+#: includes/core/class-messaging-main-api.php:627
+#: includes/core/class-messaging-main-api.php:647
+#, php-format
+msgid "%sm"
+msgstr ""
+
+#: includes/core/class-messaging-main-api.php:621
+#, php-format
+msgid "%ss"
+msgstr ""
+
+#: includes/core/class-messaging-main-api.php:642
+#, php-format
+msgid "%sw"
+msgstr ""
+
+#: includes/core/class-messaging-main-api.php:652
+#, php-format
+msgid "%sy"
+msgstr ""
+
+#: includes/core/filters/um-messaging-settings.php:52
+msgid "1 Day"
+msgstr ""
+
+#: includes/core/filters/um-messaging-settings.php:51
+msgid "1 Hour"
+msgstr ""
+
+#: includes/core/filters/um-messaging-settings.php:54
+msgid "1 Month"
+msgstr ""
+
+#: includes/core/filters/um-messaging-settings.php:53
+msgid "1 Week"
+msgstr ""
+
+#: includes/core/filters/um-messaging-settings.php:35
+msgid ""
+"A comma seperated list of user IDs that cannot send messages on the site."
+msgstr ""
+
+#. Description of the plugin
+msgid "Allow users to send private messages to each other on your site."
+msgstr ""
+
+#: includes/core/class-messaging-main-api.php:332
+msgid "Block user"
+msgstr "Заблокировать собеседника"
+
+#: includes/core/filters/um-messaging-settings.php:34
+msgid "Block users from sending messages"
+msgstr ""
+
+#: includes/core/filters/um-messaging-fields.php:54
+msgid "Blocked Users"
+msgstr ""
+
+#: includes/admin/templates/role/messaging.php:33
+msgid "Can read and reply private messages?"
+msgstr ""
+
+#: includes/admin/templates/role/messaging.php:26
+msgid "Can read private messages?"
+msgstr ""
+
+#: includes/admin/templates/role/messaging.php:19
+msgid "Can start conversations?"
+msgstr ""
+
+#: includes/admin/templates/role/messaging.php:27
+msgid "Can this role read private messages from other users?"
+msgstr ""
+
+#: includes/admin/templates/role/messaging.php:20
+msgid "Can this role start conversation with other users?"
+msgstr ""
+
+#: includes/core/class-messaging-main-api.php:334
+msgid "Close chat"
+msgstr "Закрыть чат"
+
+#: includes/admin/templates/role/messaging.php:42
+msgid "Days"
+msgstr ""
+
+#: includes/core/class-messaging-main-api.php:333
+msgid "Delete conversation"
+msgstr "Удалить беседу"
+
+#: templates/conversations.php:31 templates/conversations.php:82
+#: includes/core/class-messaging-main-api.php:319
+msgid "Deleted User"
+msgstr "Удалить собеседника"
+
+#: includes/core/class-messaging-gdpr.php:93
+msgid "Download Chats History"
+msgstr "Скачать историю чатов"
+
+#: includes/core/class-messaging-gdpr.php:83
+#: includes/core/class-messaging-gdpr.php:93
+msgid "Download History"
+msgstr "Скачать историю сообщений"
+
+#: includes/admin/templates/role/messaging.php:12
+msgid "Enable Messaging feature?"
+msgstr ""
+
+#: includes/admin/templates/role/messaging.php:13
+msgid "Enable or disable messaging feature for this role"
+msgstr ""
+
+#: includes/core/filters/um-messaging-fields.php:21
+msgid "Everyone"
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://ultimatemember.com/"
+msgstr ""
+
+#: includes/admin/templates/role/messaging.php:43
+msgid "Maximum number of messages they can send"
+msgstr ""
+
+#: includes/core/class-messaging-gdpr.php:185
+#: includes/core/class-messaging-gdpr.php:208
+msgid "Me"
+msgstr ""
+
+#: includes/core/class-messaging-shortcode.php:92
+#: includes/core/class-messaging-shortcode.php:99
+msgid "Message"
+msgstr "Написать"
+
+#: includes/core/filters/um-messaging-settings.php:27
+msgid "Message character limit"
+msgstr ""
+
+#: includes/core/filters/um-messaging-tabs.php:13
+msgid "Messages"
+msgstr "Сообщения"
+
+#: includes/core/actions/um-messaging-members.php:14
+msgid "My messages"
+msgstr ""
+
+#: includes/core/filters/um-messaging-settings.php:71
+msgid "New Message Notification"
+msgstr ""
+
+#: templates/conversations.php:98 includes/core/class-messaging-enqueue.php:50
+msgid "No chats found here"
+msgstr ""
+
+#: includes/core/filters/um-messaging-fields.php:22
+msgid "Nobody"
+msgstr ""
+
+#: includes/core/filters/um-messaging-account.php:16
+msgid "Notifications"
+msgstr ""
+
+#: includes/admin/templates/role/messaging.php:42
+msgid "per"
+msgstr ""
+
+#: includes/core/filters/um-messaging-settings.php:41
+msgid "Primary color"
+msgstr ""
+
+#: includes/core/actions/um-messaging-admin.php:13
+msgid "Private Messages"
+msgstr ""
+
+#: includes/core/filters/um-messaging-settings.php:22
+msgid "Private Messaging"
+msgstr ""
+
+#: includes/core/filters/um-messaging-settings.php:14
+msgid "Private Messaging License Key"
+msgstr ""
+
+#: includes/core/class-messaging-main-api.php:535
+#: includes/core/class-messaging-main-api.php:1103
+msgid "Remove"
+msgstr "Удалить"
+
+#: includes/core/filters/um-messaging-settings.php:56
+msgid "Select..."
+msgstr ""
+
+#: includes/core/filters/um-messaging-settings.php:78
+msgid "Send a notification to user when he receives a new private message"
+msgstr ""
+
+#: includes/core/filters/um-messaging-settings.php:49
+msgid ""
+"Send email notifications about new messages if the user's last login time "
+"exceeds that period."
+msgstr ""
+
+#: includes/core/filters/um-messaging-settings.php:48
+msgid "Send email notifications If user did not login for"
+msgstr ""
+
+#: includes/core/class-messaging-main-api.php:380
+msgid "Send message"
+msgstr "Отправить сообщение"
+
+#: includes/core/actions/um-messaging-admin.php:33
+msgid "Show message button in directory?"
+msgstr ""
+
+#: includes/core/filters/um-messaging-account.php:47
+msgid "Someone sends me a private message"
+msgstr "Кто-то отправил мне личное сообщение"
+
+#: um-messaging.php:38 um-messaging.php:54
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+
+#: includes/admin/templates/role/messaging.php:34
+msgid "Turn this off to disable reply ability for this role"
+msgstr ""
+
+#: includes/core/class-messaging-main-api.php:372
+msgid "Type your message..."
+msgstr "Введите свое сообщение..."
+
+#. Author of the plugin
+msgid "Ultimate Member"
+msgstr ""
+
+#. Name of the plugin
+msgid "Ultimate Member - Private Messages"
+msgstr ""
+
+#: includes/core/filters/um-messaging-fields.php:71
+msgid "Unblock"
+msgstr ""
+
+#: includes/core/filters/um-messaging-account.php:17
+msgid "Update Notifications"
+msgstr ""
+
+#: includes/core/class-messaging-setup.php:28
+#: includes/core/filters/um-messaging-settings.php:95
+msgid "User get a new private message"
+msgstr ""
+
+#: includes/core/class-messaging-setup.php:30
+#: includes/core/filters/um-messaging-settings.php:97
+msgid "When someone sends a private message to me"
+msgstr ""
+
+#: includes/core/filters/um-messaging-fields.php:30
+msgid "Who can send me private messages?"
+msgstr ""
+
+#: includes/core/class-messaging-main-api.php:393
+msgid "You are blocked and not allowed continue this conversation."
+msgstr "Вы были заблокированы и больше не можете продолжать эту беседу."
+
+#: includes/core/class-messaging-main-api.php:387
+msgid "You are not allowed to reply to private messages."
+msgstr ""
+
+#: includes/core/class-messaging-main-api.php:360
+#: includes/core/class-messaging-main-api.php:364
+msgid "You have reached your limit for sending messages."
+msgstr ""
+
+#: includes/core/class-messaging-main-api.php:350
+msgid "Your membership level does not allow you to view conversations."
+msgstr ""

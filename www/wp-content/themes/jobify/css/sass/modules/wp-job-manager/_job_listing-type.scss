@@ -1,0 +1,14 @@
+.job_listing-type,
+.job-type {
+	font: 700 12px/normal Montserrat,sans-serif;
+    text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+	border-radius: 4px;
+	display: inline-block;
+	padding: 3px 10px;
+
+	@include bp(md) {
+		display: block;
+	}
+}

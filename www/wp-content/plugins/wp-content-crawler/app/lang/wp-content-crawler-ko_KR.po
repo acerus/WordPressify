@@ -1,0 +1,4560 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress Content Crawler 1.0\n"
+"POT-Creation-Date: 2017-03-03 09:36+0300\n"
+"PO-Revision-Date: 2017-03-08 12:43+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _wpcc;__;_e\n"
+"Language: ko_KR\n"
+"X-Poedit-SearchPath-0: storage/cache\n"
+"X-Poedit-SearchPath-1: services\n"
+"X-Poedit-SearchPath-2: AssetManager.php\n"
+"X-Poedit-SearchPath-3: WPTSLMClient.php\n"
+"X-Poedit-SearchPath-4: WPCCrawler.php\n"
+"X-Poedit-SearchPath-5: objects\n"
+"X-Poedit-SearchPath-6: controllers\n"
+"X-Poedit-SearchPath-7: objects/crawling\n"
+"X-Poedit-SearchPath-8: objects/crawling/data\n"
+"X-Poedit-SearchPath-9: objects/page\n"
+"X-Poedit-SearchPath-10: objects/savers\n"
+"X-Poedit-SearchPath-11: objects/traits\n"
+"X-Poedit-SearchPath-12: services\n"
+"X-Poedit-SearchPath-13: helpers\n"
+
+#: AssetManager.php:260
+#: storage/cache/aef978cdf5d15e327bd94d2c7358e4d46e6a3f41.php:8
+msgid "An error occurred."
+msgstr "오류가 발생했습니다."
+
+#: AssetManager.php:261
+msgid "Press {0} to copy"
+msgstr "{0} 눌러 복사하기"
+
+#: AssetManager.php:262
+msgid "Copied!"
+msgstr "복사됨!"
+
+#: AssetManager.php:263
+msgid "No result."
+msgstr "결과가 없습니다."
+
+#: AssetManager.php:264
+msgid "Found"
+msgstr "찾음"
+
+#: AssetManager.php:265
+msgid "This is required to perform the test."
+msgstr "테스트를 수행하기 위한 필수 항목 입니다."
+
+#: AssetManager.php:266
+msgid "CSS selector found"
+msgstr "CSS 셀렉터 발견"
+
+#: WPCCrawler.php:35
+msgid ""
+"WP Content Crawler requires at least PHP 5.5. Your current PHP version is "
+msgstr "WP Content Crawle는 PHP 5.5이상이 요구 됩니다. 현재 PHP 버전은 "
+
+#: WPCCrawler.php:61 controllers/GeneralSettingsController.php:138
+#: controllers/GeneralSettingsController.php:145
+#: services/legacy/GeneralSettingsService.php:54
+#: services/legacy/GeneralSettingsService.php:55
+#: storage/cache/aef978cdf5d15e327bd94d2c7358e4d46e6a3f41.php:12
+msgid "General Settings"
+msgstr "일반 설정"
+
+#: WPTSLMClient.php:65 WPTSLMClient.php:96
+msgid "License Settings"
+msgstr "라이센스 설정"
+
+#: WPTSLMClient.php:66
+#, php-format
+msgid "%s License Settings"
+msgstr "%s 라이센스 설정"
+
+#: WPTSLMClient.php:202
+#, php-format
+msgid ""
+"Your %1$s license has expired. Please get a new license until %2$s to "
+"continue using %3$s."
+msgstr ""
+"%1$s 의 라이센스가 만료 되었습니다. %3$s 를 계속 사용하기 위해 %2$s 까지 새로"
+"운 라이센스를 등록하시기 바랍니다."
+
+#: WPTSLMClient.php:205
+#, php-format
+msgid ""
+"Your %1$s license has expired and you did not provide a new license. The "
+"features are disabled.\n"
+"                        Please get a new license to continue using %2$s."
+msgstr ""
+"당신의 %1$s 라이센스가 만료되었으며, 새로운 라이센스를 발급받지 않았습니다. "
+"따라서 모든 기능이 중지 됩니다.\n"
+"                        %2$s을 계속 사용하기 위해 새로운 라이센스를 발급받으"
+"세요."
+
+#: WPTSLMClient.php:210
+#, php-format
+msgid ""
+"Please enter your license key for %s to use its features and get updates."
+msgstr ""
+"해당 기능을 사용하고 업데이트를 받으려면 %s에 대한 라이센스 키를 입력하십시"
+"오."
+
+#: WPTSLMClient.php:218
+msgid "Message"
+msgstr "메시지"
+
+#: WPTSLMClient.php:222
+msgid "Complete the setup now."
+msgstr "셋팅 완료"
+
+#: WPTSLMClient.php:253
+#, php-format
+msgid "License Settings for %s"
+msgstr "%s를 위한 라이센스 설정"
+
+#: WPTSLMClient.php:256
+msgid "License settings updated."
+msgstr "라이센스 설정 업데이트 완료"
+
+#: WPTSLMClient.php:268
+msgid "License Key"
+msgstr "라이센스 키"
+
+#: WPTSLMClient.php:289
+msgid "Deactivate on this domain"
+msgstr "이 도메인 비활성화"
+
+#: WPTSLMClient.php:342
+msgid ""
+"The license could not be checked with the server. Please try saving your "
+"license\n"
+"                settings again in a few minutes. If the error persists, "
+"please contact the developer."
+msgstr ""
+"서버에서 라이센스를 확인할 수 없습니다. 몇 분 후에 라이센스 설정을 다시 저장"
+"하십시오. 오류가 계속되면 개발자에게 문의하십시오."
+
+#: controllers/DashboardController.php:33
+#: controllers/DashboardController.php:40
+msgid "Dashboard"
+msgstr "대시보드"
+
+#: controllers/GeneralSettingsController.php:181 services/PostService.php:533
+#: services/legacy/GeneralSettingsService.php:108
+msgid "Settings are updated, but password could not be changed."
+msgstr "설정이 업데이트 됐습니다. 하지만 암호는 변경되지 않았습니다."
+
+#: controllers/TestController.php:26 controllers/TestController.php:33
+#: services/legacy/TestService.php:25 services/legacy/TestService.php:26
+msgid "Tester"
+msgstr "테스트"
+
+#: controllers/TestController.php:183
+msgid "Post Page"
+msgstr "포스트 페이지"
+
+#: controllers/TestController.php:184
+msgid "Category Page"
+msgstr "카테고리 페이지"
+
+#: controllers/ToolsController.php:28 controllers/ToolsController.php:35
+#: services/legacy/ToolsService.php:24 services/legacy/ToolsService.php:25
+#: storage/cache/a228aabb6dcf7e7b98b907d013724c1a4c99d23d.php:2
+msgid "Tools"
+msgstr "도구"
+
+#: controllers/ToolsController.php:88 services/legacy/ToolsService.php:94
+msgid "The post is saved. You can check it here"
+msgstr "포스트가 저장 되었습니다. 여기에서 확인하세요."
+
+#: controllers/ToolsController.php:91
+msgid "The post could not be saved."
+msgstr "포스트를 저장할 수 없습니다."
+
+#: controllers/ToolsController.php:99
+msgid "No Title"
+msgstr "(제목 없음)"
+
+#: controllers/ToolsController.php:101
+msgid "You should delete the duplicate post first"
+msgstr "중복 포스트를 먼저 삭제 해야 합니다."
+
+#: controllers/ToolsController.php:116
+msgid "The post is recrawled. You can check it here"
+msgstr "포스트가 리크롤링 되었습니다. 여기에서 확인하세요."
+
+#: controllers/ToolsController.php:119
+msgid ""
+"The post could not be found or it might not have been saved by WP Content "
+"Crawler."
+msgstr "포스트를 찾을수 없거나 WP Content Crawler에 의해 작성되지 않았습니다."
+
+#: controllers/ToolsController.php:163 services/legacy/ToolsService.php:124
+msgid "Deleted successfully."
+msgstr "삭제 성공"
+
+#: controllers/ToolsController.php:167 services/legacy/ToolsService.php:128
+msgid "You did not check the safety checkbox."
+msgstr "확인란을 선택하지 않았습니다."
+
+#: controllers/ToolsController.php:177
+#, php-format
+msgid "%s URLs are unlocked."
+msgstr "%s 개의 URL이 잠금 해제 되었습니다."
+
+#: controllers/ToolsController.php:177
+msgid "1 URL is unlocked."
+msgstr "1 URL 잠금해제"
+
+#: controllers/ToolsController.php:178
+msgid "There are no locked URLs currently."
+msgstr "잠긴 URL이 없습니다."
+
+#: controllers/ToolsController.php:308 services/legacy/ToolsService.php:186
+msgid "In Queue"
+msgstr "대기중"
+
+#: controllers/ToolsController.php:309 services/legacy/ToolsService.php:187
+msgid "Already Saved"
+msgstr "저장됨"
+
+#: controllers/ToolsController.php:310 services/legacy/ToolsService.php:188
+#: storage/cache/2a3cc6f9587f9ae20d4f3892cbde1ac0fe247fa3.php:24
+#: storage/cache/a5ea0b01650f42628220b03a891c393bdad592ba.php:103
+msgid "All"
+msgstr "모두"
+
+#: helpers/translation.php:25
+msgid ""
+"You can write plain text or regular expressions. When writing regex, do not "
+"put slashes before and\n"
+"        after the expression, and make sure the checkbox is checked. You can "
+"test your regex\n"
+"        <a href=\"https://regex101.com/\" target=\"_blank\">here</a>."
+msgstr ""
+"일반 텍스트 또는 정규식을 사용할 수 있습니다. 정규식을 작성할 때, 표현의 앞뒤"
+"에 슬래시를 넣지 말고, 체크박스가 선택되어 있는지 확인하십시오. 정규식은 <a "
+"href=\"https://regex101.com/\" target=\"_blank\"> 여기 </a>에서 테스트 할 수 "
+"있습니다."
+
+#: helpers/translation.php:36
+msgid ""
+"<b>Note that</b> saving images will increase the time  to save the posts, "
+"and hence memory usage."
+msgstr ""
+"<b>주의</b> 이미지 저장은 포스트를 저장하는 시간과 메모리 사용량을 증가시킵니"
+"다."
+
+#: objects/Settings.php:140
+msgid "Publish"
+msgstr "게시"
+
+#: objects/Settings.php:141
+msgid "Draft"
+msgstr "임시 글"
+
+#: objects/Test.php:64
+#, php-format
+msgid "Test result for find %1$s and replace with %2$s"
+msgstr "%1$s를 %2$s로 변경한 테스트 결과 입니다."
+
+#: objects/Test.php:70 objects/Test.php:531 objects/Test.php:624
+#: objects/Test.php:679
+msgid "(as regex)"
+msgstr "(regex 정규식 사용)"
+
+#: objects/Test.php:83 objects/Test.php:479 objects/Test.php:483
+#: storage/cache/35a6ff11cb98d9681e9b60839c99baa45ebe7b2a.php:36
+msgid "Error"
+msgstr "오류"
+
+#: objects/Test.php:156
+msgid "Styling can be different on front page depending on your theme."
+msgstr "사용중인 테마에 따라 스타일은 달라질 수 있습니다."
+
+#: objects/Test.php:206
+#: storage/cache/f53e0af99b707e5b407181e5c3a0aaa21683f2a4.php:10
+msgid "Next Page URL"
+msgstr "다음 페이지 URL"
+
+#: objects/Test.php:212 objects/savers/PostSaver.php:1045
+msgid "Title"
+msgstr "제목"
+
+#: objects/Test.php:213 services/PostService.php:650
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:135
+msgid "Date"
+msgstr "날짜"
+
+#: objects/Test.php:214
+msgid "Meta Keywords"
+msgstr "메타 키워드"
+
+#: objects/Test.php:215
+msgid "Meta Keywords As Tags"
+msgstr "메타 키워드 태그"
+
+#: objects/Test.php:216
+msgid "Meta Description"
+msgstr "메타 설명"
+
+#: objects/Test.php:217
+msgid "Excerpt"
+msgstr "요약, 발췌"
+
+#: objects/Test.php:218
+msgid "Tags"
+msgstr "태그"
+
+#: objects/Test.php:219
+msgid "Prepared Post Tags"
+msgstr "준비된 포스트 태그"
+
+#: objects/Test.php:228
+#, php-format
+msgid "<b>Meta key:</b> %1$s, <b>Multiple:</b> %2$s, <b>Content:</b> %3$s"
+msgstr "<b>메타 키: </b> %1$s, <b>다중: </b> %2$s, <b>내용: </b> %3$s"
+
+#: objects/Test.php:230
+msgid "Yes"
+msgstr "예"
+
+#: objects/Test.php:230
+msgid "No"
+msgstr "아니오"
+
+#: objects/Test.php:235
+msgid "Custom Post Meta"
+msgstr "사용자 정의 포스트 메타"
+
+#: objects/Test.php:239
+#: storage/cache/88d405ee10577c9c41353d02156ed694199bbdcf.php:73
+msgid "Featured Image URL"
+msgstr "대표 이미지 Url"
+
+#: objects/Test.php:250
+msgid "Gallery Item"
+msgstr "갤러리 항목"
+
+#: objects/Test.php:254
+msgid "Attachments"
+msgstr "첨부파일"
+
+#: objects/Test.php:259
+msgid "Next Page URLs"
+msgstr "다음 페이지 Url"
+
+#: objects/Test.php:268
+msgid "Memory Used"
+msgstr "사용 된 메모리"
+
+#: objects/Test.php:269
+msgid "Time"
+msgstr "시간"
+
+#: objects/Test.php:354
+#, php-format
+msgid "Test results for %1$s%2$s on %3$s:"
+msgstr "%3$s의 %1$s%2$s테스트 결과:"
+
+#: objects/Test.php:460 objects/Test.php:475
+msgid "Fail"
+msgstr "실패"
+
+#: objects/Test.php:467
+msgid "Success"
+msgstr "성공"
+
+#: objects/Test.php:491
+#, php-format
+msgid "Test results for %1$s:"
+msgstr "%1$s의 테스트 결과:"
+
+#: objects/Test.php:668
+#, php-format
+msgid "Test results for %1$s %2$s %3$s %4$s %5$s %6$s %7$s"
+msgstr "%1$s %2$s %3$s %4$s %5$s %6$s %7$s의 테스트 결과"
+
+#: objects/Test.php:671 objects/Test.php:758
+msgid "and"
+msgstr "그리고"
+
+#: objects/Test.php:672 objects/Test.php:759
+msgid "test code"
+msgstr "테스트 코드"
+
+#: objects/Test.php:755
+#, php-format
+msgid "Test results for %1$s with %2$s"
+msgstr "%1$s 와 %2$s의 테스트 결과"
+
+#: objects/Test.php:768
+msgid "URL and/or content must exist to conduct the test."
+msgstr "테스트를 수행하려면 URL 그리고/또는 내용이 있어야합니다."
+
+#: objects/Test.php:772
+msgid "You must provide a valid CSS selector."
+msgstr "올바른 CSS 셀렉터를 제공해야합니다."
+
+#: objects/crawling/AbstractBot.php:835
+msgid "Empty CSS selectors found"
+msgstr "비어있는 CSS 셀렉터 발견"
+
+#: objects/crawling/AbstractBot.php:835
+msgid "WP Content Crawler"
+msgstr "WP Content Crawler"
+
+#: objects/enums/ErrorType.php:28
+msgid "URL does not exist in the database."
+msgstr "URL이 데이터베이스에 없습니다."
+
+#: objects/enums/ErrorType.php:31
+msgid "Current URL is locked. It means it is being used by another process."
+msgstr ""
+"현재 URL이 잠겨 있습니다. 이는 다른 프로세스에서 사용 중임을 의미합니다."
+
+#: objects/enums/ErrorType.php:34
+msgid "Data could not be retrieved from the URL."
+msgstr "URL에서 데이터를 검색 할 수 없습니다."
+
+#: objects/enums/ErrorType.php:37
+msgid "Duplicate post."
+msgstr "중복 포스트"
+
+#: objects/page/AbstractPageHandler.php:103 services/PostService.php:297
+#: services/PostService.php:313 services/legacy/TestService.php:50
+#: services/legacy/ToolsService.php:76
+msgid "Data does not exist in your request. The request should include 'data'"
+msgstr "요청한 데이터가 없습니다. 요청에는 'data'가 포함되어야합니다."
+
+#: objects/savers/PostSaver.php:1044
+#: storage/cache/8e166367611d8fb9074375f01465bdddc0aa3c7c.php:17
+msgid "URL"
+msgstr "URL"
+
+#: objects/savers/PostSaver.php:1046
+msgid "Content"
+msgstr "내용"
+
+#: objects/traits/FindAndReplaceTrait.php:82
+#: storage/cache/075d2cceb87d6387705883e032f2a790dc154216.php:15
+#: storage/cache/2ad1eaaabb19479446db7164924cc912176cdc74.php:13
+#: storage/cache/6a70754165ef8267d66a6f5fcaf721fa7188cd9f.php:18
+#: storage/cache/8e338ea13c1b58718d20c9fc1b297bee89485e8d.php:13
+#: storage/cache/c5c77ff39be2448921ecf725ea74b10e9983fd22.php:10
+msgid "Find"
+msgstr "찾기"
+
+#: objects/traits/FindAndReplaceTrait.php:82
+#: storage/cache/075d2cceb87d6387705883e032f2a790dc154216.php:18
+#: storage/cache/2ad1eaaabb19479446db7164924cc912176cdc74.php:16
+#: storage/cache/6a70754165ef8267d66a6f5fcaf721fa7188cd9f.php:21
+#: storage/cache/8e338ea13c1b58718d20c9fc1b297bee89485e8d.php:16
+#: storage/cache/c5c77ff39be2448921ecf725ea74b10e9983fd22.php:13
+msgid "Replace"
+msgstr "바꾸기"
+
+#: services/PostService.php:298
+msgid ""
+"Post ID does not exist in your request. The request should have 'post_id'."
+msgstr "요청에 포스트 ID가 없습니다. 요청에는 'post_id'가 있어야합니다."
+
+#: services/PostService.php:604
+msgid "Sites"
+msgstr "사이트"
+
+#: services/PostService.php:605
+#: storage/cache/88d405ee10577c9c41353d02156ed694199bbdcf.php:21
+#: storage/cache/97d42488035aa420682c2181b2a363f2ed48317c.php:11
+#: storage/cache/9a44ecc43b4bd815c0017d13a8f6a421631467eb.php:20
+msgid "Site"
+msgstr "사이트"
+
+#: services/PostService.php:606
+msgid "Content Crawler"
+msgstr "Content Crawler"
+
+#: services/PostService.php:607
+msgid "Content Crawler Site"
+msgstr "Content Crawler Site"
+
+#: services/PostService.php:608
+#: storage/cache/2f4e73ebd7900fdcd78d0ab8c06caca8558bf4d7.php:23
+msgid "Add New"
+msgstr "새로 추가"
+
+#: services/PostService.php:609
+msgid "Add New Site"
+msgstr "새 사이트 추가"
+
+#: services/PostService.php:610
+msgid "New Site"
+msgstr "새 사이트"
+
+#: services/PostService.php:611
+msgid "Edit Site"
+msgstr "사이트 편집"
+
+#: services/PostService.php:612
+msgid "View Site"
+msgstr "사이트 보기"
+
+#: services/PostService.php:613
+msgid "All Sites"
+msgstr "모든 사이트"
+
+#: services/PostService.php:614
+msgid "Search Sites"
+msgstr "사이트 검색"
+
+#: services/PostService.php:615
+msgid "Parent Sites:"
+msgstr "부모 사이트:"
+
+#: services/PostService.php:616
+msgid "No sites found."
+msgstr "사이트가 없습니다."
+
+#: services/PostService.php:617
+msgid "No sites found in Trash."
+msgstr "휴지통에 사이트가 없습니다."
+
+#: services/PostService.php:623
+msgid "A custom post type which stores sites to be crawled"
+msgstr "크롤링 할 사이트의 사용자 정의 포스트 타입"
+
+#: services/PostService.php:641
+msgid "Author"
+msgstr "글쓴이"
+
+#: services/PostService.php:642
+msgid "Active for scheduling"
+msgstr "스케줄 활성화"
+
+#: services/PostService.php:643
+msgid "Active for recrawling"
+msgstr "리크롤링 활성화"
+
+#: services/PostService.php:644
+msgid "Active for deleting"
+msgstr "삭제 활성화"
+
+#: services/PostService.php:645
+#: storage/cache/a5ea0b01650f42628220b03a891c393bdad592ba.php:83
+msgid "Counts"
+msgstr "카운트"
+
+#: services/PostService.php:646
+msgid "Last URL Collection"
+msgstr "마지막 URL 수집"
+
+#: services/PostService.php:647
+msgid "Last Post Crawl"
+msgstr "마지막 크롤링"
+
+#: services/PostService.php:648
+msgid "Last Post Recrawl"
+msgstr "마지막 리크롤링"
+
+#: services/PostService.php:649
+msgid "Last Post Delete"
+msgstr "마지막 삭제"
+
+#: services/PostService.php:745
+#: storage/cache/2a3cc6f9587f9ae20d4f3892cbde1ac0fe247fa3.php:66
+#: storage/cache/2a3cc6f9587f9ae20d4f3892cbde1ac0fe247fa3.php:80
+msgid "Queue"
+msgstr "대기중"
+
+#: services/PostService.php:746
+#: storage/cache/2a3cc6f9587f9ae20d4f3892cbde1ac0fe247fa3.php:67
+#: storage/cache/2a3cc6f9587f9ae20d4f3892cbde1ac0fe247fa3.php:81
+#: storage/cache/6861294e417676cc60c74b2714800387db448bde.php:22
+msgid "Saved"
+msgstr "저장됨"
+
+#: services/PostService.php:747
+#: storage/cache/2a3cc6f9587f9ae20d4f3892cbde1ac0fe247fa3.php:68
+#: storage/cache/2a3cc6f9587f9ae20d4f3892cbde1ac0fe247fa3.php:82
+msgid "Updated"
+msgstr "업데이트됨"
+
+#: services/PostService.php:748
+#: storage/cache/2a3cc6f9587f9ae20d4f3892cbde1ac0fe247fa3.php:69
+#: storage/cache/2a3cc6f9587f9ae20d4f3892cbde1ac0fe247fa3.php:83
+#: storage/cache/c51226614fbeef23629549f1d51402c457db0918.php:53
+msgid "Deleted"
+msgstr "삭제됨"
+
+#: services/PostService.php:749
+msgid "Other"
+msgstr "기타"
+
+#: services/PostService.php:750
+msgid "Total"
+msgstr "총계"
+
+#: services/PostService.php:787 services/PostService.php:790
+msgid "Site updated."
+msgstr "사이트가 업데이트되었습니다."
+
+#: services/PostService.php:788
+msgid "Custom field updated."
+msgstr "사용자 정의 필드 업데이트됨."
+
+#: services/PostService.php:789
+msgid "Custom field deleted."
+msgstr "사용자정의 필드 삭제됨."
+
+#: services/PostService.php:791
+#, php-format
+msgid "Site restored to revision from %s"
+msgstr "이전 버전 %s에서 복원 했습니다"
+
+#: services/PostService.php:792
+msgid "Site published."
+msgstr "공개됨."
+
+#: services/PostService.php:793
+msgid "Site saved."
+msgstr "저장함."
+
+#: services/PostService.php:794
+msgid "Site submitted."
+msgstr "확인됨."
+
+#: services/PostService.php:796
+#, php-format
+msgid "Site scheduled for: <strong>%1$s</strong>."
+msgstr "해당 사이트의 스케줄: <strong>%1$s</strong>."
+
+#: services/PostService.php:799
+msgid "Site draft updated."
+msgstr "사이트가 임시호 저장 되었습니다."
+
+#: services/PostService.php:807
+msgid "Enter site name here"
+msgstr "이곳에 사이트 이름을 입력해 주세요."
+
+#: services/PostService.php:849
+#: storage/cache/44fb2de72cf6018ab2a0ff84ad43f0cbea4f1826.php:18
+msgid "Settings"
+msgstr "설정"
+
+#: services/PostService.php:859
+msgid "Simple Notes"
+msgstr "노트"
+
+#: services/PostService.php:1001 services/PostService.php:1022
+msgid "Prepared post title"
+msgstr "원본 포스트 제목"
+
+#: services/PostService.php:1002
+msgid "Prepared post excerpt"
+msgstr "원본 포스트 발췌"
+
+#: services/PostService.php:1003
+msgid "Main post content"
+msgstr "메인 포스트 내용"
+
+#: services/PostService.php:1004
+msgid "List items"
+msgstr "리스트 아이템"
+
+#: services/PostService.php:1005
+msgid "Gallery items"
+msgstr "갤러리 아이템"
+
+#: services/PostService.php:1006
+msgid ""
+"Full URL of the target page. You can use this to reference the source page. "
+"E.g. <a href='[wcc-source-url]'>Source</a>"
+msgstr ""
+"원본 페이지의 전체 URL. 이것을 사용하여 참조를 입력할 수 있습니다. 예: <a "
+"href='[wcc-source-url]'>원본 페이지</a>"
+
+#: services/PostService.php:1014
+msgid "Original post title"
+msgstr "원본 포스트 제목"
+
+#: services/PostService.php:1023
+msgid "Original post excerpt"
+msgstr "원본 포스트 발췌"
+
+#: services/PostService.php:1031
+msgid "List item title"
+msgstr "리스트 아이템 제목"
+
+#: services/PostService.php:1032
+msgid "List item content"
+msgstr "리스트 아이템 내용"
+
+#: services/PostService.php:1033
+msgid "The position of the item."
+msgstr "항목의 위치"
+
+#: services/PostService.php:1041
+msgid "Gallery item URL"
+msgstr "갤러리 아이템 URL"
+
+#: services/SchedulingService.php:561
+msgid "Every minute"
+msgstr "1분 마다"
+
+#: services/SchedulingService.php:562
+msgid "Every 2 minutes"
+msgstr "2분 마다"
+
+#: services/SchedulingService.php:563
+msgid "Every 3 minutes"
+msgstr "3분 마다"
+
+#: services/SchedulingService.php:564
+msgid "Every 5 minutes"
+msgstr "5분 마다"
+
+#: services/SchedulingService.php:565
+msgid "Every 10 minutes"
+msgstr "10분 마다"
+
+#: services/SchedulingService.php:566
+msgid "Every 15 minutes"
+msgstr "15분 마다"
+
+#: services/SchedulingService.php:567
+msgid "Every 20 minutes"
+msgstr "20분 마다"
+
+#: services/SchedulingService.php:568
+msgid "Every 30 minutes"
+msgstr "30분 마다"
+
+#: services/SchedulingService.php:569
+msgid "Every 45 minutes"
+msgstr "45분 마다"
+
+#: services/SchedulingService.php:570
+msgid "Every hour"
+msgstr "1시간 마다"
+
+#: services/SchedulingService.php:571
+msgid "Every 2 hours"
+msgstr "2시간 마다"
+
+#: services/SchedulingService.php:572
+msgid "Every 3 hours"
+msgstr "3시간 마다"
+
+#: services/SchedulingService.php:573
+msgid "Every 4 hours"
+msgstr "4시간 마다"
+
+#: services/SchedulingService.php:574
+msgid "Every 6 hours"
+msgstr "6시간 마다"
+
+#: services/SchedulingService.php:575
+msgid "Twice a day"
+msgstr "하루에 2번"
+
+#: services/SchedulingService.php:576
+msgid "Once a day"
+msgstr "하루에 한번"
+
+#: services/SchedulingService.php:577
+msgid "Every 2 days"
+msgstr "2일 마다"
+
+#: services/SchedulingService.php:578
+msgid "Once a week"
+msgstr "1주일 마다"
+
+#: services/SchedulingService.php:579
+msgid "Every 2 weeks"
+msgstr "2주일 마다"
+
+#: services/SchedulingService.php:580
+msgid "Once a month"
+msgstr "한달 마다"
+
+#: storage/cache/028415f5cb3903b28dcdb8c1663222bcb2a8177e.php:2
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:1079
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:341
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:21
+msgid "Notifications"
+msgstr "알림"
+
+#: storage/cache/028415f5cb3903b28dcdb8c1663222bcb2a8177e.php:3
+msgid "Set notification email addresses..."
+msgstr "알림 받을 이메일 주소"
+
+#: storage/cache/028415f5cb3903b28dcdb8c1663222bcb2a8177e.php:12
+msgid "Notifications are active?"
+msgstr "알림을 활성화 하겠습니까?"
+
+#: storage/cache/028415f5cb3903b28dcdb8c1663222bcb2a8177e.php:13
+msgid "If you want to activate notification emails, check this."
+msgstr "이메일로 알림을 받고 싶다면 체크 하세요"
+
+#: storage/cache/028415f5cb3903b28dcdb8c1663222bcb2a8177e.php:28
+msgid "Email interval"
+msgstr "이메일 주기"
+
+#: storage/cache/028415f5cb3903b28dcdb8c1663222bcb2a8177e.php:29
+msgid ""
+"Set how many minutes should pass before sending another similar notification "
+"about\n"
+"                        the same site. Default: 30"
+msgstr ""
+"동일한 사이트에 대해 다른 유사한 알림을 보내기 전에 몇 분이 경과해야하는지 설"
+"정하십시오. 기본값 : 30"
+
+#: storage/cache/028415f5cb3903b28dcdb8c1663222bcb2a8177e.php:48
+msgid "Email addresses"
+msgstr "이메일 주소"
+
+#: storage/cache/028415f5cb3903b28dcdb8c1663222bcb2a8177e.php:49
+msgid "Write email addresses to which notifications can be sent."
+msgstr "알림을 보낼 수있는 이메일 주소를 작성하십시오."
+
+#: storage/cache/075d2cceb87d6387705883e032f2a790dc154216.php:8
+#: storage/cache/2ad1eaaabb19479446db7164924cc912176cdc74.php:7
+#: storage/cache/6a70754165ef8267d66a6f5fcaf721fa7188cd9f.php:8
+#: storage/cache/8e338ea13c1b58718d20c9fc1b297bee89485e8d.php:7
+#: storage/cache/c5c77ff39be2448921ecf725ea74b10e9983fd22.php:7
+msgid "Regex?"
+msgstr "정규식?"
+
+#: storage/cache/075d2cceb87d6387705883e032f2a790dc154216.php:11
+#: storage/cache/412d6ea0f6d54c39cdc146737288d5e9eccadabe.php:11
+#: storage/cache/6a70754165ef8267d66a6f5fcaf721fa7188cd9f.php:11
+#: storage/cache/7a4ae616cc95080fd7e4951b142385009b877915.php:8
+#: storage/cache/c7f65b02f86f4a30f250c4bfb1c466f41e182f8c.php:8
+#: storage/cache/f4f385cd17e163dc8c6358c505d6cd38899f57d3.php:8
+#: storage/cache/fbe36cfaa065da89f06d950b6b28d3fbd3e2b8fc.php:11
+msgid "Selector"
+msgstr "셀렉터"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:2
+#: storage/cache/2a3cc6f9587f9ae20d4f3892cbde1ac0fe247fa3.php:53
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:16
+msgid "Scheduling"
+msgstr "스케줄"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:3
+msgid "Set time intervals to crawl the sites"
+msgstr "크롤링 간격 시간 설정"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:13
+msgid "Scheduling is active?"
+msgstr "스케줄을 활성화 하겠습니까?"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:14
+msgid ""
+"If you want to activate automated checking and crawling for the\n"
+"                        active sites, check this."
+msgstr "자동으로 크롤링이 실행 되게 하려면 체크 하십시요."
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:31
+msgid "Post URL Collection Interval"
+msgstr "URL 수집 간격"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:32
+msgid "Set interval for post URL collection."
+msgstr "URL 수집 간격 입니다."
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:49
+msgid "Post Crawl Interval"
+msgstr "포스트 크롤링 간격"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:50
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:180
+msgid ""
+"Set interval for post crawling, i.e. saving posts by visiting collected\n"
+"                        URLs."
+msgstr "수집한 URL로 부터 포스트 작성 간격 입니다."
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:69
+msgid "Maximum number of pages to crawl per category"
+msgstr "카테고리별 최대 크롤링 갯 수"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:70
+msgid ""
+"How many pages at maximum can be crawled for each category of each\n"
+"                    site? Set this <b>0</b> to get all available pages for "
+"each category."
+msgstr ""
+"각 사이트의 카테고리별 최대 몇 개의 페이지를 크롤링 할 수 있습니까? 각 카테고"
+"리에 대해 사용 가능한 모든 페이지를 가져 오려면이 값을 <b>0</b>으로 설정하십"
+"시오."
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:89
+msgid "Maximum number of pages to check to find new post URLs"
+msgstr "새 포스트 URL을 찾을때 확인할 최대 페이지 수"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:90
+msgid ""
+"How many pages should be checked before going back checking the first\n"
+"                    page of the category, if there is no new URLs found? "
+"Default is <b>0</b>,\n"
+"                    meaning that all of the pages will be checked until the "
+"last page.\n"
+"                    <br /><br />\n"
+"                    For example, if you say 3 pages and there is no new "
+"posts found in 3 different\n"
+"                    pages of a category in a row, e.g. 4th, 5th, and 6th "
+"pages, then the crawler\n"
+"                    goes to the first page to check for new URLs, without "
+"trying 7th and pages\n"
+"                    coming after 7th page."
+msgstr ""
+"새로운 URL이없는 경우 범주의 첫 번째 페이지로 돌아오기 전에 몇 페이지까지 검"
+"사하겠습니까? 기본값은 <b>0</b>입니다. 즉, 마지막 페이지까지 검사됩니다."
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:115
+msgid "Run count for URL collection event"
+msgstr "URL수집 횟수"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:116
+msgid ""
+"For example, when you set this to 2, and interval for URL collection to 1 "
+"minute,\n"
+"                        URL collection event will be run 2 times every "
+"minute. Default value is 1."
+msgstr ""
+"예를 들어, 이 값을 2로 설정하고 URL 수집 간격을 1분으로 설정하면 URL 수집이 1"
+"분마다 2회 실행됩니다. 기본값은 1입니다."
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:135
+msgid "Run count for post-crawling event"
+msgstr "크롤링 횟수"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:136
+msgid ""
+"For example, when you set this to 3, and interval for post crawl to 2 "
+"minutes,\n"
+"                        post-crawling event will be run 3 times every 2 "
+"minutes. Default value is 1."
+msgstr ""
+"예를 들어,이 값을 3으로 설정하고 크롤링 간격을 2분으로 설정하면 크롤링은 2분"
+"마다 3번 실행됩니다. 기본값은 1입니다."
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:151
+#: storage/cache/2a3cc6f9587f9ae20d4f3892cbde1ac0fe247fa3.php:54
+msgid "Recrawling"
+msgstr "리크롤링"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:160
+msgid "Recrawling is active?"
+msgstr "리크롤링을 활성화 하겠습니까?"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:161
+msgid ""
+"If you want to activate post recrawling for active sites, check this. By "
+"this way,\n"
+"                    the posts will be recrawled (updated)."
+msgstr ""
+"리크롤링을 활성화하려면이 확인란을 선택하십시오. 포스트가 리크롤링(업데이트) "
+"됩니다."
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:179
+msgid "Post Recrawl Interval"
+msgstr "리크롤링 간격"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:200
+msgid "Run count for post-recrawling event"
+msgstr "리크롤링 횟수"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:201
+msgid ""
+"For example, when you set this to 3, and interval for post recrawl to 2 "
+"minutes,\n"
+"                        post-recrawling event will be run 3 times every 2 "
+"minutes. Default value is 1."
+msgstr ""
+"예를 들어 이 값을 3으로 설정하고 리크롤링 간격을 2분으로 설정하면 리크롤링이 "
+"2분마다 3번 실행됩니다. 기본값은 1입니다."
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:221
+msgid "Maximum recrawl count per post"
+msgstr "포스트 마다 최대 리크롤링 횟수"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:222
+msgid ""
+"How many times at maximum a post can be recrawled (updated). Set this to 0 "
+"if\n"
+"                    you do not want to limit. Default: 0"
+msgstr ""
+"최대 몇번의 리크롤링(업데이트) 할지 결정합니다. 제한하지 않으려면이0으로 설정"
+"하십시오. 기본값: 0"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:242
+msgid "Minimum time between two recrawls for a post (in minutes)"
+msgstr "최소 리크롤링 간격(분)"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:243
+msgid ""
+"At least how many minutes should pass after the last recrawl so that a post "
+"can be\n"
+"                    suitable for recrawling again? E.g. if you set this to "
+"60 minutes, for a post to become suitable for\n"
+"                    recrawling again, there should have passed at least 60 "
+"minutes. Set 0 to set no limit.\n"
+"                    Default: 1440 (1 day)"
+msgstr ""
+"포스트가 리크롤링된 후 다시 리크롤링하기 까지의 간격을 설정 하십시요. 예: 이 "
+"값을 60분으로 설정하면 리크롤링후 다시 리크롤링을 하기위해 최소 60분이 경과해"
+"야합니다. 제한두지 않으려면 0을 설정하십시오. 기본값: 1440(1일)"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:265
+msgid "Recrawl posts newer than (in minutes)"
+msgstr "(분) 보다 오래된 포스트 리크롤링"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:266
+msgid ""
+"E.g. if you set this to 1440 minutes, the posts older than 1 day will not "
+"be\n"
+"                    recrawled. Set 0 to set no limit. Default: 43200 (1 "
+"month)"
+msgstr ""
+"예: 이 값을 1440분으로 설정하면 1일이 지난 게시물은 리크롤링되지 않습니다. 제"
+"한을 하지 않으려면 0을 설정하십시오. 기본값 : 43200(1개월)"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:281
+#: storage/cache/2a3cc6f9587f9ae20d4f3892cbde1ac0fe247fa3.php:55
+msgid "Deleting"
+msgstr "삭제"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:290
+msgid "Deleting is active?"
+msgstr "삭제를 활성화 하겠습니까?"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:291
+msgid ""
+"If you want to activate post deleting, check this. By this way, the old "
+"posts\n"
+"                        that were crawled previously will be deleted. The "
+"posts will be <b>deleted permanently</b>.\n"
+"                        <b>They will not be sent to the trash.</b> You "
+"cannot access or retrieve the posts after they\n"
+"                        are deleted."
+msgstr ""
+"포스트를 삭제 할려면 체크 하십시요. 이 방법으로 오래 된 포스트가 삭제 됩니"
+"다. 포스트는 <b>영구적으로 삭제</b>됩니다. \n"
+"<b>그들은 휴지통에 전송 되지 않습니다.</b> 삭제후 포스트에 액세스 하거나 검색"
+"할 수 없습니다."
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:311
+msgid "Post Delete Interval"
+msgstr "삭제 간격"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:312
+msgid "Set interval for post deleting event."
+msgstr "포스트 삭제 간격"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:330
+msgid "Maximum number of posts to delete for each run"
+msgstr "포스트삭제를 실행 할때 최대 삭제 포스트 갯수"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:331
+#, php-format
+msgid ""
+"Maximum number of posts that can be deleted for each run of post delete\n"
+"                        event. The posts will be deleted WordPress-way to "
+"allow other plugins to interrupt or listen to\n"
+"                        the process. So, a lot of work will be done each "
+"time a post is being deleted. Please keep this\n"
+"                        in mind. <b>Setting this option to a low value is "
+"highly recommended.</b> Default: %s, Min: %s"
+msgstr ""
+"삭제할 수있는 최대 수 입니다. 포스트는 다른 플러그인이 가로채거나 프로세스를 "
+"수신 할 수 있도록 기본방식으로 삭제됩니다. 따라서 포스트가 삭제 될 때마다 많"
+"은 작업이 수행됩니다. 이것을 명심하십시오. <b>이 옵션을 낮은 값으로 설정하는 "
+"것이 좋습니다.</b> 기본값: %s 최소값 : %s"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:354
+msgid "Delete posts older than (in minutes)"
+msgstr "(분) 보다 오래된 포스트 삭제"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:355
+#, php-format
+msgid ""
+"E.g. if you set this to 1440 minutes, the posts older than 1 day will be\n"
+"                    deleted. Default: 43200 (1 month), Min: %1$s"
+msgstr ""
+"예: 이 값을 1440분으로 절정하면 하루 이상된 포스트가 삭제 됩니다. 기본값: "
+"43200(1달). 최소: %1$s"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:375
+msgid "Delete post attachments?"
+msgstr "첨부파일을 삭제 하겠습니까?"
+
+#: storage/cache/0af318b56cb3c6a4c5e8e600bbb37e629efe2c8f.php:376
+msgid ""
+"If you want the attachments of the posts to be deleted along with the post, "
+"check this."
+msgstr "첨부파일을 포스트와 함꼐 삭제 할려면 체크 하세요."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:2
+msgid "Post Page Settings"
+msgstr "포스트 페이지 설정"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:3
+msgid "Selectors and options to be used when crawling post pages"
+msgstr "셀렉터와 포스트 크롤링 옵션"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:12
+msgid "Test Post URL"
+msgstr "테스트 포스트 URL"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:13
+msgid ""
+"A full post URL to be used to perform the tests for post page CSS selectors."
+msgstr "CSS 셀렉터를 테스트할 전체 URL 입니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:24
+msgid "Post Title Selectors"
+msgstr "포스트 제목 셀렉터"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:25
+msgid ""
+"CSS selectors for post title. E.g. <span class=\"highlight selector\">h1</"
+"span>. This\n"
+"                    gets text of the specified element. If you give more "
+"than one selector, the first match will\n"
+"                    be used."
+msgstr ""
+"포스트 제목을 위한 CSS 셀렉터 입니다. 예: <span class=\"highlight selector"
+"\">h1</span>. 하나 이상의 셀렉터를 사용한다면 첫번째 매치된 셀렉터를 사용합니"
+"다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:53
+msgid "Post Excerpt Selectors"
+msgstr "포스트 발췌 셀렉터"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:54
+msgid ""
+"CSS selectors for the post excerpt, if exists. E.g. <span class=\"highlight "
+"selector\">p.excerpt</span>.\n"
+"                    This gets html of the specified element. If you give "
+"more than one selector, the first match will\n"
+"                    be used."
+msgstr ""
+"포스트 발췌를위한 CSS 셀렉터(있는 경우). 예: <span class=\"highlight selector"
+"\">p.excerpt</span>. 지정된 요소의 HTML을 가져옵니다. 두 개 이상의 셀렉터를 "
+"사용하면 첫 번째 일치 항목이 사용됩니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:81
+msgid "Post Content Selectors"
+msgstr "포스트 내용 셀렉터"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:82
+msgid ""
+"CSS selectors for the post content. This gets HTML of specified element. E."
+"g.\n"
+"                    <span class=\"highlight selector\">.post-content > p</"
+"span>. If you give more than one selector,\n"
+"                    each match will be crawled and the results will be "
+"merged."
+msgstr ""
+"포스트 내용을위한 CSS 셀렉터. 지정된 요소의 HTML을 가져옵니다. 예: <span "
+"class=\"highlight selector\">.post-content > p</span>. 두 개 이상의 셀렉터를 "
+"지정하면 각 일치 항목이 크롤링되고 결과가 결합됩니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:109
+msgid "Post Tag Selectors"
+msgstr "포스트 태그 셀렉터"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:110
+msgid ""
+"CSS selectors for post tags. By default, this gets \"text\" of the "
+"specified\n"
+"                    elements. You can also use any attribute of the "
+"elements. If you give more than one selector,\n"
+"                    the results will be combined to create post tags."
+msgstr ""
+"포스트 태그 용 CSS 셀렉터. 기본적으로 이것은 지정된 요소의 \"텍스트 \"를 가져"
+"옵니다. 요소의 모든 속성을 사용할 수도 있습니다. 두 개 이상의 셀렉터를 사용하"
+"면 첫 번째 일치 항목이 사용됩니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:142
+msgid "Post Date Selectors"
+msgstr "포스트 날짜 셀렉터"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:143
+#, php-format
+msgid ""
+"CSS selectors for post date.\n"
+"                    E.g. <span class=\"highlight selector\">[itemprop="
+"\"datePublished\"]</span>. If you give more than one\n"
+"                    selector, then the first match will be used. Found date "
+"will be parsed by %1$s function. So, if\n"
+"                    the date found by the selectors cannot be parsed "
+"properly, you need to use find-and-replace options\n"
+"                    to change the date into a suitable format. Generally, "
+"sites show the date via meta tags in a format\n"
+"                    like %2$s. This format will be parsed without any issues."
+msgstr ""
+"날짜에 대한 CSS 셀렉터. 예: <span class=\"highlight selector\">[itemprop="
+"\"datePublished\"]</span> 두 개 이상의 셀렉터를 사용하면 첫 번째 일치 항목이 "
+"사용됩니다. 발견 된 날짜는  %1$s 함수에 의해 파싱됩니다. 따라서 셀렉터에서 찾"
+"은 날짜를 제대로 파싱 할 수없는 경우 찾기-바꾸기 옵션을 사용하여 날짜를 적합"
+"한 형식으로 변경해야합니다. 일반적으로 사이트는 %2$s와 같은 형식으로 메타 태"
+"그를 통해 날짜를 표시합니다. 이 형식은 아무런 문제가 없습니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:184
+msgid "Test Date"
+msgstr "테스트 날짜"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:185
+msgid ""
+"A date to be used to perform tests for the find-replace settings for dates."
+msgstr "날짜 찾기-바꾸기 테스트에 사용할 날짜 입니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:196
+msgid "Find and replace in dates"
+msgstr "날짜에서 찾기-바꾸기"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:197
+msgid ""
+"If you want some things to be replaced with some other things in <b>found "
+"post dates</b>,\n"
+"                    this is the place. The replacement will be done before "
+"parsing the date."
+msgstr ""
+"<b>찾은 포스트 날짜</b>를 다른 것으로 교체하기 위해 사용하십시요 포스트 날짜"
+"를 저장하기 전에 교체 합니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:224
+msgid "Minutes that should be added to the final date"
+msgstr "최종 날짜에 저장해야 하는 분"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:225
+#, php-format
+msgid ""
+"How many minutes should be added to the final date of the post. If the final "
+"date\n"
+"                    becomes greater than now, the post will be scheduled. If "
+"you write a negative number, it will be\n"
+"                    subtracted from the date. Write comma-separated numbers "
+"to randomize. You can write the same number\n"
+"                    multiple times to increase its chance to be selected. "
+"<b>This setting will be applied even if you do\n"
+"                    not supply any date selectors.</b> Example values: <b>"
+"%1$s</b> or <b>%2$s</b>"
+msgstr ""
+"포스트의 최종 날짜에 몇 분을 더해야합니다. 최종 날짜가 지금보다 커지면 게시"
+"가 예약됩니다. 음수를 쓰면 날짜에서 뺍니다. 랜덤화 하려면 쉼표로 구분 된 숫자"
+"를 씁니다. 동일한 번호를 여러번 쓸 수있으며 선택 기회가 증가합니다. <b>날짜 "
+"셀렉터를 입력하지 않아도 이 설정이 적용됩니다.</b> 예: <b>%1$s</b> 또는 <b>"
+"%2$s</b>"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:239
+msgid "Meta"
+msgstr "메타"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:247
+msgid "Save meta keywords?"
+msgstr "메타 키워드를 저장 하겠습니까?"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:248
+msgid "Check this if you want to save meta keywords of the target post."
+msgstr "원본 메타 키워드를 저장할려면 체크 하세요."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:267
+msgid "Add meta keywords as tags?"
+msgstr "태그로 메타 키워드를 추가 하겠습니까?"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:268
+msgid ""
+"Check this if you want each meta keyword should be added as tag to the "
+"crawled post."
+msgstr "각 메타 키워드를 태그로 저장할려면 체크 하세요."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:286
+msgid "Save meta description?"
+msgstr "메타 설명을 저장 하겠습니까?"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:287
+msgid "Check this if you want to save meta description of the target post."
+msgstr "타겟 포스트의 메타 설명을 저장할려면 체크 하십시요."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:300
+msgid "Featured Image"
+msgstr "대표 이미지"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:308
+msgid "Save featured image, if it is not found in category page?"
+msgstr "카테고리 페이지에서 발견하지 못한다면 대표 이미지를 저장 하겠습니까?"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:309
+msgid ""
+"If you want to save an image from post page as featured image, when there is "
+"no\n"
+"                    featured image found in category page, check this."
+msgstr ""
+"포스트 페이지의 이미지를 대표 이미지로 저장하려면 카테고리 페이지에서 대표 이"
+"미지가없는 경우 이것을 체크하십시오."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:333
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:211
+msgid "Featured Image Selectors"
+msgstr "대표 이미지 셀렉터"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:334
+msgid ""
+"CSS selectors for featured image <b>in HTML of the post page</b>. This gets "
+"the \"src\"\n"
+"                    attribute of <b>the first found element</b>. If you give "
+"more than one selector, the first match will\n"
+"                    be used. E.g. <span class=\"highlight selector\">img."
+"featured</span>"
+msgstr ""
+"<b>포스트 페이지 HTML</b>의 대표 이미지에 대한 CSS 셀렉터. 이것은 <b>처음 발"
+"견 된 요소</b>의 \"src \"속성을 가져옵니다. 두 개 이상의 셀렉터를 사용하면 "
+"첫 번째 일치 항목이 사용됩니다. 예: <span class=\"highlight selector\">img."
+"featured</span>"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:363
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:241
+msgid "Test Featured Image URL"
+msgstr "테스트 대표 이미지 URL"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:364
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:242
+msgid ""
+"A full image URL to be used to perform tests for the find-replace settings\n"
+"                    for featured image URL."
+msgstr ""
+"대표 이미지 URL에 대한 찾기-바꾸기 설정 테스트를 수행하는 데 사용되는 대표 이"
+"미지 URL입니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:377
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:255
+msgid "Find and replace in featured image URL"
+msgstr "대표 이미지 URL에서 찾기-바꾸기"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:378
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:256
+msgid ""
+"If you want some things to be replaced with some other things in <b>URL of "
+"the\n"
+"                    featured image</b>, this is the place. The replacement "
+"will be done before saving the image."
+msgstr ""
+"<b>대표 이미지</b>를 다른 것으로 교체 하기위해 사용하십시요. 대표 이미지를 저"
+"장하기 전에 교체 합니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:401
+msgid "Images"
+msgstr "이미지"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:409
+msgid "Save all images in the post content?"
+msgstr "포스트에 있는 모든 이미지를 저장 하겠습니까?"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:410
+#, php-format
+msgid ""
+"If you want all the images in the post content to be saved as media and "
+"included in\n"
+"                    the post from your server, check this. <b>This is the "
+"same as checking \"save images as media\" and\n"
+"                    writing %1$s to the image selectors. </b>"
+msgstr ""
+"포스트 내용의 모든 이미지를 미디어로 저장하고 포스트에 포함하려면 선택하십시"
+"오. <b>\"이미지를 미디어로 저장 \"을 사용하고 %1$s를 이미지 셀렉터에 사용하는"
+"것과 같습니다.</b>"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:432
+msgid "Save images as media?"
+msgstr "이미지를 미디어로 저장 하겠습니까?"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:433
+msgid ""
+"If you want the images in the post content to be saved as media and included "
+"in\n"
+"                    the post from your server, check this."
+msgstr ""
+"포스트 내용의 이미지를 미디어로 저장하고 포스트에 포함하려면 선택하십시오."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:463
+msgid "Save images as gallery?"
+msgstr "이미지를 갤러리로 저장 하겠습니까?"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:464
+msgid "If you want to save specific images as a gallery, check this."
+msgstr "특정 이미지를 갤러리로 저장 할려면 체크 하세요."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:486
+msgid "Gallery Image URL Selectors"
+msgstr "갤러리 이미지 URL 셀렉터"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:487
+msgid ""
+"CSS selectors for <b>image URLs in the HTML of the page</b>. This gets the\n"
+"                                \"src\" attribute of specified element by "
+"default. If you give more than one selector, each\n"
+"                                match will be used when saving images and "
+"creating the gallery. Note that these elements\n"
+"                                will be removed from the HTML after URL is "
+"acquired from them."
+msgstr ""
+"<b>페이지 HTML</b>의 이미지에 대한 CSS 셀렉터. 이것은 기본적으로 지정된 요소"
+"의 \"src \"속성을 가져옵니다. 둘 이상의 셀렉터를 사용하면 이미지를 저장하고 "
+"갤러리를 만들 때 각 일치 항목이 사용됩니다. 이러한 요소는 URL을 수집 한 후 "
+"HTML에서 제거됩니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:520
+msgid "Save images as WooCommerce product gallery?"
+msgstr "이미지를 우커머스 상품 갤로리로 저장 하겠습니까?"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:521
+msgid ""
+"If you set post type as WooCommerce product and you want to save\n"
+"                                    the gallery as the product's gallery, "
+"check this."
+msgstr ""
+"우커머스 상품으로 사용하길 원하고 상품 갤러리로 저장하기 원한다면 사용하십시"
+"요."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:545
+msgid "Image URL Selectors"
+msgstr "이미지 URL 셀렉터"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:546
+msgid ""
+"CSS selectors for images <b>in the post content</b>. This gets the \"src\" "
+"attribute of\n"
+"                    specified element. If you give more than one selector, "
+"each match will be used when saving\n"
+"                    images. E.g. <b><span class=\"highlight selector\">img</"
+"span> will save all images in the post content.</b>"
+msgstr ""
+"<b>포스트 내용</b>의 이미지용 CSS 셀렉터 입니다. 이것은 지정된 요소의 \"src"
+"\" 속성을 가져 옵니다. 두개 이상의 셀렉터를 사용하면 각각의 일치 항목이 사용"
+"됩니다. 예: <b><span class=\"highlight selector\">img</span> 는 포스트 내용"
+"의 모든 이미지를 저장 합니다.</b>"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:575
+msgid "Test Image URL"
+msgstr "테스트 이미지 URL"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:576
+msgid ""
+"A full image URL to be used to perform tests for the find-replace settings "
+"for image URLs."
+msgstr ""
+"이미지 URL 찾기-바꾸기 설정의 테스트를 하는데 사용할 전체 이미지 URL입니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:588
+msgid "Find and replace in image URLs"
+msgstr "이미지 URL에서 찾기-바꾸기"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:589
+msgid ""
+"If you want some things to be replaced with some other things in <b>URLs of "
+"the\n"
+"                    found images</b>, this is the place. The replacement "
+"will be done before saving the image."
+msgstr ""
+"<b>찾은 이미지의 URL</b>을 다른 것으로 바꾸기 원한다면 이것을 이용하세요. 이"
+"미지를 저장하기 전에 교체 합니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:612
+msgid "Custom Short Codes"
+msgstr "사용자 정의 숏코드"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:619
+msgid "Custom Content Selectors for Shortcodes"
+msgstr "사용자 정의 내용 셀렉터 숏코드"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:620
+msgid ""
+"CSS selectors for HTML elements whose contents can be used in post template\n"
+"                    by defined shortcode. If more than one element is found, "
+"their content will be merged. If\n"
+"                    you do not want them merged, check the \"single\" "
+"checkbox to get the first found result.\n"
+"                    By default, this gets HTML of the found element. If you "
+"want the text of the target element,\n"
+"                    write \"text\" for attribute. You can also use any other "
+"attribute of the found element, such\n"
+"                    as \"src\", \"href\"... Write your shortcodes without "
+"brackets, e.g. <b>\"item-price\"</b>. Next, you\n"
+"                    can use it <b>in the main post template by writing [item-"
+"price]</b>"
+msgstr ""
+"게시물 템플릿에 내용을 사용할 수있는 HTML 요소용 CSS 셀렉터 정의된 숏코드. "
+"둘 이상의 요소가 발견되면 해당 요소가 병합됩니다. 만약 병합하기를 원하지 않는"
+"다면, \"single\" 체크 박스를 체크하여 첫번째 발견 결과를 사용하십시오. 기본적"
+"으로 이것은 발견된 요소의 HTML을 가져옵니다. 대상 요소의 텍스트를 원한다면, "
+"속성에 \"text\"를 씁니다. 발견 된 요소의 다른 속성을 사용할 수도 있습니"
+"다. \"src \", \"href \"... 괄호없이 숏코드를 작성하십시오. 예: <b>\"item-"
+"price \"</b>. 그 다음 <b>포스트 템플릿에서 [item-price]사용하세요.</b>"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:653
+msgid "Find and replace in custom short codes"
+msgstr "사용자 정의 숏코드에서 찾기-바꾸기"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:654
+msgid ""
+"If you want some things to be replaced with some other things in <b>custom "
+"short code\n"
+"                    contents</b>, this is the place. <b>The replacements "
+"will be applied after custom short code\n"
+"                    contents are retrieved</b>."
+msgstr ""
+"<b>사용자 정의 숏코드 내용</b>을 다른 것으로 바꾸기 원한다면 이것을 이용하세"
+"요. 사용자 정의 숏코드 내용을 저장하기 전에 교체 합니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:679
+msgid "List Type Posts"
+msgstr "리스트 타입 포스트"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:687
+msgid "Posts are list type?"
+msgstr "포스트가 리스트 타입 입니까?"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:688
+msgid ""
+"If the target post is list type, and you want to import it as a list, check "
+"this."
+msgstr ""
+"원본 포스트가 리스트 타입이고 당신도 리스트를 삽입하고 싶다면 체크 하세요."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:714
+msgid "List Items Start After Selectors"
+msgstr "셀렉터 이후 리스트 아이템 시작"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:715
+msgid ""
+"CSS selectors for the elements come just before the first list item. This "
+"will be used\n"
+"                    to detect list item contents accurately. The position of "
+"the first match of any given selector\n"
+"                    will be compared to others and the greatest position "
+"will be used. You can give a selector\n"
+"                    for the first item. It'll do the job. E.g. <span "
+"class='highlight selector'>.entry > .list-item</span>"
+msgstr ""
+"요소의 CSS 셀렉터는 첫 번째 리스트 항목 바로 앞에옵니다. 이것은 리스트 항목 "
+"내용을 정확하게 탐지하는데 사용됩니다. 셀렉터의 첫 번째 일치 항목의 위치가 다"
+"른 항목과 비교되어 가장 큰 위치가 사용됩니다. 첫 번째 항목에 셀렉터를 부여 "
+"할 수 있습니다. 예: <span class='highlight selector'>.entry > .list-item</"
+"span>"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:744
+msgid "List Item Number Selectors"
+msgstr "리스트 아이템 항목번호 셀렉터"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:745
+msgid ""
+"CSS selectors for each list item's number, if the target post is list type. "
+"This gets\n"
+"                    the text of specified element. If you give more than one "
+"selector, the first match will\n"
+"                    be used."
+msgstr ""
+"대상 포스트가 리스트 유형인 경우 각 리스트 번호에 대한 CSS 셀렉터입니다. 지정"
+"된 요소의 텍스트를 가져옵니다. 두 개 이상의 셀렉터를 사용하면 첫 번째 일치 항"
+"목이 사용됩니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:773
+msgid "Insert list item numbers automatically?"
+msgstr "리스트 아이템의 번호를 자동으로 붙일까요?"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:774
+msgid ""
+"If you want to insert list item numbers automatically when there is no item "
+"number,\n"
+"                    then check this. The items will be numbered starting "
+"from 1."
+msgstr ""
+"리스트 번호가 없을 때, 리스트 번호를 자동으로 삽입하려면이 항목을 선택하십시"
+"오. 리스트 번호는 1부터 시작합니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:793
+msgid "List Item Title Selectors"
+msgstr "리스트 아이템 제목 셀렉터"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:794
+msgid ""
+"CSS selectors for each list item's title, if the target post is list type. "
+"This gets\n"
+"                    the text of specified element. If you give more than one "
+"selector, the first match will\n"
+"                    be used."
+msgstr ""
+"대상 포스트가 리스트 유형인 경우 각 리스트 제목에 대한 CSS 셀렉터입니다. 지정"
+"된 요소의 텍스트를 가져옵니다. 두 개 이상의 셀렉터를 사용하면 첫 번째 일치 항"
+"목이 사용됩니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:822
+msgid "List Item Content Selectors"
+msgstr "리스트 아이템 내용 셀렉터"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:823
+msgid ""
+"CSS selector for each list item's content, if the target post is list type. "
+"This gets\n"
+"                    the HTML of specified element. If you give more than one "
+"selector, the results will be\n"
+"                    combined when creating each list item's content."
+msgstr ""
+"대상 게시물이 리스트 타입인 경우 각 목록 항목의 내용에 대한 CSS 셀렉터입니"
+"다. 지정된 요소의 HTML을 가져옵니다. 두 개 이상의 셀렉터를 사용하면 결과가 결"
+"합되어 사용됩니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:851
+msgid "Insert list in reverse order?"
+msgstr "리스트를 역순으로 삽입 하겠습니까?"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:852
+msgid ""
+"If you want to insert the list into the post in reverse order, then check "
+"this."
+msgstr "리스트를 역순으로 삽입하실려면 체크 하세요"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:865
+msgid "Pagination"
+msgstr "번호"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:873
+msgid "Paginate Posts"
+msgstr "번호 포스트"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:874
+msgid ""
+"If the target post is paginated, and you want it imported as paginated, "
+"check this."
+msgstr ""
+"원본 포스트가 번호를 사용하고 당신도 동일하게 번호를 넣고 싶다면 체크하세요. "
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:893
+msgid "Post Next Page URL Selectors"
+msgstr "포스트 다음페이지 URL 셀렉터"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:894
+msgid ""
+"CSS selector for next page URL, used to get \"href\" attribute of \"a\" tag. "
+"E.g.\n"
+"                    <span class=\"highlight selector\">.pagination > a.next</"
+"span>. If you give more than one selector,\n"
+"                    the first match will be used."
+msgstr ""
+"다음 페이지 URL에 대한 CSS 셀렉터입니다. \"href\"속성의 \"a\"요소를 가져옵니"
+"다. 예.\n"
+"                    <span class=\"highlight selector\">.pagination > a.next</"
+"span>. 두 개 이상의 셀렉터를 사용하면 첫 번째 일치 항목이 사용됩니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:926
+msgid "Post All Page URLs Selectors"
+msgstr "모든 포스트 페이지 셀렉터"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:927
+msgid ""
+"CSS selectors for all page URLs. Sometimes there is no next page URL. "
+"Instead, the\n"
+"                    post page has all of the post pages (or parts) in one "
+"place. If this is the case, you should\n"
+"                    use this. This is used to get \"href\" attribute of \"a"
+"\" tag. E.g. <span class=\"highlight selector\">.post > .parts > a</span>.\n"
+"                    If you give more than one selector, then the first match "
+"will be used."
+msgstr ""
+"모든 페이지 URL에 대한 CSS 셀렉터입니다. 때떄로 다음 페이지 URL이 없이 모든 "
+"포스트를 가지는 페이지가 있습니다. 만약 이런 경우라면 이것을 사용하십시요.  "
+"\"href\"속성의 \"a\"요소를 가져옵니다. 예. <span class=\"highlight selector"
+"\">.post > .parts > a</span>. 두 개 이상의 셀렉터를 사용하면 첫 번째 일치 항"
+"목이 사용됩니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:954
+msgid "Post Meta"
+msgstr "포스트 메타"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:961
+msgid "Custom Meta Selectors"
+msgstr "사용자 정의 메타 셀렉터"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:962
+msgid ""
+"CSS selectors for custom meta values. You can use this to save anything "
+"from\n"
+"                    target post as post meta of to-be-saved post. You can "
+"write \"html\", \"text\", or an attribute\n"
+"                    of the target element for attribute input."
+msgstr ""
+"사용자 정의 메타 값을위한 CSS 셀렉터. 이 기능을 사용하여 원본 포스트의 내용"
+"을 저장하려는 포스트 메타의 메타 데이터로 저장할 수 있습니다. 속성 입력을 위"
+"해 \"html \", \"text \"또는 대상 요소의 속성을 쓸 수 있습니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:991
+msgid "Custom Meta"
+msgstr "사용자 정의 메타"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:992
+msgid ""
+"You can save any value as a post meta. Just write a post meta key and its "
+"value."
+msgstr ""
+"모든 값을 포스트 메타로 저장할 수 있습니다. 포스트 메타 키와 해당 값을 작성하"
+"기만 하면됩니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:1010
+msgid "Find and replace in custom meta"
+msgstr "사용자 정의 메타에서 찾기-바꾸기"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:1011
+msgid ""
+"If you want some things to be replaced with some other things in <b>custom "
+"meta\n"
+"                    values</b>, this is the place. <b>The replacements will "
+"be applied after\n"
+"                    find-and-replaces for element HTMLs are applied</b>."
+msgstr ""
+"<b>사용자 정의 메타 값</b>을 다른 것으로 교체 하기위해 사용하십시요. 교체는 "
+"HTML 요소 찾기-바꾸기 이후 교체 됩니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:1048
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:310
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:144
+msgid "Unnecessary Elements"
+msgstr "불필요한 요소"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:1054
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:316
+msgid "Unnecessary Element Selectors"
+msgstr "불필요한 요소 셀렉터"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:1055
+msgid ""
+"CSS selectors for unwanted elements in the post page. Specified elements "
+"will be\n"
+"                    removed from the HTML of the page. Content extraction "
+"will be done after the page is cleared\n"
+"                    from unnecessary elements."
+msgstr ""
+"카테고리 페이지에서 원하지 않는 요소에 대한 CSS 셀렉터. 지정된 요소는 페이지"
+"의 HTML에서 제거됩니다. 내용 크롤링은 페이지에서 불필요한 요소를 제거한 후에 "
+"수행됩니다."
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:1086
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:348
+msgid "CSS selectors for empty value notification"
+msgstr "비어있는 CSS 셀렉터 알림"
+
+#: storage/cache/126331c8bef258875b787ce728ff25bc4ad2e90c.php:1087
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:349
+msgid ""
+"Write CSS selectors and their attributes you want to retrieve. If the "
+"retrieved value\n"
+"                        is empty, you will be notified via email. These CSS "
+"selectors will be tried to be retrieved\n"
+"                        after all replacements are applied."
+msgstr ""
+"검색 할 CSS 셀렉터와 속성을 작성하십시오. 검색된 값이 비어 있으면 이메일로 통"
+"보됩니다. 이러한 CSS 셀렉터는 모든 교체가 적용된 후에 검색됩니다."
+
+#: storage/cache/2a3cc6f9587f9ae20d4f3892cbde1ac0fe247fa3.php:12
+msgid "Active sites"
+msgstr "활성화 사이트"
+
+#: storage/cache/2a3cc6f9587f9ae20d4f3892cbde1ac0fe247fa3.php:21
+#: storage/cache/a5ea0b01650f42628220b03a891c393bdad592ba.php:66
+msgid "Last"
+msgstr "마지막"
+
+#: storage/cache/2a3cc6f9587f9ae20d4f3892cbde1ac0fe247fa3.php:22
+msgid "Active"
+msgstr "활성화"
+
+#: storage/cache/2a3cc6f9587f9ae20d4f3892cbde1ac0fe247fa3.php:23
+#: storage/cache/a5ea0b01650f42628220b03a891c393bdad592ba.php:96
+msgid "Today"
+msgstr "오늘"
+
+#: storage/cache/2a3cc6f9587f9ae20d4f3892cbde1ac0fe247fa3.php:39
+#: storage/cache/a5ea0b01650f42628220b03a891c393bdad592ba.php:19
+msgid "URL Collection"
+msgstr "URL 수집"
+
+#: storage/cache/2a3cc6f9587f9ae20d4f3892cbde1ac0fe247fa3.php:40
+#: storage/cache/a5ea0b01650f42628220b03a891c393bdad592ba.php:20
+msgid "Post Crawl"
+msgstr "포스트 크롤링"
+
+#: storage/cache/2a3cc6f9587f9ae20d4f3892cbde1ac0fe247fa3.php:41
+#: storage/cache/a5ea0b01650f42628220b03a891c393bdad592ba.php:21
+msgid "Post Recrawl"
+msgstr "포스트 리크롤링"
+
+#: storage/cache/2a3cc6f9587f9ae20d4f3892cbde1ac0fe247fa3.php:42
+#: storage/cache/a5ea0b01650f42628220b03a891c393bdad592ba.php:22
+msgid "Post Delete"
+msgstr "포스트 삭제"
+
+#: storage/cache/2a3cc6f9587f9ae20d4f3892cbde1ac0fe247fa3.php:47
+#, php-format
+msgid "%1$s ago"
+msgstr "%1$s 전"
+
+#: storage/cache/2a3cc6f9587f9ae20d4f3892cbde1ac0fe247fa3.php:98
+msgid "No active sites."
+msgstr "활성화된 사이트가 없습니다."
+
+#: storage/cache/2ad1eaaabb19479446db7164924cc912176cdc74.php:10
+msgid "Short code"
+msgstr "숏코드"
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:2
+msgid "Category Page Settings"
+msgstr "카테고리 설정"
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:3
+msgid ""
+"Category mapping and other settings to be used when crawling category pages"
+msgstr "크롤링할 카테고리 관련 설정 페이지"
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:12
+msgid "Category List Page URL"
+msgstr "카테고리 리스트 페이지 URL"
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:13
+msgid ""
+"The URL to get category links from. The page should include a container "
+"having category URLs.\n"
+"                    This will be used to automatically insert category URLs "
+"for category map."
+msgstr ""
+"카테고리 링크를 가져올 URL입니다. 페이지에는 카테고리 URL이있는 페이지가 포함"
+"되어야합니다. 카테고리 맵에 대한 카테고리 URL을 자동으로 삽입하는데 사용됩니"
+"다."
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:25
+msgid "Category List URL Selectors"
+msgstr "카테고리 리스트 URL 셀렉터"
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:26
+msgid ""
+"CSS selectors for category links. This is used to get category URLs "
+"automatically for category map.\n"
+"                    Gets \"href\" attributes of \"a\" tags. E.g. <span class="
+"\"highlight selector\">.top-level-navigation ul > li > a</span>.\n"
+"                    Before using the insert button, make sure you filled the "
+"category list page URL."
+msgstr ""
+"카테고리 링크 용 CSS 셀렉터. 카테고리 맵에 대해 카테고리 URL을 자동으로 가져 "
+"오는데 사용됩니다. \"a\"태그의 \"href\"속성을 가져옵니다. 예: <span class="
+"\"highlight selector\">.top-level-navigation ul> li> a</span>.\n"
+"추가 버튼을 사용하기 전에 카테고리 목록 페이지 URL을 채웠는지 확인하십시오."
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:36
+msgid "Find and add category links for mapping"
+msgstr "카테고리 맵 링크 추가 하기"
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:55
+msgid "Category Map"
+msgstr "카테고리 리스트"
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:56
+msgid ""
+"Map the categories to target site's URLs. You can write the URLs relative to "
+"the\n"
+"                    main site URL. E.g. <span class=\"highlight url\">/"
+"category/art</span>. Category URLs should\n"
+"                    be added once, no duplicates allowed. <b>Note that</b> "
+"changing category map will clear the\n"
+"                    post URLs waiting to be saved."
+msgstr ""
+"범주를 사이트의 URL을 대상으로 매핑하십시오. 대상 사이트 URL을 기준으로 URL"
+"을 작성할 수 있습니다. 예: <span class=\"highlight url\">/category/art</"
+"span>. 카테고리 URL은 한번만 추가해야하며 중복이 허용되지 않습니다. <b>주의"
+"<b>: 카테고리 맵을 변경하면 대기중인 게시물의 URL이 지워집니다. "
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:66
+msgid "Category URL"
+msgstr "카테고리 URL"
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:83
+msgid "Test Category URL"
+msgstr "카테고리 테스트 URL"
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:84
+msgid ""
+"A full category URL to be used to perform the tests for category page CSS "
+"selectors."
+msgstr ""
+"카테고리 페이지 CSS 셀렉터에 대한 테스트를 수행할때 사용되는 전체 카테고리 "
+"URL입니다."
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:95
+msgid "Category Post URL Selectors"
+msgstr "카테고리 포스트 URL 셀렉터"
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:96
+msgid ""
+"CSS selectors for the post URLs in category pages. Gets \"href\" attributes "
+"of \"a\" tags.\n"
+"                    E.g. <span class=\"highlight selector\">article.post > "
+"h2 > a</span>. When testing, make sure you\n"
+"                    filled the category test URL. If you give more than one "
+"selector, each selector will be used\n"
+"                    to get URLs and the results will be combined."
+msgstr ""
+"카테고리 페이지의 포스트 URL에 대한 CSS 셀렉터입니다. \"href \"태그의 \"a "
+"\"속성을 가져옵니다. 예: <span class=\"highlight selector\">article.post > "
+"h2 > a</span>. 테스트 할 때 카테고리 테스트 URL을 채웠는지 확인하십시오. 둘 "
+"이상의 셀렉터를 제공하면 각 셀렉터는 URL을 가져 오는 데 사용되며 결과가 결합"
+"되어 사용됩니다."
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:125
+msgid "Collect URLs in reverse order?"
+msgstr "역순으로 URL을 수집하겠습니까?"
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:126
+msgid ""
+"When you check this, the URLs found by URL selectors will be ordered in "
+"reverse before\n"
+"                        they are saved into the database. Therefore, the "
+"posts will be saved in reverse order for\n"
+"                        each category page."
+msgstr ""
+"이 옵션을 선택하면 URL 셀렉터에서 찾은 URL이 데이터베이스에 저장되기 전에 역"
+"순으로 정렬됩니다. 따라서 포스트는 각 카테고리 페이지마다 역순으로 저장됩니"
+"다."
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:141
+msgid "Next Page"
+msgstr "다음 페이지"
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:148
+msgid "Category Next Page URL Selectors"
+msgstr "카테고리 다음 페이지 URL 셀렉터"
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:149
+msgid ""
+"CSS selectors for next page URL in a category page. Gets \"href\" attributes "
+"of \"a\" tags.\n"
+"                    E.g. <span class=\"highlight selector\">.pagination > a."
+"next</span>. When testing, make sure you\n"
+"                    filled the category test URL. If you give more than one "
+"selector, the first\n"
+"                    match will be used."
+msgstr ""
+"카테고리내 다음 페이지를 위한 CSS 셀렉터 입니다. \"href\"속성의 \"a\"태그를 "
+"가져옵니다 .예. <span class=\"highlight selector\">.pagination > a.next</"
+"span>. 이것을 테스트 할때, '카테고리 테스트 URL'을 입력해야 합니다.\n"
+"                    만약 하나 이상의 셀렉터를 사용할 경우,\n"
+"                    첫번째 일치하는 셀렉터가 사용됩니다."
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:177
+msgid "Featured Images"
+msgstr "대표 이미지"
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:185
+msgid "Save featured images?"
+msgstr "대표 이미지를 저장 하겠습니까?"
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:186
+msgid ""
+"If there are featured images for each post on category page and you want to\n"
+"                    save the featured images for the posts, check this."
+msgstr ""
+"카테고리 페이지의 각 포스트에 대표 이미지가 있고 포스트의 대표 이미지를 저장"
+"하려면 선택하십시오."
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:212
+msgid ""
+"CSS selectors for post featured images in a category page. Gets \"src\" "
+"attributes of \"img\" tags.\n"
+"                    E.g. <span class=\"highlight selector\">.post-item > "
+"img</span>. When testing, make sure you\n"
+"                    filled the category test URL. If you give more than one "
+"selector, the first match will be used."
+msgstr ""
+"<b>페이지 HTML</b>의 이미지에 대한 CSS 셀렉터. 이것은 기본적으로 지정된 요소"
+"의 \"src \"속성을 가져옵니다. 둘 이상의 셀렉터를 사용하면 이미지를 저장하고 "
+"갤러리를 만들 때 각 일치 항목이 사용됩니다. 이러한 요소는 URL을 수집 한 후 "
+"HTML에서 제거됩니다."
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:284
+msgid "Post links come before featured images?"
+msgstr "포스트 링크가 대표 이미지보다 앞에 있나요?"
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:285
+msgid ""
+"If the links for the posts in the category page come before the featured "
+"images,\n"
+"                    considering the position of the featured image and link "
+"in the HTML of the page, check this."
+msgstr ""
+"카테고리 페이지의 포스트에 대한 링크가 대표 이미지 앞에 오는 경우,\n"
+"                     페이지의 HTML에서 대표 이미지 및 링크의 위치를 고려하여 "
+"선택하십시오."
+
+#: storage/cache/2b77ff69332a863c83da31715f98d6f867105a14.php:317
+msgid ""
+"CSS selectors for unwanted elements in the category page. Specified elements "
+"will be\n"
+"                    removed from the HTML of the page. Content extraction "
+"will be done after the page is cleared\n"
+"                    from unnecessary elements."
+msgstr ""
+"카테고리 페이지의 원치 않는 요소에 대한 CSS 셀렉터. 지정된 요소는 페이지의 "
+"HTML에서 제거됩니다. 내용 크롤링은 불필요한 요소가 제거 된 후에 수행됩니다."
+
+#: storage/cache/2df1644536ccfcbe14ae5513543424d2f225cdf9.php:2
+msgid "Save Changes"
+msgstr "변경사항 저장"
+
+#: storage/cache/336cdfa1968962fb8c6e2a8d230274a8aa5ca932.php:2
+msgid "Import/Export Settings"
+msgstr "가져오기/내보내기 설정"
+
+#: storage/cache/336cdfa1968962fb8c6e2a8d230274a8aa5ca932.php:3
+msgid ""
+"Import settings from another site or copy the settings to import for another "
+"site"
+msgstr "다른 사이트에서 설정을 가져오거나 다른 사이트로 설정을 복사 하세요."
+
+#: storage/cache/336cdfa1968962fb8c6e2a8d230274a8aa5ca932.php:12
+msgid "Import Settings"
+msgstr "설정값 가져오기"
+
+#: storage/cache/336cdfa1968962fb8c6e2a8d230274a8aa5ca932.php:13
+msgid ""
+"Paste the settings exported from another site to import. <b>Current "
+"settings\n"
+"                    will be overridden.</b>"
+msgstr ""
+"다른 사이트에서 내보내기한 설정값을 붙여 넣으세요. <b>현재의 설정값이\n"
+"                    지워 집니다.</b>"
+
+#: storage/cache/336cdfa1968962fb8c6e2a8d230274a8aa5ca932.php:20
+msgid "Paste settings and update. Note: This will override all settings."
+msgstr "설정값 붙여넣고 업데이트 하기 주의: 현재의 설정값이 지워 집니다."
+
+#: storage/cache/336cdfa1968962fb8c6e2a8d230274a8aa5ca932.php:30
+msgid "Export Settings"
+msgstr "설정값 내보내기"
+
+#: storage/cache/336cdfa1968962fb8c6e2a8d230274a8aa5ca932.php:31
+msgid ""
+"You can copy the settings here and use the copied code to export settings "
+"to\n"
+"                    another site."
+msgstr ""
+"이 값을 복사하여 다른사이트로 설정값을 보낼 수 \n"
+"                    있습니다."
+
+#: storage/cache/3595d015fc45e30be1dfee650861294be164f86d.php:2
+msgid "Manually recrawl (update) a post"
+msgstr "수동 리크롤링(업데이트)"
+
+#: storage/cache/3595d015fc45e30be1dfee650861294be164f86d.php:21
+msgid "Post ID"
+msgstr "포스트 ID"
+
+#: storage/cache/3595d015fc45e30be1dfee650861294be164f86d.php:22
+msgid "Write the ID of the post you want to update."
+msgstr "업데이트 하고싶은 포스트의 ID를 적어주세요."
+
+#: storage/cache/3595d015fc45e30be1dfee650861294be164f86d.php:37
+msgid "Recrawl"
+msgstr "리크롤링"
+
+#: storage/cache/35a6ff11cb98d9681e9b60839c99baa45ebe7b2a.php:4
+msgid "Template"
+msgstr "템플릿"
+
+#: storage/cache/35a6ff11cb98d9681e9b60839c99baa45ebe7b2a.php:8
+msgid "Go to details"
+msgstr "상세보기 가기"
+
+#: storage/cache/35a6ff11cb98d9681e9b60839c99baa45ebe7b2a.php:23
+msgid "Details"
+msgstr "상세"
+
+#: storage/cache/35a6ff11cb98d9681e9b60839c99baa45ebe7b2a.php:24
+#: storage/cache/35a6ff11cb98d9681e9b60839c99baa45ebe7b2a.php:71
+msgid "Go to top"
+msgstr "위로 가기"
+
+#: storage/cache/35a6ff11cb98d9681e9b60839c99baa45ebe7b2a.php:29
+msgid "Info"
+msgstr "정보"
+
+#: storage/cache/35a6ff11cb98d9681e9b60839c99baa45ebe7b2a.php:54
+msgid "Source Code"
+msgstr "소스 코드"
+
+#: storage/cache/35a6ff11cb98d9681e9b60839c99baa45ebe7b2a.php:60
+msgid "Data"
+msgstr "데이터"
+
+#: storage/cache/362db798a2359ffe96922ca5e2202b0778a437d6.php:3
+msgid "Old password"
+msgstr "이전 비밀번호"
+
+#: storage/cache/362db798a2359ffe96922ca5e2202b0778a437d6.php:4
+msgid "New password"
+msgstr "새 비밀번호"
+
+#: storage/cache/362db798a2359ffe96922ca5e2202b0778a437d6.php:5
+msgid "New password again"
+msgstr "새 비밀번호 확인"
+
+#: storage/cache/412d6ea0f6d54c39cdc146737288d5e9eccadabe.php:8
+msgid "Single?"
+msgstr "단일?"
+
+#: storage/cache/412d6ea0f6d54c39cdc146737288d5e9eccadabe.php:15
+#: storage/cache/7a4ae616cc95080fd7e4951b142385009b877915.php:12
+#: storage/cache/fbe36cfaa065da89f06d950b6b28d3fbd3e2b8fc.php:15
+#, php-format
+msgid "Attribute (default: %s)"
+msgstr "속성 (기본: %s)"
+
+#: storage/cache/412d6ea0f6d54c39cdc146737288d5e9eccadabe.php:18
+msgid "Shortcode without brackets"
+msgstr "괄호 없는 숏코드"
+
+#: storage/cache/44bd93e4f4d9cc1413fc4c5ac327dcb038c2f157.php:29
+msgid "No URLs."
+msgstr "URL이 없습니다."
+
+#: storage/cache/44fb2de72cf6018ab2a0ff84ad43f0cbea4f1826.php:9
+msgid "Main"
+msgstr "메인"
+
+#: storage/cache/44fb2de72cf6018ab2a0ff84ad43f0cbea4f1826.php:10
+#: storage/cache/88d405ee10577c9c41353d02156ed694199bbdcf.php:38
+msgid "Category"
+msgstr "카테고리"
+
+#: storage/cache/44fb2de72cf6018ab2a0ff84ad43f0cbea4f1826.php:11
+#: storage/cache/6861294e417676cc60c74b2714800387db448bde.php:21
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:19
+msgid "Post"
+msgstr "내용"
+
+#: storage/cache/44fb2de72cf6018ab2a0ff84ad43f0cbea4f1826.php:12
+msgid "Templates"
+msgstr "템플릿"
+
+#: storage/cache/44fb2de72cf6018ab2a0ff84ad43f0cbea4f1826.php:13
+#: storage/cache/4982247f256d2ce7881ae76136ac70b159a7c8e4.php:2
+#: storage/cache/4982247f256d2ce7881ae76136ac70b159a7c8e4.php:12
+msgid "Notes"
+msgstr "메모"
+
+#: storage/cache/45c2942ed4d2fbef24591acc36c23cb1b9fe3f49.php:4
+msgid "Test this URL"
+msgstr "이 URL 테스트"
+
+#: storage/cache/4943d84df19f74988c5d320d823a0fad1123a47c.php:1
+msgid "Toggle info texts"
+msgstr "토글 정보 텍스트"
+
+#: storage/cache/4982247f256d2ce7881ae76136ac70b159a7c8e4.php:3
+msgid ""
+"You can write your notes about this site here. It is just for you to keep "
+"notes."
+msgstr ""
+"이곳에 현재 사이트에 관한 메모를 저장 할 수 있습니다. 이것은 어디에도 표시 되"
+"지 않습니다."
+
+#: storage/cache/4982247f256d2ce7881ae76136ac70b159a7c8e4.php:13
+msgid "Write anything..."
+msgstr "아무거나 메모 하세요..."
+
+#: storage/cache/58a6b08965762fbd93d56d01a14c22b90e29d591.php:1
+msgid "Submit"
+msgstr "확인"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:15
+msgid "Click to go back"
+msgstr "뒤로 이동"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:19
+msgid "Click to go forward"
+msgstr "앞으로 이동"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:23
+msgid "Click to refresh"
+msgstr "새로고침"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:29
+msgid "URL starting with http..."
+msgstr "주소는 http...으로 시작합니다."
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:35
+msgid "Click to go to the URL"
+msgstr "URL로 이동"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:39
+msgid "Click to open the sidebar"
+msgstr "사이드바 열기"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:50
+msgid "Clear the highlights"
+msgstr "하이라이트 삭제"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:57
+msgid "Show alternative selectors"
+msgstr "대체 셀렉터 보기"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:64
+msgid "Use the selector"
+msgstr "셀렉터 사용"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:71
+msgid "CSS selector"
+msgstr "CSS 셀렉터"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:79
+msgid "Test the selector"
+msgstr "셀렉터 테스트"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:91
+msgid "Remove the elements from current page"
+msgstr "현재 페이지에서 요소 삭제"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:102
+msgid "Toggle hover select"
+msgstr "마우스 오버 선택"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:106
+msgid "Target HTML Tag "
+msgstr "타겟 HTML 태그"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:116
+msgid "Test via"
+msgstr "다음으로 테스트"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:119
+msgid "PHP"
+msgstr "PHP"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:120
+msgid "JavaScript"
+msgstr "자바스크립트"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:121
+msgid "Both"
+msgstr "모두"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:127
+msgid "Use immediately when clicked"
+msgstr "클릭 할때 즉시 사용"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:133
+msgid "Remove scripts"
+msgstr "스크립트 삭제"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:139
+msgid "Remove styles"
+msgstr "스타일 삭제"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:157
+msgid "History"
+msgstr "이력"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:165
+msgid "Alternative Selectors"
+msgstr "대체 셀렉터"
+
+#: storage/cache/668c45083aa51c7366b9ab4ee61787987db02984.php:170
+msgid "All Used Selectors"
+msgstr "사용된 모든 셀렉터"
+
+#: storage/cache/67da7488e2a11eb5910551f1634c009572075d7d.php:13
+msgid ""
+"If you change the values that you use in the CSS selector,\n"
+"        <b>the test results will be empty.</b>"
+msgstr "사용중인 CSS 셀렉터 값이 변한다면 <b>테스트 결과값은 비어집니다.</b>"
+
+#: storage/cache/67da7488e2a11eb5910551f1634c009572075d7d.php:18
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:176
+msgid "Manipulate HTML"
+msgstr "HTML 수정"
+
+#: storage/cache/67da7488e2a11eb5910551f1634c009572075d7d.php:25
+msgid "Test code for find-and-replaces in HTML"
+msgstr "HTML에서 찾기-바꾸기 테스트 하기"
+
+#: storage/cache/67da7488e2a11eb5910551f1634c009572075d7d.php:26
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:184
+#: storage/cache/fcd16d53e71ff2e33ca48a59dad86987e454ed03.php:51
+msgid ""
+"A piece of code to be used when testing find-and-replace settings below."
+msgstr "찾기-바꾸기 테스트에 사용할 코드를 작성해 주세요."
+
+#: storage/cache/67da7488e2a11eb5910551f1634c009572075d7d.php:32
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:190
+#: storage/cache/fcd16d53e71ff2e33ca48a59dad86987e454ed03.php:57
+msgid "The code which will be used to test find-and-replace settings"
+msgstr "찾기-바꾸기 테스트에서 사용할 코드"
+
+#: storage/cache/67da7488e2a11eb5910551f1634c009572075d7d.php:42
+msgid "Find and replace in HTML at first load"
+msgstr "HTML 불러오기 전 찾기-바꾸기"
+
+#: storage/cache/67da7488e2a11eb5910551f1634c009572075d7d.php:43
+msgid ""
+"If you want some things to be replaced with some other things in <b>HTML of\n"
+"                the post page at first load</b>, this is the place. <b>The "
+"replacements will be applied after\n"
+"                the HTML is retrieved and replacements defined in general "
+"settings page are applied</b>."
+msgstr ""
+"이것은 <b>포스트의 첫번째 로드시 바꿀 HTML</b>입니다. 교체 후 일반설정에서 정"
+"의된 HTML이 찾기-바꾸기 됩니다."
+
+#: storage/cache/67da7488e2a11eb5910551f1634c009572075d7d.php:71
+msgid "Find and replace in element attributes"
+msgstr "요소 속성에서 찾기-바꾸기"
+
+#: storage/cache/67da7488e2a11eb5910551f1634c009572075d7d.php:72
+msgid ""
+"If you want some things to be replaced with some other things in "
+"<b>attributes of\n"
+"                elements</b>, this is the place. <b>The replacements will be "
+"applied after\n"
+"                the replacements at first load are applied</b>."
+msgstr ""
+"<b>요소의 속성</b>을 다른것으로 교체하기 위해 사용하십시요. 교체후 첫번째 로"
+"드시 찾기-바꾸기가 적용됩니다."
+
+#: storage/cache/67da7488e2a11eb5910551f1634c009572075d7d.php:102
+msgid "Exchange element attributes"
+msgstr "요소 속성 교체"
+
+#: storage/cache/67da7488e2a11eb5910551f1634c009572075d7d.php:103
+#, php-format
+msgid ""
+"If you want to exchange <b>the values of two attributes of an element</b>,\n"
+"                this is the place. <b>If value of attribute 2 does not "
+"exist, the values will not be exchanged.</b>\n"
+"                <b>The replacements will be applied after the find-and-"
+"replaces for element attributes are applied.</b>\n"
+"                E.g. you can replace the values of %1$s and %2$s attributes "
+"to save lazy-loading images if the\n"
+"                target %3$s element has these attributes."
+msgstr ""
+"<b>요소의 두 속성 값</b>을 교환하려는 경우 사용합니다. <b>속성 2의 값이 존재"
+"하지 않으면 값은 교환되지 않습니다.</b> <b>요소 속성의 찾기-바꾸기가 적용된 "
+"후 교체가 적용됩니다. </b> 대상 %3$s 요소에 이러한 속성이있는 경우 %1$s 및 "
+"%2$s 속성 값을 대체하여 지연로드 이미지를 저장할 수 있습니다."
+
+#: storage/cache/67da7488e2a11eb5910551f1634c009572075d7d.php:139
+msgid "Remove element attributes"
+msgstr "요소 속성 삭제"
+
+#: storage/cache/67da7488e2a11eb5910551f1634c009572075d7d.php:140
+msgid ""
+"If you want to remove <b>attributes of an element</b>, this is the place. "
+"<b>The\n"
+"                removals will be applied after the attribute exchanges are "
+"applied</b>."
+msgstr ""
+"<b>요소의 속성</b>을 제거하기 위해 사용하십시요. 속성교체 후 속성 제거가 적용"
+"됩니다."
+
+#: storage/cache/67da7488e2a11eb5910551f1634c009572075d7d.php:169
+msgid "Find and replace in element HTML"
+msgstr "요소 HTML에서 찾기-바꾸기"
+
+#: storage/cache/67da7488e2a11eb5910551f1634c009572075d7d.php:170
+msgid ""
+"If you want some things to be replaced with some other things in <b>HTML of\n"
+"                elements</b>, this is the place. <b>The replacements will be "
+"applied after\n"
+"                the attribute removals are applied</b>."
+msgstr ""
+"<b>HTML의 요소</b>를 다른것으로 교체하기 위해 사용하십시요. 교체후 속성 제거"
+"가 적용됩니다."
+
+#: storage/cache/6861294e417676cc60c74b2714800387db448bde.php:22
+msgid "Recrawled"
+msgstr "리크롤링"
+
+#: storage/cache/6861294e417676cc60c74b2714800387db448bde.php:24
+msgid "Update Count"
+msgstr "업데이트 횟수"
+
+#: storage/cache/6861294e417676cc60c74b2714800387db448bde.php:46
+msgid "Edit"
+msgstr "편집"
+
+#: storage/cache/6861294e417676cc60c74b2714800387db448bde.php:59
+#: storage/cache/8e166367611d8fb9074375f01465bdddc0aa3c7c.php:43
+msgid "ID"
+msgstr "ID"
+
+#: storage/cache/6861294e417676cc60c74b2714800387db448bde.php:83
+#: storage/cache/a5ea0b01650f42628220b03a891c393bdad592ba.php:53
+msgid "later"
+msgstr "나중에"
+
+#: storage/cache/6861294e417676cc60c74b2714800387db448bde.php:83
+#: storage/cache/8e166367611d8fb9074375f01465bdddc0aa3c7c.php:56
+#: storage/cache/a5ea0b01650f42628220b03a891c393bdad592ba.php:53
+msgid "ago"
+msgstr "전"
+
+#: storage/cache/6a70754165ef8267d66a6f5fcaf721fa7188cd9f.php:15
+msgid "Attribute"
+msgstr "속성"
+
+#: storage/cache/7f7518b38467bebd43084430c90b29b04e478e45.php:10
+msgid "No result"
+msgstr "결과가 없습니다"
+
+#: storage/cache/88d405ee10577c9c41353d02156ed694199bbdcf.php:2
+msgid "Manually crawl and save a post"
+msgstr "수동 크롤링"
+
+#: storage/cache/88d405ee10577c9c41353d02156ed694199bbdcf.php:22
+msgid "Select the site for the post you want to save."
+msgstr "사이트를 선택 해 주세요."
+
+#: storage/cache/88d405ee10577c9c41353d02156ed694199bbdcf.php:39
+msgid "Select the category in which you want the post saved."
+msgstr "포스트를 발행할 카테고리를 선택 해 주세요."
+
+#: storage/cache/88d405ee10577c9c41353d02156ed694199bbdcf.php:55
+msgid "Post URL"
+msgstr "포스트 URL"
+
+#: storage/cache/88d405ee10577c9c41353d02156ed694199bbdcf.php:56
+msgid "Full URL for the post you want to save."
+msgstr "크롤링 하기 원하는 원본 전체 URL"
+
+#: storage/cache/88d405ee10577c9c41353d02156ed694199bbdcf.php:74
+msgid ""
+"Full URL for the featured image of the post, if there is a featured image."
+msgstr "대표 이미지가 있을경우 대표 이미지의 전체 URL"
+
+#: storage/cache/88d405ee10577c9c41353d02156ed694199bbdcf.php:88
+msgid "Crawl and Save"
+msgstr "크롤링"
+
+#: storage/cache/8e338ea13c1b58718d20c9fc1b297bee89485e8d.php:10
+#: storage/cache/fbe36cfaa065da89f06d950b6b28d3fbd3e2b8fc.php:18
+msgid "Meta key"
+msgstr "메타 키"
+
+#: storage/cache/96701da54f258f36311598021a1a65d1a7f26851.php:2
+#: storage/cache/96701da54f258f36311598021a1a65d1a7f26851.php:4
+msgid "Hide"
+msgstr "숨기기"
+
+#: storage/cache/9712f2ea4e0000f154233e7130ae56aee1bf7c61.php:2
+msgid "Unlock all URLs"
+msgstr "모든 URL의 잠금 해제"
+
+#: storage/cache/9712f2ea4e0000f154233e7130ae56aee1bf7c61.php:16
+msgid ""
+"The plugin locks the URLs which it is processing. This is to avoid "
+"processing\n"
+"                    already-being-processed URLs. But sometimes things go "
+"wrong either with your server or the target server\n"
+"                    and some URLs stay locked. You can see these URLs shown "
+"as \"currently being crawled/recrawled\" in\n"
+"                    dashboard. If you see some URLs are stuck there and you "
+"do not want to see them, you can use this tool\n"
+"                    to unlock all URLs."
+msgstr ""
+"플러그인은 처리중인 URL을 잠급니다. 이는 이미 처리중인 URL을 이중으로 처리하"
+"지 않기 위해서입니다. 그러나 때로는 서버 또는 대상 서버에서 문제가 발생하고 "
+"일부 URL은 잠긴 상태로 유지됩니다. 대시보드에서 \"크롤링 / 리크롤링\"중 인 "
+"URL을 확인할 수 있습니다. 일부 URL이 표시되는 것을보고 해당 URL을 보지 않으려"
+"면이 도구를 사용하여 모든 URL을 잠금 해제 할 수 있습니다."
+
+#: storage/cache/9712f2ea4e0000f154233e7130ae56aee1bf7c61.php:26
+msgid "Unlock All URLs"
+msgstr "모든 URL 잠금 해제하기"
+
+#: storage/cache/97d42488035aa420682c2181b2a363f2ed48317c.php:2
+msgid "Site Tester"
+msgstr "사이트 테스터"
+
+#: storage/cache/97d42488035aa420682c2181b2a363f2ed48317c.php:18
+msgid "Test Type"
+msgstr "테스트 타입"
+
+#: storage/cache/97d42488035aa420682c2181b2a363f2ed48317c.php:25
+msgid "Test URL"
+msgstr "테스트 URL"
+
+#: storage/cache/97d42488035aa420682c2181b2a363f2ed48317c.php:26
+msgid "Full URL or URL without domain"
+msgstr "전체 URL 이나 도메인을 제외한 URL"
+
+#: storage/cache/97d42488035aa420682c2181b2a363f2ed48317c.php:27
+msgid "Test"
+msgstr "테스트 하기"
+
+#: storage/cache/9a44ecc43b4bd815c0017d13a8f6a421631467eb.php:2
+msgid "Clear URLs"
+msgstr "URL 제거"
+
+#: storage/cache/9a44ecc43b4bd815c0017d13a8f6a421631467eb.php:21
+msgid "Select the site whose URLs you want to be deleted from the database."
+msgstr "데이터베이스에서 삭제하고 싶은 사이트를 선택 해 주세요."
+
+#: storage/cache/9a44ecc43b4bd815c0017d13a8f6a421631467eb.php:37
+msgid "URL Type"
+msgstr "URL 타입"
+
+#: storage/cache/9a44ecc43b4bd815c0017d13a8f6a421631467eb.php:38
+msgid ""
+"Select URL types to be cleared for the specified site. If you clear the "
+"URLs\n"
+"                                waiting in the queue, those URLs will not be "
+"saved, unless they are collected again. If you\n"
+"                                clear already-saved URLs, those URLs may end "
+"up in the queue again, and they may be saved\n"
+"                                as posts again. So, you may want to delete "
+"the posts as well, unless you want duplicate content."
+msgstr ""
+"지정된 사이트에 대해 지울 URL 유형을 선택하십시오. 대기열에서 대기중인 URL을 "
+"지우면 다시 수집하지 않으면 해당 URL이 저장되지 않습니다. 이미 저장된 URL을 "
+"지우면 해당 URL이 다시 게시물로 저장 될 수 있습니다."
+
+#: storage/cache/9a44ecc43b4bd815c0017d13a8f6a421631467eb.php:57
+msgid "I'm sure"
+msgstr "확실한가요?"
+
+#: storage/cache/9a44ecc43b4bd815c0017d13a8f6a421631467eb.php:58
+msgid "Check this to indicate that you are sure about this."
+msgstr "다시 한번 확인하고 체크 하세요."
+
+#: storage/cache/9a44ecc43b4bd815c0017d13a8f6a421631467eb.php:70
+msgid "Delete URLs"
+msgstr "제거하기"
+
+#: storage/cache/a5ea0b01650f42628220b03a891c393bdad592ba.php:5
+msgid "What's happening"
+msgstr "현황"
+
+#: storage/cache/a5ea0b01650f42628220b03a891c393bdad592ba.php:13
+msgid "CRON Events"
+msgstr "크롤링 현황"
+
+#: storage/cache/a5ea0b01650f42628220b03a891c393bdad592ba.php:13
+#, php-format
+msgid "Now: %1$s"
+msgstr "현재: %1$s"
+
+#: storage/cache/a5ea0b01650f42628220b03a891c393bdad592ba.php:45
+msgid "Next"
+msgstr "다음"
+
+#: storage/cache/a5ea0b01650f42628220b03a891c393bdad592ba.php:76
+#, php-format
+msgid "%s ago"
+msgstr "%s 전"
+
+#: storage/cache/a5ea0b01650f42628220b03a891c393bdad592ba.php:88
+msgid "URLs in Queue"
+msgstr "대기중인 포스트"
+
+#: storage/cache/a5ea0b01650f42628220b03a891c393bdad592ba.php:89
+msgid "Saved Posts"
+msgstr "저장된 포스트"
+
+#: storage/cache/a5ea0b01650f42628220b03a891c393bdad592ba.php:90
+msgid "Updated Posts"
+msgstr "업데이트된 포스트"
+
+#: storage/cache/a5ea0b01650f42628220b03a891c393bdad592ba.php:91
+msgid "Deleted Posts"
+msgstr "삭제된 포스트"
+
+#: storage/cache/a5ea0b01650f42628220b03a891c393bdad592ba.php:114
+msgid "URLs being crawled right now"
+msgstr "지금 크롤링중인 URL"
+
+#: storage/cache/a5ea0b01650f42628220b03a891c393bdad592ba.php:118
+#: storage/cache/c51226614fbeef23629549f1d51402c457db0918.php:78
+msgid "Created"
+msgstr "생성됨"
+
+#: storage/cache/a5ea0b01650f42628220b03a891c393bdad592ba.php:126
+msgid "Posts being saved right now"
+msgstr "지금 저장된 포스트"
+
+#: storage/cache/a88f328358097a1ff133ac2beaaf05480e2a379d.php:7
+msgid "Dismiss this notice."
+msgstr "이 알림 무시"
+
+#: storage/cache/aef978cdf5d15e327bd94d2c7358e4d46e6a3f41.php:7
+msgid "Settings updated."
+msgstr "설정이 업데이트되었습니다."
+
+#: storage/cache/b2ae84da25488ba7453a312c63e427c9d8468563.php:4
+#: storage/cache/fbe36cfaa065da89f06d950b6b28d3fbd3e2b8fc.php:8
+msgid "Multiple?"
+msgstr "다중?"
+
+#: storage/cache/b2ae84da25488ba7453a312c63e427c9d8468563.php:7
+msgid "Post meta key"
+msgstr "포스트 메타 키"
+
+#: storage/cache/b2ae84da25488ba7453a312c63e427c9d8468563.php:10
+msgid "Meta value"
+msgstr "메타 값"
+
+#: storage/cache/c51226614fbeef23629549f1d51402c457db0918.php:3
+msgid "WP Content Crawler Dashboard"
+msgstr "대시보드"
+
+#: storage/cache/c51226614fbeef23629549f1d51402c457db0918.php:7
+#, php-format
+msgid "Auto refresh every %s seconds"
+msgstr "매 %s 초 마다 자동 새로고침"
+
+#: storage/cache/c51226614fbeef23629549f1d51402c457db0918.php:8
+#, php-format
+msgid "At least %s seconds"
+msgstr "최소 %s 초 이상"
+
+#: storage/cache/c51226614fbeef23629549f1d51402c457db0918.php:13
+#, php-format
+msgid "Next refresh in %s"
+msgstr "다음 새로고침: %s"
+
+#: storage/cache/c51226614fbeef23629549f1d51402c457db0918.php:40
+msgid "Last recrawled posts"
+msgstr "마지막으로 리크롤링한 포스트"
+
+#: storage/cache/c51226614fbeef23629549f1d51402c457db0918.php:50
+msgid "URLs of the last deleted posts"
+msgstr "마지막으로 삭제된 포스트의 URL"
+
+#: storage/cache/c51226614fbeef23629549f1d51402c457db0918.php:66
+msgid "Last crawled posts"
+msgstr "마지막으로 크롤링한 포스트"
+
+#: storage/cache/c51226614fbeef23629549f1d51402c457db0918.php:75
+msgid "Last URLs added to the queue"
+msgstr "대기중인 마지막 URL"
+
+#: storage/cache/c7f65b02f86f4a30f250c4bfb1c466f41e182f8c.php:12
+msgid "Attribute 1"
+msgstr "속성 1"
+
+#: storage/cache/c7f65b02f86f4a30f250c4bfb1c466f41e182f8c.php:15
+msgid "Attribute 2"
+msgstr "속성 2"
+
+#: storage/cache/c9b2b7b5ba9cef8304c9c81f55505399e8c8d855.php:38
+msgid "No posts."
+msgstr "포스트가 없습니다."
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:20
+#: storage/cache/fcd16d53e71ff2e33ca48a59dad86987e454ed03.php:2
+msgid "SEO"
+msgstr "SEO"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:22
+#: storage/cache/e970b5201908bc6e988eb80e3d02d99f09874be3.php:2
+msgid "Advanced"
+msgstr "고급"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:29
+msgid "Load General Settings"
+msgstr "일반 설정 불러오기"
+
+#: storage/cache/c9fbadd44dbfe3bd30fc765b2ea2f2613a8a245c.php:30
+msgid "Clear General Settings"
+msgstr "일반 설정 초기화"
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:26
+msgid "Template Settings"
+msgstr "템플릿 설정"
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:27
+msgid "Set templates for the post, find and replace things..."
+msgstr "포스트를 위한 템플릿 설정, 찾기/바꾸기 등..."
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:36
+msgid "Main Post Template"
+msgstr "메인 포스트 템플릿"
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:37
+msgid ""
+"Main template used for the posts. The buttons above the editor holds short "
+"codes which\n"
+"                            are used to place certain elements into the post "
+"page. You can hover over the buttons\n"
+"                            to see what they are used to show in post page, "
+"and <b>click them to copy the code</b>. After\n"
+"                            copying, just place the short codes into "
+"anywhere you want in the editor. <b>You must\n"
+"                            fill the template.<b>"
+msgstr ""
+"게시물에 사용되는 기본 템플릿입니다. 편집기 위에있는 단추는 특정 요소를 게시 "
+"페이지에 배치하는 데 사용되는 숏코드 입니다. 숏코드 위에 마우스를 올려 놓으"
+"면 게시 페이지에 표시되는 내용을 확인한 다음 <b>해당 숏코드를 클릭하여 숏코드"
+"를 복사 할 수 있습니다.</b> 복사 후 숏코드를 편집기에서 원하는 위치에 배치하"
+"십시오. <b>반드시 템플릿을 채워야합니다.</b>"
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:52
+msgid "Post Title Template"
+msgstr "포스트 제목 템플릿"
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:53
+msgid ""
+"Template for post title. You can also use custom short codes. If you leave "
+"this empty,\n"
+"                        original post title found by CSS selectors will be "
+"used."
+msgstr ""
+"포스트 제목 템플릿. 사용자 정의 숏코드를 사용할 수도 있습니다. 이 항목을 비워"
+"두면 CSS 셀렉ㅌ가 찾은 원래 포스트 제목이 사용됩니다."
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:71
+msgid "Post Excerpt Template"
+msgstr "포스트 발췌 템플릿"
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:72
+msgid ""
+"Template for post excerpt. You can also use custom short codes. If you leave "
+"this empty,\n"
+"                        original post excerpt found by CSS selectors will be "
+"used."
+msgstr ""
+"게시물 발췌 템플릿. 사용자 정의 숏코드를 사용할 수도 있습니다. 이 항목을 비워"
+"두면 CSS 셀렉터가 찾은 원본 포스트 발췌 부분이 사용됩니다."
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:90
+msgid "List Item Template"
+msgstr "리스트 아이템 템플릿"
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:91
+msgid ""
+"This template is used for the list. If you set the post list type and wrote "
+"some selectors\n"
+"                            for the list items, then the list items will be "
+"crawled. Here, you can set a template\n"
+"                            to be used for <b>each</b> list item. You can "
+"include the entire list in main post\n"
+"                            template. <b>You must fill the template if you "
+"expect a list from the target page.</b>"
+msgstr ""
+"이 템플릿은 리스트 아이템에 사용됩니다. 포스트 리스트 타입을 설정하고 리스트 "
+"항목에 대한 셀렉터를 작성한 경우 리스트 항목이 크롤링됩니다. 여기서는 각 리스"
+"트 항목에 사용할 템플릿을 설정할 수 있습니다. 메인 포스트 템플릿에 전체 리스"
+"트를 포함시킬 수 있습니다. <b>대상 페이지의 리스트가 필요하면 템플릿을 채워야"
+"합니다.</b>"
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:105
+msgid "Gallery Item Template"
+msgstr "갤러리 아이템 템플릿"
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:106
+msgid ""
+"This template is used for the gallery. If you activated saving images as "
+"gallery\n"
+"                            and wrote some selectors for the image URLs, "
+"then the gallery items will be crawled.\n"
+"                            Here, you can set a template to be used for "
+"<b>each</b> gallery image. You can\n"
+"                            include the entire gallery in main post "
+"template. <b>You must fill the template if\n"
+"                            you expect a gallery from the target page.</b>"
+msgstr ""
+"이 템플릿은 갤러리에 사용됩니다. 갤러리로 이미지 저장을 활성화하고 이미지 URL"
+"에 대한 셀렉터를 작성한 경우 갤러리 항목이 크롤링됩니다. 여기에서 각 갤러리 "
+"이미지에 사용할 템플릿을 설정할 수 있습니다. 메인 포스트 템플릿에 전체 갤러리"
+"를 포함 할 수 있습니다. <b>대상 페이지의 갤러리가 필요하면 템플릿을 채워야합"
+"니다.</b>"
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:117
+msgid "Remove Links"
+msgstr "링크 삭제"
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:124
+msgid "Remove links from short codes?"
+msgstr "숏코드에서 링크 삭제?"
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:125
+#, php-format
+msgid ""
+"If you want to remove links from all of the short code data, check this.\n"
+"                        Checking this box is almost the same as adding <b>"
+"%1$s</b> regex for find and <b>%2$s</b> for\n"
+"                        replace option for each find and replace option in "
+"this tab. This option will not touch custom\n"
+"                        links inside the templates."
+msgstr ""
+"모든 숏코드 데이터에서 링크를 제거하려면이 사용하십시오. 탭의 찾기-바꾸기 옵"
+"션마다 찾기에 <b>%1$s</b> 정규식을 추가하고 <b>%2$s</b> 교체 옵션을 추가하는 "
+"것과 같습니다. 이 옵션은 템플릿 내부의 맞춤 링크를 간섭하지 않습니다."
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:150
+msgid "Template Unnecessary Element Selectors"
+msgstr "템플릿에서 불필요한 요소 셀렉터"
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:151
+msgid ""
+"CSS selectors for unwanted elements in the template. Specified elements will "
+"be\n"
+"                    removed from the HTML of the template. The removal will "
+"be done after the shortcodes are replaced.\n"
+"                    Find-and-replaces will be done after the template is "
+"cleared from unnecessary elements. <b>This\n"
+"                    will use test post URL on Post tab to conduct the tests."
+"</b>"
+msgstr ""
+"템플릿의 원치 않는 요소에 대한 CSS 셀렉터. 지정된 요소는 템플릿의 HTML에서 제"
+"거됩니다. 숏코드를 교체 한 후에 제거가 이루어집니다. 찾기-바꾸기는 템플릿이 "
+"불필요한 요소에서 제거 된 후에 수행됩니다. <b>이 작업은 테스트를 수행하기 위"
+"해 테스트 URL을 사용합니다.</b>"
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:183
+#: storage/cache/fcd16d53e71ff2e33ca48a59dad86987e454ed03.php:50
+msgid "Find and Replace Test Code"
+msgstr "찾기-바꾸기 테스트 코드"
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:200
+msgid "Find and replace in post's content"
+msgstr "포스트 내용에서 찾기-바꾸기"
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:201
+msgid ""
+"If you want some things to be replaced with some other things in <b>HTML of "
+"post's content</b>,\n"
+"                    this is the place. The replacement will be done after "
+"the final post template is ready. You\n"
+"                    can write plain text or regular expressions. When "
+"writing regex, do not put slashes before\n"
+"                    and after the expression, and make sure the checkbox is "
+"checked. You can test your regex\n"
+"                    <a href=\"https://regex101.com/\" target=\"_blank"
+"\">here</a>."
+msgstr ""
+"<b>포스트 내용의 HTML</b>을 다른것으로 교체하기 위해 사용하십시요. 교체는 최"
+"종 포스트 템플릿이 준비된 후 진행됩니다. 정규식을 사용할때 슬래시를 넣지 마싶"
+"시요. 그리고 정규식 체크박스도 확인 하싶시요. 정규식은 <a href=\"https://"
+"regex101.com/\" target=\"_blank\">이곳</a>에서 테스트 할 수 있습니다."
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:219
+msgid "Find and replace in custom short code contents"
+msgstr "사용자 정의 숏코드 내용에서 찾기-바꾸기"
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:220
+msgid ""
+"If you want some things to be replaced with some other things in <b>each "
+"custom short\n"
+"                    code's content</b>, this is the place. The replacement "
+"will be done after the final post template\n"
+"                    is ready. You can write plain text or regular "
+"expressions. When writing regex, do not put slashes\n"
+"                    before and after the expression, and make sure the "
+"checkbox is checked. You can test your regex\n"
+"                    <a href=\"https://regex101.com/\" target=\"_blank"
+"\">here</a>."
+msgstr ""
+"<b>사용자 정의 숏코드 내용</b>을 다른것으로 교체하기 위해 사용하십시요. 교체"
+"는 최종 포스트 템플릿이 준비된 후 진행됩니다. 정규식을 사용할때 슬래시를 넣"
+"지 마싶시요. 그리고 정규식 체크박스도 확인 하싶시요. 정규식은 <a href="
+"\"https://regex101.com/\" target=\"_blank\">이곳</a>에서 테스트 할 수 있습니"
+"다."
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:238
+msgid "Find and replace in post's title"
+msgstr "제목에서 찾기-바꾸기"
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:239
+msgid ""
+"If you want some things to be replaced with some other things in <b>post's "
+"title</b>,\n"
+"                    this is the place. You can write plain text or regular "
+"expressions. When writing regex, do\n"
+"                    not put slashes before and after the expression, and "
+"make sure the checkbox is checked. You\n"
+"                    can test your regex <a href=\"https://regex101.com/\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+"<b>포스트 제목</b>을 다른것으로 교체하기 위해 사용하십시요. 정규식을 사용할"
+"때 슬래시를 넣지 마싶시요. 그리고 정규식 체크박스도 확인 하싶시요. 정규식은 "
+"<a href=\"https://regex101.com/\" target=\"_blank\">이곳</a>에서 테스트 할 "
+"수 있습니다."
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:256
+msgid "Find and replace in post's excerpt"
+msgstr "발췌에서 찾기-바꾸기"
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:257
+msgid ""
+"If you want some things to be replaced with some other things in <b>post's "
+"excerpt</b>,\n"
+"                    this is the place. You can write plain text or regular "
+"expressions. When writing regex, do\n"
+"                    not put slashes before and after the expression, and "
+"make sure the checkbox is checked. You\n"
+"                    can test your regex <a href=\"https://regex101.com/\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+"<b>포스트 발췌</b>을 다른것으로 교체하기 위해 사용하십시요. 정규식을 사용할"
+"때 슬래시를 넣지 마싶시요. 그리고 정규식 체크박스도 확인 하싶시요. 정규식은 "
+"<a href=\"https://regex101.com/\" target=\"_blank\">이곳</a>에서 테스트 할 "
+"수 있습니다."
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:274
+msgid "Find and replace in post's each tag"
+msgstr "태그에서 찾기-바꾸기"
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:275
+msgid ""
+"If you want some things to be replaced with some other things in <b>post's "
+"each tag</b>,\n"
+"                    this is the place. You can write plain text or regular "
+"expressions. When writing regex, do\n"
+"                    not put slashes before and after the expression, and "
+"make sure the checkbox is checked. You\n"
+"                    can test your regex <a href=\"https://regex101.com/\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+"<b>포스트 태크</b>를 다른것으로 교체하기 위해 사용하십시요. 정규식을 사용할"
+"때 슬래시를 넣지 마싶시요. 그리고 정규식 체크박스도 확인 하싶시요. 정규식은 "
+"<a href=\"https://regex101.com/\" target=\"_blank\">이곳</a>에서 테스트 할 "
+"수 있습니다."
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:292
+msgid "Find and replace in meta keywords"
+msgstr "메타 키워드에서 찾기-바꾸기"
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:293
+msgid ""
+"If you want some things to be replaced with some other things in <b>post's "
+"meta keywords</b>,\n"
+"                    this is the place. You can write plain text or regular "
+"expressions. When writing regex, do\n"
+"                    not put slashes before and after the expression, and "
+"make sure the checkbox is checked. You\n"
+"                    can test your regex <a href=\"https://regex101.com/\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+"<b>포스트 메타 키워드</b>를 다른것으로 교체하기 위해 사용하십시요. 정규식을 "
+"사용할때 슬래시를 넣지 마싶시요. 그리고 정규식 체크박스도 확인 하싶시요. 정규"
+"식은 <a href=\"https://regex101.com/\" target=\"_blank\">이곳</a>에서 테스트 "
+"할 수 있습니다."
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:310
+msgid "Find and replace in meta description"
+msgstr "메타 설명에서 찾기-바꾸기"
+
+#: storage/cache/cc287bc3885b6296b9f08d55b5b25080916e839d.php:311
+msgid ""
+"If you want some things to be replaced with some other things in <b>post's "
+"meta description</b>,\n"
+"                    this is the place. You can write plain text or regular "
+"expressions. When writing regex, do\n"
+"                    not put slashes before and after the expression, and "
+"make sure the checkbox is checked. You\n"
+"                    can test your regex <a href=\"https://regex101.com/\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+"<b>포스트 메타 설명</b>을 다른것으로 교체하기 위해 사용하십시요. 정규식을 사"
+"용할때 슬래시를 넣지 마싶시요. 그리고 정규식 체크박스도 확인 하싶시요. 정규식"
+"은 <a href=\"https://regex101.com/\" target=\"_blank\">이곳</a>에서 테스트 "
+"할 수 있습니다."
+
+#: storage/cache/d97c402b310b9c34305627d714aab848a2e50587.php:2
+msgid "Post Settings"
+msgstr "포스트 설정"
+
+#: storage/cache/d97c402b310b9c34305627d714aab848a2e50587.php:3
+msgid "Set post settings"
+msgstr "포스트 설정"
+
+#: storage/cache/d97c402b310b9c34305627d714aab848a2e50587.php:12
+msgid "Allow Comments"
+msgstr "댓글 허용"
+
+#: storage/cache/d97c402b310b9c34305627d714aab848a2e50587.php:13
+msgid ""
+"If you want to allow comments for automatically inserted posts,\n"
+"                    check this."
+msgstr "댓글을 허용할려면 체크하세요."
+
+#: storage/cache/d97c402b310b9c34305627d714aab848a2e50587.php:29
+msgid "Post Status"
+msgstr "포스트 상태"
+
+#: storage/cache/d97c402b310b9c34305627d714aab848a2e50587.php:30
+msgid "Set the status of automatically inserted posts."
+msgstr "자동으로 작성될 포스트 상태 입니다."
+
+#: storage/cache/d97c402b310b9c34305627d714aab848a2e50587.php:47
+msgid "Post Type"
+msgstr "포스트 타입"
+
+#: storage/cache/d97c402b310b9c34305627d714aab848a2e50587.php:48
+msgid "Set the type of automatically inserted posts."
+msgstr "자동으로 작성될 포스트 타입입니다."
+
+#: storage/cache/d97c402b310b9c34305627d714aab848a2e50587.php:65
+msgid "Post Author"
+msgstr "포스트 작성자"
+
+#: storage/cache/d97c402b310b9c34305627d714aab848a2e50587.php:66
+msgid "Set the author of automatically inserted posts."
+msgstr "자동으로 작성될 포스트 작성자 입니다."
+
+#: storage/cache/d97c402b310b9c34305627d714aab848a2e50587.php:83
+msgid "Maximum number of tags"
+msgstr "태그의 최대 갯수"
+
+#: storage/cache/d97c402b310b9c34305627d714aab848a2e50587.php:84
+msgid ""
+"How many tags at maximum can be added to a post? Set this <b>0</b> if you do "
+"not\n"
+"                    want to set a limit and get all available tags. The "
+"default value is 0."
+msgstr ""
+"최대 입력 태그 갯수. <b>0</b>으로 설정 하면 제한을 두지 않습니다. 기본값은 0"
+"입니다."
+
+#: storage/cache/d97c402b310b9c34305627d714aab848a2e50587.php:103
+msgid "Change Password"
+msgstr "비빌번호 변경"
+
+#: storage/cache/d97c402b310b9c34305627d714aab848a2e50587.php:104
+msgid "If you want to change post password, check this."
+msgstr "포스트 비밀번호를 변경하길 원하신다면 체크하세요"
+
+#: storage/cache/d97c402b310b9c34305627d714aab848a2e50587.php:120
+msgid "Post Password"
+msgstr "포스트 비밀번호"
+
+#: storage/cache/d97c402b310b9c34305627d714aab848a2e50587.php:121
+msgid ""
+"Set the password for automatically inserted posts. The value you\n"
+"                    enter here will be stored as raw text in the database, "
+"without encryption.\n"
+"                    If anyone accesses your database, he/she will be able to "
+"see your password.\n"
+"                    <br /><br />\n"
+"                    If you want to delete the password, just leave the new "
+"password fields empty.\n"
+"                    When you change the password, new password will be "
+"effective for new posts,\n"
+"                    and passwords for old posts will not be changed.\n"
+"                    <br /><br />\n"
+"                    <b>Leave old password field empty if you did not set any "
+"password before.</b>"
+msgstr ""
+"자동으로 작성된 포스트의 비밀번호를 설정하십시오. 여기에 입력 한 값은 암호화"
+"없이 데이터베이스에 원시 텍스트로 저장됩니다. 누구든지 데이터베이스에 액세스"
+"하면 암호를 볼 수 있습니다. <br/><br/> 암호를 삭제하려면 새 암호 필드를 비워 "
+"두십시오. 비밀번호를 변경하면 새 비밀번호는 새 게시물에 적용되고 이전 게시물"
+"에 대한 비밀번호는 변경되지 않습니다. <br/> <br/><b>이전에 비밀번호를 설정하"
+"지 않은 경우 이전 비밀번호 입력란을 비워 두십시오.</b>"
+
+#: storage/cache/e92b4d0cf032f719aba18e1cd3f553177163d533.php:2
+msgid "Please fix the errors."
+msgstr "오류를 수정하세요"
+
+#: storage/cache/e970b5201908bc6e988eb80e3d02d99f09874be3.php:3
+msgid "Advanced settings for crawler"
+msgstr "크롤링을 위한 고급 설정"
+
+#: storage/cache/e970b5201908bc6e988eb80e3d02d99f09874be3.php:12
+msgid "Always use UTF8 encoding?"
+msgstr "항상 UTF8 인코딩을 사용할까요?"
+
+#: storage/cache/e970b5201908bc6e988eb80e3d02d99f09874be3.php:13
+msgid "If you want to crawl all pages in UTF-8 encoding, check this."
+msgstr "모든 페이지에서 UTF8인코딩을 사용할려면 체크하세요."
+
+#: storage/cache/e970b5201908bc6e988eb80e3d02d99f09874be3.php:28
+msgid "HTTP User Agent"
+msgstr "HTTP 사용자 식별"
+
+#: storage/cache/e970b5201908bc6e988eb80e3d02d99f09874be3.php:29
+msgid ""
+"The user agent to be used when crawling, i.e.\n"
+"                <span class=\"highlight variable\">HTTP_USER_AGENT</span>. "
+"If you leave this empty, the default value\n"
+"                will be used. You can find user agent strings\n"
+"                <a target=\"_blank\" href=\"http://www.useragentstring.com/"
+"pages/useragentstring.php\">here</a>."
+msgstr ""
+"크롤링 할 때 사용할 사용자 식별코드 예: <span class=\"highlight variable\"> "
+"HTTP_USER_AGENT</span>. 이 값을 비워두면 기본값이 사용됩니다. 사용자 식별코드"
+"는 <a target=\"_blank\" href=\"http://www.useragentstring.com/pages/"
+"useragentstring.php\">이곳</a>에서 찾을 수 있습니다."
+
+#: storage/cache/e970b5201908bc6e988eb80e3d02d99f09874be3.php:47
+msgid "HTTP Accept"
+msgstr "HTTP 승인"
+
+#: storage/cache/e970b5201908bc6e988eb80e3d02d99f09874be3.php:48
+msgid ""
+"HTTP accept value to be used when crawling, i.e.\n"
+"                    <span class=\"highlight variable\">HTTP_ACCEPT</span>. "
+"If you leave this empty, the default value\n"
+"                    will be used."
+msgstr ""
+"HTTP 승인 값을 사용합니다. 예: <span class=\"highlight variable"
+"\">HTTP_ACCEPT</span>. 비워둔다면 기본값이 사용됩니다."
+
+#: storage/cache/e970b5201908bc6e988eb80e3d02d99f09874be3.php:65
+msgid "Allow cookies?"
+msgstr "쿠키 허용?"
+
+#: storage/cache/e970b5201908bc6e988eb80e3d02d99f09874be3.php:66
+msgid "If you want to allow cookies when crawling, check this."
+msgstr "크롤링 할 때 쿠키를 허용할려면 체크 하세요."
+
+#: storage/cache/e970b5201908bc6e988eb80e3d02d99f09874be3.php:81
+msgid "Connection timeout (in seconds)"
+msgstr "연결 시간(초)"
+
+#: storage/cache/e970b5201908bc6e988eb80e3d02d99f09874be3.php:82
+msgid ""
+"Maximum number of seconds in which target server should response. Write 0 to "
+"disable.\n"
+"                        Default: 0"
+msgstr "대상 서버가 응답해야 하는 최대 시간(초). 비활성화: 0 기본값: 0"
+
+#: storage/cache/e970b5201908bc6e988eb80e3d02d99f09874be3.php:100
+msgid "Use proxy?"
+msgstr "프록시를 사용하겠습니까?"
+
+#: storage/cache/e970b5201908bc6e988eb80e3d02d99f09874be3.php:101
+msgid ""
+"If you want to use a proxy when the target page cannot be opened, check this."
+msgstr "프록시를 사용할려면 체크 하세요."
+
+#: storage/cache/e970b5201908bc6e988eb80e3d02d99f09874be3.php:117
+msgid "URL for proxy testing"
+msgstr "프록시 테스트를 위한 URL"
+
+#: storage/cache/e970b5201908bc6e988eb80e3d02d99f09874be3.php:118
+msgid "A URL to be used to perform the proxy test."
+msgstr "프록시를 테스트할 URL"
+
+#: storage/cache/e970b5201908bc6e988eb80e3d02d99f09874be3.php:129
+msgid "Proxies"
+msgstr "프록시"
+
+#: storage/cache/e970b5201908bc6e988eb80e3d02d99f09874be3.php:130
+msgid ""
+"You can write your proxies here. Write every proxy in a new line. If you "
+"want to\n"
+"                        use a proxy specifically with a protocol, write the "
+"proxy with its protocol. E.g.\n"
+"                        <span class=\"highlight proxy"
+"\">https://192.168.16.1:10</span>, or\n"
+"                        <span class=\"highlight proxy"
+"\">http://192.168.16.1:10</span>. You can also provide proxies\n"
+"                        that contain a scheme, username and password. E.g.\n"
+"                        <span class=\"highlight proxy\">http://username:"
+"password@192.168.16.1:10</span>. If you do not\n"
+"                        specify the protocol, TCP will be used. The proxies "
+"will be ordered randomly before they are\n"
+"                        used."
+msgstr ""
+"여기에 프록시를 쓸수 있습니다. 새 줄에 모든 프록시를 작성하십시오. 프로토콜"
+"과 함께 프록시를 사용하려면 해당 프로토콜과 함께 프록시를 작성하십시오. 예: "
+"<span class=\"highlight proxy\">https://192.168.16.1:10</span> 또는 <span "
+"class=\"highlight proxy\">http://192.168.16.1:10</span>. 스키마, 사용자 이름 "
+"및 암호가 포함 된 프록시를 사용할수도 있습니다. 예: <span class=\"highlight "
+"proxy\">http://username:password@192.168.16.1:10</span>. 프로토콜을 지정하지 "
+"않으면 TCP가 사용됩니다. 프록시는 사용되기 전에 무작위로 주문됩니다."
+
+#: storage/cache/e970b5201908bc6e988eb80e3d02d99f09874be3.php:143
+msgid "New line-separated proxies..."
+msgstr "라인으로 여러 프록시 구분"
+
+#: storage/cache/e970b5201908bc6e988eb80e3d02d99f09874be3.php:161
+msgid "Proxy try limit"
+msgstr "프록시 시도 제한"
+
+#: storage/cache/e970b5201908bc6e988eb80e3d02d99f09874be3.php:162
+msgid ""
+"Maximum number of proxies that can be tried for one request. Write 0 for no "
+"limitation.\n"
+"                        Default: 0"
+msgstr ""
+"한 요청에 대해 시도 할 수있는 최대 프록시 수입니다. 제한하지 않을려면 0을 사"
+"용합니다. 기본값 : 0"
+
+#: storage/cache/f0e40351cc93bc337000fdc2570b1f145fbaf792.php:2
+msgid "Main Settings"
+msgstr "메인 설정"
+
+#: storage/cache/f0e40351cc93bc337000fdc2570b1f145fbaf792.php:3
+msgid "Set main page URL and active status"
+msgstr "메인 페이지 설정과 활성화 상태"
+
+#: storage/cache/f0e40351cc93bc337000fdc2570b1f145fbaf792.php:12
+msgid "Site URL"
+msgstr "사이트 URL"
+
+#: storage/cache/f0e40351cc93bc337000fdc2570b1f145fbaf792.php:13
+msgid ""
+"Main URL of the site. E.g. <span class=\"highlight url\">http://wordpress."
+"org</span>.\n"
+"                    You must fill this field."
+msgstr ""
+"기본 사이트 URL 예. <span class=\"highlight url\">http://wordpress.org</"
+"span>.\n"
+"                    필수입력."
+
+#: storage/cache/f0e40351cc93bc337000fdc2570b1f145fbaf792.php:25
+msgid "Active for scheduling?"
+msgstr "이 사이트를 활성화 하겠습니까?"
+
+#: storage/cache/f0e40351cc93bc337000fdc2570b1f145fbaf792.php:26
+msgid ""
+"If you want to activate this site for crawling, check this. If you do not "
+"check this,\n"
+"                    the site will not be crawled, no posts will be saved."
+msgstr ""
+"이 사이트를 활성화 하길 원하면 체크해 주세요. 만약 체크를 하지 않는다면 어떤 "
+"포스트도 저장되지 않습니다."
+
+#: storage/cache/f0e40351cc93bc337000fdc2570b1f145fbaf792.php:45
+msgid "Active for recrawling?"
+msgstr "리크롤링을 활성화 하겠습니까?"
+
+#: storage/cache/f0e40351cc93bc337000fdc2570b1f145fbaf792.php:46
+msgid ""
+"If you want to activate this site for post recrawling, check this. If you do "
+"not check this,\n"
+"                    the posts will not be recrawled."
+msgstr ""
+"이 사이트를 리크롤링 하길 원하면 체크해 주세요. 만약 체크를 하지 않는다면 어"
+"떤 포스트도 리크롤링되지 않습니다."
+
+#: storage/cache/f0e40351cc93bc337000fdc2570b1f145fbaf792.php:64
+msgid "Active for post deleting?"
+msgstr "포스트 삭제를 활성화 하겠습니까?"
+
+#: storage/cache/f0e40351cc93bc337000fdc2570b1f145fbaf792.php:65
+msgid ""
+"If you want to activate this site for post deleting, check this. If you do "
+"not check\n"
+"                    this, the posts will not be deleted."
+msgstr ""
+"이 사이트에서 포스트 삭제를 활성화 하길 원하면 체크해 주세요. 만약 체크를 하"
+"지 않는다면 어떤 포스트도 삭제되지 않습니다."
+
+#: storage/cache/f0e40351cc93bc337000fdc2570b1f145fbaf792.php:83
+msgid "Check duplicate posts via"
+msgstr "다음으로 중복 포스트 확인"
+
+#: storage/cache/f0e40351cc93bc337000fdc2570b1f145fbaf792.php:84
+msgid ""
+"Set how to decide whether a post is duplicate or not. Duplicate checking "
+"will be\n"
+"                    performed in this order: URL, title, content. If one of "
+"them is found, the post is considered as\n"
+"                    duplicate."
+msgstr ""
+"포스트가 중복되는지 여부를 결정하는 방법을 설정하십시오. 중복 검사는 URL, 제"
+"목, 내용 순서로 수행됩니다. 그 중 하나가 발견되면 해당 포스트는 중복된 것으"
+"로 간주됩니다."
+
+#: storage/cache/f0e40351cc93bc337000fdc2570b1f145fbaf792.php:115
+msgid "Use custom general settings?"
+msgstr "이 사이트만의 일반 설정을 사용하겠습니까?"
+
+#: storage/cache/f0e40351cc93bc337000fdc2570b1f145fbaf792.php:116
+msgid ""
+"If you want to specify different settings for this site (not use general "
+"settings),\n"
+"                    check this. When you check this, settings tabs will "
+"appear."
+msgstr ""
+"이 사이트만 특별히 다른 설정(일반 설정을 사용하지 않음)을 사용하길 원한다면 "
+"체크해 주세요. 체크를 하면 설정탭이 표시 됩니다."
+
+#: storage/cache/f0e40351cc93bc337000fdc2570b1f145fbaf792.php:135
+msgid "Cookies"
+msgstr "쿠키"
+
+#: storage/cache/f0e40351cc93bc337000fdc2570b1f145fbaf792.php:136
+msgid ""
+"You can provide cookies that will be attached to every request. For example, "
+"you can\n"
+"                    provide a session cookie to crawl a site by a logged-in "
+"user."
+msgstr ""
+"모든 요청에 첨부 될 쿠키를 제공 할 수 있습니다. 예를 들어 세션 쿠키를 제공하"
+"여 로그인한 사용자로 사이트를 크롤링 할 수 있습니다."
+
+#: storage/cache/f0e40351cc93bc337000fdc2570b1f145fbaf792.php:145
+msgid "Cookie name"
+msgstr "쿠키 이름"
+
+#: storage/cache/f0e40351cc93bc337000fdc2570b1f145fbaf792.php:146
+msgid "Cookie content"
+msgstr "쿠키 내용"
+
+#: storage/cache/f4f385cd17e163dc8c6358c505d6cd38899f57d3.php:12
+msgid "Comma-separated attributes"
+msgstr "쉽표로 구분된 속성"
+
+#: storage/cache/f53e0af99b707e5b407181e5c3a0aaa21683f2a4.php:2
+msgid "Post URLs"
+msgstr "포스트 URL"
+
+#: storage/cache/fcd16d53e71ff2e33ca48a59dad86987e454ed03.php:3
+msgid "Set meta keywords and description keys"
+msgstr "메타 키워드 및 설명 키 설정"
+
+#: storage/cache/fcd16d53e71ff2e33ca48a59dad86987e454ed03.php:12
+msgid "Meta Keywords Key"
+msgstr "메타 키워드 키"
+
+#: storage/cache/fcd16d53e71ff2e33ca48a59dad86987e454ed03.php:13
+msgid ""
+"Set the key under which the meta keywords are saved. This key depends\n"
+"                    on your SEO plugin. If you do not set a key, meta "
+"keywords will not be saved. If you use\n"
+"                    Yoast SEO, this key is <span class=\"highlight variable"
+"\">_yoast_wpseo_metakeys</span>"
+msgstr ""
+"메타 키워드가 저장된 키를 설정 하십시요. 이 키는 SEO 플러그인 마다 다릅니다. "
+"설정하지 않는다면 메타 키워드는 저장 되지 않습니다. 예를 들어 Yoast SEO 플러"
+"그인을 사용한다면 이 키는 <span class=\"highlight variable"
+"\">_yoast_wpseo_metakeys</span>입니다."
+
+#: storage/cache/fcd16d53e71ff2e33ca48a59dad86987e454ed03.php:31
+msgid "Meta Description Key"
+msgstr "메타 설명 키"
+
+#: storage/cache/fcd16d53e71ff2e33ca48a59dad86987e454ed03.php:32
+msgid ""
+"Set the key under which the meta description is saved. This key depends\n"
+"                    on your SEO plugin. If you do not set a key, meta "
+"description will not be saved. If you use\n"
+"                    Yoast SEO, this key is <span class=\"highlight variable"
+"\">_yoast_wpseo_metadesc</span>"
+msgstr ""
+"메타 설명이 저장된 키를 설정 하십시요. 이 키는 SEO 플러그인 마다 다릅니다. 설"
+"정하지 않는다면 메타 설명은 저장 되지 않습니다. 예를 들어 Yoast SEO 플러그인"
+"을 사용한다면 이 키는 <span class=\"highlight variable"
+"\">_yoast_wpseo_metadesc</span>입니다."
+
+#: storage/cache/fcd16d53e71ff2e33ca48a59dad86987e454ed03.php:67
+msgid "Find and replace in all post pages"
+msgstr "모든 포스트 페이지에서 찾기-바꾸기"
+
+#: storage/cache/fcd16d53e71ff2e33ca48a59dad86987e454ed03.php:68
+msgid ""
+"If you want some things to be replaced with some other things in <b>HTML of\n"
+"                    the post page</b>, this is the place. The replacements "
+"will be done after the HTML of target page\n"
+"                    is loaded, and <i>before the replacements (for HTML of "
+"the page at first load) of the site\n"
+"                    being crawled is applied</i>. So, these are the\n"
+"                    first replacements that will be done before everything "
+"else. <b>These replacements will be\n"
+"                    applied to all of the active sites.</b>"
+msgstr ""
+"<b>포스트 페이지의 HTML</b>에서 일부 항목을 다른 것으로 바꾸기 위해 사용하십"
+"시요. 교체는 대상 페이지의 HTML이 로드 된 후 완료되며 <i>크롤링되는 사이트의 "
+"교체 HTML (첫 번째로드시 페이지의 HTML)이 적용되기 전에 완료됩니다 .</i>. 따"
+"라서, 이것들은 다른 것들보다 먼저 수행 될 첫 번째 교체입니다. <b>이 교체 모"
+"든 활성 사이트에 적용됩니다. </b>"
+
+msgid "Active for deleting?"
+msgstr "Silme için aktif?"
+
+msgid ""
+"If you want to remove <b>attributes of an element</b>, this is the place. "
+"<b>The\n"
+"                removals will be applied after the attribute exchanges are "
+"applied</b>. "
+msgstr ""
+"<b>Bir elementin özniteliklerini silmek istiyorsanız</b>, bu seçeneği "
+"kullanabilirsiniz. <b>Öznitelikler, elementlerin özniteliklerinde "
+"uygulanması gereken bul ve değiştir seçenekleri uygulandıktan sonra "
+"kaldırılacaktır.</b>"
+
+msgid "An error occurred"
+msgstr "Bir hata oluştu"
+
+msgid "Saved Post Count"
+msgstr "Kaydedilen Yazı Sayısı"
+
+msgid "Posts in Queue"
+msgstr "Sıradaki Yazılar"
+
+msgid ""
+"If you want the images in the post content to be saved as media and included "
+"in\n"
+"                    the post from your server, check this. <b>Note that</b> "
+"saving images will increase the time\n"
+"                    required to save the posts, and hence memory usage."
+msgstr ""
+"Yazının içeriğindeki görsellerin ortam olarak kaydedilmesini ve yazıya kendi "
+"sunucunuzdan eklenmesini istiyorsanız, işaretleyin. <b>Dikkat edin</b>, "
+"görselleri kaydetmek yazıların alınması için gereken süreyi ve böylece "
+"bellek kullanımını artıracaktır."
+
+msgid ""
+"CSS selectors for images <b>in the post content</b>. This gets the \"src\" "
+"attribute of\n"
+"                    specified element. If you give more than one selector, "
+"each match will be used when saving\n"
+"                    images. E.g. <span class=\"highlight selector\">img</"
+"span>"
+msgstr ""
+"<b>Yazının içeriğindeki</b> görseller için CSS seçicileri. Belirtilen "
+"etiketin “src” değerini alır. Birden fazla seçici belirttiğinizde, bulunan "
+"tüm eşleşmeler görselleri kaydederken kullanılacaktır. Örneğin: <span class="
+"\"highlight selector\">img</span>"
+
+msgid ""
+"If you want some things to be replaced with some other things in <b>URLs of "
+"the\n"
+"                    found images</b>, this is the place. The replacement "
+"will be done before saving the image.\n"
+"                    You can write plain text or regular expressions. When "
+"writing regex, do\n"
+"                    not put slashes before and after the expression, and "
+"make sure the checkbox is checked. You\n"
+"                    can test your regex <a href=\"https://regex101.com/\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+"<b>Bulunan görsellerin URL’sinde</b> bir şeyleri başka bir şeylerle "
+"değiştirmek istiyorsanız, bu seçeneği kullanabilirsiniz. Değişiklikler "
+"görsel kaydedilmeden önce yapılacaktır. Düz yazı veya düzenli ifade "
+"yazabilirsiniz. Düzenli ifade yazarken, ifadenin başına ve sonuna bölü "
+"işareti koymayın ve kutucuğu işaretlemeyi unutmayın. Düzenli ifadelerinizi "
+"<a href=\"https://regex101.com/\" target=\"_blank\">buradan</a> test "
+"edebilirsiniz."
+
+msgid ""
+"If you want some things to be replaced with some other things in <b>URL of "
+"the\n"
+"                    featured image</b>, this is the place. The replacement "
+"will be done before saving the image.\n"
+"                    You can write plain text or regular expressions. When "
+"writing regex, do\n"
+"                    not put slashes before and after the expression, and "
+"make sure the checkbox is checked. You\n"
+"                    can test your regex <a href=\"https://regex101.com/\" "
+"target=\"_blank\">here</a>."
+msgstr ""
+"<b>Öne çıkan görselin URL’sinde</b> bir şeyleri başka bir şeylerle "
+"değiştirmek istiyorsanız, bu seçeneği kullanabilirsiniz. Değişiklik görsel "
+"kaydedilmeden önce yapılacaktır. Düz yazı veya düzenli ifade yazabilirsiniz. "
+"Düzenli ifade yazarken, ifadenin başına ve sonuna bölü işareti koymayın ve "
+"kutucuğu işaretlemeyi unutmayın. Düzenli ifadelerinizi <a href=\"https://"
+"regex101.com/\" target=\"_blank\">buradan</a> test edebilirsiniz."
+
+msgid "Test code for find-and-replaces in post HTML"
+msgstr "“Yazı HTML’inde bul ve değiştir” için test kodu"
+
+msgid ""
+"If you want some things to be replaced with some other things in <b>HTML of\n"
+"                    the post page at first load</b>, this is the place. "
+"<b>The replacements will be applied after\n"
+"                    the HTML is retrieved and replacements defined in "
+"general settings page are applied</b>. You\n"
+"                    can write plain text or regular expressions. When "
+"writing regex, do not put slashes before\n"
+"                    and after the expression, and make sure the checkbox is "
+"checked. You can test your regex\n"
+"                    <a href=\"https://regex101.com/\" target=\"_blank"
+"\">here</a>."
+msgstr ""
+"<b>Yazı sayfası yüklendiğinde, yazı sayfasının HTML kodunda</b> bir şeyleri "
+"başka bir şeylerle değiştirmek istiyorsanız, bu seçeneği kullanabilirsiniz. "
+"<b>Değişiklikler, HTML kodu alındıktan ve genel ayarlar sayfasındaki "
+"değişiklikler uygulandıktan sonra uygulanacaktır.</b> Düz yazı veya düzenli "
+"ifade yazabilirsiniz. Düzenli ifade yazarken, ifadenin başına ve sonuna bölü "
+"işareti koymayın ve kutucuğu işaretlemeyi unutmayın. Düzenli ifadelerinizi "
+"<a href=\"https://regex101.com/\" target=\"_blank\">buradan</a> test "
+"edebilirsiniz."
+
+msgid "Test code for find-and-replaces in category HTML"
+msgstr ""
+"Kategori HTML’indeki “bul ve değiştir” seçeneklerini test etmekte "
+"kullanılacak kod"
+
+msgid ""
+"If you want some things to be replaced with some other things in <b>HTML of\n"
+"                    the category page at first load</b>, this is the place. "
+"The replacement will be done after\n"
+"                    the HTML is retrieved, i.e, before everything. You can "
+"write plain text or regular expressions.\n"
+"                    When writing regex, do not put slashes before and after "
+"the expression, and make sure the\n"
+"                    checkbox is checked. You can test your regex <a href="
+"\"https://regex101.com/\" target=\"_blank\">here</a>."
+msgstr ""
+"<b>Kategori sayfasının HTML kodu yüklenir yüklenmez</b> bir şeyleri başka "
+"bir şeylerle değiştirmek istiyorsanız, bu seçeneği kullanabilirsiniz. "
+"Değişiklik HTML kodu alınır alınmaz, yani her şeyden önce yapılacak. Düz "
+"yazı veya düzenli ifade yazabilirsiniz. Düzenli ifade yazarken, ifadenin "
+"başına ve sonuna bölü işareti koymayın ve kutucuğu işaretlemeyi unutmayın. "
+"Düzenli ifadelerinizi <a href=\"https://regex101.com/\" target=\"_blank"
+"\">buradan</a> test edebilirsiniz."
+
+msgid "No URLs in queue."
+msgstr "Sırada hiç URL yok."
+
+msgid "Posts being recrawled right now"
+msgstr "Şu anda güncellenen yazılar"
+
+msgid ""
+"If you want some things to be replaced with some other things in <b>HTML of\n"
+"                    the post page</b>, this is the place. The replacements "
+"will be done after the HTML of target page\n"
+"                    is loaded, and <i>before the replacements (for HTML of "
+"the page at first load) of the site\n"
+"                    being crawled is applied</i>. So, these are the\n"
+"                    first replacements that will be done before everything "
+"else. <b>These replacements will be\n"
+"                    applied to all of the active sites.</b> You can write "
+"plain text or regular expressions.\n"
+"                    When writing regex, do not put slashes before and after "
+"the expression, and make sure the\n"
+"                    checkbox is checked. You can test your regex\n"
+"                    <a href=\"https://regex101.com/\" target=\"_blank"
+"\">here</a>."
+msgstr ""
+"<b>Yazı sayfası yüklendiğinde, yazı sayfasının HTML kodunda</b> bir şeyleri "
+"başka bir şeylerle değiştirmek istiyorsanız, bu seçeneği kullanabilirsiniz. "
+"<b>Değişiklikler, hedef sitenin HTML kodu alındıktan sonra </b> ve <i>hedef "
+"sitenin ‘HTML kodunda bul ve değiştir’ seçeneğinde belirtilen "
+"değişikliklerden önce</i> yapılacaktır. Düz yazı veya düzenli ifade "
+"yazabilirsiniz. Düzenli ifade yazarken, ifadenin başına ve sonuna bölü "
+"işareti koymayın ve kutucuğu işaretlemeyi unutmayın. Düzenli ifadelerinizi "
+"<a href=\"https://regex101.com/\" target=\"_blank\">buradan</a> test "
+"edebilirsiniz."
+
+msgid "Active?"
+msgstr "Aktif?"
+
+msgid "Empty CSS selectors are found at following URL"
+msgstr "Şu URL'de değerleri olmayan stil seçiciler bulundu:"
+
+msgid "CSS selectors with empty values"
+msgstr "Değerleri olmayan CSS seçiciler"
+
+msgid "Site name"
+msgstr "Site adı"
+
+msgid "Site settings"
+msgstr "Site ayarları"
+
+msgid "Admin dashboard"
+msgstr "Admin ana sayfası"
+
+msgid "Passwords do not match."
+msgstr "Şifreler uyuşmuyor."
+
+msgid "Main post title"
+msgstr "Ana yazı başlığı"
+
+msgid "Main post excerpt"
+msgstr "Ana yazı kısa açıklaması"
+
+msgid "Test results for %1$s%2$son %3$s:"
+msgstr "%3$s adresinde %1$s%2$s için sonuçlar:"
+
+msgid "Crawl a post"
+msgstr "Bir yazı kaydet"
+
+msgid ""
+"Main URL of the site. E.g. <span class=\"highlight url\">http://wordpress."
+"org</span>.\n"
+"                            You must fill this field."
+msgstr ""
+"Sitenin ana URL adresi. Örneğin: <span class=\"highlight url\">http://"
+"wordpress.org</span>. \n"
+"Bu alanı doldurmanız gerekli."
+
+msgid ""
+"If you want to activate this site for crawling, check this. If you do not "
+"check this,\n"
+"                            the site will not be crawled, no posts will be "
+"saved."
+msgstr ""
+"Eğer bu sitedeki yazıları programlanmış bir şekilde almak istiyorsanız, "
+"işaretleyin. İşaretlemezseniz bu site için yazılar otomatik olarak "
+"kaydedilmeyecek ve yazı URL’leri otomatik olarak toplanmayacaktır."
+
+msgid ""
+"If you want to specify different settings for this site (not use general "
+"settings),\n"
+"                            check this. When you check this, settings tabs "
+"will appear."
+msgstr ""
+"Bu site için genel ayarlardan farklı ayarlar belirlemek istiyorsanız, "
+"işaretleyin. Bu seçeneği işaretlediğinizde ayarlar sekmesi görünecektir."
+
+msgid ""
+"The URL to get category links from. The page should include a container "
+"having category URLs.\n"
+"                            This will be used to automatically insert "
+"category URLs for category map."
+msgstr ""
+"Kategori linklerinin alınacağı URL. Belirtilen sayfa, kategori URL’lerini "
+"içeren bir element içermelidir.\n"
+"Bu seçenek, kategori adreslerinin kategori haritasına otomatik olarak "
+"eklenmesi amacıyla kullanılacaktır."
+
+msgid ""
+"CSS selectors for category links. This is used to get category URLs "
+"automatically for category map.\n"
+"                            Gets \"href\" attributes of \"a\" tags. E.g. "
+"<span class=\"highlight selector\">.top-level-navigation ul > li > a</"
+"span>.\n"
+"                            Before using the insert button, make sure you "
+"filled the category list page URL."
+msgstr ""
+"Kategori linkleri için CSS seçicileri. Bu seçiciler, kategori URL’lerinin "
+"kategori haritasına otomatik olarak eklenmesinde kullanılacak. “a” "
+"etiketlerinin “href” değerini alır. Örneğin: <span class=\"highlight selector"
+"\">.top-level-navigation ul > li > a</span>. Ekle butonunu kullanmadan önce "
+"kategori listesi sayfasının URL’sini belirlediğinizden emin olun."
+
+msgid ""
+"Map the categories to target site's URLs. You can write the URLs relative to "
+"the\n"
+"                            main site URL. E.g. <span class=\"highlight url"
+"\">/category/art</span>. Category URLs should\n"
+"                            be added once, no duplicates allowed. <b>Note "
+"that</b> changing category map will clear the\n"
+"                            post URLs waiting to be saved."
+msgstr ""
+"Kategorileri hedef sitenin URL’lerine haritalayın. URL’leri ana sitenin "
+"URL’sini kullanmadan yazabilirsiniz. Örneğin: <span class=\"highlight url\">/"
+"category/art</span>. Kategori URL’leri sadece bir kere eklenmeli, aynı URL "
+"birden fazla olmamalıdır. <b>Dikkat edin</b>, kategori haritasının "
+"değiştirilmesi kuyrukta bekleyen yazı URL’lerini silecektir."
+
+msgid ""
+"CSS selectors for the post URLs in category pages. Gets \"href\" attributes "
+"of \"a\" tags.\n"
+"                            E.g. <span class=\"highlight selector\">article."
+"post > h2 > a</span>. When testing, make sure you\n"
+"                            filled the category test URL. If you give more "
+"than one selector, each selector will be used\n"
+"                            to get URLs and the results will be combined."
+msgstr ""
+"Kategori sayfalarındaki yazı URL’leri için CSS seçicileri. “a” etiketlerinin "
+"“href” değerini alır. Örneğin: <span class=\"highlight selector\">article."
+"post > h2 > a</span>. Test etmeden önce test kategori URL’sini "
+"belirlediğinizden emin olun. Birden fazla seçici belirlediğinizde her seçici "
+"URL’lerin alınmasında kullanılacak ve sonuçlar birleştirilecektir."
+
+msgid ""
+"CSS selectors for unwanted elements in the category page. Specified elements "
+"will be\n"
+"                            removed from the HTML of the page. Content "
+"extraction will be done after the page is cleared\n"
+"                            from unnecessary elements."
+msgstr ""
+"Kategori sayfasındaki gereksiz elemanlar için CSS seçicileri. Belirtilen "
+"etiketler sayfanın HTML kodundan çıkarılacaktır. İçerik toplama işlemi sayfa "
+"gereksiz elemanlardan temizlendikten sonra yapılacaktır."
+
+msgid ""
+"If there are featured images for each post on category page and you want to\n"
+"                            save the featured images for the posts, check "
+"this."
+msgstr ""
+"Eğer kategori sayfalarında her yazı için öne çıkan görsel varsa ve bu "
+"görselleri yazıların öne çıkan görseli olarak kaydetmek istiyorsanız, "
+"işaretleyin."
+
+msgid ""
+"CSS selectors for post featured images in a category page. Gets \"src\" "
+"attributes of \"img\" tags.\n"
+"                            E.g. <span class=\"highlight selector\">.post-"
+"item > img</span>. When testing, make sure you\n"
+"                            filled the category test URL. If you give more "
+"than one selector, the first match will be used."
+msgstr ""
+"Kategori sayfasındaki öne çıkan görseller için CSS seçicileri. “img” "
+"etiketlerinin “src” değerini alır. Örneğin: <span class=\"highlight selector"
+"\">.post-item > img</span>. Test etmeden önce test kategori URL’sini "
+"belirlediğinizden emin olun. Birden fazla seçici belirttiğinizde, bulunan "
+"ilk eşleşme kullanılacaktır."
+
+msgid ""
+"A full image URL to be used to perform tests for the find-replace settings\n"
+"                            for featured image URL."
+msgstr ""
+"Öne çıkan görsel URL’sinde yapılacak bul ve değiştirleri test etmek için "
+"kullanılacak tam görsel URL’si"
+
+msgid ""
+"If you want some things to be replaced with some other things in <b>URL of "
+"the\n"
+"                            featured image</b>, this is the place. The "
+"replacement will be done before saving the image.\n"
+"                            You can write plain text or regular expressions. "
+"When writing regex, do\n"
+"                            not put slashes before and after the expression, "
+"and make sure the checkbox is checked. You\n"
+"                            can test your regex <a href=\"https://regex101."
+"com/\" target=\"_blank\">here</a>."
+msgstr ""
+"<b>Öne çıkan görselin URL’sinde</b> bir şeyleri başka bir şeylerle "
+"değiştirmek istiyorsanız, bu seçeneği kullanabilirsiniz. Değişiklik görsel "
+"kaydedilmeden önce yapılacaktır. Düz yazı veya düzenli ifade yazabilirsiniz. "
+"Düzenli ifade yazarken, ifadenin başına ve sonuna bölü işareti koymayın ve "
+"kutucuğu işaretlemeyi unutmayın. Düzenli ifadelerinizi <a href=\"https://"
+"regex101.com/\" target=\"_blank\">buradan</a> test edebilirsiniz."
+
+msgid ""
+"If the links for the posts in the category page come before the featured "
+"images,\n"
+"                            considering the position of the featured image "
+"and link in the HTML of the page, check this."
+msgstr ""
+"Kategori sayfasındaki yazı linkleri, görsel ve link etiketlerinin sayfanın "
+"HTML kodundaki pozisyonu dikkate alındığında, yazılara ait öne çıkan "
+"görsellerden önce geliyorsa, işaretleyin."
+
+msgid ""
+"CSS selectors for next page URL in a category page. Gets \"href\" attributes "
+"of \"a\" tags.\n"
+"                            E.g. <span class=\"highlight selector\">."
+"pagination > a.next</span>. When testing, make sure you\n"
+"                            filled the category test URL. If you give more "
+"than one selector, the first\n"
+"                            match will be used."
+msgstr ""
+"Kategori sayfasındaki sonraki sayfa URL’si için CSS seçicileri. “a” "
+"etiketlerinin “href” değerini alır. Örneğin: <span class=\"highlight selector"
+"\">.pagination > a.next</span>.  Test etmeden önce test kategori URL’sini "
+"belirlediğinizden emin olun. Birden fazla seçici belirttiğinizde, bulunan "
+"ilk eşleşme kullanılacaktır."
+
+msgid ""
+"If you want some things to be replaced with some other things in <b>HTML of\n"
+"                            the category page at first load</b>, this is the "
+"place. The replacement will be done after\n"
+"                            the HTML is retrieved, i.e, before everything. "
+"You can write plain text or regular expressions.\n"
+"                            When writing regex, do not put slashes before "
+"and after the expression, and make sure the\n"
+"                            checkbox is checked. You can test your regex <a "
+"href=\"https://regex101.com/\" target=\"_blank\">here</a>."
+msgstr ""
+"<b>Kategori sayfasının HTML kodu yüklenir yüklenmez</b> bir şeyleri başka "
+"bir şeylerle değiştirmek istiyorsanız, bu seçeneği kullanabilirsiniz. "
+"Değişiklik HTML kodu alınır alınmaz, yani her şeyden önce yapılacak. Düz "
+"yazı veya düzenli ifade yazabilirsiniz. Düzenli ifade yazarken, ifadenin "
+"başına ve sonuna bölü işareti koymayın ve kutucuğu işaretlemeyi unutmayın. "
+"Düzenli ifadelerinizi <a href=\"https://regex101.com/\" target=\"_blank"
+"\">buradan</a> test edebilirsiniz."
+
+msgid ""
+"CSS selectors for post title. E.g. <span class=\"highlight selector\">h1</"
+"span>. This\n"
+"                            gets text of the specified element. If you give "
+"more than one selector, the first match will\n"
+"                            be used."
+msgstr ""
+"Yazı başlığı için CSS seçicileri. Örneğin: <span class=\"highlight selector"
+"\">h1</span>. Belirtilen etiketin yazısını alır. Birden fazla seçici "
+"belirttiğinizde, bulunan ilk eşleşme kullanılacaktır."
+
+msgid ""
+"CSS selectors for the post excerpt, if exists. E.g. <span class=\"highlight "
+"selector\">p.excerpt</span>.\n"
+"                            This gets html of the specified element. If you "
+"give more than one selector, the first match will\n"
+"                            be used."
+msgstr ""
+"Yazı kısa açıklaması için CSS seçicileri. Örneğin: <span class=\"highlight "
+"selector\">p.excerpt</span>. Belirtilen etiketin HTML kodunu alır. Birden "
+"fazla seçenek belirttiğinizde, bulunan ilk eşleşme kullanılacaktır."
+
+msgid ""
+"CSS selectors for the post content. This gets HTML of specified element. E."
+"g.\n"
+"                            <span class=\"highlight selector\">.post-content "
+"> p</span>. If you give more than one selector,\n"
+"                            each match will be crawled and the results will "
+"be merged."
+msgstr ""
+"Yazı içeriği için CSS seçicileri. Belirtilen etiketin HTML kodunu alır. "
+"Örneğin: <span class=\"highlight selector\">.post-content > p</span>. Birden "
+"fazla seçici belirttiğinizde, her eşleşme kullanılacak ve sonuçlar "
+"birleştirilecektir."
+
+msgid ""
+"CSS selectors for HTML elements whose contents can be used in post template\n"
+"                            by defined shortcode. If more than one element "
+"is found, their content will be merged. If\n"
+"                            you do not want them merged, check the \"single"
+"\" checkbox to get the first found result.\n"
+"                            By default, this gets HTML of the found element. "
+"If you want the text of the target element,\n"
+"                            write \"text\" for attribute. You can also use "
+"any other attribute of the found element, such\n"
+"                            as \"src\", \"href\"... Write your shortcodes "
+"without brackets, e.g. <b>\"item-price\"</b>. Next, you\n"
+"                            can use it <b>in the main post template by "
+"writing [item-price]</b>"
+msgstr ""
+"İçeriklerini belirttiğiniz kısa kodlar ile kullanabileceğiniz, HTML "
+"elementleri için CSS seçicileri. Eğer birden fazla element bulunduysa, "
+"bulunan elementlerin içerikleri birleştirilecektir. İçeriklerin "
+"birleştirilmesini istemiyorsanız, bulunan ilk içeriği almak için “tekil” "
+"kutucuğunu işaretleyin. Varsayılan olarak bulunan elementlerin HTML kodu "
+"alınır. Eğer elementin yazı içeriğini istiyorsanız, öznitelik kutucuğuna "
+"“text” yazın. Ayrıca, bulunan elementin “src”, “href” gibi herhangi bir "
+"öznitelik değerini kullanabilirsiniz. Kısa kodları köşeli parantez "
+"kullanmadan yazın. Örneğin: <b>“urun-fiyati”</b>. Ardından, belirlediğiniz "
+"kısa kodu <b>ana yazı şablonunda [urun-fiyati]</b> yazarak kullanabilirsiniz."
+
+msgid ""
+"CSS selectors for post tags. By default, this gets \"text\" of the "
+"specified\n"
+"                            elements. You can also use any attribute of the "
+"elements. If you give more than one selector,\n"
+"                            the results will be combined to create post tags."
+msgstr ""
+"Yazı etiketleri için CSS seçicileri. Varsayılan olarak hedef elementin "
+"yazısını (“text”) alır. Hedef elementin herhangi bir özniteliğini "
+"alabilirsiniz. Eğer birden fazla seçici eklerseniz, bulunan tüm sonuçlar "
+"yazı etiketi olarak kullanılmak üzere birleştirilecektir."
+
+msgid ""
+"CSS selectors for the elements come just before the first list item. This "
+"will be used\n"
+"                            to detect list item contents accurately. The "
+"position of the first match of any given selector\n"
+"                            will be compared to others and the greatest "
+"position will be used. You can give a selector\n"
+"                            for the first item. It'll do the job. E.g. <span "
+"class='highlight selector'>.entry > .list-item</span>"
+msgstr ""
+"İlk liste maddesinden önce gelen elementler için CSS seçicileri. Liste "
+"maddelerinin içeriklerini doğru bir şekilde belirlemek amacıyla "
+"kullanılacaktır. Belirtilen seçiciler için bulunan ilk eşleşmelerin "
+"pozisyonları birbirleriyle karşılaştırılacak ve en büyük pozisyon "
+"kullanılacaktır. Seçiciyi ilk liste maddesi olarak belirleyebilirsiniz. "
+"Seçeneğin amacını yerine getirecektir. Örneğin: <span class='highlight "
+"selector'>.entry > .list-item</span>"
+
+msgid ""
+"CSS selectors for each list item's number, if the target post is list type. "
+"This gets\n"
+"                            the text of specified element. If you give more "
+"than one selector, the first match will\n"
+"                            be used."
+msgstr ""
+"Liste maddelerinin sayıları için CSS seçicileri, hedef yazı liste "
+"türündeyse. Belirtilen etiketin yazısını alır. Birden fazla seçici "
+"belirttiğinizde, bulunan ilk eşleşme kullanılacaktır."
+
+msgid ""
+"If you want to insert list item numbers automatically when there is no item "
+"number,\n"
+"                            then check this. The items will be numbered "
+"starting from 1."
+msgstr ""
+"Liste maddelerinde numara olmadığında, numaraların otomatik olarak "
+"belirlenmesini istiyorsanız, işaretleyin. Maddeler 1’den başlayarak "
+"numaralandırılacaktır."
+
+msgid ""
+"CSS selectors for each list item's title, if the target post is list type. "
+"This gets\n"
+"                            the text of specified element. If you give more "
+"than one selector, the first match will\n"
+"                            be used."
+msgstr ""
+"Liste maddelerinin başlıkları için CSS seçicileri, hedef yazı liste "
+"türündeyse. Belirtilen etiketin yazısını alır. Birden fazla seçici "
+"belirttiğinizde, bulunan ilk eşleşme kullanılacaktır."
+
+msgid ""
+"CSS selector for each list item's content, if the target post is list type. "
+"This gets\n"
+"                            the HTML of specified element. If you give more "
+"than one selector, the results will be\n"
+"                            combined when creating each list item's content."
+msgstr ""
+"Liste maddelerinin içerikleri için CSS seçicileri, eğer hedef yazı liste "
+"türündeyse. Belirtilen etiketin HTML kodunu alır. Birden fazla seçenek "
+"belirttiğinizde, bulunan sonuçlar birleştirilerek her bir maddenin içeriği "
+"oluşturulacaktır."
+
+msgid ""
+"CSS selectors for unwanted elements in the post page. Specified elements "
+"will be\n"
+"                            removed from the HTML of the page. Content "
+"extraction will be done after the page is cleared\n"
+"                            from unnecessary elements."
+msgstr ""
+"Yazı sayfasındaki gereksiz elemanlar için CSS seçicileri. Belirtilen "
+"etiketler sayfanın HTML kodundan çıkarılacaktır. İçerik toplama işlemi sayfa "
+"gereksiz elemanlardan temizlendikten sonra yapılacaktır."
+
+msgid ""
+"CSS selector for next page URL, used to get \"href\" attribute of \"a\" tag. "
+"E.g.\n"
+"                            <span class=\"highlight selector\">.pagination > "
+"a.next</span>. If you give more than one selector,\n"
+"                            the first match will be used."
+msgstr ""
+"Sonraki sayfa URL’si için CSS seçicileri. “a” etiketlerinin “href” değerini "
+"alır. Örneğin: <span class=\"highlight selector\">.pagination > a.next</"
+"span>. Birden fazla seçici belirttiğinizde, bulunan ilk eşleşme "
+"kullanılacaktır."
+
+msgid ""
+"CSS selectors for all page URLs. Sometimes there is no next page URL. "
+"Instead, the\n"
+"                            post page has all of the post pages (or parts) "
+"in one place. If this is the case, you should\n"
+"                            use this. This is used to get \"href\" attribute "
+"of \"a\" tag. E.g. <span class=\"highlight selector\">.post > .parts > a</"
+"span>.\n"
+"                            If you give more than one selector, then the "
+"first match will be used."
+msgstr ""
+"Tüm sayfa URL’leri için CSS seçiciler. Bazen sonraki sayfa URL’si bulunmaz. "
+"Bunun yerine, yazıda tüm sayfaların (veya partların) linkleri tek bir yerde "
+"bulunur. Eğer durum buysa, bu seçeneği kullanmalısınız. “a” etiketlerinin "
+"“href” değerlerini alır. Örneğin: <span class=\"highlight selector\">.post "
+"> .parts > a</span>. Birden fazla seçici belirttiğinizde, bulunan ilk "
+"eşleşme kullanılacaktır."
+
+msgid ""
+"If you want the images in the post content to be saved as media and included "
+"in\n"
+"                            the post from your server, check this. <b>Note "
+"that</b> saving images will increase the time\n"
+"                            required to save the posts, and hence memory "
+"usage."
+msgstr ""
+"Yazının içeriğindeki görsellerin ortam olarak kaydedilmesini ve yazıya kendi "
+"sunucunuzdan eklenmesini istiyorsanız, işaretleyin. <b>Dikkat edin</b>, "
+"görselleri kaydetmek yazıların alınması için gereken süreyi ve böylece "
+"bellek kullanımını artıracaktır."
+
+msgid ""
+"CSS selectors for <b>image URLs in the HTML of the page</b>. This gets the\n"
+"                                        \"src\" attribute of specified "
+"element by default. If you give more than one selector, each\n"
+"                                        match will be used when saving "
+"images and creating the gallery. Note that these elements\n"
+"                                        will be removed from the HTML after "
+"URL is acquired from them."
+msgstr ""
+"<b>Sayfanın HTML kodundaki görseller için</b> CSS seçicileri. Varsayılan "
+"olarak “src” özniteliğinin değerini alır. Birden fazla seçici girdiğinizde, "
+"bulunan her sonuç görseller kaydedilirken ve galeri oluşturulurken "
+"kullanılacaktır. Dikkat edin, belirtilen elemanlardan URL’ler alındıktan "
+"sonra bu elemanlar sayfanın HTML kodundan çıkarılacaktır."
+
+msgid ""
+"If you set post type as WooCommerce product and you want to save\n"
+"                                            the gallery as the product's "
+"gallery, check this."
+msgstr ""
+"Eğer yazı türünü WooCommerce’ün “product” türü olarak seçtiyseniz ve "
+"galeriyi ürünün galerisi olarak belirlemek istiyorsanız, işaretleyin."
+
+msgid ""
+"CSS selectors for images <b>in the post content</b>. This gets the \"src\" "
+"attribute of\n"
+"                            specified element. If you give more than one "
+"selector, each match will be used when saving\n"
+"                            images. E.g. <span class=\"highlight selector"
+"\">img</span>"
+msgstr ""
+"<b>Yazının içeriğindeki</b> görseller için CSS seçicileri. Belirtilen "
+"etiketin “src” değerini alır. Birden fazla seçici belirttiğinizde, bulunan "
+"tüm eşleşmeler görselleri kaydederken kullanılacaktır. Örneğin: <span class="
+"\"highlight selector\">img</span>"
+
+msgid ""
+"If you want some things to be replaced with some other things in <b>URLs of "
+"the\n"
+"                            found images</b>, this is the place. The "
+"replacement will be done before saving the image.\n"
+"                            You can write plain text or regular expressions. "
+"When writing regex, do\n"
+"                            not put slashes before and after the expression, "
+"and make sure the checkbox is checked. You\n"
+"                            can test your regex <a href=\"https://regex101."
+"com/\" target=\"_blank\">here</a>."
+msgstr ""
+"<b>Bulunan görsellerin URL’sinde</b> bir şeyleri başka bir şeylerle "
+"değiştirmek istiyorsanız, bu seçeneği kullanabilirsiniz. Değişiklikler "
+"görsel kaydedilmeden önce yapılacaktır. Düz yazı veya düzenli ifade "
+"yazabilirsiniz. Düzenli ifade yazarken, ifadenin başına ve sonuna bölü "
+"işareti koymayın ve kutucuğu işaretlemeyi unutmayın. Düzenli ifadelerinizi "
+"<a href=\"https://regex101.com/\" target=\"_blank\">buradan</a> test "
+"edebilirsiniz."
+
+msgid ""
+"If you want to save an image from post page as featured image, when there is "
+"no\n"
+"                            featured image found in category page, check "
+"this."
+msgstr ""
+"Yazı sayfasından bir görseli, kategori sayfasında öne çıkan görsel "
+"bulunmaması durumunda, öne çıkan görsel olarak kaydetmek istiyorsanız, "
+"işaretleyin."
+
+msgid ""
+"CSS selectors for featured image <b>in HTML of the post page</b>. This gets "
+"the \"src\"\n"
+"                            attribute of <b>the first found element</b>. If "
+"you give more than one selector, the first match will\n"
+"                            be used. E.g. <span class=\"highlight selector"
+"\">img.featured</span>"
+msgstr ""
+"<b>Yazı sayfasının HTML’inde</b> bulunan öne çıkan görsel için CSS "
+"seçicileri. <b>İlk bulunan eşleşmenin</b> “src” değerini alır. Birden fazla "
+"seçici belirttiğinizde, ilk bulunan eşleşme kullanılacaktır. Örneğin: <span "
+"class=\"highlight selector\">img.featured</span>"
+
+msgid ""
+"CSS selectors for custom meta values. You can use this to save anything "
+"from\n"
+"                            target post as post meta of to-be-saved post. "
+"You can write \"html\", \"text\", or an attribute\n"
+"                            of the target element for attribute input."
+msgstr ""
+"Özel meta değerleri için CSS seçiciler. Bunu, hedef yazıdan herhangi bir "
+"şeyi, sitenize kaydedilecek yazıya meta değeri olarak eklemek için "
+"kullanabilirsiniz. Öznitelik değeri olarak “text”, “html” veya hedef "
+"elementin herhangi bir özniteliğini girebilirsiniz."
+
+msgid ""
+"If you want some things to be replaced with some other things in <b>HTML of\n"
+"                            the post page at first load</b>, this is the "
+"place. <b>The replacements will be applied after\n"
+"                            the HTML is retrieved and replacements defined "
+"in general settings page are applied</b>. You\n"
+"                            can write plain text or regular expressions. "
+"When writing regex, do not put slashes before\n"
+"                            and after the expression, and make sure the "
+"checkbox is checked. You can test your regex\n"
+"                            <a href=\"https://regex101.com/\" target=\"_blank"
+"\">here</a>."
+msgstr ""
+"<b>Yazı sayfası yüklendiğinde, yazı sayfasının HTML kodunda</b> bir şeyleri "
+"başka bir şeylerle değiştirmek istiyorsanız, bu seçeneği kullanabilirsiniz. "
+"<b>Değişiklikler, HTML kodu alındıktan ve genel ayarlar sayfasındaki "
+"değişiklikler uygulandıktan sonra uygulanacaktır.</b> Düz yazı veya düzenli "
+"ifade yazabilirsiniz. Düzenli ifade yazarken, ifadenin başına ve sonuna bölü "
+"işareti koymayın ve kutucuğu işaretlemeyi unutmayın. Düzenli ifadelerinizi "
+"<a href=\"https://regex101.com/\" target=\"_blank\">buradan</a> test "
+"edebilirsiniz."
+
+msgid ""
+"Main template used for the posts. The buttons above the editor holds short "
+"codes which\n"
+"                                    are used to place certain elements into "
+"the post page. You can hover over the buttons\n"
+"                                    to see what they are used to show in "
+"post page, and <b>click them to copy the code</b>. After\n"
+"                                    copying, just place the short codes into "
+"anywhere you want in the editor. <b>You must\n"
+"                                    fill the template.<b>"
+msgstr ""
+"Yazılar için kullanılan ana şablon. Düzenleyicinin üzerinde bulunan "
+"butonlarda, birtakım parçaları yazıya eklemek için kullanılan kısa kodlar "
+"bulunmaktadır. Butonların üzerine gelerek, yazı sayfasına neyi eklemek için "
+"kullanıldığını görebilirsiniz. Kısa kodları <b>kopyalamak için butonlara "
+"tıklayabilirsiniz</b>. Kopyaladıktan sonra, kısa kodları düzenleyicide "
+"herhangi bir yere yerleştirebilirsiniz. <b>Bu şablonu doldurmalısınız.</b>"
+
+msgid ""
+"This template is used for the list. If you set the post list type and wrote "
+"some selectors\n"
+"                                    for the list items, then the list items "
+"will be crawled. Here, you can set a template\n"
+"                                    to be used for <b>each</b> list item. "
+"You can include the entire list in main post\n"
+"                                    template. <b>You must fill the template "
+"if you expect a list from the target page.</b>"
+msgstr ""
+"Bu şablon liste için kullanılır. Yazıların liste türünde olduğunu ve liste "
+"maddeleri için CSS seçicileri belirttiyseniz, liste maddeleri alınacaktır. "
+"Burada <b>her bir liste elemanı için kullanılacak</b> olan şablonu "
+"belirleyebilirsiniz. Listenin tamamını ana yazı şablonunda yazıya "
+"ekleyebilirsiniz. <b>Hedef sayfadan liste türünde yazılar bekliyorsanız, bu "
+"şablonu doldurmalısınız.</b>"
+
+msgid ""
+"This template is used for the gallery. If you activated saving images as "
+"gallery\n"
+"                                    and wrote some selectors for the image "
+"URLs, then the gallery items will be crawled.\n"
+"                                    Here, you can set a template to be used "
+"for <b>each</b> gallery image. You can\n"
+"                                    include the entire gallery in main post "
+"template. <b>You must fill the template if\n"
+"                                    you expect a gallery from the target "
+"page.</b>"
+msgstr ""
+"Bu şablon galeri için kullanılır. Eğer görselleri galeri olarak kaydetmeyi "
+"seçtiyseniz ve bunun için CSS seçiciler yazdıysanız, bu durumda galeri "
+"itemleri alınacaktır. Buradan <b>her bir</b> galeri görseli için kullanılmak "
+"üzere bir şablon belirleyebilirsiniz. Galerinin tamamını ana yazı şablonunda "
+"ekleyebilirsiniz. <b>Hedef sayfadan bir galeri bekliyorsanız bu şablonu "
+"doldurmak zorundasınız.</b>"
+
+msgid ""
+"CSS selectors for unwanted elements in the template. Specified elements will "
+"be\n"
+"                            removed from the HTML of the template. The "
+"removal will be done after the shortcodes are replaced.\n"
+"                            Find-and-replaces will be done after the "
+"template is cleared from unnecessary elements. <b>This\n"
+"                            will use test post URL on Post tab to conduct "
+"the tests.</b>"
+msgstr ""
+"Şablonda istenmeyen elemanlar için CSS seçicileri. Belirtilen elementler "
+"şablonun HTML kodundan çıkarılacaktır. Çıkarma işlemi kısa kodlar "
+"içerikleriyle değiştirildikten sonra yapılacaktır. “Bul ve değiştir” "
+"seçenekleri şablon gereksiz elemanlardan temizlendikten sonra "
+"uygulanacaktır. <b>Bu seçenek testler için Yazı sekmesinde bulunan test yazı "
+"URL’sini kullanmaktadır.</b>"
+
+msgid ""
+"If you want some things to be replaced with some other things in <b>HTML of "
+"post's content</b>,\n"
+"                            this is the place. The replacement will be done "
+"after the final post template is ready. You\n"
+"                            can write plain text or regular expressions. "
+"When writing regex, do not put slashes before\n"
+"                            and after the expression, and make sure the "
+"checkbox is checked. You can test your regex\n"
+"                            <a href=\"https://regex101.com/\" target=\"_blank"
+"\">here</a>."
+msgstr ""
+"<b>Yazının HTML kodunda</b> bir şeyleri başka bir şeylerle değiştirmek "
+"istiyorsanız, bu seçeneği kullanabilirsiniz. Değişiklikler yazı şablonunun "
+"son hali hazır olduktan sonra uygulanacaktır. Düz yazı veya düzenli ifade "
+"yazabilirsiniz. Düzenli ifade yazarken, ifadenin başına ve sonuna bölü "
+"işareti koymayın ve kutucuğu işaretlemeyi unutmayın. Düzenli ifadelerinizi "
+"<a href=\"https://regex101.com/\" target=\"_blank\">buradan</a> test "
+"edebilirsiniz."
+
+msgid ""
+"If you want some things to be replaced with some other things in <b>post's "
+"title</b>,\n"
+"                            this is the place. You can write plain text or "
+"regular expressions. When writing regex, do\n"
+"                            not put slashes before and after the expression, "
+"and make sure the checkbox is checked. You\n"
+"                            can test your regex <a href=\"https://regex101."
+"com/\" target=\"_blank\">here</a>."
+msgstr ""
+"<b>Yazının başlığında</b> bir şeyleri başka bir şeylerle değiştirmek "
+"istiyorsanız, bu seçeneği kullanabilirsiniz. Düz yazı veya düzenli ifade "
+"yazabilirsiniz. Düzenli ifade yazarken, ifadenin başına ve sonuna bölü "
+"işareti koymayın ve kutucuğu işaretlemeyi unutmayın. Düzenli ifadelerinizi "
+"<a href=\"https://regex101.com/\" target=\"_blank\">buradan</a> test "
+"edebilirsiniz."
+
+msgid ""
+"If you want some things to be replaced with some other things in <b>post's "
+"excerpt</b>,\n"
+"                            this is the place. You can write plain text or "
+"regular expressions. When writing regex, do\n"
+"                            not put slashes before and after the expression, "
+"and make sure the checkbox is checked. You\n"
+"                            can test your regex <a href=\"https://regex101."
+"com/\" target=\"_blank\">here</a>."
+msgstr ""
+"<b>Yazının kısa açıklamasında</b> bir şeyleri başka bir şeylerle değiştirmek "
+"istiyorsanız, bu seçeneği kullanabilirsiniz. Düz yazı veya düzenli ifade "
+"yazabilirsiniz. Düzenli ifade yazarken, ifadenin başına ve sonuna bölü "
+"işareti koymayın ve kutucuğu işaretlemeyi unutmayın. Düzenli ifadelerinizi "
+"<a href=\"https://regex101.com/\" target=\"_blank\">buradan</a> test "
+"edebilirsiniz."
+
+msgid ""
+"If you want some things to be replaced with some other things in <b>post's "
+"each tag</b>,\n"
+"                            this is the place. You can write plain text or "
+"regular expressions. When writing regex, do\n"
+"                            not put slashes before and after the expression, "
+"and make sure the checkbox is checked. You\n"
+"                            can test your regex <a href=\"https://regex101."
+"com/\" target=\"_blank\">here</a>."
+msgstr ""
+"<b>Yazının her bir etiketinde</b> bir şeyleri başka bir şeylerle değiştirmek "
+"istiyorsanız, bu seçeneği kullanabilirsiniz. Düz yazı veya düzenli ifade "
+"yazabilirsiniz. Düzenli ifade yazarken, ifadenin başına ve sonuna bölü "
+"işareti koymayın ve kutucuğu işaretlemeyi unutmayın. Düzenli ifadelerinizi "
+"<a href=“https://regex101.com/“ target=“_blank”>buradan</a> test "
+"edebilirsiniz."
+
+msgid ""
+"If you want some things to be replaced with some other things in <b>post's "
+"meta keywords</b>,\n"
+"                            this is the place. You can write plain text or "
+"regular expressions. When writing regex, do\n"
+"                            not put slashes before and after the expression, "
+"and make sure the checkbox is checked. You\n"
+"                            can test your regex <a href=\"https://regex101."
+"com/\" target=\"_blank\">here</a>."
+msgstr ""
+"<b>Yazının meta anahtar kelimelerinde</b> bir şeyleri başka bir şeylerle "
+"değiştirmek istiyorsanız, bu seçeneği kullanabilirsiniz. Düz yazı veya "
+"düzenli ifade yazabilirsiniz. Düzenli ifade yazarken, ifadenin başına ve "
+"sonuna bölü işareti koymayın ve kutucuğu işaretlemeyi unutmayın. Düzenli "
+"ifadelerinizi <a href=\"https://regex101.com/\" target=\"_blank\">buradan</"
+"a> test edebilirsiniz."
+
+msgid ""
+"If you want some things to be replaced with some other things in <b>post's "
+"meta description</b>,\n"
+"                            this is the place. You can write plain text or "
+"regular expressions. When writing regex, do\n"
+"                            not put slashes before and after the expression, "
+"and make sure the checkbox is checked. You\n"
+"                            can test your regex <a href=\"https://regex101."
+"com/\" target=\"_blank\">here</a>."
+msgstr ""
+"<b>Yazının meta açıklamasında</b> bir şeyleri başka bir şeylerle değiştirmek "
+"istiyorsanız, bu seçeneği kullanabilirsiniz. Düz yazı veya düzenli ifade "
+"yazabilirsiniz. Düzenli ifade yazarken, ifadenin başına ve sonuna bölü "
+"işareti koymayın ve kutucuğu işaretlemeyi unutmayın. Düzenli ifadelerinizi "
+"<a href=\"https://regex101.com/\" target=\"_blank\">buradan</a> test "
+"edebilirsiniz."
+
+msgid ""
+"Paste the settings exported from another site to import. <b>Current "
+"settings\n"
+"                            will be overridden.</b>"
+msgstr ""
+"Ayarları içeri almak için başka bir siteden kopyalanmış olan kodu buraya "
+"yapıştırın. <b>Şu anki ayarlar</b> tamamen değiştirilecektir."
+
+msgid ""
+"You can copy the settings here and use the copied code to export settings "
+"to\n"
+"                            another site."
+msgstr ""
+"Ayarları buradan kopyalayabilir ve kopyaladığınız kodu, ayalarları başka bir "
+"siteye aktarmak için kullanabilirsiniz."
+
+msgid ""
+"If you want to allow comments for automatically inserted posts,\n"
+"                        check this."
+msgstr ""
+"Otomatik olarak eklenen yazılarda yorumlara izin vermek istiyorsanız, "
+"işaretleyin."
+
+msgid ""
+"How many tags at maximum can be added to a post? Set this <b>0</b> if you do "
+"not\n"
+"                        want to set a limit and get all available tags. The "
+"default value is 0."
+msgstr ""
+"Bir yazıya maksimum kaç etiket eklenebilir? Herhangi bir limit belirtmek "
+"istemiyorsanız ve bulunan tüm etiketleri kullanmak istiyorsanız <b>0</b> "
+"girin. Varsayılan değer 0."
+
+msgid ""
+"Set the password for automatically inserted posts. The value you\n"
+"                        enter here will be stored as raw text in the "
+"database, without encryption.\n"
+"                        If anyone accesses your database, he/she will be "
+"able to see your password.\n"
+"                        <br /><br />\n"
+"                        If you want to delete the password, just leave the "
+"new password fields empty.\n"
+"                        When you change the password, new password will be "
+"effective for new posts,\n"
+"                        and passwords for old posts will not be changed.\n"
+"                        <br /><br />\n"
+"                        <b>Leave old password field empty if you did not set "
+"any password before.</b>"
+msgstr ""
+"Otomatik olarak eklenen yazılar için şifre belirleyin. Belirlediğiniz şifre "
+"veritabanında ham yazı olarak, şifrelenmeden kaydedilecektir. Herhangi "
+"birinin veritabanına erişmesi durumunda, bu kişi şifrenizi öğrenme imkanına "
+"da sahip olacaktır.\n"
+"<br /><br />\n"
+"Şifreyi silmek istiyorsanız, yeni şifre alanlarını boş bırakın. Şifreyi "
+"değiştirdiğinizde, yeni şifre yeni eklenecek yazılarda etkili olacak ve eski "
+"yazıların şifreleri değişmeyecektir.\n"
+"<br /><br />\n"
+"<b>Daha önce bir şifre belirlemediyseniz, eski şifre alanını boş bırakın.</b>"
+
+msgid ""
+"Set the key under which the meta keywords are saved. This key depends\n"
+"                            on your SEO plugin. If you do not set a key, "
+"meta keywords will not be saved. If you use\n"
+"                            Yoast SEO, this key is <span class=\"highlight "
+"variable\">_yoast_wpseo_metakeys</span>"
+msgstr ""
+"Meta anahtar kelimelerin kaydedileceği anahtarı belirleyin. Bu anahtar "
+"kullandığınız SEO eklentisine göre belirlenmelidir. Bir anahtar "
+"belirtilmediğinde meta anahtar kelimeler kaydedilmeyecektir. Eğer Yoast SEO "
+"kullanıyorsanız, anahtar olarak <span class=\"highlight variable"
+"\">_yoast_wpseo_metakeys</span> girebilirsiniz."
+
+msgid ""
+"Set the key under which the meta description is saved. This key depends\n"
+"                            on your SEO plugin. If you do not set a key, "
+"meta description will not be saved. If you use\n"
+"                            Yoast SEO, this key is <span class=\"highlight "
+"variable\">_yoast_wpseo_metadesc</span>"
+msgstr ""
+"Meta açıklamanın kaydedileceği anahtarı belirleyin. Bu anahtar kullandığınız "
+"SEO eklentisine göre belirlenmelidir. Bir anahtar belirtilmediğinde meta "
+"anahtar kelimeler kaydedilmeyecektir. Eğer Yoast SEO kullanıyorsanız, "
+"anahtar olarak <span class=\"highlight variable\">_yoast_wpseo_metadesc</"
+"span> girebilirsiniz."
+
+msgid ""
+"If you want some things to be replaced with some other things in <b>HTML of\n"
+"                            the post page</b>, this is the place. The "
+"replacements will be done after the HTML of target page\n"
+"                            is loaded, and <i>before the replacements (for "
+"HTML of the page at first load) of the site\n"
+"                            being crawled is applied</i>. So, these are the\n"
+"                            first replacements that will be done before "
+"everything else. <b>These replacements will be\n"
+"                            applied to all of the active sites.</b> You can "
+"write plain text or regular expressions.\n"
+"                            When writing regex, do not put slashes before "
+"and after the expression, and make sure the\n"
+"                            checkbox is checked. You can test your regex\n"
+"                            <a href=\"https://regex101.com/\" target=\"_blank"
+"\">here</a>."
+msgstr ""
+"<b>Yazı sayfası yüklendiğinde, yazı sayfasının HTML kodunda</b> bir şeyleri "
+"başka bir şeylerle değiştirmek istiyorsanız, bu seçeneği kullanabilirsiniz. "
+"<b>Değişiklikler, hedef sitenin HTML kodu alındıktan sonra </b> ve <i>hedef "
+"sitenin ‘HTML kodunda bul ve değiştir’ seçeneğinde belirtilen "
+"değişikliklerden önce</i> yapılacaktır. Düz yazı veya düzenli ifade "
+"yazabilirsiniz. Düzenli ifade yazarken, ifadenin başına ve sonuna bölü "
+"işareti koymayın ve kutucuğu işaretlemeyi unutmayın. Düzenli ifadelerinizi "
+"<a href=\"https://regex101.com/\" target=\"_blank\">buradan</a> test "
+"edebilirsiniz."
+
+msgid ""
+"If you want to activate automated checking and crawling for the\n"
+"                            active sites, check this."
+msgstr ""
+"Aktif siteler için otomatik kontrol ve yazı alımının aktive edilmesini "
+"istiyorsanız, işaretleyin."
+
+msgid ""
+"How many pages at maximum can be crawled for each category of each\n"
+"                        site? Set this <b>0</b> to get all available pages "
+"for each category."
+msgstr ""
+"Her sitenin her kategorisi için maksimum kaç sayfa kontrol edilebilir? Her "
+"kategori için tüm sayfaların kontrol edilmesini istiyorsanız <b>0</b> girin."
+
+msgid ""
+"How many pages should be checked before going back checking the first\n"
+"                        page of the category, if there is no new URLs found? "
+"Default is <b>0</b>,\n"
+"                        meaning that all of the pages will be checked until "
+"the last page.\n"
+"                        <br /><br />\n"
+"                        For example, if you say 3 pages and there is no new "
+"posts found in 3 different\n"
+"                        pages of a category in a row, e.g. 4th, 5th, and 6th "
+"pages, then the crawler\n"
+"                        goes to the first page to check for new URLs, "
+"without trying 7th and pages\n"
+"                        coming after 7th page."
+msgstr ""
+"Yeni yazı URL’si bulunamaması durumunda, kontrol etmeye kategorinin ilk "
+"sayfasından tekrar başlamadan önce, kaç adet kategori sayfası kontrol "
+"edilsin? Varsayılan değer, tüm sayfaların kontrol edilmesi anlamına gelen, "
+"<b>0</b>.\n"
+"<br /><br />\n"
+"Örneğin, değer olarak 3 girdiğinizde ve arka arkaya 3 adet sayfada yeni yazı "
+"URL’si bulunamaması durumunda, mesela 4., 5. ve 6. sayfalar, tarayıcı, yeni "
+"URL arayışı için kategorinin ilk sayfasına geri dönecek ve 7. sayfayı ve "
+"sonrasında gelen sayfaları kontrol etmeyecektir."
+
+msgid ""
+"Set interval for post crawling, i.e. saving posts by visiting collected\n"
+"                            URLs."
+msgstr ""
+"Yazıların kategorilerden toplanan URL’lerin ziyaret edilerek kaydedilmesi "
+"için bir zaman aralığı belirleyin."
+
+msgid ""
+"The user agent to be used when crawling, i.e.\n"
+"                    <span class=\"highlight variable\">HTTP_USER_AGENT</"
+"span>. If you leave this empty, the default value\n"
+"                    will be used. You can find user agent strings\n"
+"                    <a target=\"_blank\" href=\"http://www.useragentstring."
+"com/pages/useragentstring.php\">here</a>."
+msgstr ""
+"Tarama yapılırken kullanılacak user agent, yani <span class=\"highlight "
+"variable\">HTTP_USER_AGENT</span>. Bu seçeneği boş bırakırsanız, varsayılan "
+"değer kullanılacaktır. User agent değerlerini <a target=\"_blank\" href="
+"\"http://www.useragentstring.com/pages/useragentstring.php\">buradan</a> "
+"bulabilirsiniz."
+
+msgid ""
+"HTTP accept value to be used when crawling, i.e.\n"
+"                        <span class=\"highlight variable\">HTTP_ACCEPT</"
+"span>. If you leave this empty, the default value\n"
+"                        will be used."
+msgstr ""
+"Tarama yapılırken kullanılacak HTTP accept değeri, yani <span class="
+"\"highlight variable\">HTTP_ACCEPT</span>. Bu seçeneği boş bırakırsanız, "
+"varsayılan değer kullanılacaktır."
+
+msgid ""
+"Please enter your email and license key for %s to use its features and get "
+"updates."
+msgstr ""
+"%s özelliklerinden faydalanmak ve güncellemeri almak için lütfen email ve "
+"lisans anahtarınızı girin."
+
+msgid "License Email Address"
+msgstr "Lisans Email Adresi"
+
+msgid ""
+"CSS selectors for custom meta values. You can use this to save anything "
+"from\n"
+"                            target post as post meta of to-be-saved post."
+msgstr ""
+"Meta değerleri için CSS seçicileri. Bunu, hedef yazıdan herhangi bir şeyi, "
+"kaydedilen yazının özel meta değeri olarak belirlemekte kullanabilirsiniz."
+
+msgid ""
+"CSS selectors for featured image <b>in the post content</b>. This gets the "
+"\"src\"\n"
+"                            attribute of <b>the first found element</b>. If "
+"you give more than one selector, the first match will\n"
+"                            be used. E.g. <span class=\"highlight selector"
+"\">img.featured</span>"
+msgstr ""
+"<b>Yazı sayfasının HTML’inde</b> bulunan öne çıkan görsel için CSS "
+"seçicileri. <b>İlk bulunan eşleşmenin</b> “src” değerini alır. Birden fazla "
+"seçici belirttiğinizde, ilk bulunan eşleşme kullanılacaktır. Örneğin: <span "
+"class=\"highlight selector\">img.featured</span>"
+
+msgid "Test results for %1$s on %2$s:"
+msgstr "%2$s sayfasında %1$s için sonuçlar:"
+
+msgid "Import/Export"
+msgstr "İçeri/Dışarı Aktar"
+
+msgid ""
+"If you want some things to be replaced with some other things in <b>HTML of\n"
+"                            the post page at first load</b>, this is the "
+"place. The replacement will be done after\n"
+"                            the HTML is retrieved, i.e, before everything. "
+"You can write plain text or regular expressions.\n"
+"                            When writing regex, do not put slashes before "
+"and after the expression, and make sure the\n"
+"                            checkbox is checked. You can test your regex <a "
+"href=\"https://regex101.com/\" target=\"_blank\">here</a>."
+msgstr ""
+"<b>Yazı sayfasının HTML kodu yüklenir yüklenmez</b> bir şeyleri başka bir "
+"şeylerle değiştirmek istiyorsanız, bu seçeneği kullanabilirsiniz. Değişiklik "
+"HTML kodu alınır alınmaz, yani her şeyden önce yapılacak. Düz yazı veya "
+"düzenli ifade yazabilirsiniz. Düzenli ifade yazarken, ifadenin başına ve "
+"sonuna bölü işareti koymayın ve kutucuğu işaretlemeyi unutmayın. Düzenli "
+"ifadelerinizi <a href=\"https://regex101.com/\" target=\"_blank\">buradan</"
+"a> test edebilirsiniz."
+
+msgid ""
+"How many pages at maximum can be crawled for each category of each\n"
+"                            site? Set this <b>0</b> to get all available "
+"pages for each category."
+msgstr ""
+"Her sitenin her kategorisi için maksimum kaç sayfa kontrol edilebilir? Her "
+"kategori için tüm sayfaların kontrol edilmesini istiyorsanız <b>0</b> girin."
+
+msgid ""
+"How many pages should be checked before going back checking the first\n"
+"                            page of the category, if there is no new URLs "
+"found? Default is <b>0</b>,\n"
+"                            meaning that all of the pages will be checked "
+"until the last page.\n"
+"                            <br /><br />\n"
+"                            For example, if you say 3 pages and there is no "
+"new posts found in 3 different\n"
+"                            pages of a category in a row, e.g. 4th, 5th, and "
+"6th pages, then the crawler\n"
+"                            goes to the first page to check for new URLs, "
+"without trying 7th and pages\n"
+"                            coming after 7th page."
+msgstr ""
+"Yeni yazı URL’si bulunamaması durumunda, kontrol etmeye kategorinin ilk "
+"sayfasından tekrar başlamadan önce, kaç adet kategori sayfası kontrol "
+"edilsin? Varsayılan değer, tüm sayfaların kontrol edilmesi anlamına gelen, "
+"<b>0</b>.\n"
+"<br /><br />\n"
+"Örneğin, değer olarak 3 girdiğinizde ve arka arkaya 3 adet sayfada yeni yazı "
+"URL’si bulunamaması durumunda, mesela 4., 5. ve 6. sayfalar, tarayıcı "
+"kategorinin ilk sayfasına geri dönecek ve 7. sayfayı ve sonrasında gelen "
+"sayfaları kontrol etmeyecektir."
+
+msgid "Test code for find and replaces in category HTML"
+msgstr "Kategori HTML’indeki bul ve değiştirleri test etmekte kullanılacak kod"
+
+msgid "Test code for find and replaces in post HTML"
+msgstr "Yazının HTML kodunda bul ve değiştir ayarları için test kodu"
+
+msgid ""
+"Set the key under which the meta keywords are saved. This key depends\n"
+"                            on your SEO plugin. If you do not set a key, "
+"meta keywords will not be saved."
+msgstr ""
+"Meta anahtar kelimelerin hangi anahtar ile kaydedileceğini belirleyin. Bu "
+"anahtar kullanmakta olduğunuz SEO eklentisine göre değişmektedir. Bir "
+"anahtar belirmezseniz, meta anahtar kelimeler kaydedilmeyecektir."
+
+msgid ""
+"Set the key under which the meta description is saved. This key depends\n"
+"                            on your SEO plugin. If you do not set a key, "
+"meta description will not be saved."
+msgstr ""
+"Meta açıklamanın hangi anahtar ile kaydedileceğini belirleyin. Bu anahtar "
+"kullanmakta olduğunuz SEO eklentisine göre değişmektedir. Bir anahtar "
+"belirmezseniz, meta anahtar kelimeler kaydedilmeyecektir."
+
+msgid "Save thumbnails?"
+msgstr "Öne çıkan görselleri kaydet?"
+
+msgid "Thumbnail Selectors"
+msgstr "Görsel Seçicileri"
+
+msgid "Post links come before thumbnails?"
+msgstr "Yazı linkleri görsellerden önce geliyor?"
+
+msgid "Save thumbnail image, if it is not found in category page?"
+msgstr "Öne çıkan görseli kaydet, eğer kategori sayfasında kaydedilmemişse?"
+
+msgid "Thumbnail Image Selectors"
+msgstr "Öne Çıkan Görsel Seçicileri"

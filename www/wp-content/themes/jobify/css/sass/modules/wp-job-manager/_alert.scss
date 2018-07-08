@@ -1,0 +1,17 @@
+.job-manager-error,
+.job-manager-message {
+	@extend .jobify-alert;
+}
+
+.job-manager-message {
+	@extend .jobify-alert--success;
+}
+
+.job-manager-error {
+	@extend .jobify-alert--error;
+}
+
+// ghetto
+.site-main > .job-manager-message {
+	margin: 2em;
+}

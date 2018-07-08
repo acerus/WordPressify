@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+@media all and (max-width: 799px) {
+
+	.single-question .content .content-header .meta-list {
+		float:none;
+	}
+
+	
+}
+
+

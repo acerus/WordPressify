@@ -1,0 +1,1947 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Question Answer\n"
+"POT-Creation-Date: 2017-11-07 13:55+0600\n"
+"PO-Revision-Date: 2017-11-07 13:55+0600\n"
+"Last-Translator: \n"
+"Language-Team: pickplugins <support@pickplugins.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__\n"
+"X-Poedit-SearchPath-0: includes\n"
+"X-Poedit-SearchPath-1: templates\n"
+
+#: includes/classes/class-admin-setup-wizard.php:29
+msgid ""
+"<strong>Welcome to Question Answer</strong> &#8211; You did not run the "
+"setup wizard yet. You can do that now."
+msgstr ""
+"<strong>欢迎来到Question Answer</strong> &#8211；您尚未运行过设置向导，现在开"
+"始做吧。"
+
+#: includes/classes/class-admin-setup-wizard.php:31
+msgid "Run setup wizard"
+msgstr "运行设置向导"
+
+#: includes/classes/class-admin-setup-wizard.php:32
+msgid "Skip setup"
+msgstr "跳过设置"
+
+#: includes/classes/class-admin-setup-wizard.php:48
+msgid "Introduction"
+msgstr "介绍"
+
+#: includes/classes/class-admin-setup-wizard.php:53
+#: includes/classes/class-admin-setup-wizard.php:160
+msgid "Page setup"
+msgstr "页面设置"
+
+#: includes/classes/class-admin-setup-wizard.php:58
+#: includes/classes/class-answer-column.php:31
+#: includes/classes/class-post-types.php:25 includes/menus/settings.php:133
+msgid "Question"
+msgstr "问题"
+
+#: includes/classes/class-admin-setup-wizard.php:63
+#: includes/classes/class-post-types.php:140 includes/menus/settings.php:229
+#: templates/question-archive/answer-count.php:31
+msgid "Answer"
+msgstr "回答"
+
+#: includes/classes/class-admin-setup-wizard.php:68
+msgid "Ready!"
+msgstr "好了！"
+
+#: includes/classes/class-admin-setup-wizard.php:113
+msgid "Question Answer &rsaquo; Setup sizard"
+msgstr "Question Answer &rsaquo;设置向导"
+
+#: includes/classes/class-admin-setup-wizard.php:127
+msgid "Return to the WordPress dashboard"
+msgstr "回到Wordpress面板"
+
+#: includes/classes/class-admin-setup-wizard.php:162
+#, php-format
+msgid ""
+"Your website needs a few essential %spages%s. The following will be created "
+"automatically (if they do not already exist):"
+msgstr ""
+"您的网站需要一些必要的%spages%s。以下这些将自动建立（如果它们目前还没有的"
+"话）："
+
+#: includes/classes/class-admin-setup-wizard.php:166
+msgid "Page name"
+msgstr "页面名字"
+
+#: includes/classes/class-admin-setup-wizard.php:167
+msgid "Description"
+msgstr "介绍"
+
+#: includes/classes/class-admin-setup-wizard.php:173
+msgid "This page will display a form where visitor can submit new question."
+msgstr "本页面将显示一个表单，供访问者提交新问题。"
+
+#: includes/classes/class-admin-setup-wizard.php:177
+msgid "This page will show all the live questions."
+msgstr "本页面将显示所有待解决问题。"
+
+#: includes/classes/class-admin-setup-wizard.php:181
+msgid "This page will show your user account info."
+msgstr "本页面将显示您的帐号信息。"
+
+#: includes/classes/class-admin-setup-wizard.php:186
+#, php-format
+msgid ""
+"Once created, these pages can be managed from your admin dashboard on the "
+"%sPages screen%s. <br> You can control which pages are shown on your website "
+"via %sAppearance > Menus%s."
+msgstr ""
+"这些页面创建后，可以通过管理面板操作%sPages screen%s。<br>您可以指定哪些页面"
+"可以显示到网站的 %sAppearance > Menus%s 里面。"
+
+#: includes/classes/class-admin-setup-wizard.php:190
+#: includes/classes/class-admin-setup-wizard.php:295
+#: includes/classes/class-admin-setup-wizard.php:362
+msgid "Skip this step"
+msgstr "跳过这个步骤"
+
+#: includes/classes/class-admin-setup-wizard.php:256
+#: includes/classes/class-admin-setup-wizard.php:329
+msgid "Question settings"
+msgstr "问题设置"
+
+#: includes/classes/class-admin-setup-wizard.php:261
+#: includes/classes/class-admin-setup-wizard.php:334
+msgid "Item per page"
+msgstr "没页码显示个数"
+
+#: includes/classes/class-admin-setup-wizard.php:267
+msgid "Excerpt length in question archive"
+msgstr "问题归档中显示的问题正文长度"
+
+#: includes/classes/class-admin-setup-wizard.php:273
+msgid "Account required to submit question?"
+msgstr "是否要求先登录帐号才允许提问？"
+
+#: includes/classes/class-admin-setup-wizard.php:276
+#: includes/classes/class-admin-setup-wizard.php:343
+#: includes/menus/settings.php:32 includes/menus/settings.php:100
+#: includes/menus/settings.php:116 includes/menus/settings.php:126
+#: includes/menus/settings.php:149 includes/menus/settings.php:165
+#: includes/menus/settings.php:284 includes/menus/settings.php:293
+#: includes/menus/settings.php:302 includes/menus/settings.php:321
+#: includes/menus/settings.php:425
+msgid "Yes"
+msgstr "是"
+
+#: includes/classes/class-admin-setup-wizard.php:277
+#: includes/classes/class-admin-setup-wizard.php:344
+#: includes/menus/settings.php:32 includes/menus/settings.php:100
+#: includes/menus/settings.php:116 includes/menus/settings.php:126
+#: includes/menus/settings.php:149 includes/menus/settings.php:165
+#: includes/menus/settings.php:284 includes/menus/settings.php:293
+#: includes/menus/settings.php:302 includes/menus/settings.php:321
+#: includes/menus/settings.php:425
+msgid "No"
+msgstr "否"
+
+#: includes/classes/class-admin-setup-wizard.php:282
+msgid "New submitted question status ?"
+msgstr "提交新问题吗？"
+
+#: includes/classes/class-admin-setup-wizard.php:285
+#: includes/classes/class-admin-setup-wizard.php:352
+#: includes/classes/class-answer-column.php:98
+#: includes/classes/class-question-column.php:40
+#: includes/classes/class-question-column.php:129
+#: includes/menus/settings.php:108 includes/menus/settings.php:157
+#: templates/my-account/question-list.php:97
+msgid "Pending"
+msgstr "挂起中"
+
+#: includes/classes/class-admin-setup-wizard.php:286
+#: includes/classes/class-admin-setup-wizard.php:353
+#: includes/menus/settings.php:108 includes/menus/settings.php:157
+msgid "Draft"
+msgstr "草稿"
+
+#: includes/classes/class-admin-setup-wizard.php:287
+#: includes/classes/class-admin-setup-wizard.php:354
+#: includes/menus/settings.php:108 includes/menus/settings.php:157
+msgid "Published"
+msgstr "已发布"
+
+#: includes/classes/class-admin-setup-wizard.php:288
+#: includes/classes/class-admin-setup-wizard.php:355
+msgid "Privated"
+msgstr "私有"
+
+#: includes/classes/class-admin-setup-wizard.php:289
+#: includes/classes/class-admin-setup-wizard.php:356
+msgid "Trashed"
+msgstr "放入回收站"
+
+#: includes/classes/class-admin-setup-wizard.php:340
+msgid "Account required to submit answer?"
+msgstr "是否要求先登录帐号才允许回答问题？"
+
+#: includes/classes/class-admin-setup-wizard.php:349
+msgid "New submitted answer status ?"
+msgstr "新的提问状态是？"
+
+#: includes/classes/class-admin-setup-wizard.php:390
+msgid "Your website is ready!"
+msgstr "您的问答网站准备就绪！"
+
+#: includes/classes/class-answer-column.php:34
+msgid "Answer title"
+msgstr "答复的标题"
+
+#: includes/classes/class-answer-column.php:37
+msgid "Answered by"
+msgstr "回答来自"
+
+#: includes/classes/class-answer-column.php:60
+#: includes/classes/class-post-types.php:38
+#: includes/classes/class-post-types.php:153
+#: includes/classes/class-post-types.php:202
+#: templates/single-question/answer-content.php:99
+msgid "Edit"
+msgstr "编辑"
+
+#: includes/classes/class-answer-column.php:62
+#: templates/question-archive/view-count.php:35
+msgid "View"
+msgstr "查看"
+
+#: includes/classes/class-answer-column.php:66
+#: includes/classes/class-post-meta-answer.php:37
+msgid "This question is not exist any more !"
+msgstr "这个问题找不到了！"
+
+#: includes/classes/class-answer-column.php:97
+#: includes/classes/class-question-column.php:39
+msgid "Any status"
+msgstr "任何状态"
+
+#: includes/classes/class-answer-column.php:99
+#: includes/classes/class-question-column.php:41
+#: includes/classes/class-question-column.php:135
+#: templates/my-account/question-list.php:102
+msgid "On discussion"
+msgstr "讨论中"
+
+#: includes/classes/class-answer-column.php:100
+#: includes/classes/class-question-column.php:42
+#: includes/classes/class-question-column.php:138
+msgid "On hold"
+msgstr "悬而未决"
+
+#: includes/classes/class-answer-column.php:101
+#: includes/classes/class-functions.php:206
+#: includes/classes/class-question-column.php:43
+#: includes/classes/class-question-column.php:141 includes/functions.php:312
+#: includes/functions.php:2042 includes/functions.php:2708
+#: templates/my-account/question-list.php:108
+#: templates/my-notifications.php:355
+#: templates/question-archive/single-question.php:66
+#: templates/single-question/meta.php:76
+msgid "Solved"
+msgstr "已解决"
+
+#: includes/classes/class-dashboard.php:67
+#, fuzzy
+#| msgid "My Account"
+msgid "Account"
+msgstr "我的帐号"
+
+#: includes/classes/class-dashboard.php:74
+#, fuzzy
+#| msgid "My Account"
+msgid "Account edit"
+msgstr "我的帐号"
+
+#: includes/classes/class-dashboard.php:80
+#, fuzzy
+#| msgid "Notifications"
+msgid "My notifications"
+msgstr "提醒"
+
+#: includes/classes/class-dashboard.php:86
+#, fuzzy
+#| msgid "My Question"
+msgid "My questions"
+msgstr "我的提问"
+
+#: includes/classes/class-dashboard.php:92
+#, fuzzy
+#| msgid "Answers"
+msgid "My answers"
+msgstr "答复"
+
+#: includes/classes/class-functions.php:30
+msgid "Core"
+msgstr "核心"
+
+#: includes/classes/class-functions.php:35
+msgid "Single question page full width issue"
+msgstr "问题详情页面占用全宽的故障"
+
+#: includes/classes/class-functions.php:41
+msgid "Question page 404 error"
+msgstr "问题页面出现404错误"
+
+#: includes/classes/class-functions.php:78
+msgid "Facebook"
+msgstr "反馈"
+
+#: includes/classes/class-functions.php:86
+msgid "Twitter"
+msgstr "推特"
+
+#: includes/classes/class-functions.php:93
+msgid "Google Plus"
+msgstr "谷歌Plus"
+
+#: includes/classes/class-functions.php:138
+msgid "Ask Question"
+msgstr "提问"
+
+#: includes/classes/class-functions.php:143
+#, fuzzy
+#| msgid "Leaderboard"
+msgid "Dashboard"
+msgstr "面板"
+
+#: includes/classes/class-functions.php:148
+msgid "My Question"
+msgstr "我的提问"
+
+#: includes/classes/class-functions.php:161
+msgid "Default Sorting"
+msgstr "默认排列"
+
+#: includes/classes/class-functions.php:162
+msgid "Sort by Title"
+msgstr "按标题排列"
+
+#: includes/classes/class-functions.php:163
+msgid "Sort by Comment Count"
+msgstr "按评论数排列"
+
+#: includes/classes/class-functions.php:164
+msgid "Sort by Older Questions"
+msgstr "按时间排列"
+
+#: includes/classes/class-functions.php:181
+#: includes/classes/class-functions.php:249
+msgid "Question Title"
+msgstr "提问标题"
+
+#: includes/classes/class-functions.php:185
+#: templates/single-question/answer-posting.php:172
+msgid "Status"
+msgstr "状态"
+
+#: includes/classes/class-functions.php:189
+msgid "Date"
+msgstr "日期"
+
+#: includes/classes/class-functions.php:193
+#: includes/classes/class-post-types.php:141
+#: templates/my-account/question-list.php:131
+#: templates/single-question/answer-section.php:68
+#: templates/single-question/meta.php:58
+msgid "Answers"
+msgstr "答复"
+
+#: includes/classes/class-functions.php:203
+msgid "All"
+msgstr "全部"
+
+#: includes/classes/class-functions.php:204
+msgid "Processing"
+msgstr "处理中"
+
+#: includes/classes/class-functions.php:205
+msgid "Hold"
+msgstr "悬而未决"
+
+#: includes/classes/class-functions.php:211
+msgid "None"
+msgstr "无"
+
+#: includes/classes/class-functions.php:238
+msgid "reCaptcha"
+msgstr "验证码服务"
+
+#: includes/classes/class-functions.php:239
+msgid "reCaptcha test."
+msgstr "测试验证码服务。"
+
+#: includes/classes/class-functions.php:250
+msgid "Write question title"
+msgstr "输入问题主题"
+
+#: includes/classes/class-functions.php:260
+msgid "Question Descriptions"
+msgstr "问题描述"
+
+#: includes/classes/class-functions.php:261
+msgid "Write question descriptions here"
+msgstr "这里输入问题描述"
+
+#: includes/classes/class-functions.php:273
+#: includes/classes/class-post-meta.php:42
+msgid "Question Status"
+msgstr "问题状态"
+
+#: includes/classes/class-functions.php:274
+msgid "Set the question status"
+msgstr "设置问题状态"
+
+#: includes/classes/class-functions.php:277
+msgid "Default"
+msgstr "默认"
+
+#: includes/classes/class-functions.php:277 includes/menus/settings.php:108
+#: includes/menus/settings.php:157
+#: templates/single-question/answer-content.php:135
+msgid "Private"
+msgstr "私有"
+
+#: includes/classes/class-functions.php:289
+#: includes/classes/class-post-types.php:65
+msgid "Question Category"
+msgstr "提问分类"
+
+#: includes/classes/class-functions.php:290
+msgid "Select question category."
+msgstr "选择问题分类。"
+
+#: includes/classes/class-functions.php:301
+#: includes/classes/class-question-column.php:109
+msgid "Question tags"
+msgstr "问题标签"
+
+#: includes/classes/class-functions.php:302
+msgid "Choose question tags, comma separated."
+msgstr "选择问题标签，每隔标签之间请用英文逗号分隔"
+
+#: includes/classes/class-post-meta-answer.php:32
+msgid "See more"
+msgstr "更多"
+
+#: includes/classes/class-post-meta-answer.php:48
+msgid "Databox"
+msgstr "数据框"
+
+#: includes/classes/class-post-meta.php:24
+msgid "Question Data Box"
+msgstr "问题数据框"
+
+#: includes/classes/class-post-meta.php:57
+msgid "Featured question?"
+msgstr "标记问题？"
+
+#: includes/classes/class-post-meta.php:59
+msgid "<option value=\"no\">No</option>"
+msgstr "<option value=\"no\">否</option>"
+
+#: includes/classes/class-post-meta.php:60
+#, php-format
+msgid "<option %s value=\"yes\">Yes</option>"
+msgstr "<option %s value=\"yes\">是</option>"
+
+#: includes/classes/class-post-types.php:26
+#: templates/question-archive/question-archive.php:190
+msgid "Questions"
+msgstr "问题列表"
+
+#: includes/classes/class-post-types.php:35
+#: includes/classes/class-post-types.php:80
+#, php-format
+msgid "All %s"
+msgstr "全部 %s"
+
+#: includes/classes/class-post-types.php:36
+#: includes/classes/class-post-types.php:151
+#: includes/classes/class-post-types.php:200
+msgid "Add "
+msgstr "增加 "
+
+#: includes/classes/class-post-types.php:37
+#: includes/classes/class-post-types.php:152
+#: includes/classes/class-post-types.php:201
+#, php-format
+msgid "Add %s"
+msgstr "增加 %s"
+
+#: includes/classes/class-post-types.php:39
+#: includes/classes/class-post-types.php:83
+#: includes/classes/class-post-types.php:118
+#: includes/classes/class-post-types.php:154
+#: includes/classes/class-post-types.php:203
+#, php-format
+msgid "Edit %s"
+msgstr "编辑 %s"
+
+#: includes/classes/class-post-types.php:40
+#: includes/classes/class-post-types.php:155
+#: includes/classes/class-post-types.php:204
+#, php-format
+msgid "New %s"
+msgstr "新建 %s"
+
+#: includes/classes/class-post-types.php:41
+#: includes/classes/class-post-types.php:42
+#: includes/classes/class-post-types.php:156
+#: includes/classes/class-post-types.php:157
+#: includes/classes/class-post-types.php:205
+#: includes/classes/class-post-types.php:206
+#, php-format
+msgid "View %s"
+msgstr "查看 %s"
+
+#: includes/classes/class-post-types.php:43
+#: includes/classes/class-post-types.php:79
+#: includes/classes/class-post-types.php:114
+#: includes/classes/class-post-types.php:158
+#: includes/classes/class-post-types.php:207
+#, php-format
+msgid "Search %s"
+msgstr "查找 %s"
+
+#: includes/classes/class-post-types.php:44
+#: includes/classes/class-post-types.php:159
+#: includes/classes/class-post-types.php:208
+#, php-format
+msgid "No %s found"
+msgstr "未找到%s"
+
+#: includes/classes/class-post-types.php:45
+#: includes/classes/class-post-types.php:160
+#: includes/classes/class-post-types.php:209
+#, php-format
+msgid "No %s found in trash"
+msgstr "回收站里面未找到%s"
+
+#: includes/classes/class-post-types.php:46
+#: includes/classes/class-post-types.php:81
+#: includes/classes/class-post-types.php:116
+#: includes/classes/class-post-types.php:161
+#: includes/classes/class-post-types.php:210
+#, php-format
+msgid "Parent %s"
+msgstr "上级节点 %s"
+
+#: includes/classes/class-post-types.php:48
+#: includes/classes/class-post-types.php:163
+#: includes/classes/class-post-types.php:212
+#, php-format
+msgid "This is where you can create and manage %s."
+msgstr "这里您可以新增和操作 %s。"
+
+#: includes/classes/class-post-types.php:66
+msgid "Questions Categories"
+msgstr "问题分类"
+
+#: includes/classes/class-post-types.php:82
+#: includes/classes/class-post-types.php:117
+#, php-format
+msgid "Parent %s:"
+msgstr "上街 %s："
+
+#: includes/classes/class-post-types.php:84
+#: includes/classes/class-post-types.php:119
+#, php-format
+msgid "Update %s"
+msgstr "更新 %s"
+
+#: includes/classes/class-post-types.php:85
+#: includes/classes/class-post-types.php:120
+#, php-format
+msgid "Add New %s"
+msgstr "添加新 %s"
+
+#: includes/classes/class-post-types.php:86
+#: includes/classes/class-post-types.php:121
+#, php-format
+msgid "New %s Name"
+msgstr "新 %s 名字"
+
+#: includes/classes/class-post-types.php:100
+msgid "Question Tag"
+msgstr "问题标签"
+
+#: includes/classes/class-post-types.php:101
+msgid "Question Tags"
+msgstr "问题标签"
+
+#: includes/classes/class-post-types.php:189
+msgid "Keyword"
+msgstr "关键词"
+
+#: includes/classes/class-post-types.php:190
+msgid "Keywords"
+msgstr "关键词"
+
+#: includes/classes/class-question-column.php:100
+msgid "Question status"
+msgstr "问题状态"
+
+#: includes/classes/class-question-column.php:103
+msgid "Question title"
+msgstr "问题标题"
+
+#: includes/classes/class-question-column.php:106
+msgid "Created by"
+msgstr "提问者"
+
+#: includes/classes/class-question-column.php:112
+msgid "Questions categories"
+msgstr "问题分类"
+
+#: includes/classes/class-settings.php:21
+msgid "Settings"
+msgstr "设置"
+
+#: includes/classes/class-settings.php:22
+msgid "Help"
+msgstr "帮助信息"
+
+#: includes/classes/class-settings.php:23
+msgid "Addons"
+msgstr "插件"
+
+#: includes/classes/class-widget-categories.php:15
+msgid "Question Answer - Categories"
+msgstr "问答系统 - 分类"
+
+#: includes/classes/class-widget-categories.php:15
+msgid "Show Categories."
+msgstr "显示分类。"
+
+#: includes/classes/class-widget-categories.php:108
+#: includes/classes/class-widget-categories.php:116
+msgid "Categories"
+msgstr "分类"
+
+#: includes/classes/class-widget-categories.php:111
+#: includes/classes/class-widget-latest-questions.php:65
+#: includes/classes/class-widget-leaderboard.php:296
+#: includes/classes/class-widget-tags.php:90
+#: includes/classes/class-widget-top-questions.php:353
+#: includes/classes/class-widget-website-stats.php:88
+msgid "Title:"
+msgstr "标题："
+
+#: includes/classes/class-widget-categories.php:119
+#: includes/classes/class-widget-tags.php:107
+#: includes/classes/class-widget-website-stats.php:101
+msgid "Display count:"
+msgstr "显示总数："
+
+#: includes/classes/class-widget-categories.php:133
+#: includes/classes/class-widget-tags.php:121
+#: includes/classes/class-widget-website-stats.php:115
+msgid "Display type:"
+msgstr "显示类别："
+
+#: includes/classes/class-widget-latest-questions.php:15
+msgid "Question Answer - Latest Questions"
+msgstr "问答 - 最近的问题"
+
+#: includes/classes/class-widget-latest-questions.php:15
+msgid "Show Latest Questions."
+msgstr "显示最近的问题。"
+
+#: includes/classes/class-widget-latest-questions.php:48
+#, php-format
+msgid "<b>%s</b> Answer(s)"
+msgstr "<b>%s</b> 回答(可多个)"
+
+#: includes/classes/class-widget-latest-questions.php:59
+msgid "Latest Questions"
+msgstr "最近的问题"
+
+#: includes/classes/class-widget-latest-questions.php:70
+msgid "Title Word Limit:"
+msgstr "标题字数限制："
+
+#: includes/classes/class-widget-latest-questions.php:78
+msgid "Total Question:"
+msgstr "问题总数量："
+
+#: includes/classes/class-widget-leaderboard.php:15
+msgid "Question Answer - Leaderboard"
+msgstr "问答 - 面板"
+
+#: includes/classes/class-widget-leaderboard.php:15
+msgid "Show Leaderboard."
+msgstr "显示面板。"
+
+#: includes/classes/class-widget-leaderboard.php:250
+#, php-format
+msgid "Total answers: %s"
+msgstr "总回答：%s"
+
+#: includes/classes/class-widget-leaderboard.php:289
+#: includes/classes/class-widget-leaderboard.php:301
+msgid "Leaderboard"
+msgstr "面板"
+
+#: includes/classes/class-widget-leaderboard.php:304
+#: includes/classes/class-widget-top-questions.php:361
+msgid "Limit:"
+msgstr "限制："
+
+#: includes/classes/class-widget-leaderboard.php:309
+#: includes/classes/class-widget-top-questions.php:381
+#, fuzzy
+#| msgid "Save Changes"
+msgid "Date Ranges:"
+msgstr "保存修改"
+
+#: includes/classes/class-widget-tags.php:15
+msgid "Question Answer - Tags"
+msgstr "问答 - 标签"
+
+#: includes/classes/class-widget-tags.php:15
+msgid "Show Tags."
+msgstr "显示标签。"
+
+#: includes/classes/class-widget-tags.php:86
+msgid "Tags"
+msgstr "标签"
+
+#: includes/classes/class-widget-tags.php:96
+msgid "Max Count:"
+msgstr "最大数量："
+
+#: includes/classes/class-widget-top-questions.php:15
+#, fuzzy
+#| msgid "Question Answer - Latest Questions"
+msgid "Question Answer - Top Questions"
+msgstr "问答 - 最近的问题"
+
+#: includes/classes/class-widget-top-questions.php:15
+#, fuzzy
+#| msgid "Show Latest Questions."
+msgid "Show Top Questions."
+msgstr "显示最近的问题。"
+
+#: includes/classes/class-widget-top-questions.php:304
+#, fuzzy
+#| msgid "View count text color"
+msgid "View count."
+msgstr "浏览次数的文本颜色"
+
+#: includes/classes/class-widget-top-questions.php:305
+msgid "Total vote."
+msgstr ""
+
+#: includes/classes/class-widget-top-questions.php:306
+msgid "Total up vote."
+msgstr ""
+
+#: includes/classes/class-widget-top-questions.php:307
+msgid "Total down vote."
+msgstr ""
+
+#: includes/classes/class-widget-top-questions.php:325
+#, fuzzy
+#| msgid "No question found"
+msgid "No question found."
+msgstr "未找到问题"
+
+#: includes/classes/class-widget-top-questions.php:343
+#, fuzzy
+#| msgid "Questions"
+msgid "Top Questions"
+msgstr "问题列表"
+
+#: includes/classes/class-widget-top-questions.php:366
+#, fuzzy
+#| msgid "Sort By:"
+msgid "Sort by:"
+msgstr "分类依据："
+
+#: includes/classes/class-widget-website-stats.php:15
+msgid "Question Answer - Website Stats"
+msgstr "问答 - 站点状态"
+
+#: includes/classes/class-widget-website-stats.php:15
+msgid "Website Stats."
+msgstr "站点状态。"
+
+#: includes/classes/class-widget-website-stats.php:46
+#, fuzzy
+#| msgid "Total Question:"
+msgid "Total Question"
+msgstr "问题总数量："
+
+#: includes/classes/class-widget-website-stats.php:54
+#, fuzzy
+#| msgid "Total answers: %s"
+msgid "Total Answer"
+msgstr "总回答：%s"
+
+#: includes/classes/class-widget-website-stats.php:63
+#, fuzzy
+#| msgid "Commented"
+msgid "Total Comments"
+msgstr "注释"
+
+#: includes/classes/class-widget-website-stats.php:70
+#, fuzzy
+#| msgid "Total answers: %s"
+msgid "Total user"
+msgstr "总回答：%s"
+
+#: includes/classes/class-widget-website-stats.php:84
+msgid "Website Stats"
+msgstr "站点状态"
+
+#: includes/functions.php:49 includes/functions.php:2443
+#: templates/my-notifications.php:84
+#: templates/single-question/answer-reply.php:82
+#: templates/single-question/answer-reply.php:205
+#: templates/single-question/content.php:35
+#: templates/single-question/content.php:241
+msgid "Anonymous"
+msgstr "匿名"
+
+#: includes/functions.php:63 includes/functions.php:2459
+#: templates/my-notifications.php:106
+msgid "posted"
+msgstr "发表的"
+
+#: includes/functions.php:63 includes/functions.php:2459
+#: templates/my-notifications.php:106
+msgid "New Question"
+msgstr "新问题"
+
+#: includes/functions.php:78 includes/functions.php:2474
+#: templates/my-notifications.php:121
+msgid "Answered"
+msgstr "已回答"
+
+#: includes/functions.php:93 includes/functions.php:2489
+#: templates/my-notifications.php:136
+msgid "Choosed best answer"
+msgstr "选择最佳答案"
+
+#: includes/functions.php:108 includes/functions.php:2504
+#: templates/my-notifications.php:151
+msgid "Removed best answer"
+msgstr "移除最佳答案"
+
+#: includes/functions.php:146 includes/functions.php:2542
+#: templates/my-notifications.php:189
+msgid "Commented"
+msgstr "注释"
+
+#: includes/functions.php:185 includes/functions.php:2581
+#: templates/my-notifications.php:228
+msgid "Flagged comment"
+msgstr "被标记的评论"
+
+#: includes/functions.php:221 includes/functions.php:2617
+#: templates/my-notifications.php:264
+msgid "comment vote up"
+msgstr ""
+
+#: includes/functions.php:256 includes/functions.php:2652
+#: templates/my-notifications.php:299
+#, fuzzy
+#| msgid "Commented"
+msgid "comment vote down"
+msgstr "注释"
+
+#: includes/functions.php:279 includes/functions.php:2675
+#: templates/my-notifications.php:322
+msgid "Vote Up"
+msgstr "赞"
+
+#: includes/functions.php:295 includes/functions.php:2691
+#: templates/my-notifications.php:338
+msgid "Vote Down"
+msgstr "踩"
+
+#: includes/functions.php:312 includes/functions.php:327
+#: includes/functions.php:2708 includes/functions.php:2723
+#: templates/my-notifications.php:355 templates/my-notifications.php:370
+msgid "marked"
+msgstr "标记好了"
+
+#: includes/functions.php:327 includes/functions.php:2723
+#: templates/my-notifications.php:370
+#: templates/question-archive/single-question.php:71
+msgid "Not Solved"
+msgstr "未解决"
+
+#: includes/functions.php:355 includes/functions.php:2751
+#: templates/my-notifications.php:398
+#, php-format
+msgid "flagged your %s"
+msgstr "标记您的 %s"
+
+#: includes/functions.php:383 includes/functions.php:2779
+#: templates/my-notifications.php:426
+msgid "unflagged "
+msgstr "取消标记"
+
+#: includes/functions.php:417
+msgid "Search Count"
+msgstr "找到结果数量"
+
+#: includes/functions.php:457
+msgid "Ask question"
+msgstr "提问"
+
+#: includes/functions.php:494
+msgid "Polls"
+msgstr "投票"
+
+#: includes/functions.php:495
+msgid "Add your polls"
+msgstr "我要投票"
+
+#: includes/functions.php:573 includes/functions.php:623
+msgid "year ago"
+msgstr "年之前"
+
+#: includes/functions.php:577 includes/functions.php:627
+msgid "month ago"
+msgstr "月之前"
+
+#: includes/functions.php:581 includes/functions.php:631
+msgid "day ago"
+msgstr "天前"
+
+#: includes/functions.php:585 includes/functions.php:635
+msgid "hour ago"
+msgstr "小时之前"
+
+#: includes/functions.php:589 includes/functions.php:639
+msgid "minute ago"
+msgstr "分钟之前"
+
+#: includes/functions.php:593 includes/functions.php:643
+msgid "second ago"
+msgstr "秒之前"
+
+#: includes/functions.php:1041
+msgid "Please login first."
+msgstr "请登录后操作。"
+
+#: includes/functions.php:1048
+msgid "Sorry you can't choose best answer."
+msgstr "对不起，您无法选择最佳答案。"
+
+#: includes/functions.php:1058
+msgid "Removed Best answer"
+msgstr "最佳答案已取消"
+
+#: includes/functions.php:1075
+msgid "Marked as Best answer"
+msgstr "已选为最佳答案"
+
+#: includes/functions.php:1167
+msgid "Removed from featured"
+msgstr "已取消关注"
+
+#: includes/functions.php:1173
+msgid "Successfully featured"
+msgstr "关注成功"
+
+#: includes/functions.php:1234 templates/single-question/answer-content.php:106
+#: templates/single-question/answer-reply.php:238
+#: templates/single-question/content.php:105
+#: templates/single-question/content.php:255
+msgid "Unflag"
+msgstr "去除标记"
+
+#: includes/functions.php:1234
+msgid "Undo Report"
+msgstr "撤销报告"
+
+#: includes/functions.php:1236 templates/single-question/answer-content.php:110
+#: templates/single-question/answer-reply.php:242
+#: templates/single-question/content.php:109
+#: templates/single-question/content.php:259
+msgid "Flag"
+msgstr "标记"
+
+#: includes/functions.php:1236 templates/single-question/answer-content.php:35
+#: templates/single-question/answer-reply.php:181
+#: templates/single-question/content.php:227
+msgid "Report this"
+msgstr "报告这个"
+
+#: includes/functions.php:1264 includes/functions.php:1414
+#: includes/functions.php:1582
+msgid "Please login"
+msgstr "请登录"
+
+#: includes/functions.php:1285 includes/functions.php:1598
+msgid "Report removed."
+msgstr "报告已移除。"
+
+#: includes/functions.php:1296 includes/functions.php:1309
+#: includes/functions.php:1330 includes/functions.php:1608
+#: includes/functions.php:1619 includes/functions.php:1636
+msgid "Thanks for report."
+msgstr "感谢您的报告。"
+
+#: includes/functions.php:1431 includes/functions.php:1452
+#: includes/functions.php:1480
+#, fuzzy
+#| msgid "Vote Down"
+msgid "Vote Down."
+msgstr "踩"
+
+#: includes/functions.php:1439 includes/functions.php:1460
+#: includes/functions.php:1489
+#, fuzzy
+#| msgid "Vote Up"
+msgid "Vote Up."
+msgstr "赞"
+
+#: includes/functions.php:1777
+msgid "Something went wrong !"
+msgstr "出问题了！"
+
+#: includes/functions.php:1782
+msgid "Please login to post comments"
+msgstr "登录后才能发表评论"
+
+#: includes/functions.php:1821
+#: templates/question-archive/question-archive.php:190
+#: templates/single-question/content.php:159
+msgid "Total:"
+msgstr "总数："
+
+#: includes/functions.php:1831
+msgid "Please login."
+msgstr "请登录。"
+
+#: includes/functions.php:1862 includes/functions.php:1909
+msgid "Login first to Review !"
+msgstr "登录后才能审核！"
+
+#: includes/functions.php:1888
+msgid "Already Reviewed !"
+msgstr "已经审核过！"
+
+#: includes/functions.php:1935
+msgid "Already Reviewed!"
+msgstr "已审核过！"
+
+#: includes/functions.php:1967
+msgid "Unsubscribe from this question"
+msgstr "不再订阅该问题的通知"
+
+#: includes/functions.php:1981
+msgid "Subscribed to this question"
+msgstr "订阅该问题通知"
+
+#: includes/functions.php:1994
+msgid "Please login first!"
+msgstr "请先登录！"
+
+#: includes/functions.php:2021
+msgid "Successfully marked as unsolved"
+msgstr "已修改成未解决"
+
+#: includes/functions.php:2022 includes/functions.php:2024
+#: templates/single-question/meta.php:83 templates/single-question/meta.php:85
+msgid "Mark as Solved"
+msgstr "已设置为解决"
+
+#: includes/functions.php:2041
+msgid "Successfully marked as Solved"
+msgstr "已设置为解决"
+
+#: includes/functions.php:2044
+msgid "Mark as Unsolved"
+msgstr "已设置为未解决"
+
+#: includes/functions.php:2063
+msgid "Access Denied!"
+msgstr "无权访问！"
+
+#: includes/functions.php:2209
+msgid "Select category"
+msgstr "选择类别"
+
+#: includes/functions.php:2291
+msgid "Select a Category"
+msgstr "选择一个类别"
+
+#: includes/functions.php:2311
+msgid "Category"
+msgstr "类别"
+
+#: includes/functions.php:2344
+msgid "Word moderate."
+msgstr "合适的词。"
+
+#: includes/functions.php:2408
+msgid "Notifications"
+msgstr "提醒"
+
+#: includes/functions.php:2409 templates/my-notifications.php:52
+msgid "Refresh"
+msgstr ""
+
+#: includes/menus/addons.php:93
+msgid "Version:"
+msgstr "版本："
+
+#: includes/menus/addons.php:97
+msgid "Free"
+msgstr "免费"
+
+#: includes/menus/addons.php:103
+msgid "Price:"
+msgstr "费用："
+
+#: includes/menus/addons.php:104
+msgid "Download"
+msgstr "下载"
+
+#: includes/menus/addons.php:142
+#, php-format
+msgid "%s - Addons"
+msgstr "%s - 插件"
+
+#: includes/menus/help.php:21
+#, php-format
+msgid "%s Help"
+msgstr "%s 帮助"
+
+#: includes/menus/help.php:26
+msgid "Help & Support"
+msgstr "帮助与支持"
+
+#: includes/menus/help.php:36
+msgid "Need Help ?"
+msgstr "需要帮助吗？"
+
+#: includes/menus/help.php:37
+msgid ""
+"Feel free to contact with any issue for this plugin, Ask any question via "
+"forum"
+msgstr "对这插件有任何疑问尽管告诉我们吧"
+
+#: includes/menus/help.php:44
+msgid "FAQ"
+msgstr "常见问题"
+
+#: includes/menus/settings.php:28
+msgid "Filter badword ?"
+msgstr "过滤不良词？"
+
+#: includes/menus/settings.php:29
+msgid "Do you want to filter badwords automatically? <br>Default: Yes."
+msgstr "是否设置自动过滤不良词？<br>默认：是。"
+
+#: includes/menus/settings.php:37
+msgid "Define badwords ?"
+msgstr "设置不良词？"
+
+#: includes/menus/settings.php:38
+msgid "Add all the possible badwords here.(Comma separeted)"
+msgstr "在这里填写所有不良词（英文逗号分隔）"
+
+#: includes/menus/settings.php:45
+msgid "Badwords replacer ?"
+msgstr "不良词自动替换为？"
+
+#: includes/menus/settings.php:46
+msgid ""
+"What you want to show in the place of any badwords. You can use HTML "
+"formating also."
+msgstr "替换不良词为什么？你也可以用HTML格式的代码。"
+
+#: includes/menus/settings.php:53
+msgid "Quick note for answers ?"
+msgstr "对答复的批注？"
+
+#: includes/menus/settings.php:54
+msgid "Useful for quick reply."
+msgstr "快速答复有用吗？"
+
+#: includes/menus/settings.php:57
+msgid "Dummy"
+msgstr "没用"
+
+#: includes/menus/settings.php:63
+msgid "Who can see quick notes (by role) ?"
+msgstr "谁可以看到批注（请指定角色）？"
+
+#: includes/menus/settings.php:64
+msgid "You can select roles to set who can see quick notes."
+msgstr "谁可以看到简单批注？您可以选择角色。"
+
+#: includes/menus/settings.php:76
+msgid "Options"
+msgstr "选项"
+
+#: includes/menus/settings.php:82
+msgid "Question - Item per Page"
+msgstr "问题条目，按页显示"
+
+#: includes/menus/settings.php:83
+msgid "Question per page in Question Archive page. <br>Default: 10."
+msgstr "每页显示的问题数量，<br>默认：10个"
+
+#: includes/menus/settings.php:89
+msgid "Question - Excerpt Length in Question Archive"
+msgstr "问题 - 归档中显示的摘要字数长度"
+
+#: includes/menus/settings.php:90
+msgid ""
+"Set the maximum words count should show in the question archove. "
+"<br>Default: 20."
+msgstr "设置问题归档中显示的最大字数。<br>默认：20个"
+
+#: includes/menus/settings.php:96 includes/menus/settings.php:145
+msgid "Account Required ?"
+msgstr "需要账号？"
+
+#: includes/menus/settings.php:97
+msgid "Account required to post new Question from frontend. <br>Default: Yes"
+msgstr "前台提问时需要账号登录吗？默认：需要"
+
+#: includes/menus/settings.php:104
+msgid "New Submitted Question Status ?"
+msgstr "新提交问题的状态是？"
+
+#: includes/menus/settings.php:105
+msgid "Submitted question status.<br>Default: Pending."
+msgstr "问题提交后的状态。<br>默认：挂起"
+
+#: includes/menus/settings.php:108 includes/menus/settings.php:157
+msgid "Trash"
+msgstr "垃圾桶"
+
+#: includes/menus/settings.php:112
+msgid "Allow Comments in Question ?"
+msgstr "允许评论问题？"
+
+#: includes/menus/settings.php:113
+msgid "<br>Default: Yes."
+msgstr "<br>默认：允许"
+
+#: includes/menus/settings.php:122
+msgid "Enable poll ?"
+msgstr "允许投票吗？"
+
+#: includes/menus/settings.php:123
+msgid "Enable polls on question"
+msgstr "启用对问题的投票功能"
+
+#: includes/menus/settings.php:138
+msgid "Answer - Item per Page"
+msgstr "回答 - 每页显示数量"
+
+#: includes/menus/settings.php:139
+msgid "Answer per page in Answer list. <br>Default: 10."
+msgstr "回答，列表页面每页显示回答的量。<br>默认：10个。"
+
+#: includes/menus/settings.php:146
+msgid "Account required to post new Answer from frontend. <br>Default: Yes"
+msgstr "前台发表新答复是否需要登录？<br>默认：需要"
+
+#: includes/menus/settings.php:153
+msgid "New Submitted Answer Status ?"
+msgstr "新提交的答复将处于什么状态？"
+
+#: includes/menus/settings.php:154
+msgid "Submitted answer status.<br>Default: Pending."
+msgstr "提交的答复状态。<br>默认：挂起的状态。"
+
+#: includes/menus/settings.php:161
+msgid "Show Answer filtering ?"
+msgstr "是否缩进式分层显示回答？"
+
+#: includes/menus/settings.php:162
+msgid ""
+"Do you want to show filtering in answer section under single question. "
+"<br>Default: Yes."
+msgstr "是否对单个问题的回答做缩进式分层显示？<br>默认：是"
+
+#: includes/menus/settings.php:169
+msgid "Select Filter Options."
+msgstr "选择过滤条件。"
+
+#: includes/menus/settings.php:170
+msgid "Select answer filtering options. <br>Default: All."
+msgstr "选择回答过滤条件。<br>默认：全部。"
+
+#: includes/menus/settings.php:174
+msgid "Voted Answer"
+msgstr "被推选的回答"
+
+#: includes/menus/settings.php:175
+msgid "Top Voted Answer"
+msgstr "推选为最佳回答"
+
+#: includes/menus/settings.php:176
+msgid "Older Answer"
+msgstr "以前的回答"
+
+#: includes/menus/settings.php:184
+msgid "Who can post answer (by role) ?"
+msgstr "谁可以发表回答（按角色选择）？"
+
+#: includes/menus/settings.php:185
+msgid "You can select roles to set who can only post answer for question."
+msgstr "您可以选择角色只允许它来答复问题。"
+
+#: includes/menus/settings.php:193
+msgid "Who can post comment on answer (by role) ?"
+msgstr "谁可以对回答发表评论（按角色）？"
+
+#: includes/menus/settings.php:194
+msgid "You can select roles to set who can only post comment on answer."
+msgstr "您可以选择唯一角色只允许它对回答发表评论。"
+
+#: includes/menus/settings.php:203
+msgid "Editor type for answer posting."
+msgstr "编辑类型，针对发表答复。"
+
+#: includes/menus/settings.php:204
+msgid "Choose editor type on answer posting."
+msgstr "选择编辑员类型，针对发表答复。"
+
+#: includes/menus/settings.php:213
+msgid "Enable media upload button on editor."
+msgstr "编辑器启用上传附件按钮。"
+
+#: includes/menus/settings.php:235
+msgid "Page - Question Submission"
+msgstr "页面 - 问题提交"
+
+#: includes/menus/settings.php:236
+msgid ""
+"Select the page where you want to do question submission. <br>Default: N/A."
+msgstr "选择一个页面，作为用于提交问题的页面。<br>默认：都不选。"
+
+#: includes/menus/settings.php:242
+msgid "Page - Question Archive"
+msgstr "页面 - 问题归档"
+
+#: includes/menus/settings.php:243
+msgid ""
+"Select the page where you want to display all questions. <br>Default: N/A."
+msgstr "选择页面，用来显示所有问题的。<br>默认：都不选。"
+
+#: includes/menus/settings.php:250
+msgid "Page - Account"
+msgstr "页面 - 帐号"
+
+#: includes/menus/settings.php:251
+msgid "Select the page where you want to display Account. <br>Default: N/A."
+msgstr "选择页面，用来显示账号。<br>默认：都不选。"
+
+#: includes/menus/settings.php:265
+msgid "Pages"
+msgstr "页面"
+
+#: includes/menus/settings.php:271
+msgid "Question Per Page"
+msgstr "每页面显示的问题"
+
+#: includes/menus/settings.php:272
+msgid ""
+"Set the value for question per page in my account page. <br>Default: 10."
+msgstr "设置“我的帐号”页面显示的问题数量。<br>默认：10个。"
+
+#: includes/menus/settings.php:275
+msgid "10"
+msgstr ""
+
+#: includes/menus/settings.php:280
+msgid "Show profile management?"
+msgstr "是否显示名片管理？"
+
+#: includes/menus/settings.php:281
+msgid "Show profile management in My Account page. <br>Default: Yes."
+msgstr "是否在“我的帐号”页面显示名片管理？<br>默认：是。"
+
+#: includes/menus/settings.php:289
+msgid "Show Question List?"
+msgstr "显示问题列表？"
+
+#: includes/menus/settings.php:290
+msgid "Show questions by you list in My Account page. <br>Default: Yes."
+msgstr "是否在“我的帐号”显示我的问题？<br>默认：是。"
+
+#: includes/menus/settings.php:298
+msgid "Show Login Form?"
+msgstr "是否显示登录界面？"
+
+#: includes/menus/settings.php:299
+msgid ""
+"Show login form in My Account page for logged out users. <br>Default: Yes."
+msgstr "是否在“我的账号”页面显示登录表单，如果用户尚未登录。<br>默认：是。"
+
+#: includes/menus/settings.php:308
+msgid "After login redirect to page"
+msgstr "登录后自动跳转到这个页面"
+
+#: includes/menus/settings.php:309
+msgid "You can set custom page to redirect after login."
+msgstr "您可以设置在登录后作为跳转到一个自定义页面。"
+
+#: includes/menus/settings.php:317
+msgid "Show Register Form?"
+msgstr "是否显示用户注册表单？"
+
+#: includes/menus/settings.php:318
+msgid ""
+"Show register form in My Account page for logged out users. <br>Default: Yes."
+msgstr "是否在“我的账号”页面显示注册表单，如果用户尚未登录。<br>默认：是。"
+
+#: includes/menus/settings.php:326
+msgid "My Account"
+msgstr "我的帐号"
+
+#: includes/menus/settings.php:332 templates/template-breadcrumb.php:43
+msgid "Question Archive"
+msgstr "问题归档"
+
+#: includes/menus/settings.php:333
+msgid "Answer count text color"
+msgstr "答案总数的文本的颜色"
+
+#: includes/menus/settings.php:340
+msgid "Question view count color"
+msgstr "答案被浏览次数的颜色"
+
+#: includes/menus/settings.php:341
+msgid "View count text color"
+msgstr "浏览次数的文本颜色"
+
+#: includes/menus/settings.php:349
+msgid "User role text color"
+msgstr "用户角色的文本颜色"
+
+#: includes/menus/settings.php:350
+msgid "User role text color in single question page."
+msgstr "页面详情里面的用户角色的文本颜色。"
+
+#: includes/menus/settings.php:356
+msgid "User role background color"
+msgstr "用户角色的背景颜色"
+
+#: includes/menus/settings.php:357
+msgid "User role background color in single question page."
+msgstr "问题详情页面的用户角色的背景颜色。"
+
+#: includes/menus/settings.php:363
+msgid "Comment button background color"
+msgstr "评论按钮的背景颜色"
+
+#: includes/menus/settings.php:364
+msgid "Comment button background color in single question page."
+msgstr "问题详情页面的评论按钮的背景颜色。"
+
+#: includes/menus/settings.php:370
+msgid "Best answer background color"
+msgstr "最佳答复的背景颜色"
+
+#: includes/menus/settings.php:371
+msgid "Best answer background color in single question page."
+msgstr "问题详情页面的最佳答复的背景颜色。"
+
+#: includes/menus/settings.php:378
+msgid "Ask button background color"
+msgstr "提问按钮的背景颜色"
+
+#: includes/menus/settings.php:379
+msgid "Select background color for ask button on top."
+msgstr "页面顶部的提问按钮的背景颜色。"
+
+#: includes/menus/settings.php:386
+msgid "Ask button text color"
+msgstr "提问按钮的文本颜色"
+
+#: includes/menus/settings.php:387
+msgid "Select text color for ask button on top."
+msgstr "页面顶部的提问按钮的文本颜色。"
+
+#: includes/menus/settings.php:395
+msgid "Vote button background color"
+msgstr "推选按钮的背景颜色"
+
+#: includes/menus/settings.php:396
+msgid "Select Vote button background color."
+msgstr "选择推选按钮的背景颜色。"
+
+#: includes/menus/settings.php:403
+msgid "Flag button background color"
+msgstr "标记按钮的背景颜色"
+
+#: includes/menus/settings.php:404
+msgid "Select Flag button background color."
+msgstr "选择标记按钮的背景颜色。"
+
+#: includes/menus/settings.php:414
+msgid "Colors"
+msgstr "色彩"
+
+#: includes/menus/settings.php:421
+msgid "reCAPTCHA enable in Question?"
+msgstr "提交问题是否需要输入验证码？"
+
+#: includes/menus/settings.php:422
+msgid ""
+"Enable reCAPTCHA to protect spam while posting new Question. <br>Default: No."
+msgstr "提交新问题是否是否启用reCaptcha验证码以防止恶意垃圾。<br>默认：否。"
+
+#: includes/menus/settings.php:429
+msgid "reCAPTCHA site key"
+msgstr "reCaptcha验证码网站key"
+
+#: includes/menus/settings.php:430
+msgid ""
+"reCAPTCHA site key, please go <a href=\"https://www.google.com/recaptcha"
+"\">google.com/reCAPTCHA</a> and register your site to get site key."
+msgstr ""
+"reCaptcha验证码网站key，请到<a href=\"https://www.google.com/recaptcha"
+"\">google.com/reCAPTCHA</a> 页面注册您的网站就能得到key内容。"
+
+#: includes/menus/settings.php:436
+msgid "reCAPTCHA secret key"
+msgstr "reCaptcha密匙key"
+
+#: includes/menus/settings.php:437
+msgid ""
+"reCAPTCHA site key, please go <a href=\"https://www.google.com/recaptcha"
+"\">google.com/reCAPTCHA</a> and register your site to get secret key."
+msgstr ""
+"reCaptcha验证码网站密匙key，请到<a href=\"https://www.google.com/recaptcha"
+"\">google.com/reCAPTCHA</a> 页面注册您的网站就能得到密匙key内容。"
+
+#: includes/menus/settings.php:443
+msgid "Recapcha"
+msgstr "reCaptcha"
+
+#: includes/menus/settings.php:516 includes/menus/settings.php:525
+#: includes/menus/settings.php:530
+#: includes/pickform/class-pickform-creator.php:381
+#: includes/pickform/class-pickform-creator.php:393
+#: includes/pickform/class-pickform-creator.php:403
+#: includes/pickform/class-pickform.php:515
+#: includes/pickform/class-pickform.php:527
+#: includes/pickform/class-pickform.php:537
+msgid "Remove"
+msgstr "删除"
+
+#: includes/menus/settings.php:534
+#: includes/pickform/class-pickform-creator.php:410
+#: includes/pickform/class-pickform.php:544
+msgid "Add more"
+msgstr "添加"
+
+#: includes/menus/settings.php:605
+msgid "Choose File"
+msgstr "选择文件"
+
+#: includes/menus/settings.php:713
+msgid "Changes Saved."
+msgstr "修改保存成功。"
+
+#: includes/menus/settings.php:731
+#, php-format
+msgid "%s Settings"
+msgstr "%s 设置"
+
+#: includes/menus/settings.php:753
+msgid "Save Changes"
+msgstr "保存修改"
+
+#: includes/pickform/class-pickform-creator.php:567
+#: includes/pickform/class-pickform.php:744
+msgid "Drop files here"
+msgstr "删除文件"
+
+#: includes/pickform/class-pickform-creator.php:568
+#: includes/pickform/class-pickform.php:745
+msgid "Select Files"
+msgstr "选择文件"
+
+#: includes/pickform/class-pickform-creator.php:588
+#: includes/pickform/class-pickform.php:765
+msgid "Allowed Files"
+msgstr "允许的文件"
+
+#: includes/shortcodes/class-shortcode-qa-edit-account.php:54
+#: includes/shortcodes/class-shortcode-qa-my-account.php:40
+#: templates/template-registration-form.php:58
+msgid "Email"
+msgstr "邮箱"
+
+#: includes/shortcodes/class-shortcode-qa-edit-account.php:59
+#: includes/shortcodes/class-shortcode-qa-my-account.php:45
+#: templates/my-account/profile.php:90
+msgid "Website"
+msgstr "网址"
+
+#: includes/shortcodes/class-shortcode-qa-edit-account.php:64
+#: includes/shortcodes/class-shortcode-qa-my-account.php:50
+#: templates/my-account/profile.php:99
+msgid "Biographical Info"
+msgstr "背景与生平"
+
+#: includes/shortcodes/class-shortcode-qa-edit-account.php:69
+#: templates/single-question/admin-actions.php:68
+msgid "Update"
+msgstr "更新"
+
+#: includes/shortcodes/class-shortcode-qa-my-account.php:36
+msgid "Logout"
+msgstr ""
+
+#: templates/add-question/add-question.php:35
+#, php-format
+msgid "Please <a href=\"%s\">login</a> to submit question."
+msgstr "请 <a href=\"%s\">登录后</a> 提问。"
+
+#: templates/add-question/add-question.php:79
+#: templates/add-question/add-question.php:85
+#: templates/add-question/add-question.php:92
+msgid "missing"
+msgstr "缺失"
+
+#: templates/add-question/add-question.php:105
+#: templates/add-question/add-question.php:122
+#, php-format
+msgid "<b>%s</b> missing"
+msgstr "<b>%s</b> 缺失"
+
+#: templates/add-question/add-question.php:214
+msgid "Question Submitted."
+msgstr "问题提交成功。"
+
+#: templates/add-question/add-question.php:215
+msgid "Submission Status:"
+msgstr "提交状态："
+
+#: templates/add-question/add-question.php:291
+#: templates/single-question/answer-reply.php:383
+#: templates/single-question/content.php:339
+msgid "Submit"
+msgstr "提交"
+
+#: templates/add-question/ajax-suggestions.php:12
+msgid "Please check these topics first."
+msgstr "请先看下这些问题是否就是您要问的？"
+
+#: templates/my-account/my-account.php:26
+#: templates/template-registration-form.php:65
+msgid "Register"
+msgstr "注册"
+
+#: templates/my-account/my-account.php:65
+#: templates/my-account/my-account.php:79
+msgid "Login"
+msgstr "登录"
+
+#: templates/my-account/my-account.php:76
+msgid "Username or email address"
+msgstr "用户名或者邮箱地址"
+
+#: templates/my-account/my-account.php:77
+#: templates/template-registration-form.php:52
+msgid "Password"
+msgstr "密码"
+
+#: templates/my-account/my-account.php:78
+msgid "Remember Me"
+msgstr "记住我"
+
+#: templates/my-account/my-account.php:93
+#, php-format
+msgid "Please <a href=\"%s\">login</a> to access this page"
+msgstr "请 <a href=\"%s\">登录</a> 再访问该页面"
+
+#: templates/my-account/profile.php:54
+msgid "Profile Management"
+msgstr "名片管理"
+
+#: templates/my-account/profile.php:60
+msgid "Name"
+msgstr "姓名"
+
+#: templates/my-account/profile.php:61
+msgid "Contact"
+msgstr "联系方式"
+
+#: templates/my-account/profile.php:62
+msgid "About Yourself"
+msgstr "关于您"
+
+#: templates/my-account/profile.php:73
+msgid "First Name"
+msgstr "名字"
+
+#: templates/my-account/profile.php:74
+msgid "First name"
+msgstr "名字"
+
+#: templates/my-account/profile.php:76
+msgid "Last Name"
+msgstr "姓"
+
+#: templates/my-account/profile.php:77
+msgid "Last name"
+msgstr "姓"
+
+#: templates/my-account/profile.php:87
+msgid "Email (Required)"
+msgstr "邮箱（必填）"
+
+#: templates/my-account/profile.php:100
+msgid "Some text..."
+msgstr "一些文字。。。"
+
+#: templates/my-account/profile.php:108
+msgid "Save Data"
+msgstr "保存数据"
+
+#: templates/my-account/question-list.php:32
+msgid "Questions by You"
+msgstr "您提交的问题"
+
+#: templates/my-account/question-list.php:105
+msgid "On Hold"
+msgstr "悬而未决的"
+
+#: templates/my-notifications.php:446
+#, fuzzy
+#| msgid "Notifications"
+msgid "No notification right now."
+msgstr "提醒"
+
+#: templates/question-archive/question-archive.php:90
+msgid "keywords"
+msgstr "关键词"
+
+#: templates/question-archive/question-archive.php:95
+msgid "Select a category"
+msgstr "选择一个类别"
+
+#: templates/question-archive/question-archive.php:125
+msgid "username"
+msgstr "用户名"
+
+#: templates/question-archive/question-archive.php:140
+msgid "Search"
+msgstr "搜索"
+
+#: templates/question-archive/question-archive.php:145
+msgid "Keyword:"
+msgstr "关键词"
+
+#: templates/question-archive/question-archive.php:146
+msgid "Date:"
+msgstr "日期："
+
+#: templates/question-archive/question-archive.php:147
+msgid "Category:"
+msgstr "类别："
+
+#: templates/question-archive/question-archive.php:148
+#: templates/single-question/answer-section.php:73
+msgid "Sort By:"
+msgstr "分类依据："
+
+#: templates/question-archive/question-archive.php:149
+msgid "Author:"
+msgstr "作者："
+
+#: templates/question-archive/question-archive.php:228
+msgid "No question found"
+msgstr "未找到问题"
+
+#: templates/single-question/answer-content.php:65
+msgid "Choose best answer"
+msgstr "选择最佳答案"
+
+#: templates/single-question/answer-content.php:164
+msgid "Answer is private, only admins or its author or questioner can read."
+msgstr "答案未公开，只有管理员和回答者、提问者可以看到。"
+
+#: templates/single-question/answer-posting.php:36
+#: templates/single-question/answer-posting.php:254
+msgid "Submit Answer"
+msgstr "发表答复"
+
+#: templates/single-question/answer-posting.php:48
+#, php-format
+msgid ""
+"<form class=\"nodisplay\">Please <a href=\"%s\">login</a> to submit answer.</"
+"form>"
+msgstr ""
+"<form class=\"nodisplay\">请 <a href=\"%s\">登录</a> 然后发表答复。</form>"
+
+#: templates/single-question/answer-posting.php:73
+msgid "Quick notes"
+msgstr "快速批注"
+
+#: templates/single-question/answer-posting.php:150
+msgid "#Replay"
+msgstr "#回复"
+
+#: templates/single-question/answer-posting.php:168
+#, fuzzy
+#| msgid "Answer submitted."
+msgid "Answer submitted"
+msgstr "答复发表成功。"
+
+#: templates/single-question/answer-posting.php:220
+msgid "Content is empty."
+msgstr "内容空。"
+
+#: templates/single-question/answer-posting.php:246
+msgid "Make your answer private."
+msgstr "将这个答复设为私有。"
+
+#: templates/single-question/answer-posting.php:255
+msgid "Your answer will be under review."
+msgstr "这个答复正在审核中。"
+
+#: templates/single-question/answer-reply.php:122
+#: templates/single-question/answer-reply.php:357
+msgid "Sign in to Reply"
+msgstr "登录后发表回复"
+
+#: templates/single-question/answer-reply.php:131
+#: templates/single-question/answer-reply.php:366
+#: templates/single-question/content.php:332
+msgid "Reply on This"
+msgstr "回复它"
+
+#: templates/single-question/answer-reply.php:381
+#: templates/single-question/content.php:337
+msgid "Replying as"
+msgstr "回复为"
+
+#: templates/single-question/answer-section.php:75
+msgid "All Answers"
+msgstr "全部回答"
+
+#: templates/single-question/answer-section.php:78
+msgid "Voted Answers"
+msgstr "被推选的回答"
+
+#: templates/single-question/answer-section.php:82
+msgid "Top Voted Answers"
+msgstr "被推选最佳的回答"
+
+#: templates/single-question/answer-section.php:86
+msgid "Older Answers"
+msgstr "以前的回答"
+
+#: templates/single-question/answer-section.php:116
+msgid "Best Answer"
+msgstr "最佳回答"
+
+#: templates/single-question/content.php:97
+#, php-format
+msgid "Member Since %s"
+msgstr "注册时间 %s"
+
+#: templates/single-question/content.php:204
+msgid "N/A"
+msgstr "无效"
+
+#: templates/single-question/content.php:208
+msgid "Tags: "
+msgstr "标签:"
+
+#: templates/single-question/content.php:218
+msgid "Login First"
+msgstr "需要登录"
+
+#: templates/single-question/meta.php:107
+msgid "Subscribed"
+msgstr "已订阅"
+
+#: templates/single-question/meta.php:113
+msgid "Subscribe"
+msgstr "订阅"
+
+#: templates/single-question/question-edit.php:94
+msgid "Edit:"
+msgstr ""
+
+#: templates/single-question/subscriber.php:15
+msgid "Subscribers"
+msgstr "订阅者"
+
+#: templates/template-migration.php:26
+msgid "Answers:"
+msgstr "有关回答："
+
+#: templates/template-migration.php:31
+msgid "Start Update"
+msgstr "开始更新"
+
+#: templates/template-registration-form.php:46
+msgid "Username"
+msgstr "用户名"
+
+#: templates/template-registration-form.php:83
+msgid "Nonce error"
+msgstr "不兼容"
+
+#: templates/template-registration-form.php:88
+msgid "Required form field is missing"
+msgstr "必填项仍空白"
+
+#: templates/template-registration-form.php:92
+msgid "Username too short. At least 4 characters is required"
+msgstr "用户名太短，至少4个词"
+
+#: templates/template-registration-form.php:96
+msgid "Sorry, that username already exists!"
+msgstr "抱歉，这个用户名已被人注册过！"
+
+#: templates/template-registration-form.php:99
+msgid "Sorry, the username you entered is not valid"
+msgstr "抱歉，您输入的用户名不符合规则"
+
+#: templates/template-registration-form.php:103
+msgid "Password length must be greater than 5"
+msgstr "密码长度至少5位"
+
+#: templates/template-registration-form.php:107
+msgid "Email is not valid"
+msgstr "邮箱格式不对"
+
+#: templates/template-registration-form.php:111
+msgid "Email Already in use"
+msgstr "这个邮箱已注册了"
+
+#: templates/template-registration-form.php:120
+msgid "ERROR"
+msgstr "错误"
+
+#: templates/template-registration-form.php:136
+msgid "Registration complete."
+msgstr "注册成功。"
+
+#~ msgid "Status: %s ."
+#~ msgstr "状态：%s 。"

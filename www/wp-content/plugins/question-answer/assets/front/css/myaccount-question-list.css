@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* ===== MYACCOUNT QUESTION LIST ===== */
+
+.front_question_container {
+    border: 1px solid rgba(1, 20, 37, 0.1);
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 8px 14px rgba(1, 20, 37, 0.04);
+}
+
+.front_question_container ul, .front_question_container li { margin: 0 !important; } 
+
+
+.front_question_list a {
+	text-decoration:none;
+}
+
+.front_question_list_header {
+	background-color:#fff !important;
+	border-bottom:1px solid #bbb;
+	padding: 10px 0;
+	
+}
+.front_question_list_header li {
+    display: inline-block;
+
+}
+
+ul.front_question_list {
+    margin: 0 !important;
+    padding: 10px 0;
+}
+
+ul.front_question_list li {
+    display: inline-block;
+}
+
+ul.front_question_list li {
+    display: inline-block;
+}
+
+ul.front_question_list:nth-child(even) { background: #eee; }
+
+
+.question_icon {
+	vertical-align: top;
+    padding: 0 15px;
+}
+
+.question_title{
+	vertical-align: top;
+	width:25%;
+	min-width:150px;
+}
+
+.question_title a{
+	color: #3879D9 !important;
+}
+
+
+.question_status, .question_date, .question_answer, .question_category {
+    width: 15%;
+    min-width: 98px;
+	vertical-align: top;
+	text-align:center;
+}
+
+.qa_queued, .qa_publish, .qa_solved, .qa_hold {
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+	font-size:12px;
+}
+
+.qa_queued 	{ background-color: #DD4F43; }
+.qa_publish 	{ background-color: #1488C4; }
+.qa_solved 	{ background-color: #16A05C; }
+.qa_hold 	{ background-color: #d2a934; }

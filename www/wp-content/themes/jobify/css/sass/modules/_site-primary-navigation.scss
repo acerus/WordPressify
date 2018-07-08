@@ -1,0 +1,33 @@
+@mixin expanded-menu() {
+	margin-top: 0;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: right;
+}
+
+.site-primary-navigation {
+	margin-top: 2em;
+	display: none;
+
+	@include bp(sm) {
+		.nav-menu-break-small & {
+			@include expanded-menu();
+		}
+	}
+
+	@include bp(md) {
+		.nav-menu-break-medium & {
+			@include expanded-menu();
+		}
+	}
+
+	@include bp(lg) {
+		.nav-menu-break-large & {
+			@include expanded-menu();
+		}
+	}
+}
+
+.site-primary-navigation--open {
+	display: block;
+}

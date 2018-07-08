@@ -1,0 +1,59 @@
+# Copyright (C) 2016 If Menu
+# This file is distributed under the same license as the If Menu package.
+msgid ""
+msgstr ""
+"Project-Id-Version: If Menu 0.4.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/if-menu\n"
+"POT-Creation-Date: 2016-07-27 11:26+0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-07-27 11:39+0300\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.8\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de\n"
+
+#: if-menu.php:138
+msgid "Enable Conditional Logic"
+msgstr "Conditional Logik aktivieren"
+
+#: if-menu.php:144
+msgid "Show"
+msgstr "Anzeigen"
+
+#: if-menu.php:145
+msgid "Hide"
+msgstr "Verstecken"
+
+#: if-menu.php:181
+msgid "AND"
+msgstr "UND"
+
+#: if-menu.php:182
+msgid "OR"
+msgstr "ODER"
+
+#: if-menu.php:203
+msgid "%s if %s"
+msgstr "%s wenn %s"
+
+#: if-menu.php:203
+msgid "and 1 more condition"
+msgstr "und eine weitere Bedingung"
+
+#: if-menu.php:203
+msgid "and %d more conditions"
+msgstr "und %d weitere Bedingungen"
+
+#: if-menu.php:60
+msgid ""
+"<b>If Menu</b> plugin detected a conflict with another plugin or theme and "
+"may not work as expected. <a href=\"%s\" target=\"_blank\">Read more about "
+"the issue here</a>"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Show/hide menu items with conditional statements"
+msgstr "Anzeigen/verstecken der Menüpunkte mit bedingten Anweisungen"

@@ -1,0 +1,9 @@
+.entry-content p.rcp_error {
+	@extend .jobify-alert;
+	padding: 20px;
+	margin-bottom: 1em;
+
+	&:last-child {
+		margin-bottom: 2em;
+	}
+}

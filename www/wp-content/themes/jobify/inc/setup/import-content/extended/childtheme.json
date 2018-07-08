@@ -1,0 +1,12 @@
+[
+	{
+		"id": "jobify-extended",
+		"type": "childtheme",
+		"priority": 0,
+		"data": {
+			"stylesheet": "/**\n * Theme Name: Jobify - Extended\n * Theme URI: https://astoundify.com/\n * Author: Astoundify\n * Author URI: http://astoundify.com\n * Description: Everything you need to build a professional job board.\n * Version: 1.0.0\n * License: GNU General Public License v2 or later\n * License URI: http://www.gnu.org/licenses/gpl-2.0.html\n * Tags: white, one-column, right-sidebar, fixed-width, custom-background, custom-header, theme-options, full-width-template, featured-images, flexible-header, custom-menu, translation-ready\n * Template: jobify\n*/\n/**\n * The parent theme's CSS is automatically included so there is no need\n * to use the @import rule to include the parent theme CSS.\n *\n * Place Custom CSS Below this.\n */",
+			"functions": "<?php\n/**\n * Jobify Extended child theme.\n *\n * Place any custom functionality/code snippets here.\n *\n * @since Jobify Classic 1.0.0\n */\nfunction jobify_child_styles() {\n    wp_enqueue_style( 'jobify-child', get_stylesheet_uri() );\n}\nadd_action( 'wp_enqueue_scripts', 'jobify_child_styles', 20 );",
+			"screenshot": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/screenshot.png"
+		}
+	}
+]

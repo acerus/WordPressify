@@ -1,0 +1,540 @@
+# Copyright (C) 2017 Automattic
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Job Manager - WooCommerce Paid Listings 2.8.0\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/wp-job-manager-wc-paid-listings\n"
+"POT-Creation-Date: 2017-10-19 18:45:29+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n1.0.0\n"
+
+#: includes/class-wc-paid-listings-admin-add-package.php:60
+msgid "Package Type"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-add-package.php:64
+#: includes/class-wc-paid-listings-admin-packages.php:61
+#: includes/class-wc-paid-listings-admin.php:147
+msgid "Job Package"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-add-package.php:65
+#: includes/class-wc-paid-listings-admin-packages.php:61
+#: includes/class-wc-paid-listings-admin.php:149
+msgid "Resume Package"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-add-package.php:71
+msgid "Listing Limit"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-add-package.php:72
+msgid "How many listings should this package allow the user to post?"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-add-package.php:75
+#: includes/class-wc-paid-listings-admin-packages.php:59
+#: includes/views/html-job-package-data.php:20
+#: includes/views/html-resume-package-data.php:24 templates/my-packages.php:35
+msgid "Unlimited"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-add-package.php:80
+msgid "Listing Count"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-add-package.php:81
+msgid "How many listings has the user already posted with this package?"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-add-package.php:89
+#: templates/my-packages.php:24
+msgid "Listing Duration"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-add-package.php:90
+msgid "How many days should listings posted with this package be active?"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-add-package.php:93
+msgid "Default"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-add-package.php:98
+#: includes/views/html-job-package-data.php:45
+#: includes/views/html-resume-package-data.php:49
+msgid "Feature Listings?"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-add-package.php:106
+#: includes/class-wc-paid-listings-admin-packages.php:87
+msgid "User"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-add-package.php:111
+#: includes/class-wc-paid-listings-admin-add-package.php:113
+msgid "Guest"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-add-package.php:122
+#: includes/class-wc-paid-listings-admin-packages.php:89
+msgid "Product"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-add-package.php:123
+msgid "Optionally link this package to a product."
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-add-package.php:126
+msgid "Choose a product&hellip;"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-add-package.php:161
+#: includes/class-wc-paid-listings-admin-packages.php:93
+msgid "Order ID"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-add-package.php:162
+msgid "Optionally link this package to an order."
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-add-package.php:165
+msgid "N/A"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-add-package.php:171
+msgid "Save Package"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-add-package.php:231
+msgid "Package successfully saved"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-packages.php:43
+#: includes/class-wc-paid-listings-admin-packages.php:50
+#: includes/class-wc-paid-listings-admin-packages.php:53
+msgid "n/a"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-packages.php:57
+msgid "%d Days"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-packages.php:59
+msgid "%s Posted"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-packages.php:73
+msgid "Edit"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-packages.php:74
+msgid "Delete"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-packages.php:88
+msgid "Type"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-packages.php:90
+msgid "Limit"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-packages.php:91
+msgid "Duration"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-packages.php:92
+#: templates/my-packages.php:26
+msgid "Featured?"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin-packages.php:94
+msgid "Actions"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin.php:58
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin.php:68
+#: includes/class-wc-paid-listings-admin.php:99
+msgid "Listing Packages"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin.php:88
+msgid "Package successfully deleted"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin.php:99
+#: includes/class-wc-paid-listings-admin.php:118
+msgid "Add User Package"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin.php:152
+msgid "Job Package Subscription"
+msgstr ""
+
+#: includes/class-wc-paid-listings-admin.php:154
+msgid "Resume Package Subscription"
+msgstr ""
+
+#: includes/class-wc-paid-listings-cart.php:138
+#: includes/class-wc-paid-listings-cart.php:163
+#: includes/class-wc-paid-listings-cart.php:186
+msgid "Job Listing"
+msgstr ""
+
+#: includes/class-wc-paid-listings-cart.php:144
+#: includes/class-wc-paid-listings-cart.php:169
+#: includes/class-wc-paid-listings-cart.php:194
+msgid "Resume"
+msgstr ""
+
+#: includes/class-wc-paid-listings-orders.php:58
+#: includes/class-wc-paid-listings-orders.php:84
+msgid "%s has been submitted successfully and will be visible once approved."
+msgstr ""
+
+#: includes/class-wc-paid-listings-orders.php:62
+#: includes/class-wc-paid-listings-orders.php:88
+msgid ""
+"%s has been submitted successfully and will be visible once payment has "
+"been confirmed."
+msgstr ""
+
+#: includes/class-wc-paid-listings-orders.php:65
+#: includes/class-wc-paid-listings-orders.php:91
+msgid "%s has been submitted successfully."
+msgstr ""
+
+#: includes/class-wc-paid-listings-orders.php:72
+#: includes/class-wc-paid-listings-orders.php:98
+msgid "View Listing"
+msgstr ""
+
+#: includes/class-wc-paid-listings-orders.php:74
+#: includes/class-wc-paid-listings-orders.php:100
+msgid "View Dashboard"
+msgstr ""
+
+#: includes/class-wc-paid-listings-orders.php:104
+msgid "Apply for \"%s\""
+msgstr ""
+
+#: includes/class-wc-paid-listings-submit-job-form.php:72
+#: includes/class-wc-paid-listings-submit-resume-form.php:72
+msgid "Choose a package &rarr;"
+msgstr ""
+
+#: includes/class-wc-paid-listings-submit-job-form.php:134
+#: includes/class-wc-paid-listings-submit-job-form.php:194
+#: includes/class-wc-paid-listings-submit-resume-form.php:130
+#: includes/class-wc-paid-listings-submit-resume-form.php:189
+msgid "Choose a package"
+msgstr ""
+
+#: includes/class-wc-paid-listings-submit-job-form.php:186
+#: includes/class-wc-paid-listings-submit-resume-form.php:180
+msgid "Submit &rarr;"
+msgstr ""
+
+#: includes/class-wc-paid-listings-submit-job-form.php:186
+#: includes/class-wc-paid-listings-submit-resume-form.php:180
+msgid "Listing Details &rarr;"
+msgstr ""
+
+#: includes/class-wc-paid-listings-submit-job-form.php:215
+#: includes/class-wc-paid-listings-submit-job-form.php:218
+#: includes/class-wc-paid-listings-submit-job-form.php:224
+#: includes/class-wc-paid-listings-submit-resume-form.php:210
+#: includes/class-wc-paid-listings-submit-resume-form.php:213
+#: includes/class-wc-paid-listings-submit-resume-form.php:219
+msgid "Invalid Package"
+msgstr ""
+
+#: includes/class-wc-paid-listings-submit-job-form.php:235
+#: includes/class-wc-paid-listings-submit-resume-form.php:230
+msgid "You already have this subscription."
+msgstr ""
+
+#: includes/class-wc-paid-listings-subscriptions.php:88
+msgid "Inherited from subscription"
+msgstr ""
+
+#: includes/class-wc-paid-listings-subscriptions.php:89
+msgid "Job listing expires with its <a href=\"%s\">associated subscription</a>."
+msgstr ""
+
+#: includes/class-wc-product-job-package.php:58
+#: includes/class-wc-product-resume-package.php:56
+msgid "Add to cart"
+msgstr ""
+
+#: includes/class-wc-product-job-package.php:58
+#: includes/class-wc-product-resume-package.php:56
+msgid "Read More"
+msgstr ""
+
+#: includes/views/html-job-package-data.php:5
+#: includes/views/html-resume-package-data.php:9
+msgid "Subscription Type"
+msgstr ""
+
+#: includes/views/html-job-package-data.php:6
+#: includes/views/html-resume-package-data.php:10
+msgid "Choose how subscriptions affect this package"
+msgstr ""
+
+#: includes/views/html-job-package-data.php:10
+#: includes/views/html-resume-package-data.php:14
+msgid ""
+"Link the subscription to the package (renew listing limit every "
+"subscription term)"
+msgstr ""
+
+#: includes/views/html-job-package-data.php:11
+#: includes/views/html-resume-package-data.php:15
+msgid ""
+"Link the subscription to posted listings (renew posted listings every "
+"subscription term)"
+msgstr ""
+
+#: includes/views/html-job-package-data.php:17
+msgid "Job listing limit"
+msgstr ""
+
+#: includes/views/html-job-package-data.php:18
+msgid "The number of job listings a user can post with this package."
+msgstr ""
+
+#: includes/views/html-job-package-data.php:31
+msgid "Job listing duration"
+msgstr ""
+
+#: includes/views/html-job-package-data.php:32
+msgid "The number of days that the job listing will be active."
+msgstr ""
+
+#: includes/views/html-job-package-data.php:46
+msgid "Feature this job listing - it will be styled differently and sticky."
+msgstr ""
+
+#: includes/views/html-resume-package-data.php:21
+msgid "Resume posting limit"
+msgstr ""
+
+#: includes/views/html-resume-package-data.php:22
+msgid "The number of resumes a user can post with this package."
+msgstr ""
+
+#: includes/views/html-resume-package-data.php:35
+msgid "Resume listing duration"
+msgstr ""
+
+#: includes/views/html-resume-package-data.php:36
+msgid "The number of days that the resume will be active."
+msgstr ""
+
+#: includes/views/html-resume-package-data.php:50
+msgid "Feature this resume - it will be styled differently and sticky."
+msgstr ""
+
+#: templates/my-packages.php:12
+msgid "My Job Packages"
+msgstr ""
+
+#: templates/my-packages.php:14
+msgid "My Resume Packages"
+msgstr ""
+
+#: templates/my-packages.php:21
+msgid "Package Name"
+msgstr ""
+
+#: templates/my-packages.php:22
+msgid "Remaining"
+msgstr ""
+
+#: templates/my-packages.php:37
+msgid "%d day"
+msgid_plural "%d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/my-packages.php:39
+msgid "Yes"
+msgstr ""
+
+#: templates/my-packages.php:39
+msgid "No"
+msgstr ""
+
+#: templates/package-selection.php:6 templates/resume-package-selection.php:6
+msgid "Your Packages:"
+msgstr ""
+
+#: templates/package-selection.php:15
+msgid "%1$s job posted out of %2$d"
+msgid_plural "%1$s jobs posted out of %2$d"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/package-selection.php:17
+msgid "%s job posted"
+msgid_plural "%s jobs posted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/package-selection.php:21 templates/package-selection.php:51
+#: templates/resume-package-selection.php:21
+#: templates/resume-package-selection.php:53
+msgid "listed for %s day"
+msgid_plural "listed for %s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/package-selection.php:30 templates/resume-package-selection.php:30
+msgid "Purchase Package:"
+msgstr ""
+
+#: templates/package-selection.php:50
+msgid "%1$s for %2$s job"
+msgid_plural "%1$s for %2$s jobs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/package-selection.php:50 templates/resume-package-selection.php:50
+msgid "unlimited"
+msgstr ""
+
+#: templates/package-selection.php:60 templates/resume-package-selection.php:64
+msgid "No packages found"
+msgstr ""
+
+#: templates/resume-package-selection.php:15
+msgid "%1$s resume posted out of %2$d"
+msgid_plural "%1$s resumes posted out of %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/resume-package-selection.php:17
+msgid "%s resume posted"
+msgid_plural "%s resumes posted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/resume-package-selection.php:50
+msgid "%1$s to post %2$d resume"
+msgid_plural "%1$s to post %2$s resumes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-job-manager-wc-paid-listings.php:123
+msgid ""
+"<em>WP Job Manager - WC Paid Listings</em> requires WP Job Manager to be "
+"installed and activated."
+msgstr ""
+
+#: wp-job-manager-wc-paid-listings.php:137
+msgid ""
+"<em>WP Job Manager - WC Paid Listings</em> requires WP Job Manager %s (you "
+"are using %s)."
+msgstr ""
+
+#: wp-job-manager-wc-paid-listings.php:146
+msgid ""
+"<em>WP Job Manager - WC Paid Listings</em> requires WooCommerce to be "
+"installed and activated."
+msgstr ""
+
+#: wp-job-manager-wc-paid-listings.php:148
+msgid ""
+"<em>WP Job Manager - WC Paid Listings</em> requires WooCommerce %s (you are "
+"using %s)."
+msgstr ""
+
+#: wp-job-manager-wc-paid-listings.php:168
+msgid ""
+"WC Paid Listings requires Resume Manager 1.11.0 and above. Please upgrade "
+"to continue using paid listings functionality for resumes."
+msgstr ""
+
+#: wp-job-manager-wc-paid-listings.php:177
+msgid ""
+"WC Paid Listings requires WooCommerce Subscriptions 2.0 and above. Please "
+"upgrade as soon as possible!"
+msgstr ""
+
+#: wp-job-manager-wc-paid-listings.php:203
+msgid "Pending Payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Payment <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: wp-job-manager-wc-paid-listings.php:218
+msgid "Pending Payment"
+msgstr ""
+
+#: wp-job-manager-wc-paid-listings.php:243
+#: wp-job-manager-wc-paid-listings.php:264
+msgid "Paid Listings Flow"
+msgstr ""
+
+#: wp-job-manager-wc-paid-listings.php:244
+#: wp-job-manager-wc-paid-listings.php:265
+msgid "Define when the user should choose a package for submission."
+msgstr ""
+
+#: wp-job-manager-wc-paid-listings.php:247
+msgid "Choose a package after entering job details"
+msgstr ""
+
+#: wp-job-manager-wc-paid-listings.php:248
+msgid "Choose a package before entering job details"
+msgstr ""
+
+#: wp-job-manager-wc-paid-listings.php:268
+msgid "Choose a package after entering resume details"
+msgstr ""
+
+#: wp-job-manager-wc-paid-listings.php:269
+msgid "Choose a package before entering resume details"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Job Manager - WooCommerce Paid Listings"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpjobmanager.com/add-ons/wc-paid-listings/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Add paid listing functionality via WooCommerce. Create 'job packages' as "
+"products with their own price, listing duration, listing limit, and job "
+"featured status and either sell them via your store or during the job "
+"submission process. A user's packages are shown on their account page and "
+"can be used to post future jobs if they allow more than 1 job listing. Also "
+"allows 'resume packages' if using the resumes add-on."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wpjobmanager.com"
+msgstr ""
+
+#: wp-job-manager-wc-paid-listings.php:198
+msgctxt "job_listing"
+msgid "Pending Payment"
+msgstr ""

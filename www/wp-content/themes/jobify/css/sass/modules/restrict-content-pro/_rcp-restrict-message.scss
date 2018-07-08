@@ -1,0 +1,8 @@
+.site-main > .rcp-restrict-message {
+	@extend .jobify-alert;
+	@extend .container;
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+}

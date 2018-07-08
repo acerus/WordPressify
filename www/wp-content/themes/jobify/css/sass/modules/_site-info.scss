@@ -1,0 +1,10 @@
+.site-info {
+	font: bold 12px/26px 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	float: none;
+
+	@include bp(sm) {
+		float: left;
+	}
+}

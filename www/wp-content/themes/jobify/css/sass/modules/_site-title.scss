@@ -1,0 +1,19 @@
+.site-title {
+	font: bold 22px/normal 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	margin: 0 36px 0 0;
+	padding: 0;
+
+	@include bp(md) {
+		font-size: 28px;
+	}
+
+	@include bp(lg) {
+		font-size: 36px;
+	}
+}
+
+.site-title img {
+	max-width: 100%;
+	height: auto;
+}

@@ -1,0 +1,27 @@
+.job_listing-logo {
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+
+	img {
+		max-width: 100%;
+	}
+
+	@include bp(sm) {
+		width: 20%;
+		vertical-align: middle;
+	}
+
+	@include bp(md) {
+		width: 10%;
+	}
+
+	@include bp(lg) {
+		width: 6%;
+	}
+}
+
+// for when we don't have control
+.company_logo {
+	min-width: 100%;
+}

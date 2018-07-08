@@ -1,0 +1,18 @@
+[
+	{
+		"id": "testimonial-category-individual",
+		"type": "term",
+		"data": {
+			"name": "Individual",
+			"taxonomy": "testimonial-category"
+		}
+	},
+	{
+		"id": "testimonial-category-company",
+		"type": "term",
+		"data": {
+			"name": "Company",
+			"taxonomy": "testimonial-category"
+		}
+	}
+]

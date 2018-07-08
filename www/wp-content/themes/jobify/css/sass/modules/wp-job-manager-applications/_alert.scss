@@ -1,0 +1,27 @@
+ul.job_listings .job-manager-applications-applied-notice::before,
+.single_job_listing .job-manager-applications-applied-notice::before {
+}
+
+.single_job_listing .job-manager-applications-applied-notice {
+	@extend .jobify-alert;
+	@extend .jobify-alert--success;
+
+	margin-bottom: 0;
+	display: inline-block;
+}
+
+.single-job_listing .job-manager-applications-error {
+	@extend .jobify-alert;
+	@extend .jobify-alert--error;
+
+	margin: 0;
+}
+
+.job-manager-application-form .job-manager-applications-error {
+	margin-bottom: 1em;
+}
+
+// ew
+.jobify_widget_jobs ul.job_listings .job-manager-applications-applied-notice {
+	display: none;
+}

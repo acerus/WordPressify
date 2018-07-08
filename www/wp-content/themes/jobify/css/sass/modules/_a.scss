@@ -1,0 +1,18 @@
+a {
+    color: #24262B;
+    text-decoration: none;
+
+    &:focus {
+        outline: thin dotted;
+    }
+
+    &:active,
+    &:hover {
+        outline: 0;
+    }
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+

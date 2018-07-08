@@ -1,0 +1,28 @@
+.load_more_jobs {
+	text-align: center;
+	display: block;
+	margin-top: 1em;
+
+	// so we can center it
+	strong {
+		@extend .button;
+		@extend .button--size-small;
+		font-size: 12px;
+		margin: 0 auto;
+	}
+
+	&:hover {
+		text-decoration: none;
+	}
+
+	&.load_previous {
+		margin: 0px 0 -2px;
+		z-index: 2;
+		position: relative;
+
+		strong {
+			display: block;
+			border-radius: 0;
+		}
+	}
+}

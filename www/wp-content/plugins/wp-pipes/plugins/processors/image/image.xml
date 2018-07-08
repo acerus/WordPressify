@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="wppipes-processor" method="upgrade">
+	<name>Get Images</name>
+	<author>thimpress.com</author>
+	<creationDate>Dec 2013</creationDate>
+	<copyright>© 2007-2013 thimpress.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<authorEmail>info@thimpress.com</authorEmail>
+	<authorUrl>http://www.thimpress.com</authorUrl>
+	<version>2.3</version>
+	<description>WPPipes Processor Get Fulltext Get Images</description>
+	<files>
+		<filename plugin="image">image.php</filename>
+		<filename plugin="image">image.xml</filename>
+		<filename>image.png</filename>
+		<filename>CHANGELOG</filename>
+		<filename>LICENSE</filename>
+		<filename>README</filename>
+		<filename>index.html</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="get_image" type="list" default="1" class="form-control" label="Get To local"
+					   description="Get image To local">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="stop_if_empty" type="list" default="0" label="Stop if not found images?">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="clear_tiny" type="text" size="30" class="form-control" default="64x64" label="Clear Tiny"
+					   description="clear tiny images size less than (width x hight)"/>
+				<field name="image_local" type="text" size="30" class="form-control" default="images/wppipes"
+					   label="Save to"
+					   description="Save to"/>
+				<field name="makelist" type="list" default="1" class="form-control" label="Make list"
+					   description="Make list Images">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="number_imgs" type="text" default="1" class="form-control" size="5" label="Number images"
+					   description="Number images make list"/>
+				<field name="remove" type="list" default="0" class="form-control" label="Remove"
+					   description="Remove images make list out html">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="special_img_url" type="list" label="Special Case" default="0"
+					   description="Is the image-url special? Use in case of Arabic language or the link was encoded">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="ignore_check_mime" type="list" default="1" label="Check Type Image"
+					   description="Force checking if the mime of downloaded files is image or not?">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="limit_width" type="text" size="30" default="100;400" label="Limit Width"
+					   description="Use only with input as enclosure, set value following the format: min_width;max_width"/>
+				<field name="default_img" type="text" class="fullwidth" default="" label="Default Image"
+					   description="The link to default image in case there is not any images in the original source"/>
+				<field name="curl_method"
+					   type="list"
+					   default="0"
+					   label="cURL mode"
+					   description="Sometimes you will need to try with each below method to get content of images.">
+					<option value="0">Auto</option>
+					<option value="1">Method 1</option>
+					<option value="2">Method 2</option>
+					<option value="3">Method 3</option>
+					<option value="4">Method 4</option>
+					<option value="5">Method 5</option>
+				</field>
+				<field name="note" type="hidden" default=""/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

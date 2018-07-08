@@ -1,0 +1,158 @@
+@import "variables";
+@import "mixins";
+@import "colors";
+@import "tooltip";
+@import "details";
+
+.content {
+  margin-top: 5px;
+
+  #test_url_part {
+    width: 270px;
+  }
+
+  #test-results {
+    border: 1px dashed $colorGrey;
+    padding: 12px;
+    margin-top: 12px;
+
+    &.loading {
+      border: 2px dashed $colorGreen;
+
+      &:before {
+        content: "...";
+      }
+    }
+
+    .details {
+      > h2 {
+        button {
+          position: absolute;
+          right: 4px;
+          top: 3px;
+          font-size: 11px;
+          font-weight: normal;
+        }
+      }
+
+      .inside {
+        img {
+          display: block;
+          max-width: 100%;
+          max-height: 100%;
+          width: auto;
+          height: auto;
+        }
+
+        > .info, .source-code, .data {
+          position: relative;
+          float: left;
+          margin-bottom: 6px;
+
+          ul {
+            margin-top: 0;
+
+            .info-list-inside {
+              margin-left: 30px;
+              list-style-type: decimal;
+              margin-top: 5px;
+            }
+          }
+
+          h4 {
+            margin: 0 0 4px 0 !important;
+          }
+
+          textarea {
+            width: 100%;
+          }
+        }
+
+        > .info, .source-code {
+          width: 50%;
+        }
+
+        > .data {
+          width: 100%;
+        }
+
+        > .go-to-top-container {
+          text-align: right;
+        }
+      }
+    }
+
+    .test-this {
+      height: 24px;
+      width: 32px;
+      padding: 0 2px;
+      margin-right: 2px;
+
+      span {
+        font-size: 16px;
+        margin-top: 3px;
+      }
+    }
+
+    .post-url-list {
+      display: table;
+
+      li {
+        display: table-row;
+        padding: 2px 0;
+
+        div {
+          display: table-cell;
+          vertical-align: middle;
+          padding: 4px 0;
+
+          &:first-child {
+            text-align: right;
+            padding-right: 12px;
+          }
+
+          &:last-child {
+            clear: both;
+          }
+        }
+
+        .thumbnail-container {
+          padding: 0 2px;
+          min-width: 30px;
+
+          &.hidden {
+            min-width: 0;
+            width: 0;
+          }
+
+          img.small {
+            width: 30px;
+            height: 30px;
+          }
+
+          .tooltip-arrow {
+            display: none;
+          }
+
+          .tooltip {
+            &.in {
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  hr {
+    margin-top: 20px;
+  }
+
+  .error {
+    color: $colorRed;
+  }
+}
+
+.clear-fix {
+  clear: both;
+}

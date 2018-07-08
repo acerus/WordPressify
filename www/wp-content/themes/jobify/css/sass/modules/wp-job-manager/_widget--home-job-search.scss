@@ -1,0 +1,8 @@
+.jobify_widget_jobs_search .job_search_form,
+.jobify_widget_resume_search .resume_search_form {
+	ul.job_types,
+	.showing_jobs,
+	.filter_by_tag {
+		display: none !important;
+	}
+}

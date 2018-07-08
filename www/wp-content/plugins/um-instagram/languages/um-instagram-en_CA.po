@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Instagram\n"
+"POT-Creation-Date: 2016-11-03 20:47+0800\n"
+"PO-Revision-Date: 2016-11-03 20:47+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: um-instagram.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: EDD_SL_Plugin_Updater.php:195
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:203
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:369
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:369
+msgid "Error"
+msgstr ""
+
+#: admin/class-um-instagram-admin.php:189
+#: admin/class-um-instagram-admin.php:245
+msgid "Instagram Photos"
+msgstr ""
+
+#: admin/class-um-instagram-admin.php:196
+msgid "You must provide a title"
+msgstr ""
+
+#: admin/class-um-instagram-admin.php:220
+msgid "Enable Instagram Photos"
+msgstr ""
+
+#: admin/class-um-instagram-admin.php:222
+msgid ""
+"Enable/disable the Instagram Photos field in the Form Builder and Profile "
+"page"
+msgstr ""
+
+#: admin/class-um-instagram-admin.php:223
+msgid "On"
+msgstr ""
+
+#: admin/class-um-instagram-admin.php:224
+msgid "Off"
+msgstr ""
+
+#: includes/class-um-instagram.php:258
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+
+#: includes/class-um-instagram.php:263
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires a <a href=\"https://wordpress.org/"
+"plugins/ultimate-member\">newer version</a> of Ultimate Member to work "
+"properly."
+msgstr ""
+
+#: includes/class-um-instagram.php:268
+msgid ""
+"The social extension requires <strong>PHP 5.4 or better</strong> installed "
+"on your server."
+msgstr ""
+
+#: public/class-um-instagram-public.php:155
+msgid "Connect to Instagram"
+msgstr ""
+
+#: public/class-um-instagram-public.php:273
+msgid "View all photos on Instagram"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Ultimate Member - Instagram"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://ultimatemember.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"An extension to allow a user to connect to their instagram account which "
+"embeds their most recent instagram photos onto their Ultimate Member profile"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ultimate Member"
+msgstr ""

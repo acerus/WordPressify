@@ -1,0 +1,17 @@
+.jobify-level-selection {
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	padding: 0;
+	background: none;
+}
+
+.jobify-level-selection__item {
+	font-weight: normal;
+	border-bottom: 1px solid #ccc;
+	margin: 0;
+	padding: 1em;
+
+	&:last-child {
+		border-bottom: 0;
+	}
+}

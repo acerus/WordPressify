@@ -1,0 +1,65 @@
+/**
+ * Company
+ */
+.company-profile-jobs .job_listings {
+	margin: 0;
+}
+
+.company-profile-jobs .job_listings ul.job_listings {
+	border-radius: 6px;
+}
+
+.company-profile-info .meta {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.company-letters {
+	margin-bottom: 60px;
+	border-bottom: 2px solid #ddd;
+	background: #fbfbfb;
+	text-align: center;
+}
+
+.company-letters a {
+	font: bold 14px/normal 'Montserrat', sans-serif;
+	display: inline-block;
+	padding: 14px 10px;
+}
+
+.companies-overview,
+.companies-overview ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+.companies-overview {
+	margin: 0 auto;
+}
+
+.companies-overview .company-group {
+	width: 30%;
+	margin-right: 3%;
+	margin-bottom: 3%;
+	float: left;
+	display: inline;
+}
+
+.companies-overview .company-group:nth-child(3n) {
+	margin-right: 0;
+}
+
+.company-letter {
+	font: bold 24px/normal 'Montserrat', sans-serif;
+	padding: 0 0 8px;
+	border-bottom: 2px solid #eee;
+}
+
+.companies-overview li li a {
+	padding: 6px 0;
+	border-bottom: 1px solid #eee;
+	display: block;
+}

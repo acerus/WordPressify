@@ -1,0 +1,32 @@
+.select2-container {
+	.select2-choice {
+		padding: 8px 14px;
+		border-radius: 6px;
+	}
+
+	&.select2-dropdown-open {
+		.select2-choice {
+			border-color: #ccc;
+			border-radius: 6px 6px 0 0;
+		}
+	}
+
+	&.select2-dropdown-open-above {
+		.select2-choice {
+			border-radius: 0 0 6px 6px;
+		}
+	}
+
+}
+
+.select2-drop {
+	border-color: #ccc;
+
+	&.select-2-drop-above {
+		border-radius: 6px 6px 0 0;
+	}
+
+	&.select-2-drop-below {
+		border-radius: 0 0 6px 6px;
+	}
+}

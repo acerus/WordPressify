@@ -1,0 +1,70 @@
+[
+	{
+		"id": "jobs",
+		"type": "object",
+		"priority": 30,
+		"data": {
+			"post_type": "page",
+			"post_name": "find-a-job",
+			"post_title": "Find a Job",
+			"post_content": "[jobs]",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/map-jobs.php"
+			}
+		}
+	},
+	{
+		"id": "submit_job_form",
+		"type": "object",
+		"priority": 30,
+		"data": {
+			"post_type": "page",
+			"post_name": "post-a-job",
+			"post_title": "Post a Job",
+			"post_content": "[submit_job_form]",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/single-column.php"
+			},
+			"menus": [
+				{	
+					"menu-item-title": "Post A Job",
+					"menu-item-position": 2,
+					"menu_name": "Primary"
+				}
+			]
+		}
+	},
+	{
+		"id": "job_dashboard",
+		"type": "object",
+		"priority": 30,
+		"data": {
+			"post_type": "page",
+			"post_name": "manage-jobs",
+			"post_title": "Manage Jobs",
+			"post_content": "[job_dashboard]",
+			"post_parent": "myaccount",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/single-column.php"
+			},
+			"menus": [
+				{
+					"menu-item-title": "Manage Jobs",
+					"menu-item-position": 1,
+					"menu-item-parent-title": "My Account",
+					"menu-item-role": "in",
+					"menu_name": "Primary"
+				},
+				{
+					"menu-item-title": "Manage Jobs",
+					"menu-item-position": 1,
+					"menu-item-parent-title": "Pages",
+					"menu_name": "Primary"
+				}
+			]
+		}
+	}
+]

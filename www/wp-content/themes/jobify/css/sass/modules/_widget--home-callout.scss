@@ -1,0 +1,19 @@
+.callout-container {
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	padding: 30px;
+
+	p:last-child {
+		margin-bottom: 0;
+	}
+
+	div[class^="col-"] {
+		display: inline-block;
+		vertical-align: middle;
+		float: none;
+	}
+
+	.button {
+		@extend .button--size-full;
+	}
+}

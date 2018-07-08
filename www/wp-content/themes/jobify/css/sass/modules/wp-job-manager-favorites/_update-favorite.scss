@@ -1,0 +1,5 @@
+.update-favorite {
+	.not-favorited & {
+		display: none;
+	}
+}

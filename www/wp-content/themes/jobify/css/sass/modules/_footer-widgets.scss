@@ -1,0 +1,12 @@
+.footer-widgets {
+	padding: 2em 0;
+	background: #2e3137;
+
+	@include bp(md) {
+		padding: 4em 0;
+	}
+
+	@include bp(lg) {
+		padding: 6em 0;
+	}
+}

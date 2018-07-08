@@ -1,0 +1,45 @@
+.job-spotlight {
+	text-align: left;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	margin-bottom: 3em;
+}
+
+.job-spotlight__featured-image {
+	overflow: hidden;
+
+	img,
+    a {
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
+		min-width: 100%;
+		display: block;
+	}
+}
+
+.job-spotlight__title {
+	font-size: 18px;
+	color: inherit;
+}
+
+.job-spotlight__content {
+	padding: 2em;
+
+	p {
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+.job-spotlight__actions {
+	margin-bottom: 1em;
+
+	span {
+		margin-right: 1em;
+	}
+
+	.job-type {
+		display: inline-block;
+	}
+}

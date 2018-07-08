@@ -1,0 +1,26 @@
+[
+	{
+		"id": "nav-menu-item-candidates",
+		"type": "nav-menu-item",
+		"priority": 5,
+		"data": {
+			"menu_name": "Primary",
+			"menu-item-title": "Candidates",
+			"menu-item-type": "custom",
+			"menu-item-url": "#",
+			"menu-item-position": 3
+		}
+	},
+	{
+		"id": "nav-menu-item-employers",
+		"type": "nav-menu-item",
+		"priority": 5,
+		"data": {
+			"menu_name": "Primary",
+			"menu-item-title": "Employers",
+			"menu-item-type": "custom",
+			"menu-item-url": "#",
+			"menu-item-position": 4
+		}
+	}
+]
