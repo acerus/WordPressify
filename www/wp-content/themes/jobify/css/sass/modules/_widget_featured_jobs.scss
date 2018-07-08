@@ -1,0 +1,24 @@
+// in the standard sidebar
+.widget-area--sidebar .widget_featured_jobs ul.job_listings {
+	.job_listing-logo,
+	.job_listing-about,
+	.job_listing-position,
+	.job_listing-location,
+	.job_listing-meta {
+		width: 100%;
+		display: block;
+	}
+
+	.job_listing-about {
+		margin-top: 0.5em;
+	}
+
+	.job_listing-location,
+	.job_listing-meta {
+		margin-top: 0.25em;
+	}
+
+	.job_listing-date {
+		display: none;
+	}
+}

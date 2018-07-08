@@ -1,0 +1,66 @@
+.modal {
+	.ninja-forms-required-items {
+		margin-bottom: 1em;
+	}
+
+	.ninja-forms-success-msg p {
+		margin: 0;
+
+		&:not(:empty) {
+			padding: 35px;
+		}
+	}
+
+	.nf-form-title h3 {
+		@extend .modal-title;
+	}
+
+	.nf-form-cont,
+	.ninja-forms-cont {
+		max-width: 100%;
+		margin-bottom: 0;
+
+		.ninja-forms-form-title {
+			@extend .modal-title;
+			width: 100%;
+		}
+
+		.nf-form-wrap,
+		.ninja-forms-form {
+			@extend .modal-content;
+
+			.field-wrap.submit-wrap {
+				@extend .modal-submit;
+				margin: 0 -30px -30px;
+			}
+		}
+
+		.field-wrap.hidden-wrap {
+			display: none;
+		}
+	}
+
+	.nf-field-container.submit-container {
+		margin-bottom: 0;
+
+		.field-wrap.submit-wrap {
+			margin-bottom: 0;
+		}
+
+		input[type="button"] {
+			@extend .button;
+		}
+	}
+
+	.nf-form-cont .nf-form-wrap {
+		padding-bottom: 0;
+	}
+
+	.nf-error-msg:not(:empty) {
+		padding: 20px;
+	}
+}
+
+.ninjaforms-contact-resume-form .resume_contact_details_inner {
+	padding: 0;
+}

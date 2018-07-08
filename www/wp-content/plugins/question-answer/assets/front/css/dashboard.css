@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+.qa-dashboard {
+
+}
+
+
+.qa-dashboard .navs {
+    width: 34%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.qa-dashboard .navs-content {
+    width: 65%;
+    display: inline-block;
+}
+
+
+
+
+.qa-my-account{}
+.qa-edit-account{}
+.qa-edit-account .item, .qa-my-account .item {
+    margin: 20px 0;
+}
+ .header, .qa-my-account .item .header {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.qa-edit-account .item input[type="text"], .qa-edit-account .item input[type="email"], .qa-edit-account .item textarea {
+    width: 90%;
+}
+
+.qa-my-questions{}
+
+.qa-my-questions .item {
+    margin: 0px 0;
+    border-bottom: 1px solid #ddd9;
+    padding: 15px 0px;
+}
+.qa-my-questions .item .q-title {
+    margin-bottom: 10px;
+}
+
+.qa-my-questions .item .meta{}
+.qa-my-questions .item .meta span {
+    font-size: 13px;
+    background: #dddddd80;
+    padding: 1px 10px;
+    display: inline-block;
+    margin: 0 5px 5px 0;
+}
+
+.paginate {
+    margin: 20px 0;
+}
+.paginate .page-numbers {
+    padding: 6px 12px;
+    background: #ddd;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 3px;
+}
+
+
+
+
+.qa-my-answers{}
+
+.qa-my-answers .item {
+    margin: 0px 0;
+    border-bottom: 1px solid #ddd9;
+    padding: 15px 0px;
+}
+.qa-my-answers .item .q-title {
+    margin-bottom: 10px;
+}
+
+.qa-my-answers .item .meta{}
+.qa-my-answers .item .meta span {
+    font-size: 13px;
+    background: #dddddd80;
+    padding: 1px 10px;
+    display: inline-block;
+    margin: 0 5px 5px 0;
+}
+
+.qa-my-answers .paginate {
+    margin: 20px 0;
+}
+.qa-my-answers .paginate .page-numbers {
+    padding: 6px 12px;
+    background: #ddd;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px ) {
+    .qa-dashboard .navs {
+        width: 100%;
+        display: block;
+    }
+
+    .qa-dashboard .navs-content {
+        width: 100%;
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+
+

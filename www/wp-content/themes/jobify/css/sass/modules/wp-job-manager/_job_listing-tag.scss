@@ -1,0 +1,10 @@
+.job-tag {
+	color: inherit;
+	margin-right: 0.75em;
+
+	&:before {
+		@extend .ion;
+		content: $ionicon-var-android-checkmark-circle;
+		margin-right: 5px;
+	}
+}

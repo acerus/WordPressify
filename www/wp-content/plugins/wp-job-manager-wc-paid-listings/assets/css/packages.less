@@ -1,0 +1,48 @@
+.job_listing_packages, .resume_packages {
+	padding: 0;
+	border: 5px solid #eee;
+
+	ul.job_packages, ul.resume_packages {
+		margin: 0;
+		padding: 0;
+		list-style: none outside;
+		li {
+			border-bottom: 1px dotted #eee;
+			padding: 1em;
+			list-style: none outside;
+			margin: 0;
+
+			label {
+				font-weight: bold;
+				cursor: pointer;
+			}
+		}
+		li:last-child {
+			border-bottom: 0;
+		}
+		li.user-job-package, li.user-resume-package {
+			background: #fefee5;
+		}
+		.package-section {
+			font-weight: bold;
+		}
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+.job_listing_packages_title, .entry-content .job_listing_packages_title,
+.resume_packages_title, .entry-content .resume_packages_title {
+	padding: .5em 1em;
+	vertical-align: middle;
+	position: relative;
+	background: #eee;
+	h2 {
+		margin: 0;
+		clear: none;
+	}
+	.button {
+		float: right;
+		margin-left: .25em;
+	}
+}

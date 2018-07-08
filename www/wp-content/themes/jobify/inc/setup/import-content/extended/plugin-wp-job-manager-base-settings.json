@@ -1,0 +1,27 @@
+[
+	{
+		"id": "job_manager_job_type_freelance_color",
+		"type": "setting",
+		"data": "#ff5a5f"
+	},
+	{
+		"id": "job_manager_job_type_full-time_color",
+		"type": "setting",
+		"data": "#5bbc2e"
+	},
+	{
+		"id": "job_manager_job_type_internship_color",
+		"type": "setting",
+		"data": "#00b2a9"
+	},
+	{
+		"id": "job_manager_job_type_part-time_color",
+		"type": "setting",
+		"data": "#735fee"
+	},
+	{
+		"id": "job_manager_job_type_temporary_color",
+		"type": "setting",
+		"data": "#727272"
+	}
+]

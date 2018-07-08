@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Instagram\n"
+"POT-Creation-Date: 2018-01-28 15:08+0800\n"
+"PO-Revision-Date: 2018-01-28 15:08+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: um-instagram.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/class-instagram-admin.php:75
+#: includes/admin/class-instagram-admin.php:105
+msgid "Instagram Photos"
+msgstr ""
+
+#: includes/admin/class-instagram-admin.php:82
+msgid "You must provide a title"
+msgstr ""
+
+#: includes/admin/class-instagram-admin.php:97
+msgid "Instagram License Key"
+msgstr ""
+
+#: includes/admin/class-instagram-admin.php:110
+msgid "Enable Instagram Photos"
+msgstr ""
+
+#: includes/admin/class-instagram-admin.php:111
+msgid ""
+"Enable/disable the Instagram Photos field in the Form Builder and Profile "
+"page"
+msgstr ""
+
+#: includes/admin/class-instagram-admin.php:116
+msgid "Client ID"
+msgstr ""
+
+#: includes/admin/class-instagram-admin.php:123
+msgid "Client Secret"
+msgstr ""
+
+#: includes/core/class-instagram-public.php:170
+msgid "Connect to Instagram"
+msgstr ""
+
+#: includes/core/class-instagram-public.php:279
+msgid "View all photos on Instagram"
+msgstr ""
+
+#: um-instagram.php:38 um-instagram.php:54
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+
+#: um-instagram.php:70
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires <strong>PHP 5.4 or better</"
+"strong> installed on your server."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Ultimate Member - Instagram"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://ultimatemember.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"An extension to allow a user to connect to their Instagram account which "
+"embeds their most recent instagram photos onto their Ultimate Member profile"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ultimate Member"
+msgstr ""

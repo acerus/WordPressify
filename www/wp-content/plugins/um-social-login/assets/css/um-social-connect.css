@@ -1,0 +1,186 @@
+.um-social-login-overlay {
+	background: #fff; 
+	width: 100%;
+	height: 100%; 
+	z-index: 1999992;
+	top: 0; 
+	left: 0; 
+	position: fixed;
+	opacity: 1;
+}
+
+.um-social-login-wrap {
+	z-index: 1999993;
+	position: fixed;
+	top: 0;
+	left: 50%;
+	margin-left: -200px;
+	width: 400px;
+	box-sizing: border-box;
+	border: 10px solid #fff;
+	border-radius: 5px;
+}
+
+@media screen and (max-width: 500px) {
+
+	.um-social-login-wrap {
+		width: 100%;
+		left: 0;
+		margin-left: 0;
+		border: 0;
+		border-radius: 0;
+	}
+
+	.um-social-login-wrap .um input[type=submit].um-button {
+		min-width: 100% !important;
+		width: 100%;
+		font-size: 13px !important;
+		box-sizing: border-box;
+	}
+	
+	.um-social-login-cancel {
+		right: 10px !important;
+		top: 2px !important;
+		font-size: 34px !important;
+		height: 34px !important;
+		line-height: 34px !important;
+	}
+	
+	.um-social-login-wrap .um label {
+		font-size: 13px !important;
+	}
+	
+	.um-social-login-wrap .um .um-field * {
+		font-size: 13px !important;
+	}
+
+}
+
+.um-social-login-wrap .um {
+	opacity: 1 !important;
+	background: #fff;
+	padding: 10px 25px 20px 25px;
+	margin: 0 !important;
+	overflow: auto;
+}
+
+.um-social-login-wrap .um label {}
+
+.um-social-login-wrap .um p {
+	padding: 0;
+	margin: 0 0 4px 0;
+}
+
+.um-social-login-cancel {
+	position: absolute;
+	right: 20px;
+	top: 5px;
+	font-size: 44px;
+	color: #ccc;
+	text-decoration: none !important;
+	height: 44px;
+	line-height: 44px;
+}
+.um-social-login-cancel:hover {color: #222}
+
+/*
+	Account page design
+*/
+
+.um-provider {
+}
+
+.um-provider a {
+	border-bottom: none !important;
+}
+
+.um-provider-title  {
+	font-size: 15px;
+	font-weight: 600;
+	color: #555;
+	padding-bottom: 10px;
+}
+
+.um-provider-conn {
+	font-size: 13px;
+	text-align: left;
+	padding-bottom: 18px;
+}
+
+.um-provider-user-photo {
+	float: left;
+	margin: 4px 10px 0 0;
+}
+
+.um-provider-photo {
+	border-radius: 3px;
+}
+
+.um-provider-photo.small {
+	width: 40px;
+	height: 40px;
+}
+
+.um-provider-disconnect {
+	color: #999;
+	line-height: 14px;
+}
+
+.um-provider-disconnect a {
+	font-size: 11px;
+	color: #999 !important;
+}
+
+/* The buttons */
+
+.um.um-shortcode-social {margin-bottom:0 !important}
+
+.um-social-btn {
+	display: inline-block;
+	color: #fff;
+	border-radius: 999px;
+	padding: 1px 12px 5px 12px;
+	font-size: 13px;
+	text-decoration: none;
+	position: relative;
+	width: 160px;
+	text-align: center;
+}
+
+.um-social-btn i {
+	font-size: 21px;
+	position: relative;
+	top: 2px;
+	margin-right: 6px;
+}
+
+.um-social-btn:hover { text-decoration: none;color: #fff !important }
+
+.um-social-btn-facebook {background: #3b5998}
+.um-social-btn-facebook:hover {background: #324D84}
+
+.um-social-btn-twitter {background: #55acee}
+.um-social-btn-twitter:hover {background: #4997D2}
+
+.um-social-btn-google {background: #dd4b39}
+.um-social-btn-google:hover {background: #BE4030}
+
+.um-social-btn-linkedin {background: #0976b4}
+.um-social-btn-linkedin:hover {background: #07659B}
+
+.um-social-btn-instagram {background: #3f729b}
+.um-social-btn-instagram:hover {background: #4480aa}
+
+.um-social-btn-vk {background: #45668e}
+.um-social-btn-vk:hover {background: #395f8e}
+
+
+.um-dropdown a.um-social-login-avatar-change img{
+	float:left;
+}
+.um-dropdown span.um-social-login-avatar-change{
+	padding: 10px 15px 15px 45px;
+	margin-left:5px;
+	display: block;
+	text-align: left;
+}

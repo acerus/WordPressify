@@ -1,0 +1,12 @@
+[
+	{
+		"id": "resume_manager_enable_categories",
+		"type": "setting",
+		"data": 1
+	},
+	{
+		"id": "resume_manager_enable_skills",
+		"type": "setting",
+		"data": 1
+	}
+]

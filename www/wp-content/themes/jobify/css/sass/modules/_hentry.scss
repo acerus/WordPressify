@@ -1,0 +1,12 @@
+.hentry {
+	margin-bottom: 3em;
+
+	@include bp(md) {
+		margin-bottom: 5em;
+	}
+
+	.bypostauthor,
+	.sticky {
+
+	}
+}

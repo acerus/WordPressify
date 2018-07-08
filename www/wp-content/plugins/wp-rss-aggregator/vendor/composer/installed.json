@@ -1,0 +1,485 @@
+[
+    {
+        "name": "dhii/stats-interface",
+        "version": "v0.1.0",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Dhii/stats-interface.git",
+            "reference": "36d09a8b8a3b8058214dae6eefb8ecdd98e0f0ba"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Dhii/stats-interface/zipball/36d09a8b8a3b8058214dae6eefb8ecdd98e0f0ba",
+            "reference": "36d09a8b8a3b8058214dae6eefb8ecdd98e0f0ba",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.3 | ^7.0"
+        },
+        "require-dev": {
+            "dhii/php-cs-fixer-config": "dev-php-5.3"
+        },
+        "time": "2016-11-10 15:38:37",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Dhii\\Stats\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Dhii Team",
+                "email": "development@dhii.co"
+            }
+        ],
+        "description": "Interfaces for stats"
+    },
+    {
+        "name": "dhii/collections-interface",
+        "version": "v0.1.2",
+        "version_normalized": "0.1.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Dhii/collections-interface.git",
+            "reference": "a8e9a30366a30d77bc270042a67150b3f8f6d94d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Dhii/collections-interface/zipball/a8e9a30366a30d77bc270042a67150b3f8f6d94d",
+            "reference": "a8e9a30366a30d77bc270042a67150b3f8f6d94d",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^5.3 | ^7.0"
+        },
+        "require-dev": {
+            "codeclimate/php-test-reporter": "dev-master",
+            "dhii/php-cs-fixer-config": "dev-php-5.3",
+            "phpunit/phpunit": "^4.8"
+        },
+        "time": "2016-11-16 14:45:08",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Dhii\\Collection\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Dhii Team",
+                "email": "development@dhii.co"
+            }
+        ],
+        "description": "Interfaces for collections"
+    },
+    {
+        "name": "dhii/collections-abstract-base",
+        "version": "v0.1.0",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Dhii/collections-abstract-base.git",
+            "reference": "0ec0147451a72a13fb327ac6ff747c5e953c56f3"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Dhii/collections-abstract-base/zipball/0ec0147451a72a13fb327ac6ff747c5e953c56f3",
+            "reference": "0ec0147451a72a13fb327ac6ff747c5e953c56f3",
+            "shasum": ""
+        },
+        "require": {
+            "dhii/collections-interface": "^0.1.1"
+        },
+        "require-dev": {
+            "codeclimate/php-test-reporter": "dev-master",
+            "dhii/php-cs-fixer-config": "dev-php-5.3",
+            "phpunit/phpunit": "^4.8",
+            "ptrofimov/xpmock": "^1.1"
+        },
+        "time": "2016-11-10 15:09:37",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Dhii\\Collection\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Dhii Team",
+                "email": "development@dhii.co"
+            }
+        ],
+        "description": "Collection base classes that do not depend on other non-collection packages, on which there is a dependency of other collection packages that depend on this package. This is done to avoid circular reference in the collection toolchain"
+    },
+    {
+        "name": "dhii/stats-abstract",
+        "version": "v0.1.0",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Dhii/stats-abstract.git",
+            "reference": "71f6702c3257c71ab3917b6d076d3c3588cc9f49"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Dhii/stats-abstract/zipball/71f6702c3257c71ab3917b6d076d3c3588cc9f49",
+            "reference": "71f6702c3257c71ab3917b6d076d3c3588cc9f49",
+            "shasum": ""
+        },
+        "require": {
+            "dhii/collections-abstract-base": "^0.1.0",
+            "dhii/stats-interface": "^0.1.0"
+        },
+        "require-dev": {
+            "dhii/php-cs-fixer-config": "dev-php-5.3",
+            "phpunit/phpunit": "^4.8",
+            "ptrofimov/xpmock": "^1.1"
+        },
+        "time": "2016-11-10 18:55:43",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Dhii\\Stats\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Dhii Team",
+                "email": "development@dhii.co"
+            }
+        ],
+        "description": "Abstract base for stats"
+    },
+    {
+        "name": "dhii/collections-abstract",
+        "version": "v0.1.0",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Dhii/collections-abstract.git",
+            "reference": "7c9141202af4d83b31e75efcbf481fa1cb588ad8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Dhii/collections-abstract/zipball/7c9141202af4d83b31e75efcbf481fa1cb588ad8",
+            "reference": "7c9141202af4d83b31e75efcbf481fa1cb588ad8",
+            "shasum": ""
+        },
+        "require": {
+            "dhii/collections-abstract-base": "^0.1.0",
+            "dhii/collections-interface": "^0.1.1",
+            "dhii/stats-abstract": "^0.1.0"
+        },
+        "require-dev": {
+            "dhii/php-cs-fixer-config": "dev-php-5.3",
+            "phpunit/phpunit": "4.*",
+            "ptrofimov/xpmock": "^1.1"
+        },
+        "time": "2016-11-10 19:29:24",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Dhii\\Collection\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Dhii Team",
+                "email": "development@dhii.co"
+            }
+        ],
+        "description": "A collections library"
+    },
+    {
+        "name": "psr/container",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/container.git",
+            "reference": "2cc4a01788191489dc7459446ba832fa79a216a7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/container/zipball/2cc4a01788191489dc7459446ba832fa79a216a7",
+            "reference": "2cc4a01788191489dc7459446ba832fa79a216a7",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2017-06-28 15:35:32",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Container\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common Container Interface (PHP FIG PSR-11)",
+        "homepage": "https://github.com/php-fig/container",
+        "keywords": [
+            "PSR-11",
+            "container",
+            "container-interface",
+            "container-interop",
+            "psr"
+        ]
+    },
+    {
+        "name": "container-interop/container-interop",
+        "version": "1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/container-interop/container-interop.git",
+            "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/container-interop/container-interop/zipball/79cbf1341c22ec75643d841642dd5d6acd83bdb8",
+            "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8",
+            "shasum": ""
+        },
+        "require": {
+            "psr/container": "^1.0"
+        },
+        "time": "2017-02-14 19:40:03",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Interop\\Container\\": "src/Interop/Container/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
+        "homepage": "https://github.com/container-interop/container-interop"
+    },
+    {
+        "name": "container-interop/service-provider",
+        "version": "v0.3.0",
+        "version_normalized": "0.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/container-interop/service-provider.git",
+            "reference": "5cb38893b836edb00d3e1ace26c20ee1d29957cf"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/container-interop/service-provider/zipball/5cb38893b836edb00d3e1ace26c20ee1d29957cf",
+            "reference": "5cb38893b836edb00d3e1ace26c20ee1d29957cf",
+            "shasum": ""
+        },
+        "require": {
+            "container-interop/container-interop": "^1.1"
+        },
+        "time": "2016-05-16 07:42:22",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Interop\\Container\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "Promoting container interoperability through standard service providers",
+        "homepage": "https://github.com/container-interop/service-provider"
+    },
+    {
+        "name": "dhii/di-interface",
+        "version": "v0.1",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Dhii/di-interface.git",
+            "reference": "0320846a577d68b761e29acd5d4db40d88cc4f98"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Dhii/di-interface/zipball/0320846a577d68b761e29acd5d4db40d88cc4f98",
+            "reference": "0320846a577d68b761e29acd5d4db40d88cc4f98",
+            "shasum": ""
+        },
+        "require": {
+            "container-interop/container-interop": "^1.1",
+            "container-interop/service-provider": "^0.3",
+            "php": "^5.3 | ^7.0"
+        },
+        "require-dev": {
+            "codeclimate/php-test-reporter": "<=0.3.2",
+            "dhii/php-cs-fixer-config": "dev-php-5.3",
+            "phpunit/phpunit": "^4.8",
+            "ptrofimov/xpmock": "^1.1"
+        },
+        "time": "2017-02-02 13:12:09",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Dhii\\Di\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Dhii Team",
+                "email": "development@dhii.co"
+            }
+        ],
+        "description": "Interfaces for DI container implementations"
+    },
+    {
+        "name": "dhii/di-abstract",
+        "version": "v0.1",
+        "version_normalized": "0.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Dhii/di-abstract.git",
+            "reference": "e87ee3782d5f4c44724e79c4b2e1a55103e5cd11"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Dhii/di-abstract/zipball/e87ee3782d5f4c44724e79c4b2e1a55103e5cd11",
+            "reference": "e87ee3782d5f4c44724e79c4b2e1a55103e5cd11",
+            "shasum": ""
+        },
+        "require": {
+            "container-interop/container-interop": "^1.1",
+            "container-interop/service-provider": "^0.3",
+            "dhii/di-interface": "^0.1",
+            "php": "^5.3 | ^7.0"
+        },
+        "require-dev": {
+            "codeclimate/php-test-reporter": "<=0.3.2",
+            "dhii/php-cs-fixer-config": "dev-php-5.3",
+            "phpunit/phpunit": "^4.8",
+            "ptrofimov/xpmock": "^1.1"
+        },
+        "time": "2017-02-02 18:30:06",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Dhii\\Di\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Dhii Team",
+                "email": "development@dhii.co"
+            }
+        ],
+        "description": "Base abstract classes for DI container implementations"
+    },
+    {
+        "name": "dhii/di",
+        "version": "v0.1.1",
+        "version_normalized": "0.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Dhii/di.git",
+            "reference": "52efd50f1b11fcdd2f789bae483bdb858772c306"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Dhii/di/zipball/52efd50f1b11fcdd2f789bae483bdb858772c306",
+            "reference": "52efd50f1b11fcdd2f789bae483bdb858772c306",
+            "shasum": ""
+        },
+        "require": {
+            "container-interop/container-interop": "^1.1",
+            "container-interop/service-provider": "^0.3",
+            "dhii/di-abstract": "^0.1",
+            "dhii/di-interface": "^0.1",
+            "php": "^5.3 | ^7.0"
+        },
+        "provide": {
+            "container-interop/container-interop-implementation": "^1.0"
+        },
+        "require-dev": {
+            "codeclimate/php-test-reporter": "<=0.3.2",
+            "dhii/php-cs-fixer-config": "dev-php-5.3",
+            "phpunit/phpunit": "^4.8",
+            "ptrofimov/xpmock": "^1.1"
+        },
+        "time": "2017-02-03 13:33:48",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Dhii\\Di\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Dhii Team",
+                "email": "development@dhii.co"
+            }
+        ],
+        "description": "A DI container implementation",
+        "keywords": [
+            "container",
+            "dependency injection",
+            "di"
+        ]
+    }
+]

@@ -1,0 +1,35 @@
+[
+	{
+		"id": "widget-feature-callout-pricing",
+		"type": "widget",
+		"priority": 10,
+		"data": {
+			"sidebar": "widget-area-page-pricing",
+			"widget": "jobify_widget_feature_callout",
+			"background": "cover",
+			"background_position": "center center",
+			"cover_overlay": "none",
+			"cover_overlay_transparency": 0.30,
+			"margin": 0,
+			"text_align": "center",
+			"text_color": "#ffffff",
+			"background_color": "#ffffff",
+			"title": "Priced to Hire",
+			"image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/widget-pricing-feature-callout-1.jpg",
+			"content": "Great exposure for your job opening. Prices start at $69. Trusted by companies big and small around the globe."
+		}
+	},
+	{
+		"id": "widget-price-table-pricing",
+		"type": "widget",
+		"priority": 20,
+		"data": {
+			"sidebar": "widget-area-page-pricing",
+			"widget": "jobify_widget_price_table_wc",
+			"package": "job_package",
+			"title-color": "#1e83f0",
+			"title": "",
+			"description": ""
+		}
+	}
+]

@@ -1,0 +1,96 @@
+.search_jobs.gjm_use {
+	.search_location input {
+		padding-right: 35px;
+	}
+
+	i.gjm-locator-btn,
+    i.gjm-locator-loader {
+		right: 20px !important;
+	}
+
+	@include bp(md) {
+		div.search_keywords,
+		div.search_location,
+		div.search_region {
+			width: 50%;
+			margin-bottom: 0;
+		}
+
+		div.search_keywords,
+		div.search_location,
+		div.search_region {
+			margin-right: 0;
+			margin-left: 0;
+		}
+
+		div.search_keywords {
+			padding-right: 0.5em;
+		}
+
+		div.search_location,
+		div.search_region {
+			padding-left: 0.5em;
+		}
+	}
+}
+
+// with categories enabled we have only two main inputs and a submit
+.wp-job-manager-categories-enabled .search_jobs.gjm_use {
+	@extend .jobify-search-jobs-category-geo-my-wp;
+}
+
+// so we can @extend to resumes
+.jobify-search-jobs-category-geo-my-wp {
+	@include bp(md) {
+		div.search_keywords,
+		div.search_location,
+		div.search_region,
+		div.search_categories {
+			width: 33.3%;
+			margin: 0;
+			padding: 0;
+		}
+
+		div.search_location,
+	    div.search_region {
+			padding: 0 1em;
+		}
+	}
+}
+
+// with categories enabled we have two inputs, one full, and one full submit
+.wp-job-manager-categories-multi-enabled .search_jobs.gjm_use {
+	@extend .jobify-search-jobs-category-multi-geo-my-wp;
+}
+
+// so we can @extend to resumes
+.jobify-search-jobs-category-multi-geo-my-wp {
+	@include bp(md) {
+		div.search_keywords,
+		div.search_location,
+		div.search_region {
+			width: 50%;
+			margin: 0;
+			padding: 0;
+			margin-bottom: 2%;
+		}
+
+		div.search_keywords {
+			padding-right: 0.5em;
+		}
+
+		div.search_location,
+		div.search_region {
+			padding-left: 0.5em;
+		}
+
+		div.search_categories {
+			margin-right: 0;
+		}
+
+		div.search_categories,
+		div.search_submit {
+			width: 100%;
+		}
+	}
+}

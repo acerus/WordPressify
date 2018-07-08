@@ -1,0 +1,15 @@
+.container {
+	margin: 0 auto;
+
+	@include bp(sm) {
+		max-width: 750px;
+	}
+
+	@include bp(md) {
+		max-width: 970px;
+	}
+
+	@include bp(lg) {
+		max-width: 1170px;
+	}
+}

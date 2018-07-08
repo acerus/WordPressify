@@ -1,0 +1,296 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-13 16:49+0200\n"
+"PO-Revision-Date: 2016-09-07 14:40+0200\n"
+"Last-Translator: Calum Allison <umplugin@gmail.com>\n"
+"Language-Team: Ultimate Member <umplugin@gmail.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: EDD_SL_Plugin_Updater.php:177
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:184
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:324
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+"Vous n’avez pas la permission d’installer les mises à jour de l’extension"
+
+#: EDD_SL_Plugin_Updater.php:324
+msgid "Error"
+msgstr "Erreur"
+
+#: admin/templates/role/messaging.php:8
+msgid "Enable Messaging feature?"
+msgstr "Activer fonctionnalité de messagerie?"
+
+#: admin/templates/role/messaging.php:8
+msgid "Enable or disable messaging feature for this role"
+msgstr "Activer ou désactiver la fonction de messagerie pour ce rôle"
+
+#: admin/templates/role/messaging.php:13
+msgid "Can start conversations?"
+msgstr "Peut démarrer des conversations?"
+
+#: admin/templates/role/messaging.php:13
+msgid "Can this role start conversation with other users?"
+msgstr "Ce rôle peut commencer la conversation avec d’autres utilisateurs?"
+
+#: admin/templates/role/messaging.php:18
+msgid "Can read private messages?"
+msgstr "Peut lire des messages privés?"
+
+#: admin/templates/role/messaging.php:18
+msgid "Can this role read private messages from other users?"
+msgstr "Ce rôle peut lire les messages privés d’autres utilisateurs?"
+
+#: admin/templates/role/messaging.php:23
+msgid "Can read private messages but not reply?"
+msgstr "Peut lire des messages privés, mais pas répondre?"
+
+#: admin/templates/role/messaging.php:23
+msgid "Can this role read private messages but not reply?"
+msgstr "Ce rôle peut lire les messages privés, mais pas répondre?"
+
+#: admin/templates/role/messaging.php:28
+msgid "Maximum number of messages they can send"
+msgstr "Le nombre maximum de messages qu'ils peuvent envoyer"
+
+#: admin/templates/role/messaging.php:31
+msgid "per"
+msgstr "par"
+
+#: admin/templates/role/messaging.php:31
+msgid "Days"
+msgstr "Jours"
+
+#: core/actions/um-messaging-admin.php:13
+msgid "Private Messages"
+msgstr "Messages Privés"
+
+#: core/actions/um-messaging-ajax.php:132
+#, php-format
+msgid "%s Please login to message <strong>%s</strong>"
+msgstr "%s Merci de vous connecter pour les messages <strong>%s</strong>"
+
+#: core/actions/um-messaging-ajax.php:209 core/um-messaging-api.php:376
+msgid "Remove"
+msgstr "Supprimer"
+
+#: core/actions/um-messaging-members.php:10
+msgid "My messages"
+msgstr "Mes messages"
+
+#: core/actions/um-messaging-privacy.php:21
+msgid "Who can send me private messages?"
+msgstr "Qui peut m’envoyer des messages privés ?"
+
+#: core/actions/um-messaging-privacy.php:29
+msgid "Everyone"
+msgstr "Tout le monde"
+
+#: core/actions/um-messaging-privacy.php:30
+msgid "Nobody"
+msgstr "Personne"
+
+#: core/actions/um-messaging-privacy.php:32
+msgid "Only people I follow"
+msgstr "Les membres que je suis"
+
+#: core/actions/um-messaging-privacy.php:33
+msgid "Followers"
+msgstr "Abonnés"
+
+#: core/actions/um-messaging-privacy.php:47
+msgid "Blocked Users"
+msgstr "Utilisateurs bloqués"
+
+#: core/actions/um-messaging-privacy.php:60
+msgid "Unblock"
+msgstr "Débloquer"
+
+#: core/filters/um-messaging-account.php:23
+#: core/filters/um-messaging-account.php:31
+msgid "Someone sends me a private message"
+msgstr "Quelqu’un m’a envoyé un message privé"
+
+#: core/filters/um-messaging-settings.php:13
+msgid "Message character limit"
+msgstr "Limite de caractères du message"
+
+#: core/filters/um-messaging-settings.php:21
+msgid "Block users from sending messages"
+msgstr "Empêcher les utilisateurs d’envoyer des messages privés"
+
+#: core/filters/um-messaging-settings.php:22
+msgid ""
+"A comma seperated list of user IDs that cannot send messages on the site."
+msgstr ""
+"Liste des utilisateurs (ID) ne pouvant pas envoyer de messages sur le sites "
+"(séparation avec des virgules)."
+
+#: core/filters/um-messaging-settings.php:29
+msgid "Primary color"
+msgstr "Couleur principale"
+
+#: core/filters/um-messaging-settings.php:37
+#: core/filters/um-messaging-settings.php:45
+#: core/filters/um-messaging-settings.php:55
+msgid "New Message Notification"
+msgstr "Notification de nouveau message"
+
+#: core/filters/um-messaging-settings.php:39
+msgid "Send a notification to user when he receives a new private message"
+msgstr ""
+"Envoyer une notification à l’utilisateur quand il reçoit un nouveau Message "
+"Privé"
+
+#: core/filters/um-messaging-settings.php:46
+msgid "Subject Line"
+msgstr "Objet :"
+
+#: core/filters/um-messaging-settings.php:49
+msgid "This is the subject line of the e-mail"
+msgstr "Ceci est la ligne d’objet de l’e-mail"
+
+#: core/filters/um-messaging-settings.php:56
+msgid "Message Body"
+msgstr "Message"
+
+#: core/filters/um-messaging-settings.php:68
+msgid "Messaging"
+msgstr "Messagerie"
+
+#: core/filters/um-messaging-settings.php:84
+msgid "User get a new private message"
+msgstr "Ce membre a un nouveau message privé"
+
+#: core/filters/um-messaging-settings.php:86
+msgid "When someone sends a private message to me"
+msgstr "Quand quelqu'un m'envoie un message privé"
+
+#: core/filters/um-messaging-tabs.php:13
+msgid "Messages"
+msgstr "Messages"
+
+#: core/um-messaging-api.php:262
+msgid "Block user"
+msgstr "Bloquer l’utilisateur"
+
+#: core/um-messaging-api.php:263
+msgid "Delete conversation"
+msgstr "Supprimer la conversation"
+
+#: core/um-messaging-api.php:264
+msgid "Close chat"
+msgstr "Fermer la conversation"
+
+#: core/um-messaging-api.php:275
+msgid "Your membership level does not allow you to view conversations."
+msgstr ""
+"Votre grade sur le site n'est passez élevé pour afficher les conversations."
+
+#: core/um-messaging-api.php:284 core/um-messaging-api.php:288
+msgid "You have reached your limit for sending messages."
+msgstr "Limite d'envoi de messages dépassée."
+
+#: core/um-messaging-api.php:296
+msgid "Type your message..."
+msgstr "Votre message..."
+
+#: core/um-messaging-api.php:302
+msgid "Send message"
+msgstr "Envoyer"
+
+#: core/um-messaging-api.php:309
+msgid "You are not allowed to reply to private messages."
+msgstr "Vous n’êtes pas autorisé à répondre."
+
+#: core/um-messaging-api.php:429
+#, php-format
+msgid "%ss"
+msgstr ""
+
+#. translators: min=minute
+#: core/um-messaging-api.php:435 core/um-messaging-api.php:455
+#, php-format
+msgid "%sm"
+msgstr ""
+
+#: core/um-messaging-api.php:440
+#, php-format
+msgid "%sh"
+msgstr ""
+
+#: core/um-messaging-api.php:445
+#, php-format
+msgid "%sd"
+msgstr ""
+
+#: core/um-messaging-api.php:450
+#, php-format
+msgid "%sw"
+msgstr ""
+
+#: core/um-messaging-api.php:460
+#, php-format
+msgid "%sy"
+msgstr ""
+
+#: core/um-messaging-init.php:22
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+
+#: core/um-messaging-init.php:27
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires a <a href=\"https://wordpress.org/"
+"plugins/ultimate-member\">newer version</a> of Ultimate Member to work "
+"properly."
+msgstr ""
+
+#: core/um-messaging-shortcode.php:46 core/um-messaging-shortcode.php:51
+msgid "Message"
+msgstr "Message"
+
+#: templates/conversations.php:86
+msgid "You do not have any conversations yet."
+msgstr "Vous n'avez pas de conversations en cours"
+
+#~ msgid "outdatedBrowser_page_message"
+#~ msgstr ""
+#~ "The site you are visiting can only be viewed using a modern browser. "
+#~ "Please upgrade your browser to increase safety and your browsing "
+#~ "experience. Choose one of the browsers above. If you don't care <a href="
+#~ "\"?forwardOutdatedBrowser=1\">click here</a>"
+
+#~ msgid "404_page_message"
+#~ msgstr ""
+#~ "The Page you are looking for doesn't exist or an other error occurred. <a "
+#~ "href=\"javascript:history.go(-1)\">Go back</a>, or head over to <a href="
+#~ "\"%s\">%s</a> to choose a new direction."

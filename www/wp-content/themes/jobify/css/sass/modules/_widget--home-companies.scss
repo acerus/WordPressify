@@ -1,0 +1,28 @@
+.company-slider {
+	.testimonials {
+		height: 100px !important;
+		margin: 0 auto;
+		padding: 0 72px;
+	}
+
+	.slick-slider {
+		margin-bottom: 0;
+		height: 100px !important;
+	}
+
+	.slick-list {
+		padding: 0 !important;
+	}
+}
+
+.woothemes-testimonial--company {
+	width: 200px !important;
+	height: auto !important;
+	display: block;
+
+	a,
+	img {
+		width: 200px;
+		height: 100px;
+	}
+}

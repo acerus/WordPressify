@@ -1,0 +1,50 @@
+.paginate-links,
+.nav-links,
+.job-manager-pagination {
+	text-align: center;
+	margin: 40px auto;
+
+	.current {
+		&:hover {
+			color: inherit;
+			background: none;
+		}
+	}
+
+	ul li {
+		display: inline-block;
+	}
+
+	a.page-numbers,
+	span.page-numbers {
+		font: 400 13px/normal Montserrat,sans-serif;
+		text-align: center;
+		padding: 8px 13px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		margin: 20px 5px;
+		display: inline-block;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+	a.next,
+	a.prev {
+		font-size: 0px;
+
+		&:before {
+			font-size: 16px;
+			@extend .ion;
+		}
+	}
+
+	a.next:before {
+		content: $ionicon-var-chevron-right;
+	}
+
+	a.prev:before {
+		content: $ionicon-var-chevron-left;
+	}
+}

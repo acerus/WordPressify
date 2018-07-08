@@ -1,0 +1,79 @@
+div.job-applications {
+	padding: 0;
+	background: none;
+
+	ul.job-applications {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		li.job-application {
+			border: 1px solid #ccc;
+
+			header {
+				.job-application-rating:before,
+				.job-application-rating span:before {
+					@extend .ion;
+				}
+
+				.job-application-rating:before {
+					content: $ionicon-var-ios-star-outline$ionicon-var-ios-star-outline$ionicon-var-ios-star-outline$ionicon-var-ios-star-outline$ionicon-var-ios-star-outline;
+				}
+
+				.job-application-rating span:before {
+					content: $ionicon-var-ios-star$ionicon-var-ios-star$ionicon-var-ios-star$ionicon-var-ios-star$ionicon-var-ios-star;
+				}
+			}
+
+			section.job-application-content .hide_section:before,
+			section.job-application-edit .hide_section:before,
+			section.job-application-notes .hide_section:before {
+				@extend .ion;
+				content: $ionicon-var-close !important;
+				margin: 8px 10px;
+			}
+
+			footer ul.actions .resume {
+				border-bottom: 0;
+			}
+
+			footer ul.actions li a {
+				width: 46px;
+
+				&:before {
+					@extend .ion;
+				}
+
+				&.job-application-toggle-content:before {
+					content: $ionicon-var-ios-list-outline;
+				}
+
+				&.job-application-resume:before {
+					content: $ionicon-var-document;
+				}
+
+				&.job-application-contact:before {
+					content: $ionicon-var-ios-email;
+				}
+
+				&.job-application-toggle-notes:before {
+					content: $ionicon-var-ios-bookmarks-outline;
+				}
+
+				&.job-application-toggle-edit:before {
+					content: $ionicon-var-edit;
+				}
+
+				&.job-application-attachment:before {
+					content: $ionicon-var-paperclip;
+				}
+			}
+		}
+	}
+}
+
+.job-application-note-add input[type=button],
+input[name="wp_job_manager_edit_application"] {
+	@extend .button;
+	@extend .button--size-medium;
+}

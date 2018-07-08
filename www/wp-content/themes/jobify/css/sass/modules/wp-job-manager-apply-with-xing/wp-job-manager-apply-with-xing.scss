@@ -1,0 +1,25 @@
+@import  "modal";
+
+input[type=button].apply-with-xing {
+	@extend .button;
+	@extend .button--type-action;
+
+	border-color: #006567;
+	color: #006567;
+	float: none;
+	margin: 0.5em 0;
+	display: block;
+
+	&:not(.disabled):hover {
+		background-color: #006567;
+		border-color: #006567;
+		color: #fff;
+	}
+}
+
+.job-meta.col-md-2 input[type=button].apply-with-xing {
+	padding-left: 10px;
+	padding-right: 10px;
+	white-space: pre-line;
+	width: 100%;
+}

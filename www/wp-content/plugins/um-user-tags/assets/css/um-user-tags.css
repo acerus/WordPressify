@@ -1,0 +1,87 @@
+.um-user-tags {
+	padding: 10px 0 0 0;
+}
+
+.um-user-tag {
+	background: #eee;
+	border: 1px solid #eee;
+	border-radius: 3px;
+	display: block;
+	float: left;
+	color: #666;
+	font-size: 12px;
+	cursor: pointer;
+	transition: all .2s linear;
+	padding: 1px 8px;
+	margin: 4px 8px 4px 0;
+}
+
+.um-user-tag:hover,
+.um-user-tag:focus,
+.um-user-tag:active,
+.um-user-tag.active { background: #DEDEDE; }
+
+.um-user-hidden-tag {display: none}
+
+.um-user-tag-more {
+	background: transparent !important;
+	border: none !important;
+	font-size: 14px !important;
+	line-height: 20px;
+}
+
+/* Filters in directory */
+.um-user-tags-md {
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.um-user-tags-md span{
+	background: #eee;
+	border-radius: 3px;
+	display: inline-block;
+	color: #666;
+	font-size: 12px;
+	transition: all .2s linear;
+	padding: 2px 8px;
+	margin: 0 8px 4px 8px;
+	cursor: default;
+}
+
+.um-user-tags-md span a {
+	margin-left: 6px;
+	text-decoration: none !important;
+	border: none !important;
+	color: #999;
+}
+
+.um-user-tags-md span a:hover {
+	color: #666;
+}
+
+/* Widget styling */
+.um-user-tags-wdgt-item  {
+	padding: 2px 0;
+}
+
+.um-user-tags-wdgt-item span.count {
+	color: #aaa;
+	font-size: 13px;
+	margin-left: 6px;
+}
+
+.um-user-tags-wdgt-item .tag {
+	background: #eee;
+	border-radius: 3px;
+	display: inline-block;
+	color: #666;
+	font-size: 13px;
+	padding: 2px 8px;
+	transition: all .2s linear;
+}
+
+.um-user-tags-wdgt-item a.tag {
+	text-decoration: none !important;
+}
+
+.um-user-tags-wdgt-item a.tag:hover { background: #DEDEDE; }

@@ -1,0 +1,21 @@
+.site-branding {
+	vertical-align: middle;
+
+	@include bp(sm) {
+		.nav-menu-break-small & {
+			display: table-cell;
+		}
+	}
+
+	@include bp(md) {
+		.nav-menu-break-medium & {
+			display: table-cell;
+		}
+	}
+
+	@include bp(lg) {
+		.nav-menu-break-large & {
+			display: table-cell;
+		}
+	}
+}

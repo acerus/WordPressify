@@ -1,0 +1,7 @@
+2018-07-03T21:18:39+00:00 INFO Queuing 3.4.3 - wc_update_343_cleanup_foreign_keys
+2018-07-03T21:18:39+00:00 INFO Queuing 3.4.3 - wc_update_343_db_version
+2018-07-03T21:18:41+00:00 INFO Running wc_update_343_cleanup_foreign_keys callback
+2018-07-03T21:18:41+00:00 INFO Finished running wc_update_343_cleanup_foreign_keys callback
+2018-07-03T21:18:41+00:00 INFO Running wc_update_343_db_version callback
+2018-07-03T21:18:41+00:00 INFO Finished running wc_update_343_db_version callback
+2018-07-03T21:18:41+00:00 INFO Data update complete

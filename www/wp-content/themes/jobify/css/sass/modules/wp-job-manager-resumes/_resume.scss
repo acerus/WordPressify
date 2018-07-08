@@ -1,0 +1,7 @@
+.resume {
+	@extend .job_listing
+}
+
+.resume__column {
+	@extend .job_listing__column;
+}

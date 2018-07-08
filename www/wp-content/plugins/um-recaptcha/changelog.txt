@@ -1,0 +1,19 @@
+Version 2.0.1
+
+* Added: Loading translation from "wp-content/languages/plugins/" directory
+
+Version 2.0
+
+* Tweak: UM2.0 compatibility
+
+Version 1.0.4
+* Fixed: Google reCaptcha API response
+
+Version 1.0.3
+
+* New: theme, type and size options.
+* Tweak: Google reCaptcha API 2.0
+
+Version 1.0.2
+
+* Fixed: Recaptcha ID and Social Login conflict

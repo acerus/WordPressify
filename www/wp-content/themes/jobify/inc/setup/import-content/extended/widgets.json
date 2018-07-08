@@ -1,0 +1,122 @@
+[
+	{
+		"id": "footer-text",
+		"type": "widget",
+		"data": {
+			"sidebar": "widget-area-footer",
+			"widget": "text",
+			"title": "Jobify",
+			"text": "Job Searching Just Got Easy. Use Jobify to run a hiring site and earn money in the process!"
+		}
+	},
+	{
+		"id": "footer-pages",
+		"type": "widget",
+		"data": {
+			"sidebar": "widget-area-footer-2",
+			"widget": "pages",
+			"title": "Site Map"
+		}
+	},
+	{
+		"id": "footer-blog",
+		"type": "widget",
+		"data": {
+			"sidebar": "widget-area-footer-3",
+			"widget": "recent-posts",
+			"title": "Recent News Articles"
+		}
+	},
+	{
+		"id": "footer-text-1",
+		"type": "widget",
+		"data": {
+			"sidebar": "widget-area-footer-4",
+			"widget": "text",
+			"title": "Jobify Offices",
+			"text": "Jobify Inc. 555 Madison Avenue,\nSuite F-2 Manhattan,\nNew York 10282\n\nJobify Inc Canada. 545\n Younge St, Suite 11 Toronto,\n Ontario M4K 6F4",
+			"filter": 1
+		}
+	},
+
+	{
+		"id": "hiw-widget-feature-callout-1",
+		"type": "widget",
+		"priority": 10,
+		"data": {
+			"sidebar": "widget-area-page-hiw",
+			"widget": "jobify_widget_feature_callout",
+			"background": "cover",
+			"background_position": "center center",
+			"cover_overlay": "none",
+			"cover_overlay_transparency": 0.50,
+			"margin": 0,
+			"text_align": "center",
+			"text_color": "#ffffff",
+			"background_color": "#ffffff",
+			"title": "How It Works",
+			"content": "Get a digital tour of how Jobify works for you.",
+			"image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/widget-home-feature-callout-1.jpg"
+		}
+	},
+	{
+		"id": "hiw-widget-feature-callout-2",
+		"type": "widget",
+		"priority": 20,
+		"data": {
+			"sidebar": "widget-area-page-hiw",
+			"widget": "jobify_widget_feature_callout",
+			"background": "pull",
+			"background_position": "center center",
+			"cover_overlay": "none",
+			"cover_overlay_transparency": 0.50,
+			"margin": 0,
+			"text_align": "left",
+			"text_color": "#647585",
+			"background_color": "#ffffff",
+			"title": "Browse Hundreds of Jobs",
+			"content": "Search, find and apply for jobs directly on your mobile device or desktop. Manage all of the jobs you have applied to from a convenience secure dashboard.",
+			"image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/large-widget-home-feature-callout-4.jpg"
+		}
+	},
+	{
+		"id": "hiw-widget-feature-callout-3",
+		"type": "widget",
+		"priority": 30,
+		"data": {
+			"sidebar": "widget-area-page-hiw",
+			"widget": "jobify_widget_feature_callout",
+			"background": "pull",
+			"background_position": "center center",
+			"cover_overlay": "none",
+			"cover_overlay_transparency": 0.50,
+			"margin": 0,
+			"text_align": "right",
+			"text_color": "#717a8f",
+			"background_color": "#f3f4f6",
+			"title": "Find Your Match",
+			"content": "Search, find and apply for jobs directly on your mobile device or desktop. Manage all of the jobs you have applied to from a convenience secure dashboard.",
+			"image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/large-widget-home-feature-callout-3.jpg"
+		}
+	},
+	{
+		"id": "hiw-widget-feature-callout-4",
+		"type": "widget",
+		"priority": 40,
+		"data": {
+			"sidebar": "widget-area-page-hiw",
+			"widget": "jobify_widget_feature_callout",
+			"background": "pull",
+			"background_position": "center center",
+			"cover_overlay": "none",
+			"cover_overlay_transparency": 0.50,
+			"margin": 0,
+			"text_align": "left",
+			"text_color": "#647585",
+			"background_color": "#ffffff",
+			"title": "Apply Directly",
+			"content": "Once you have found your matches, you can easily apply to the jobs that suit you best via the convenient web form and even submit your previously uploaded resume to save time.",
+			"image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/large-widget-home-feature-callout-4.jpg"
+		}
+	}
+]

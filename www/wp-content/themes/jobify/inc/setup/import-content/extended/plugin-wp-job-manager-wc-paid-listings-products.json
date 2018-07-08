@@ -1,0 +1,56 @@
+[
+	{
+		"id": "listing-package-small-team",
+		"type": "object",
+		"priority": 50,
+		"data": {
+			"post_type": "product",
+			"post_title": "Small Team",
+			"post_content": "<img src='http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/price-option-1.jpg' />\nPost 1 Job\nEdit Your Job Listings\nSee Job Posting Stats\nJob Listing Expire In 60 Days",
+			"featured_image": "",
+			"comment_status": "closed",
+			"price": "69.00",
+			"type": "job_package",
+			"meta": {
+				"_job_listing_limit": 1,
+				"_job_listing_duration": 60
+			}
+		}
+	},
+	{
+		"id": "listing-package-corporate",
+		"type": "object",
+		"priority": 55,
+		"data": {
+			"post_type": "product",
+			"post_title": "Corporate",
+			"post_content": "<img src='http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/price-option-2.jpg' />\nPost 5 Job\n5 Highlighted Job Posts\nEdit Your Job Listings\nSee Job Posting Stats\nMon - Fri Email Support\nJob Listing Expire In 90 Days",
+			"featured_image": "",
+			"comment_status": "closed",
+			"price": "89.00",
+			"type": "job_package",
+			"meta": {
+				"_job_listing_limit": 5,
+				"_job_listing_duration": 90
+			}
+		}
+	},
+	{
+		"id": "listing-package-enterprise",
+		"type": "object",
+		"priority": 60,
+		"data": {
+			"post_type": "product",
+			"post_title": "Corporate",
+			"post_content": "<img src='http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/price-option-2.jpg' />\nPost Unlimted Jobs\nUnlimted Featured Jobs\nEdit Your Job Listings\nSee Job Posting Stats\n24/7 Critical Support\nJob Listing Expire In 190 Days",
+			"featured_image": "",
+			"comment_status": "closed",
+			"price": "199.00",
+			"type": "job_package",
+			"meta": {
+				"_job_listing_limit": 20,
+				"_job_listing_duration": 190
+			}
+		}
+	}
+]

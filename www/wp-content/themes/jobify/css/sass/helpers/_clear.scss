@@ -1,0 +1,9 @@
+.clear:after {
+	clear: both;
+}
+
+.clear:before,
+.clear:after {
+	content: "";
+	display: table;
+}

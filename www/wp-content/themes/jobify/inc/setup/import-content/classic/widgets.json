@@ -1,0 +1,108 @@
+[
+	{
+		"id": "price-option-1",
+		"type": "widget",
+		"priority": 10,
+		"data": {
+			"sidebar": "widget-area-price-options",
+			"widget": "jobify_widget_price_option",
+			"title": "Small Team",
+			"color": "#666666",
+			"description": "<img src='http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/classic/price-option-1.jpg' /><h2><sup>$</sup>69</h2>\n<ul><li>Post 1 Job</li><li>Edit Your Job Listings</li><li>See Job Posting Stats</li></ul>\n\n<a href='http://themeforest.net/item/jobify-wordpress-job-board-theme/5247604/?ref=astoundify' class='button button--size-medium'>Learn More</a>"
+		}
+	},
+	{
+		"id": "price-option-2",
+		"type": "widget",
+		"priority": 20,
+		"data": {
+			"sidebar": "widget-area-price-options",
+			"widget": "jobify_widget_price_option",
+			"title": "Corporate",
+			"color": "#666666",
+			"description": "<img src='http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/classic/price-option-2.jpg' /><h2><sup>$</sup>89</h2>\n<ul><li>Post 5 Job</li><li>2 Highlighted Job Posts</li><li>Edit Your Job Listings<li>See Job Posting Stats</li><li>Mon - Fri Email Support</li></ul>\n\n<a href='http://themeforest.net/item/jobify-wordpress-job-board-theme/5247604/?ref=astoundify' class='button button--size-medium'>Learn More</a>"
+		}
+	},
+	{
+		"id": "price-option-3",
+		"type": "widget",
+		"priority": 30,
+		"data": {
+			"sidebar": "widget-area-price-options",
+			"widget": "jobify_widget_price_option",
+			"title": "Enterprise",
+			"color": "#666666",
+			"description": "<img src='http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/classic/price-option-3.jpg' /><h2><sup>$</sup>199</h2>\n<ul><li>Post Up To 20 Job</li><li>Edit Your Job Listings</li><li>See Job Posting Stats</li><li>24/7 Critical Support</li></ul>\n\n<a href='http://themeforest.net/item/jobify-wordpress-job-board-theme/5247604/?ref=astoundify' class='button button--size-medium'>Learn More</a>"
+		}
+	},
+
+	{
+		"id": "widget-feature-callout-pricing",
+		"type": "widget",
+		"priority": 10,
+		"data": {
+			"sidebar": "widget-area-page-pricing",
+			"widget": "jobify_widget_feature_callout",
+			"background": "cover",
+			"background_position": "center center",
+			"cover_overlay": "none",
+			"cover_overlay_transparency": 0.30,
+			"margin": 0,
+			"text_align": "center",
+			"text_color": "#ffffff",
+			"background_color": "#ffffff",
+			"title": "Priced to Hire",
+			"image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/classic/widget-testimonial-background.jpg",
+			"content": "Manually create a price table with options for anything you want. Or automatically generate a table using WooCommerce Paid Listings"
+		}
+	},
+	{
+		"id": "widget-price-table",
+		"type": "widget",
+		"priority": 20,
+		"data": {
+			"sidebar": "widget-area-page-pricing",
+			"widget": "jobify_widget_price_table"
+		}
+	},
+
+	{
+		"id": "footer-text",
+		"type": "widget",
+		"data": {
+			"sidebar": "widget-area-footer",
+			"widget": "text",
+			"title": "Jobify",
+			"text": "Job Searching Just Got Easy. Use Jobify to run a hiring site and earn money in the process!"
+		}
+	},
+	{
+		"id": "footer-pages",
+		"type": "widget",
+		"data": {
+			"sidebar": "widget-area-footer-2",
+			"widget": "pages",
+			"title": "Site Map"
+		}
+	},
+	{
+		"id": "footer-blog",
+		"type": "widget",
+		"data": {
+			"sidebar": "widget-area-footer-3",
+			"widget": "recent-posts",
+			"title": "Recent News Articles"
+		}
+	},
+	{
+		"id": "footer-text-1",
+		"type": "widget",
+		"data": {
+			"sidebar": "widget-area-footer-4",
+			"widget": "text",
+			"title": "Jobify Offices",
+			"text": "Jobify Inc. 555 Madison Avenue,\nSuite F-2 Manhattan,\nNew York 10282\n\nJobify Inc Canada. 545\n Younge St, Suite 11 Toronto,\n Ontario M4K 6F4",
+			"filter": 1
+		}
+	}
+]

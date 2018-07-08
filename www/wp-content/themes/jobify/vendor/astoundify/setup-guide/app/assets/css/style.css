@@ -1,0 +1,191 @@
+/** Badge */
+.setup-guide-theme-badge {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-radius: 4px;
+	box-shadow: 0 1px 3px rgba(0,0,0,.2);
+	overflow: hidden;
+}
+
+/** Step status */
+.step-complete,
+.step-incomplete {
+	color: green;
+	font-size: 18px;
+	margin: 0.5em 0 1em;
+}
+
+.step-complete:before,
+.step-incomplete:before {
+	font-size: 25px;
+	font-family: 'dashicons';
+	content: "\f529";
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.astoundify-setup-green {
+	color: green;
+}
+
+.astoundify-setup-red,
+.step-incomplete {
+	color: red;
+}
+
+.step-complete:before {
+	margin-right: 5px;
+	margin-top: -4px;
+}
+
+.step-incomplete:before {
+	content: "\f335";
+	border-color: red;
+	margin-top: -2px;
+}
+
+/** Steps */
+.accordion-section-content .content > ul {
+	margin-bottom: 20px;
+}
+
+.accordion-section-content .content > ul li {
+	list-style: disc;
+	list-style-position: inside;
+	margin-left: 15px;
+}
+
+.setup-guide-steps p.alignleft:first-of-type {
+    margin: 0 1.5em 1.5em 0;
+}
+
+.setup-guide-steps .button-secondary {
+    margin-bottom: 1em;
+}
+
+/** Icons */
+.accordion-container {
+	border: 1px solid #dfdfdf;
+	border-width: 1px 1px 0;
+}
+
+.accordion-section-title:before {
+	font-family: 'dashicons';
+	display: inline-block;
+	font-size: 18px;
+	vertical-align: middle;
+	margin-top: -1px;
+}
+
+.theme-updater .accordion-section-title:before {
+	content: "\f176";
+}
+
+.child-theme .accordion-section-title:before {
+	content: "\f100";
+}
+
+.install-plugins .accordion-section-title:before {
+	content: "\f106";
+}
+
+.import-content .accordion-section-title:before {
+	content: "\f109";
+}
+
+.import-widgets .accordion-section-title:before {
+	content: "\f116";
+}
+
+.setup-menus .accordion-section-title:before {
+	content: "\f333";
+}
+
+.setup-homepage .accordion-section-title:before {
+	content: "\f102";
+}
+
+.setup-widgets .accordion-section-title:before {
+	content: "\f180";
+}
+
+.customize-theme .accordion-section-title:before {
+	content: "\f108";
+}
+
+.support-us .accordion-section-title:before {
+	content: "\f155";
+}
+
+.setup-edd .accordion-section-title:before {
+    content: "\f316";
+}
+
+.setup-fes .accordion-section-title:before {
+    content: "\f513";
+}
+
+.content-pack {
+	display: inline-block;
+	position: relative;
+}
+
+.content-pack-label {
+	font-weight: bold;
+	margin-left: 17px;
+	display: block;
+}
+
+.content-pack img {
+	width: 263px;
+	height: 223px;
+	position: absolute;
+    bottom: 32px;
+    left: 18px;
+}
+
+.content-pack input[type="radio"] {
+	visibility: hidden;
+	position: absolute;
+}
+
+label[for="coming-soon"],
+.content-pack input[type="radio"]:disabled {
+	cursor: text;
+}
+
+.content-pack-img {
+	display: inline-block;
+	background: url(../images/content-browser.svg) no-repeat bottom center;
+	width: 300px;
+	height: 300px;
+}
+
+.content-pack input[type="radio"]:checked  + .content-pack-img:after {
+	content: ' ';
+	background: rgba(85, 85, 95, .79);
+	width: 263px;
+	height: 223px;
+	position: absolute;
+    bottom: 32px;
+    left: 18px;
+}
+
+.content-pack-img .dashicons-yes {
+	visibility: hidden;
+	position: absolute;
+	color: white;
+	font-size: 60px;
+	z-index: 10;
+	width: 60px;
+	height: 60px;
+	top: 50%;
+	left: 50%;
+	margin: -30px 0 0 -30px;
+}
+
+.content-pack input[type="radio"]:checked + .content-pack-img .dashicons-yes {
+	visibility: visible;
+}

@@ -1,0 +1,19 @@
+body.customize-partial-edit-shortcuts-shown {
+
+	// Hompeage
+	.widget--home.widget .customize-partial-edit-shortcut button {
+		left: 30px;
+	}
+
+	.widget--home-hero-search .customize-partial-edit-shortcut button,
+	.widget--home-feature-callout .customize-partial-edit-shortcut button {
+		top: 30px;
+	}
+
+	// Single job sidebar
+	.widget--job_listing.widget .customize-partial-edit-shortcut button {
+		left: -35px;
+		top: -5px;
+	}
+
+}

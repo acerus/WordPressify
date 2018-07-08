@@ -1,0 +1,62 @@
+body .woocommerce table.cart,
+body.woocommerce-page table.cart {
+	img {
+		width: 50px;
+		height: 50px;
+	}
+
+	input[type="submit"] {
+		font-size: 14px;
+		padding: 10px 15px;
+		display: inline-block;
+	}
+	
+	td.actions .input-text[name=coupon_code] {
+		width: 140px;
+	}
+
+	.product-remove {
+		width: 25px;
+	}
+
+	.product-thumbnail {
+		width: 75px;
+	}
+
+	.product-subtotal,
+	.product-quantity,
+	.product-price {
+		width: 12%;
+		text-align: center;
+	}
+
+	.product-subtotal {
+		padding-right: 0;
+	}
+
+	td.product-name a {
+		font-size: 1.25em;
+	}
+}
+
+.wc-proceed-to-checkout .checkout-button {
+	float: right;
+}
+
+label[for=payment_method_paypal] img {
+	display: none;
+}
+
+dl.variation {
+	margin: 0;
+
+	dt,
+	dd {
+		margin: 0;
+		display: inline-block;
+	}
+
+	p {
+		margin-bottom: 0;
+	}
+}

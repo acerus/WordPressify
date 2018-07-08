@@ -1,0 +1,394 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-23 20:50+0100\n"
+"PO-Revision-Date: 2015-07-23 20:50+0100\n"
+"Last-Translator: Calum Allison <umplugin@gmail.com>\n"
+"Language-Team: Blizzheart <kearsan@blizzheart.com>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: EDD_SL_Plugin_Updater.php:177
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"Une nouvelle version de %1$s est disponible. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">Voir les détails de la version %3$s</a>."
+
+#: EDD_SL_Plugin_Updater.php:184
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"Une nouvelle version de %1$s est disponible. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">Voir les détails de la version %3$s</a> ou <a "
+"href=\"%4$s\">mettre à jour</a>."
+
+#: EDD_SL_Plugin_Updater.php:324
+msgid "You do not have permission to install plugin updates"
+msgstr "Vous n'avez pas la permission de mettre à jour des plugins"
+
+#: EDD_SL_Plugin_Updater.php:324
+msgid "Error"
+msgstr "Erreur"
+
+#: admin/templates/buttons.php:3
+msgid "Provider Settings"
+msgstr "Réglages du fournisseur"
+
+#: admin/templates/buttons.php:7
+#, php-format
+msgid "Enable <b>%s</b>"
+msgstr "Activer <b>%s</b>"
+
+#: admin/templates/buttons.php:16
+msgid "General Settings"
+msgstr "Réglages généraux"
+
+#: admin/templates/buttons.php:19
+msgid "Show for logged-in users?"
+msgstr "Afficher pour les utilisateurs connectés ?"
+
+#: admin/templates/buttons.php:27
+msgid "Button Appearance"
+msgstr "Apparence du bouton"
+
+#: admin/templates/buttons.php:30
+msgid "Show icon in the social login button?"
+msgstr "Afficher l'icône sur le bouton ?"
+
+#: admin/templates/buttons.php:39
+msgid "Show label in the social login button?"
+msgstr "Afficher le label sur le bouton ?"
+
+#: admin/templates/buttons.php:48
+msgid "Font Size"
+msgstr "Taille de la police d'écriture"
+
+#: admin/templates/buttons.php:57
+msgid "Icon Size"
+msgstr "Taille de l'icône"
+
+#: admin/templates/buttons.php:66
+msgid "Button Style"
+msgstr "Style du bouton"
+
+#: admin/templates/buttons.php:70
+msgid "One button per line"
+msgstr "Un bouton par ligne"
+
+#: admin/templates/buttons.php:71
+msgid "Responsive"
+msgstr "Responsive"
+
+#: admin/templates/buttons.php:72
+msgid "Floated"
+msgstr "Flottant"
+
+#: admin/templates/buttons.php:79
+msgid "Button Min Width"
+msgstr "Largeur mini du bouton"
+
+#: admin/templates/buttons.php:88
+msgid "Button Padding"
+msgstr "Padding du bouton"
+
+#: admin/templates/buttons.php:96
+msgid "Container Appearance"
+msgstr "Apparence du conteneur"
+
+#: admin/templates/buttons.php:99
+msgid "Container Max Width (Apply to responsive button style only)"
+msgstr "Largeur maximale du conteneur (ne s'applique qu'au style responsive)"
+
+#: admin/templates/buttons.php:108
+msgid "Container Margin"
+msgstr "Marge du conteneur"
+
+#: admin/templates/buttons.php:117
+msgid "Container Padding"
+msgstr "Padding du conteneur"
+
+#: admin/templates/form/login.php:4 admin/templates/form/register.php:4
+msgid "Show social connect on this form?"
+msgstr "Afficher la connexion sociale sur ce formulaire ?"
+
+#: admin/templates/metabox.php:45
+msgid "Not enough data to show visual stats"
+msgstr "Pas assez de données pour afficher des graphiques"
+
+#: core/actions/um-social-login-admin.php:14
+#: core/actions/um-social-login-admin.php:15 core/um-social-login-admin.php:51
+msgid "Social Login"
+msgstr "Connexion sociale"
+
+#: core/filters/um-social-login-account.php:13
+#, php-format
+msgid " This %s account is already linked to another user."
+msgstr "Ce compte %s est déjà lié à un autre utilisateur."
+
+#: core/filters/um-social-login-account.php:41
+#: core/filters/um-social-login-settings.php:41
+msgid "Social Connect"
+msgstr "Connexion sociale"
+
+#: core/filters/um-social-login-account.php:90
+#: core/filters/um-social-login-account.php:114
+#, php-format
+msgid "Connect to %s"
+msgstr "Se connecter à %s"
+
+#: core/filters/um-social-login-settings.php:11
+#, php-format
+msgid "user connects with %s"
+msgstr "utilisateurs connectés avec %s"
+
+#: core/filters/um-social-login-settings.php:24
+#, php-format
+msgid "user disconnects from %s"
+msgstr "utilisateurs déconnectés de %s"
+
+#: core/filters/um-social-login-settings.php:49
+msgid "Social Account Tab"
+msgstr "Onglet de connexion sociale"
+
+#: core/filters/um-social-login-settings.php:51
+msgid "Enable/disable the Social account tab in account page"
+msgstr ""
+"Activer/désactiver l'onglet de connexion sociale dans la page de compte"
+
+#: core/filters/um-social-login-settings.php:52
+#: core/filters/um-social-login-settings.php:62
+#: core/filters/um-social-login-settings.php:72
+#: core/filters/um-social-login-settings.php:99
+msgid "On"
+msgstr "Oui"
+
+#: core/filters/um-social-login-settings.php:53
+#: core/filters/um-social-login-settings.php:63
+#: core/filters/um-social-login-settings.php:73
+#: core/filters/um-social-login-settings.php:100
+msgid "Off"
+msgstr "Non"
+
+#: core/filters/um-social-login-settings.php:59
+msgid "Show social connect on registration forms"
+msgstr "Afficher la connexion sociale sur les formulaires d'inscription"
+
+#: core/filters/um-social-login-settings.php:61
+msgid "Show/hide social connect on all registration forms by default"
+msgstr ""
+"Afficher/masquer la connexion sociale sur tous les formulaires d'inscription "
+"par défaut"
+
+#: core/filters/um-social-login-settings.php:69
+msgid "Show social connect on login forms"
+msgstr "Afficher la connexion sociale sur les formulaires de connexion"
+
+#: core/filters/um-social-login-settings.php:71
+msgid "Show/hide social connect on all login forms by default"
+msgstr ""
+"Afficher/masquer la connexion sociale sur tous les formulaires de connexion "
+"par défaut"
+
+#: core/filters/um-social-login-settings.php:85
+msgid "General"
+msgstr "Général"
+
+#: core/filters/um-social-login-settings.php:97
+#, php-format
+msgid "%s Social Connect"
+msgstr "Connexion sociale %s"
+
+#: core/um-social-login-admin.php:34
+msgid "Social Signups"
+msgstr "Inscriptions sociales"
+
+#: core/um-social-login-init.php:24
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+"L'extension <strong>%s</strong> nécessite l'activation du plugin Ultimate "
+"Member pour fonctionner correctement. Vous pouvez le télécharger <a href="
+"\"https://wordpress.org/plugins/ultimate-member\">ici</a>"
+
+#: core/um-social-login-init.php:29
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires a <a href=\"https://wordpress.org/"
+"plugins/ultimate-member\">newer version</a> of Ultimate Member to work "
+"properly."
+msgstr ""
+"L'extension <strong>%s</strong> nécessite une <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">nouvelle version</a> d'Ultimate Member pour "
+"fonctionner correctement."
+
+#: core/um-social-login-init.php:34
+msgid ""
+"The social extension requires <strong>PHP 5.4 or better</strong> installed "
+"on your server."
+msgstr ""
+
+#: core/um-social-login-init.php:173
+msgid "Facebook"
+msgstr "Facebook"
+
+#: core/um-social-login-init.php:174
+msgid "Sign in with Facebook"
+msgstr "Se connecter via Facebook"
+
+#: core/um-social-login-init.php:180
+msgid "App ID"
+msgstr "App ID"
+
+#: core/um-social-login-init.php:181
+msgid "App Secret"
+msgstr "App Secret"
+
+#: core/um-social-login-init.php:191
+msgid "Twitter"
+msgstr "Twitter"
+
+#: core/um-social-login-init.php:192
+msgid "Sign in with Twitter"
+msgstr "Se connecter via Twitter"
+
+#: core/um-social-login-init.php:198
+msgid "Consumer Key"
+msgstr "Consumer Key"
+
+#: core/um-social-login-init.php:199
+msgid "Consumer Secret"
+msgstr "Consumer Secret"
+
+#: core/um-social-login-init.php:209
+msgid "Google+"
+msgstr "Google+"
+
+#: core/um-social-login-init.php:210
+msgid "Sign in with Google+"
+msgstr "Se connecter via Google+"
+
+#: core/um-social-login-init.php:216 core/um-social-login-init.php:252
+msgid "Client ID"
+msgstr "ID client"
+
+#: core/um-social-login-init.php:217
+msgid "Client secret"
+msgstr "Secret client"
+
+#: core/um-social-login-init.php:227
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: core/um-social-login-init.php:228
+msgid "Sign in with LinkedIn"
+msgstr "Se connecter via LinkedIn"
+
+#: core/um-social-login-init.php:234 core/um-social-login-init.php:270
+msgid "API Key"
+msgstr "API Key"
+
+#: core/um-social-login-init.php:235 core/um-social-login-init.php:271
+msgid "API Secret"
+msgstr "API Secret"
+
+#: core/um-social-login-init.php:245
+msgid "Instagram"
+msgstr ""
+
+#: core/um-social-login-init.php:246
+msgid "Sign in with Instagram"
+msgstr ""
+
+#: core/um-social-login-init.php:253
+msgid "Client Secret"
+msgstr ""
+
+#: core/um-social-login-init.php:263
+msgid "VK"
+msgstr ""
+
+#: core/um-social-login-init.php:264
+msgid "Sign in with VK"
+msgstr ""
+
+#: core/um-social-login-init.php:473
+msgid "Complete Registration"
+msgstr "Terminer l'inscription"
+
+#: core/um-social-login-install.php:30
+msgid "Social Registration"
+msgstr "Inscription sociale"
+
+#: core/um-social-login-metabox.php:30
+msgid "Options"
+msgstr "Réglages"
+
+#: core/um-social-login-metabox.php:31
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: core/um-social-login-taxonomies.php:18
+msgid "Social Login Shortcodes"
+msgstr "Shortcodes de connexion sociale"
+
+#: core/um-social-login-taxonomies.php:19
+msgid "Social Login Shortcode"
+msgstr "Shortcode de connexion sociale"
+
+#: core/um-social-login-taxonomies.php:20
+msgid "Add New"
+msgstr "Ajouter"
+
+#: core/um-social-login-taxonomies.php:21
+msgid "Add New Social Login Shortcode"
+msgstr "Ajouter un nouveau shortcode de connexion sociale"
+
+#: core/um-social-login-taxonomies.php:22
+msgid "Edit"
+msgstr "Modifier"
+
+#: core/um-social-login-taxonomies.php:23
+msgid "You did not create any social login shortcodes yet"
+msgstr "Vous n'avez pas encore créé de shortcode de connexion sociale"
+
+#: core/um-social-login-taxonomies.php:24
+msgid "Nothing found in Trash"
+msgstr "Aucun élément dans la corbeille"
+
+#: core/um-social-login-taxonomies.php:25
+msgid "Search social login shortcodes"
+msgstr "Rechercher les shortcodes de connexion sociale"
+
+#~ msgid "Set social buttons order"
+#~ msgstr "Définir l'ordre des boutons"
+
+#~ msgid "outdatedBrowser_page_message"
+#~ msgstr ""
+#~ "The site you are visiting can only be viewed using a modern browser. "
+#~ "Please upgrade your browser to increase safety and your browsing "
+#~ "experience. Choose one of the browsers above. If you don't care <a href="
+#~ "\"?forwardOutdatedBrowser=1\">click here</a>"
+
+#~ msgid "404_page_message"
+#~ msgstr ""
+#~ "The Page you are looking for doesn't exist or an other error occurred. <a "
+#~ "href=\"javascript:history.go(-1)\">Go back</a>, or head over to <a href="
+#~ "\"%s\">%s</a> to choose a new direction."

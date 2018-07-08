@@ -1,0 +1,34 @@
+.resume-manager-education {
+	margin: 0;
+
+	dt h3 {
+		margin: 0;
+		font-size: 18px;
+		font-weight: normal;
+	}
+
+	dd {
+		margin: 15px 0;
+		padding-left: 15px;
+		border-left: 1px solid #eee;
+	}
+
+	.qualification,
+	.job_title {
+		margin: 0.5em 0;
+		display: block;
+	}
+
+	.date {
+		font: normal 12px/normal 'Montserrat', sans-serif;
+		text-transform: uppercase;
+		color: #919191;
+		display: block;
+
+		&:before {
+			@extend .ion;
+			content: $ionicon-var-calendar;
+			margin-right: 5px;
+		}
+	}
+}

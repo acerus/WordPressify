@@ -1,0 +1,340 @@
+/* Sidebar widget */
+.um-friends-m {
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.um-friends-m-user,
+.um-friends-m-pic {
+	float: left;
+}
+
+.um-friends-m-user {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 16px;
+	cursor: pointer;
+	margin: 3px;
+}
+
+.um-friends-m-pic a,
+.um-friends-m-pic img {
+	border-radius: 3px !important;
+	display: block;
+	overflow: hidden;
+	max-width: 40px;
+	max-height: 40px;
+	height: auto !important;
+}
+
+.um-friends-m-pic a {opacity: 0.9; transition: none;}
+.um-friends-m-pic a:hover {opacity: 1; box-shadow: 0 0 5px rgba(81, 203, 238, 1)}
+
+.um-friends-m-user.show-all {opacity: 0.8}
+.um-friends-m-user.show-all:hover {opacity: 1}
+
+span.um-friends-notf {
+	background: #cc3000;
+	color: #fff !important;
+}
+
+/* The button in member directory */
+.um-members-friend-btn {
+	margin: 2px 0;
+	height: 40px;
+}
+
+.um-members-friend-btn a {
+	display: inline-block !important;
+	width: auto !important;
+	font-size: 13px;
+}
+
+.um-members-friend-stats {
+	font-size: 13px;
+	margin: 0 0 5px 0;
+	color: #bbb;
+}
+
+.um-members-friend-stats div {
+	display: inline-block;
+	margin: 0 6px;
+}
+
+.um-members-friend-stats span {
+	color: #777;
+	margin: 0 4px 0 0;
+}
+
+/* List item */
+.um-friends-user {
+	padding: 15px 0 15px 70px;
+	position: relative;
+	border-bottom: 1px solid #eee;
+	min-height: 60px;
+}
+
+.um-friends-user p {margin:0!important;padding:0!important}
+
+.um-friends-user a{border-bottom:none}
+
+.um-friends-user-photo {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	border: none !important;
+	opacity: 0.9;
+}
+
+.um-friends-user-photo:hover {opacity: 1}
+
+.um-friends-user-photo img {
+	border-radius: 3px !important;
+	max-width: 50px;
+	max-height: 50px;
+}
+
+.um-friends-user-btn {
+	position: absolute;
+	right: 0;
+	top: 8px;
+}
+
+.um-friends-user-btn a {
+	font-size: 13px;
+}
+
+.um-friends-user-name {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.um-friends-user-bio {
+	margin: 10px 0 0 0;
+	line-height: 23px;
+}
+
+.um-friends-user-bio p {font-size: 14px;}
+
+.um-friends-user-span {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #999;
+	margin-left: 8px;
+	font-weight: 300;
+}
+
+/* The profile bar */
+.um-friends-coverbtn {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+}
+
+.um-profile .um-profile-meta .um-friends-coverbtn {
+	bottom: auto;
+	top: -52px;
+}
+
+.um-friends-coverbtn a {
+	padding: 10px 10px !important;
+	background: #fff !important;
+}
+
+.um-friends-bar {
+	padding: 10px 10px 10px 0;
+}
+
+.um-friends-rc {
+	display: inline-block;
+	font-size: 13px;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+
+.um-friends-rc a {
+	display: inline-block;
+	text-decoration: none;
+	border: none;
+	padding: 0 15px;
+	border-right: 2px solid #eee;
+	color: #999 !important;
+}
+
+.um-friends-rc a span {
+	display: block;
+	font-weight: bold;
+	font-size: 16px;
+	color: #3ba1da;
+	text-align: center;
+}
+
+.um-friends-rc a.current,
+.um-friends-rc a:hover {color: #3ba1da}
+.um-friends-rc a.current {cursor: default}
+
+.um-friends-btn {
+	float: right;
+	margin-top: 2px;
+}
+
+/* The buttons */
+.um-friend-respond-zone {
+	position: relative;
+}
+
+a.um-friend-btn,
+a.um-unfriend-btn,
+a.um-unfriend-btn2,
+a.um-friend-respond-btn,
+a.um-friend-accept-btn,
+a.um-friend-reject-btn,
+a.um-friend-pending-btn,
+a.um-login-to-friend-btn,
+a.um-friend-edit {
+	padding: 10px 15px !important;
+	transition: none !important;
+	display: inline-block !important;
+	margin: 0 auto !important;
+	min-width: 110px;
+	width: auto;
+	text-align: center;
+}
+
+a.um_friends_ajax {
+	opacity: 0.8;
+	cursor: default;
+	transition: none !important;
+}
+
+a.um_friends_ajax:before {
+	content: "\f110" !important;
+	-webkit-animation: spin 2s infinite linear;
+	-moz-animation: spin 2s infinite linear;
+	-o-animation: spin 2s infinite linear;
+	animation: spin 2s infinite linear;
+}
+
+a.um_friends_ajax:before,
+a.um-friend-btn:before,
+a.um-friend-respond-btn:before,
+a.um-friend-pending-btn:before,
+a.um-login-to-friend-btn:before,
+a.um-friend-edit:before {
+	font-family: "FontAwesome";
+	margin-right: 8px;
+	width: 14px;
+	text-align: left;
+	display: inline-block;
+	font-size: 16px;
+	position: relative;
+	left: 0;
+	top: 1px;
+}
+
+a.um-friend-respond-btn:before,
+a.um-friend-pending-btn:before,
+a.um-friend-btn:before,
+a.um-login-to-friend-btn:before {content: "\f007"}
+
+a.um-friend-edit:before {content: "\f013"}
+
+span.um-friend-you {
+	font-size: 11px;
+	color: #aaa;
+	text-transform: uppercase;
+	font-weight: 400;
+	position: relative;
+	top: -2px;
+}
+
+/* Responsive queries */
+@media screen and (max-width: 500px) {
+
+	.um-friends-user-btn {
+		position: relative;
+		top: auto;
+		padding-top: 10px;
+	}
+	
+	.um-friends-user-btn a {width: auto}
+	
+	.um-friends-rc a {
+		border: none;
+		padding: 0 15px !important;
+	}
+	
+	.um-friends-bar {padding-right: 0; text-align: center}
+	
+	.um-friends-btn {
+		float: none;
+		margin-top: 10px;
+	}
+	
+	.um-friends-btn a {width: auto !important}
+	
+	.um-friends-user-bio {margin-top: 5px}
+	
+	.um-friends-user {
+		text-align: center;
+		padding-left: 0 !important;
+	}
+	
+	.um-friends-user-photo {
+		position: relative;
+		top: auto;
+		left: auto;
+		text-align: center;
+		display: inline-block;
+	}
+	
+}
+
+.um-profile-body.friends {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+@media screen and (max-width: 750px) {
+
+	.um-profile-body.friends {
+		max-width: 94% !important;
+	}
+
+	.um-friends-user-span {
+		display: block;
+		margin: 0;
+	}
+	
+	.um-friends-user-bio p {font-size: 13px}
+
+	a.um-friend-btn,
+	a.um-unfriend-btn,
+	a.um-unfriend-btn2,
+	a.um-login-to-friend-btn,
+	a.um-friend-edit {
+		font-size: 13px;
+	}
+
+}
+
+@media screen and (max-width: 600px) {
+
+	.um-friends-coverbtn {
+		display: none !important;
+	}
+	
+	.um-friends-nocoverbtn {
+		display: block !important;
+	}
+
+	.um-friend-respond-zone div.um-dropdown {
+		top: 45px !important;
+		width: 200px !important;
+		left: 125px !important;
+	}
+
+}

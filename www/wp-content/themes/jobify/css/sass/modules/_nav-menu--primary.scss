@@ -1,0 +1,138 @@
+@mixin expanded-menu() {
+	li {
+		display: inline-block;
+		position: relative;
+
+		&:hover {
+			> .sub-menu,
+			> .children {
+				display: block;
+			}
+		}
+	}
+
+	a {
+		font-size: 15px;
+		vertical-align: middle;
+		margin: 2px 0;
+		padding: 8px 14px;
+		display: block;
+		border: 2px solid transparent;
+	}
+
+	.menu-item-has-children > a:after {
+		content: $ionicon-var-chevron-down;
+	}
+
+	.sub-menu .menu-item-has-children > a:after {
+		content: '';
+		margin: 0;
+	}
+
+	.sub-menu .menu-item-has-children > a:before {
+		content: $ionicon-var-chevron-left;
+		margin-right: 5px;
+	}
+
+	.sub-menu,
+	.children {
+		display: none;
+		padding: 20px 0;
+		position: absolute;
+		top: 100%;
+		left: 50%;
+		width: 200px;
+		z-index: 99999;
+		border-bottom-left-radius: 6px;
+		border-bottom-right-radius: 6px;
+		box-shadow: inset rgba(0, 0, 0, .10) 0 -1px 0;
+
+		-webkit-transform: translate(-50%, 0);
+		-ms-transform:     translate(-50%, 0);
+		transform:         translate(-50%, 0);
+
+		li {
+			display: block;
+			margin: 0;
+			text-align: center;
+		}
+
+		a {
+			padding-top: 8px;
+			padding-bottom: 8px;
+		}
+
+		.sub-menu,
+		.children {
+			left: -100%;
+			top: 0;
+			border-radius: 6px;
+
+			-webkit-transform: translate(0);
+			-ms-transform:     translate(0);
+			transform:         translate(0);
+		}
+	}
+}
+
+.nav-menu--primary,
+ul.nav-menu--primary {
+	li {
+		margin: 8px 0;
+	}
+
+	a {
+		font-size: 20px;
+		padding: 10px 0;
+		border-radius: 4px;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+
+
+	li:after,
+	a:after,
+    a:before {
+		@extend .ion;
+		margin-left: 5px;
+	}
+
+	@include bp(sm) {
+		.nav-menu-break-small & {
+			@include expanded-menu();
+		}
+	}
+
+	@include bp(md) {
+		.nav-menu-break-medium & {
+			@include expanded-menu();
+		}
+	}
+
+	@include bp(lg) {
+		.nav-menu-break-large & {
+			@include expanded-menu();
+		}
+	}
+}
+
+// Avatar Menu Item.
+.nav-menu--primary .menu-item.account-avatar {
+
+	a {
+		padding: 4px 14px 3px 14px;
+	}
+
+	.current-account-avatar {
+		display: inline-block;
+		margin-right: 10px;
+
+		img.avatar {
+			border-radius: 50%;
+			width: 32px;
+			height: 32px;
+		}
+	}
+}

@@ -1,0 +1,29 @@
+body ul.job_listings .job-manager-applications-applied-notice,
+body .job-manager-applications-applied-notice {
+	color: inherit;
+
+	&:before {
+		@extend .ion;
+		content: $ionicon-var-checkmark;
+	}
+}
+
+.job-manager-applications-applied-notice {
+
+	body ul.job_listings & {
+		float: none;
+		font-size: 13px;
+		margin: 0.5em 0;
+
+		@include bp(md) {
+			display: inline-block;
+			margin: 0 0 0 5px;
+		}
+	}
+
+	.job-spotlight__title & {
+		margin: 1em 0 0;
+		display: block;
+	}
+
+}

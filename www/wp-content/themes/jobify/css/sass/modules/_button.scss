@@ -1,0 +1,71 @@
+.button,
+.button-secondary, // backwards compat
+input[type="submit"],
+button {
+    font: bold 18px/normal 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 50px;
+    border-radius: 4px;
+    display: inline-block;
+	border-style: solid;
+	border-width: 2px;
+
+    -webkit-transition: all 0.3s;
+    -moz-transition:    all 0.3s;
+    transition:         all 0.3s;
+
+    &:hover {
+        text-decoration: none;
+    }
+
+    &.button--size-small {
+        @extend .button--size-small;
+    }
+
+    &.button--size-medium {
+        @extend .button--size-medium;
+    }
+
+    &.button--size-full {
+        @extend .button--size-full;
+    }
+
+    &.button--type-action {
+        @extend .button--type-action;
+    }
+
+    &.button--type-inverted {
+        @extend .button--type-inverted;
+    }
+
+	&.disabled {
+		opacity: 0.5;
+	}
+}
+
+// the same size of an input
+.button--size-small {
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.button--size-medium {
+    font-size: 15px;
+    padding: 14px 24px;
+}
+
+.button--size-full {
+    width: 100%;
+}
+
+.button--type-inverted {
+    @extend .button;
+    background: transparent;
+}
+
+.button--type-action {
+    @extend .button--size-medium;
+	@extend .button--type-inverted;
+}

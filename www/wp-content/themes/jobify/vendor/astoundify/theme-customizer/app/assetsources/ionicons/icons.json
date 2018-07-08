@@ -1,0 +1,2934 @@
+{
+  "alert": {
+    "label": "alert",
+    "code": "0xf101"
+  },
+  "alert-circled": {
+    "label": "alert-circled",
+    "code": "0xf100"
+  },
+  "android-add": {
+    "label": "android-add",
+    "code": "0xf2c7"
+  },
+  "android-add-circle": {
+    "label": "android-add-circle",
+    "code": "0xf359"
+  },
+  "android-alarm-clock": {
+    "label": "android-alarm-clock",
+    "code": "0xf35a"
+  },
+  "android-alert": {
+    "label": "android-alert",
+    "code": "0xf35b"
+  },
+  "android-apps": {
+    "label": "android-apps",
+    "code": "0xf35c"
+  },
+  "android-archive": {
+    "label": "android-archive",
+    "code": "0xf2c9"
+  },
+  "android-arrow-back": {
+    "label": "android-arrow-back",
+    "code": "0xf2ca"
+  },
+  "android-arrow-down": {
+    "label": "android-arrow-down",
+    "code": "0xf35d"
+  },
+  "android-arrow-dropdown": {
+    "label": "android-arrow-dropdown",
+    "code": "0xf35f"
+  },
+  "android-arrow-dropdown-circle": {
+    "label": "android-arrow-dropdown-circle",
+    "code": "0xf35e"
+  },
+  "android-arrow-dropleft": {
+    "label": "android-arrow-dropleft",
+    "code": "0xf361"
+  },
+  "android-arrow-dropleft-circle": {
+    "label": "android-arrow-dropleft-circle",
+    "code": "0xf360"
+  },
+  "android-arrow-dropright": {
+    "label": "android-arrow-dropright",
+    "code": "0xf363"
+  },
+  "android-arrow-dropright-circle": {
+    "label": "android-arrow-dropright-circle",
+    "code": "0xf362"
+  },
+  "android-arrow-dropup": {
+    "label": "android-arrow-dropup",
+    "code": "0xf365"
+  },
+  "android-arrow-dropup-circle": {
+    "label": "android-arrow-dropup-circle",
+    "code": "0xf364"
+  },
+  "android-arrow-forward": {
+    "label": "android-arrow-forward",
+    "code": "0xf30f"
+  },
+  "android-arrow-up": {
+    "label": "android-arrow-up",
+    "code": "0xf366"
+  },
+  "android-attach": {
+    "label": "android-attach",
+    "code": "0xf367"
+  },
+  "android-bar": {
+    "label": "android-bar",
+    "code": "0xf368"
+  },
+  "android-bicycle": {
+    "label": "android-bicycle",
+    "code": "0xf369"
+  },
+  "android-boat": {
+    "label": "android-boat",
+    "code": "0xf36a"
+  },
+  "android-bookmark": {
+    "label": "android-bookmark",
+    "code": "0xf36b"
+  },
+  "android-bulb": {
+    "label": "android-bulb",
+    "code": "0xf36c"
+  },
+  "android-bus": {
+    "label": "android-bus",
+    "code": "0xf36d"
+  },
+  "android-calendar": {
+    "label": "android-calendar",
+    "code": "0xf2d1"
+  },
+  "android-call": {
+    "label": "android-call",
+    "code": "0xf2d2"
+  },
+  "android-camera": {
+    "label": "android-camera",
+    "code": "0xf2d3"
+  },
+  "android-cancel": {
+    "label": "android-cancel",
+    "code": "0xf36e"
+  },
+  "android-car": {
+    "label": "android-car",
+    "code": "0xf36f"
+  },
+  "android-cart": {
+    "label": "android-cart",
+    "code": "0xf370"
+  },
+  "android-chat": {
+    "label": "android-chat",
+    "code": "0xf2d4"
+  },
+  "android-checkbox": {
+    "label": "android-checkbox",
+    "code": "0xf374"
+  },
+  "android-checkbox-blank": {
+    "label": "android-checkbox-blank",
+    "code": "0xf371"
+  },
+  "android-checkbox-outline": {
+    "label": "android-checkbox-outline",
+    "code": "0xf373"
+  },
+  "android-checkbox-outline-blank": {
+    "label": "android-checkbox-outline-blank",
+    "code": "0xf372"
+  },
+  "android-checkmark-circle": {
+    "label": "android-checkmark-circle",
+    "code": "0xf375"
+  },
+  "android-clipboard": {
+    "label": "android-clipboard",
+    "code": "0xf376"
+  },
+  "android-close": {
+    "label": "android-close",
+    "code": "0xf2d7"
+  },
+  "android-cloud": {
+    "label": "android-cloud",
+    "code": "0xf37a"
+  },
+  "android-cloud-circle": {
+    "label": "android-cloud-circle",
+    "code": "0xf377"
+  },
+  "android-cloud-done": {
+    "label": "android-cloud-done",
+    "code": "0xf378"
+  },
+  "android-cloud-outline": {
+    "label": "android-cloud-outline",
+    "code": "0xf379"
+  },
+  "android-color-palette": {
+    "label": "android-color-palette",
+    "code": "0xf37b"
+  },
+  "android-compass": {
+    "label": "android-compass",
+    "code": "0xf37c"
+  },
+  "android-contact": {
+    "label": "android-contact",
+    "code": "0xf2d8"
+  },
+  "android-contacts": {
+    "label": "android-contacts",
+    "code": "0xf2d9"
+  },
+  "android-contract": {
+    "label": "android-contract",
+    "code": "0xf37d"
+  },
+  "android-create": {
+    "label": "android-create",
+    "code": "0xf37e"
+  },
+  "android-delete": {
+    "label": "android-delete",
+    "code": "0xf37f"
+  },
+  "android-desktop": {
+    "label": "android-desktop",
+    "code": "0xf380"
+  },
+  "android-document": {
+    "label": "android-document",
+    "code": "0xf381"
+  },
+  "android-done": {
+    "label": "android-done",
+    "code": "0xf383"
+  },
+  "android-done-all": {
+    "label": "android-done-all",
+    "code": "0xf382"
+  },
+  "android-download": {
+    "label": "android-download",
+    "code": "0xf2dd"
+  },
+  "android-drafts": {
+    "label": "android-drafts",
+    "code": "0xf384"
+  },
+  "android-exit": {
+    "label": "android-exit",
+    "code": "0xf385"
+  },
+  "android-expand": {
+    "label": "android-expand",
+    "code": "0xf386"
+  },
+  "android-favorite": {
+    "label": "android-favorite",
+    "code": "0xf388"
+  },
+  "android-favorite-outline": {
+    "label": "android-favorite-outline",
+    "code": "0xf387"
+  },
+  "android-film": {
+    "label": "android-film",
+    "code": "0xf389"
+  },
+  "android-folder": {
+    "label": "android-folder",
+    "code": "0xf2e0"
+  },
+  "android-folder-open": {
+    "label": "android-folder-open",
+    "code": "0xf38a"
+  },
+  "android-funnel": {
+    "label": "android-funnel",
+    "code": "0xf38b"
+  },
+  "android-globe": {
+    "label": "android-globe",
+    "code": "0xf38c"
+  },
+  "android-hand": {
+    "label": "android-hand",
+    "code": "0xf2e3"
+  },
+  "android-hangout": {
+    "label": "android-hangout",
+    "code": "0xf38d"
+  },
+  "android-happy": {
+    "label": "android-happy",
+    "code": "0xf38e"
+  },
+  "android-home": {
+    "label": "android-home",
+    "code": "0xf38f"
+  },
+  "android-image": {
+    "label": "android-image",
+    "code": "0xf2e4"
+  },
+  "android-laptop": {
+    "label": "android-laptop",
+    "code": "0xf390"
+  },
+  "android-list": {
+    "label": "android-list",
+    "code": "0xf391"
+  },
+  "android-locate": {
+    "label": "android-locate",
+    "code": "0xf2e9"
+  },
+  "android-lock": {
+    "label": "android-lock",
+    "code": "0xf392"
+  },
+  "android-mail": {
+    "label": "android-mail",
+    "code": "0xf2eb"
+  },
+  "android-map": {
+    "label": "android-map",
+    "code": "0xf393"
+  },
+  "android-menu": {
+    "label": "android-menu",
+    "code": "0xf394"
+  },
+  "android-microphone": {
+    "label": "android-microphone",
+    "code": "0xf2ec"
+  },
+  "android-microphone-off": {
+    "label": "android-microphone-off",
+    "code": "0xf395"
+  },
+  "android-more-horizontal": {
+    "label": "android-more-horizontal",
+    "code": "0xf396"
+  },
+  "android-more-vertical": {
+    "label": "android-more-vertical",
+    "code": "0xf397"
+  },
+  "android-navigate": {
+    "label": "android-navigate",
+    "code": "0xf398"
+  },
+  "android-notifications": {
+    "label": "android-notifications",
+    "code": "0xf39b"
+  },
+  "android-notifications-none": {
+    "label": "android-notifications-none",
+    "code": "0xf399"
+  },
+  "android-notifications-off": {
+    "label": "android-notifications-off",
+    "code": "0xf39a"
+  },
+  "android-open": {
+    "label": "android-open",
+    "code": "0xf39c"
+  },
+  "android-options": {
+    "label": "android-options",
+    "code": "0xf39d"
+  },
+  "android-people": {
+    "label": "android-people",
+    "code": "0xf39e"
+  },
+  "android-person": {
+    "label": "android-person",
+    "code": "0xf3a0"
+  },
+  "android-person-add": {
+    "label": "android-person-add",
+    "code": "0xf39f"
+  },
+  "android-phone-landscape": {
+    "label": "android-phone-landscape",
+    "code": "0xf3a1"
+  },
+  "android-phone-portrait": {
+    "label": "android-phone-portrait",
+    "code": "0xf3a2"
+  },
+  "android-pin": {
+    "label": "android-pin",
+    "code": "0xf3a3"
+  },
+  "android-plane": {
+    "label": "android-plane",
+    "code": "0xf3a4"
+  },
+  "android-playstore": {
+    "label": "android-playstore",
+    "code": "0xf2f0"
+  },
+  "android-print": {
+    "label": "android-print",
+    "code": "0xf3a5"
+  },
+  "android-radio-button-off": {
+    "label": "android-radio-button-off",
+    "code": "0xf3a6"
+  },
+  "android-radio-button-on": {
+    "label": "android-radio-button-on",
+    "code": "0xf3a7"
+  },
+  "android-refresh": {
+    "label": "android-refresh",
+    "code": "0xf3a8"
+  },
+  "android-remove": {
+    "label": "android-remove",
+    "code": "0xf2f4"
+  },
+  "android-remove-circle": {
+    "label": "android-remove-circle",
+    "code": "0xf3a9"
+  },
+  "android-restaurant": {
+    "label": "android-restaurant",
+    "code": "0xf3aa"
+  },
+  "android-sad": {
+    "label": "android-sad",
+    "code": "0xf3ab"
+  },
+  "android-search": {
+    "label": "android-search",
+    "code": "0xf2f5"
+  },
+  "android-send": {
+    "label": "android-send",
+    "code": "0xf2f6"
+  },
+  "android-settings": {
+    "label": "android-settings",
+    "code": "0xf2f7"
+  },
+  "android-share": {
+    "label": "android-share",
+    "code": "0xf2f8"
+  },
+  "android-share-alt": {
+    "label": "android-share-alt",
+    "code": "0xf3ac"
+  },
+  "android-star": {
+    "label": "android-star",
+    "code": "0xf2fc"
+  },
+  "android-star-half": {
+    "label": "android-star-half",
+    "code": "0xf3ad"
+  },
+  "android-star-outline": {
+    "label": "android-star-outline",
+    "code": "0xf3ae"
+  },
+  "android-stopwatch": {
+    "label": "android-stopwatch",
+    "code": "0xf2fd"
+  },
+  "android-subway": {
+    "label": "android-subway",
+    "code": "0xf3af"
+  },
+  "android-sunny": {
+    "label": "android-sunny",
+    "code": "0xf3b0"
+  },
+  "android-sync": {
+    "label": "android-sync",
+    "code": "0xf3b1"
+  },
+  "android-textsms": {
+    "label": "android-textsms",
+    "code": "0xf3b2"
+  },
+  "android-time": {
+    "label": "android-time",
+    "code": "0xf3b3"
+  },
+  "android-train": {
+    "label": "android-train",
+    "code": "0xf3b4"
+  },
+  "android-unlock": {
+    "label": "android-unlock",
+    "code": "0xf3b5"
+  },
+  "android-upload": {
+    "label": "android-upload",
+    "code": "0xf3b6"
+  },
+  "android-volume-down": {
+    "label": "android-volume-down",
+    "code": "0xf3b7"
+  },
+  "android-volume-mute": {
+    "label": "android-volume-mute",
+    "code": "0xf3b8"
+  },
+  "android-volume-off": {
+    "label": "android-volume-off",
+    "code": "0xf3b9"
+  },
+  "android-volume-up": {
+    "label": "android-volume-up",
+    "code": "0xf3ba"
+  },
+  "android-walk": {
+    "label": "android-walk",
+    "code": "0xf3bb"
+  },
+  "android-warning": {
+    "label": "android-warning",
+    "code": "0xf3bc"
+  },
+  "android-watch": {
+    "label": "android-watch",
+    "code": "0xf3bd"
+  },
+  "android-wifi": {
+    "label": "android-wifi",
+    "code": "0xf305"
+  },
+  "aperture": {
+    "label": "aperture",
+    "code": "0xf313"
+  },
+  "archive": {
+    "label": "archive",
+    "code": "0xf102"
+  },
+  "arrow-down-a": {
+    "label": "arrow-down-a",
+    "code": "0xf103"
+  },
+  "arrow-down-b": {
+    "label": "arrow-down-b",
+    "code": "0xf104"
+  },
+  "arrow-down-c": {
+    "label": "arrow-down-c",
+    "code": "0xf105"
+  },
+  "arrow-expand": {
+    "label": "arrow-expand",
+    "code": "0xf25e"
+  },
+  "arrow-graph-down-left": {
+    "label": "arrow-graph-down-left",
+    "code": "0xf25f"
+  },
+  "arrow-graph-down-right": {
+    "label": "arrow-graph-down-right",
+    "code": "0xf260"
+  },
+  "arrow-graph-up-left": {
+    "label": "arrow-graph-up-left",
+    "code": "0xf261"
+  },
+  "arrow-graph-up-right": {
+    "label": "arrow-graph-up-right",
+    "code": "0xf262"
+  },
+  "arrow-left-a": {
+    "label": "arrow-left-a",
+    "code": "0xf106"
+  },
+  "arrow-left-b": {
+    "label": "arrow-left-b",
+    "code": "0xf107"
+  },
+  "arrow-left-c": {
+    "label": "arrow-left-c",
+    "code": "0xf108"
+  },
+  "arrow-move": {
+    "label": "arrow-move",
+    "code": "0xf263"
+  },
+  "arrow-resize": {
+    "label": "arrow-resize",
+    "code": "0xf264"
+  },
+  "arrow-return-left": {
+    "label": "arrow-return-left",
+    "code": "0xf265"
+  },
+  "arrow-return-right": {
+    "label": "arrow-return-right",
+    "code": "0xf266"
+  },
+  "arrow-right-a": {
+    "label": "arrow-right-a",
+    "code": "0xf109"
+  },
+  "arrow-right-b": {
+    "label": "arrow-right-b",
+    "code": "0xf10a"
+  },
+  "arrow-right-c": {
+    "label": "arrow-right-c",
+    "code": "0xf10b"
+  },
+  "arrow-shrink": {
+    "label": "arrow-shrink",
+    "code": "0xf267"
+  },
+  "arrow-swap": {
+    "label": "arrow-swap",
+    "code": "0xf268"
+  },
+  "arrow-up-a": {
+    "label": "arrow-up-a",
+    "code": "0xf10c"
+  },
+  "arrow-up-b": {
+    "label": "arrow-up-b",
+    "code": "0xf10d"
+  },
+  "arrow-up-c": {
+    "label": "arrow-up-c",
+    "code": "0xf10e"
+  },
+  "asterisk": {
+    "label": "asterisk",
+    "code": "0xf314"
+  },
+  "at": {
+    "label": "at",
+    "code": "0xf10f"
+  },
+  "backspace": {
+    "label": "backspace",
+    "code": "0xf3bf"
+  },
+  "backspace-outline": {
+    "label": "backspace-outline",
+    "code": "0xf3be"
+  },
+  "bag": {
+    "label": "bag",
+    "code": "0xf110"
+  },
+  "battery-charging": {
+    "label": "battery-charging",
+    "code": "0xf111"
+  },
+  "battery-empty": {
+    "label": "battery-empty",
+    "code": "0xf112"
+  },
+  "battery-full": {
+    "label": "battery-full",
+    "code": "0xf113"
+  },
+  "battery-half": {
+    "label": "battery-half",
+    "code": "0xf114"
+  },
+  "battery-low": {
+    "label": "battery-low",
+    "code": "0xf115"
+  },
+  "beaker": {
+    "label": "beaker",
+    "code": "0xf269"
+  },
+  "beer": {
+    "label": "beer",
+    "code": "0xf26a"
+  },
+  "bluetooth": {
+    "label": "bluetooth",
+    "code": "0xf116"
+  },
+  "bonfire": {
+    "label": "bonfire",
+    "code": "0xf315"
+  },
+  "bookmark": {
+    "label": "bookmark",
+    "code": "0xf26b"
+  },
+  "bowtie": {
+    "label": "bowtie",
+    "code": "0xf3c0"
+  },
+  "briefcase": {
+    "label": "briefcase",
+    "code": "0xf26c"
+  },
+  "bug": {
+    "label": "bug",
+    "code": "0xf2be"
+  },
+  "calculator": {
+    "label": "calculator",
+    "code": "0xf26d"
+  },
+  "calendar": {
+    "label": "calendar",
+    "code": "0xf117"
+  },
+  "camera": {
+    "label": "camera",
+    "code": "0xf118"
+  },
+  "card": {
+    "label": "card",
+    "code": "0xf119"
+  },
+  "cash": {
+    "label": "cash",
+    "code": "0xf316"
+  },
+  "chatbox": {
+    "label": "chatbox",
+    "code": "0xf11b"
+  },
+  "chatbox-working": {
+    "label": "chatbox-working",
+    "code": "0xf11a"
+  },
+  "chatboxes": {
+    "label": "chatboxes",
+    "code": "0xf11c"
+  },
+  "chatbubble": {
+    "label": "chatbubble",
+    "code": "0xf11e"
+  },
+  "chatbubble-working": {
+    "label": "chatbubble-working",
+    "code": "0xf11d"
+  },
+  "chatbubbles": {
+    "label": "chatbubbles",
+    "code": "0xf11f"
+  },
+  "checkmark": {
+    "label": "checkmark",
+    "code": "0xf122"
+  },
+  "checkmark-circled": {
+    "label": "checkmark-circled",
+    "code": "0xf120"
+  },
+  "checkmark-round": {
+    "label": "checkmark-round",
+    "code": "0xf121"
+  },
+  "chevron-down": {
+    "label": "chevron-down",
+    "code": "0xf123"
+  },
+  "chevron-left": {
+    "label": "chevron-left",
+    "code": "0xf124"
+  },
+  "chevron-right": {
+    "label": "chevron-right",
+    "code": "0xf125"
+  },
+  "chevron-up": {
+    "label": "chevron-up",
+    "code": "0xf126"
+  },
+  "clipboard": {
+    "label": "clipboard",
+    "code": "0xf127"
+  },
+  "clock": {
+    "label": "clock",
+    "code": "0xf26e"
+  },
+  "close": {
+    "label": "close",
+    "code": "0xf12a"
+  },
+  "close-circled": {
+    "label": "close-circled",
+    "code": "0xf128"
+  },
+  "close-round": {
+    "label": "close-round",
+    "code": "0xf129"
+  },
+  "closed-captioning": {
+    "label": "closed-captioning",
+    "code": "0xf317"
+  },
+  "cloud": {
+    "label": "cloud",
+    "code": "0xf12b"
+  },
+  "code": {
+    "label": "code",
+    "code": "0xf271"
+  },
+  "code-download": {
+    "label": "code-download",
+    "code": "0xf26f"
+  },
+  "code-working": {
+    "label": "code-working",
+    "code": "0xf270"
+  },
+  "coffee": {
+    "label": "coffee",
+    "code": "0xf272"
+  },
+  "compass": {
+    "label": "compass",
+    "code": "0xf273"
+  },
+  "compose": {
+    "label": "compose",
+    "code": "0xf12c"
+  },
+  "connection-bars": {
+    "label": "connection-bars",
+    "code": "0xf274"
+  },
+  "contrast": {
+    "label": "contrast",
+    "code": "0xf275"
+  },
+  "crop": {
+    "label": "crop",
+    "code": "0xf3c1"
+  },
+  "cube": {
+    "label": "cube",
+    "code": "0xf318"
+  },
+  "disc": {
+    "label": "disc",
+    "code": "0xf12d"
+  },
+  "document": {
+    "label": "document",
+    "code": "0xf12f"
+  },
+  "document-text": {
+    "label": "document-text",
+    "code": "0xf12e"
+  },
+  "drag": {
+    "label": "drag",
+    "code": "0xf130"
+  },
+  "earth": {
+    "label": "earth",
+    "code": "0xf276"
+  },
+  "easel": {
+    "label": "easel",
+    "code": "0xf3c2"
+  },
+  "edit": {
+    "label": "edit",
+    "code": "0xf2bf"
+  },
+  "egg": {
+    "label": "egg",
+    "code": "0xf277"
+  },
+  "eject": {
+    "label": "eject",
+    "code": "0xf131"
+  },
+  "email": {
+    "label": "email",
+    "code": "0xf132"
+  },
+  "email-unread": {
+    "label": "email-unread",
+    "code": "0xf3c3"
+  },
+  "erlenmeyer-flask": {
+    "label": "erlenmeyer-flask",
+    "code": "0xf3c5"
+  },
+  "erlenmeyer-flask-bubbles": {
+    "label": "erlenmeyer-flask-bubbles",
+    "code": "0xf3c4"
+  },
+  "eye": {
+    "label": "eye",
+    "code": "0xf133"
+  },
+  "eye-disabled": {
+    "label": "eye-disabled",
+    "code": "0xf306"
+  },
+  "female": {
+    "label": "female",
+    "code": "0xf278"
+  },
+  "filing": {
+    "label": "filing",
+    "code": "0xf134"
+  },
+  "film-marker": {
+    "label": "film-marker",
+    "code": "0xf135"
+  },
+  "fireball": {
+    "label": "fireball",
+    "code": "0xf319"
+  },
+  "flag": {
+    "label": "flag",
+    "code": "0xf279"
+  },
+  "flame": {
+    "label": "flame",
+    "code": "0xf31a"
+  },
+  "flash": {
+    "label": "flash",
+    "code": "0xf137"
+  },
+  "flash-off": {
+    "label": "flash-off",
+    "code": "0xf136"
+  },
+  "folder": {
+    "label": "folder",
+    "code": "0xf139"
+  },
+  "fork": {
+    "label": "fork",
+    "code": "0xf27a"
+  },
+  "fork-repo": {
+    "label": "fork-repo",
+    "code": "0xf2c0"
+  },
+  "forward": {
+    "label": "forward",
+    "code": "0xf13a"
+  },
+  "funnel": {
+    "label": "funnel",
+    "code": "0xf31b"
+  },
+  "gear-a": {
+    "label": "gear-a",
+    "code": "0xf13d"
+  },
+  "gear-b": {
+    "label": "gear-b",
+    "code": "0xf13e"
+  },
+  "grid": {
+    "label": "grid",
+    "code": "0xf13f"
+  },
+  "hammer": {
+    "label": "hammer",
+    "code": "0xf27b"
+  },
+  "happy": {
+    "label": "happy",
+    "code": "0xf31c"
+  },
+  "happy-outline": {
+    "label": "happy-outline",
+    "code": "0xf3c6"
+  },
+  "headphone": {
+    "label": "headphone",
+    "code": "0xf140"
+  },
+  "heart": {
+    "label": "heart",
+    "code": "0xf141"
+  },
+  "heart-broken": {
+    "label": "heart-broken",
+    "code": "0xf31d"
+  },
+  "help": {
+    "label": "help",
+    "code": "0xf143"
+  },
+  "help-buoy": {
+    "label": "help-buoy",
+    "code": "0xf27c"
+  },
+  "help-circled": {
+    "label": "help-circled",
+    "code": "0xf142"
+  },
+  "home": {
+    "label": "home",
+    "code": "0xf144"
+  },
+  "icecream": {
+    "label": "icecream",
+    "code": "0xf27d"
+  },
+  "image": {
+    "label": "image",
+    "code": "0xf147"
+  },
+  "images": {
+    "label": "images",
+    "code": "0xf148"
+  },
+  "information": {
+    "label": "information",
+    "code": "0xf14a"
+  },
+  "information-circled": {
+    "label": "information-circled",
+    "code": "0xf149"
+  },
+  "ionic": {
+    "label": "ionic",
+    "code": "0xf14b"
+  },
+  "ios-alarm": {
+    "label": "ios-alarm",
+    "code": "0xf3c8"
+  },
+  "ios-alarm-outline": {
+    "label": "ios-alarm-outline",
+    "code": "0xf3c7"
+  },
+  "ios-albums": {
+    "label": "ios-albums",
+    "code": "0xf3ca"
+  },
+  "ios-albums-outline": {
+    "label": "ios-albums-outline",
+    "code": "0xf3c9"
+  },
+  "ios-americanfootball": {
+    "label": "ios-americanfootball",
+    "code": "0xf3cc"
+  },
+  "ios-americanfootball-outline": {
+    "label": "ios-americanfootball-outline",
+    "code": "0xf3cb"
+  },
+  "ios-analytics": {
+    "label": "ios-analytics",
+    "code": "0xf3ce"
+  },
+  "ios-analytics-outline": {
+    "label": "ios-analytics-outline",
+    "code": "0xf3cd"
+  },
+  "ios-arrow-back": {
+    "label": "ios-arrow-back",
+    "code": "0xf3cf"
+  },
+  "ios-arrow-down": {
+    "label": "ios-arrow-down",
+    "code": "0xf3d0"
+  },
+  "ios-arrow-forward": {
+    "label": "ios-arrow-forward",
+    "code": "0xf3d1"
+  },
+  "ios-arrow-left": {
+    "label": "ios-arrow-left",
+    "code": "0xf3d2"
+  },
+  "ios-arrow-right": {
+    "label": "ios-arrow-right",
+    "code": "0xf3d3"
+  },
+  "ios-arrow-thin-down": {
+    "label": "ios-arrow-thin-down",
+    "code": "0xf3d4"
+  },
+  "ios-arrow-thin-left": {
+    "label": "ios-arrow-thin-left",
+    "code": "0xf3d5"
+  },
+  "ios-arrow-thin-right": {
+    "label": "ios-arrow-thin-right",
+    "code": "0xf3d6"
+  },
+  "ios-arrow-thin-up": {
+    "label": "ios-arrow-thin-up",
+    "code": "0xf3d7"
+  },
+  "ios-arrow-up": {
+    "label": "ios-arrow-up",
+    "code": "0xf3d8"
+  },
+  "ios-at": {
+    "label": "ios-at",
+    "code": "0xf3da"
+  },
+  "ios-at-outline": {
+    "label": "ios-at-outline",
+    "code": "0xf3d9"
+  },
+  "ios-barcode": {
+    "label": "ios-barcode",
+    "code": "0xf3dc"
+  },
+  "ios-barcode-outline": {
+    "label": "ios-barcode-outline",
+    "code": "0xf3db"
+  },
+  "ios-baseball": {
+    "label": "ios-baseball",
+    "code": "0xf3de"
+  },
+  "ios-baseball-outline": {
+    "label": "ios-baseball-outline",
+    "code": "0xf3dd"
+  },
+  "ios-basketball": {
+    "label": "ios-basketball",
+    "code": "0xf3e0"
+  },
+  "ios-basketball-outline": {
+    "label": "ios-basketball-outline",
+    "code": "0xf3df"
+  },
+  "ios-bell": {
+    "label": "ios-bell",
+    "code": "0xf3e2"
+  },
+  "ios-bell-outline": {
+    "label": "ios-bell-outline",
+    "code": "0xf3e1"
+  },
+  "ios-body": {
+    "label": "ios-body",
+    "code": "0xf3e4"
+  },
+  "ios-body-outline": {
+    "label": "ios-body-outline",
+    "code": "0xf3e3"
+  },
+  "ios-bolt": {
+    "label": "ios-bolt",
+    "code": "0xf3e6"
+  },
+  "ios-bolt-outline": {
+    "label": "ios-bolt-outline",
+    "code": "0xf3e5"
+  },
+  "ios-book": {
+    "label": "ios-book",
+    "code": "0xf3e8"
+  },
+  "ios-book-outline": {
+    "label": "ios-book-outline",
+    "code": "0xf3e7"
+  },
+  "ios-bookmarks": {
+    "label": "ios-bookmarks",
+    "code": "0xf3ea"
+  },
+  "ios-bookmarks-outline": {
+    "label": "ios-bookmarks-outline",
+    "code": "0xf3e9"
+  },
+  "ios-box": {
+    "label": "ios-box",
+    "code": "0xf3ec"
+  },
+  "ios-box-outline": {
+    "label": "ios-box-outline",
+    "code": "0xf3eb"
+  },
+  "ios-briefcase": {
+    "label": "ios-briefcase",
+    "code": "0xf3ee"
+  },
+  "ios-briefcase-outline": {
+    "label": "ios-briefcase-outline",
+    "code": "0xf3ed"
+  },
+  "ios-browsers": {
+    "label": "ios-browsers",
+    "code": "0xf3f0"
+  },
+  "ios-browsers-outline": {
+    "label": "ios-browsers-outline",
+    "code": "0xf3ef"
+  },
+  "ios-calculator": {
+    "label": "ios-calculator",
+    "code": "0xf3f2"
+  },
+  "ios-calculator-outline": {
+    "label": "ios-calculator-outline",
+    "code": "0xf3f1"
+  },
+  "ios-calendar": {
+    "label": "ios-calendar",
+    "code": "0xf3f4"
+  },
+  "ios-calendar-outline": {
+    "label": "ios-calendar-outline",
+    "code": "0xf3f3"
+  },
+  "ios-camera": {
+    "label": "ios-camera",
+    "code": "0xf3f6"
+  },
+  "ios-camera-outline": {
+    "label": "ios-camera-outline",
+    "code": "0xf3f5"
+  },
+  "ios-cart": {
+    "label": "ios-cart",
+    "code": "0xf3f8"
+  },
+  "ios-cart-outline": {
+    "label": "ios-cart-outline",
+    "code": "0xf3f7"
+  },
+  "ios-chatboxes": {
+    "label": "ios-chatboxes",
+    "code": "0xf3fa"
+  },
+  "ios-chatboxes-outline": {
+    "label": "ios-chatboxes-outline",
+    "code": "0xf3f9"
+  },
+  "ios-chatbubble": {
+    "label": "ios-chatbubble",
+    "code": "0xf3fc"
+  },
+  "ios-chatbubble-outline": {
+    "label": "ios-chatbubble-outline",
+    "code": "0xf3fb"
+  },
+  "ios-checkmark": {
+    "label": "ios-checkmark",
+    "code": "0xf3ff"
+  },
+  "ios-checkmark-empty": {
+    "label": "ios-checkmark-empty",
+    "code": "0xf3fd"
+  },
+  "ios-checkmark-outline": {
+    "label": "ios-checkmark-outline",
+    "code": "0xf3fe"
+  },
+  "ios-circle-filled": {
+    "label": "ios-circle-filled",
+    "code": "0xf400"
+  },
+  "ios-circle-outline": {
+    "label": "ios-circle-outline",
+    "code": "0xf401"
+  },
+  "ios-clock": {
+    "label": "ios-clock",
+    "code": "0xf403"
+  },
+  "ios-clock-outline": {
+    "label": "ios-clock-outline",
+    "code": "0xf402"
+  },
+  "ios-close": {
+    "label": "ios-close",
+    "code": "0xf406"
+  },
+  "ios-close-empty": {
+    "label": "ios-close-empty",
+    "code": "0xf404"
+  },
+  "ios-close-outline": {
+    "label": "ios-close-outline",
+    "code": "0xf405"
+  },
+  "ios-cloud": {
+    "label": "ios-cloud",
+    "code": "0xf40c"
+  },
+  "ios-cloud-download": {
+    "label": "ios-cloud-download",
+    "code": "0xf408"
+  },
+  "ios-cloud-download-outline": {
+    "label": "ios-cloud-download-outline",
+    "code": "0xf407"
+  },
+  "ios-cloud-outline": {
+    "label": "ios-cloud-outline",
+    "code": "0xf409"
+  },
+  "ios-cloud-upload": {
+    "label": "ios-cloud-upload",
+    "code": "0xf40b"
+  },
+  "ios-cloud-upload-outline": {
+    "label": "ios-cloud-upload-outline",
+    "code": "0xf40a"
+  },
+  "ios-cloudy": {
+    "label": "ios-cloudy",
+    "code": "0xf410"
+  },
+  "ios-cloudy-night": {
+    "label": "ios-cloudy-night",
+    "code": "0xf40e"
+  },
+  "ios-cloudy-night-outline": {
+    "label": "ios-cloudy-night-outline",
+    "code": "0xf40d"
+  },
+  "ios-cloudy-outline": {
+    "label": "ios-cloudy-outline",
+    "code": "0xf40f"
+  },
+  "ios-cog": {
+    "label": "ios-cog",
+    "code": "0xf412"
+  },
+  "ios-cog-outline": {
+    "label": "ios-cog-outline",
+    "code": "0xf411"
+  },
+  "ios-color-filter": {
+    "label": "ios-color-filter",
+    "code": "0xf414"
+  },
+  "ios-color-filter-outline": {
+    "label": "ios-color-filter-outline",
+    "code": "0xf413"
+  },
+  "ios-color-wand": {
+    "label": "ios-color-wand",
+    "code": "0xf416"
+  },
+  "ios-color-wand-outline": {
+    "label": "ios-color-wand-outline",
+    "code": "0xf415"
+  },
+  "ios-compose": {
+    "label": "ios-compose",
+    "code": "0xf418"
+  },
+  "ios-compose-outline": {
+    "label": "ios-compose-outline",
+    "code": "0xf417"
+  },
+  "ios-contact": {
+    "label": "ios-contact",
+    "code": "0xf41a"
+  },
+  "ios-contact-outline": {
+    "label": "ios-contact-outline",
+    "code": "0xf419"
+  },
+  "ios-copy": {
+    "label": "ios-copy",
+    "code": "0xf41c"
+  },
+  "ios-copy-outline": {
+    "label": "ios-copy-outline",
+    "code": "0xf41b"
+  },
+  "ios-crop": {
+    "label": "ios-crop",
+    "code": "0xf41e"
+  },
+  "ios-crop-strong": {
+    "label": "ios-crop-strong",
+    "code": "0xf41d"
+  },
+  "ios-download": {
+    "label": "ios-download",
+    "code": "0xf420"
+  },
+  "ios-download-outline": {
+    "label": "ios-download-outline",
+    "code": "0xf41f"
+  },
+  "ios-drag": {
+    "label": "ios-drag",
+    "code": "0xf421"
+  },
+  "ios-email": {
+    "label": "ios-email",
+    "code": "0xf423"
+  },
+  "ios-email-outline": {
+    "label": "ios-email-outline",
+    "code": "0xf422"
+  },
+  "ios-eye": {
+    "label": "ios-eye",
+    "code": "0xf425"
+  },
+  "ios-eye-outline": {
+    "label": "ios-eye-outline",
+    "code": "0xf424"
+  },
+  "ios-fastforward": {
+    "label": "ios-fastforward",
+    "code": "0xf427"
+  },
+  "ios-fastforward-outline": {
+    "label": "ios-fastforward-outline",
+    "code": "0xf426"
+  },
+  "ios-filing": {
+    "label": "ios-filing",
+    "code": "0xf429"
+  },
+  "ios-filing-outline": {
+    "label": "ios-filing-outline",
+    "code": "0xf428"
+  },
+  "ios-film": {
+    "label": "ios-film",
+    "code": "0xf42b"
+  },
+  "ios-film-outline": {
+    "label": "ios-film-outline",
+    "code": "0xf42a"
+  },
+  "ios-flag": {
+    "label": "ios-flag",
+    "code": "0xf42d"
+  },
+  "ios-flag-outline": {
+    "label": "ios-flag-outline",
+    "code": "0xf42c"
+  },
+  "ios-flame": {
+    "label": "ios-flame",
+    "code": "0xf42f"
+  },
+  "ios-flame-outline": {
+    "label": "ios-flame-outline",
+    "code": "0xf42e"
+  },
+  "ios-flask": {
+    "label": "ios-flask",
+    "code": "0xf431"
+  },
+  "ios-flask-outline": {
+    "label": "ios-flask-outline",
+    "code": "0xf430"
+  },
+  "ios-flower": {
+    "label": "ios-flower",
+    "code": "0xf433"
+  },
+  "ios-flower-outline": {
+    "label": "ios-flower-outline",
+    "code": "0xf432"
+  },
+  "ios-folder": {
+    "label": "ios-folder",
+    "code": "0xf435"
+  },
+  "ios-folder-outline": {
+    "label": "ios-folder-outline",
+    "code": "0xf434"
+  },
+  "ios-football": {
+    "label": "ios-football",
+    "code": "0xf437"
+  },
+  "ios-football-outline": {
+    "label": "ios-football-outline",
+    "code": "0xf436"
+  },
+  "ios-game-controller-a": {
+    "label": "ios-game-controller-a",
+    "code": "0xf439"
+  },
+  "ios-game-controller-a-outline": {
+    "label": "ios-game-controller-a-outline",
+    "code": "0xf438"
+  },
+  "ios-game-controller-b": {
+    "label": "ios-game-controller-b",
+    "code": "0xf43b"
+  },
+  "ios-game-controller-b-outline": {
+    "label": "ios-game-controller-b-outline",
+    "code": "0xf43a"
+  },
+  "ios-gear": {
+    "label": "ios-gear",
+    "code": "0xf43d"
+  },
+  "ios-gear-outline": {
+    "label": "ios-gear-outline",
+    "code": "0xf43c"
+  },
+  "ios-glasses": {
+    "label": "ios-glasses",
+    "code": "0xf43f"
+  },
+  "ios-glasses-outline": {
+    "label": "ios-glasses-outline",
+    "code": "0xf43e"
+  },
+  "ios-grid-view": {
+    "label": "ios-grid-view",
+    "code": "0xf441"
+  },
+  "ios-grid-view-outline": {
+    "label": "ios-grid-view-outline",
+    "code": "0xf440"
+  },
+  "ios-heart": {
+    "label": "ios-heart",
+    "code": "0xf443"
+  },
+  "ios-heart-outline": {
+    "label": "ios-heart-outline",
+    "code": "0xf442"
+  },
+  "ios-help": {
+    "label": "ios-help",
+    "code": "0xf446"
+  },
+  "ios-help-empty": {
+    "label": "ios-help-empty",
+    "code": "0xf444"
+  },
+  "ios-help-outline": {
+    "label": "ios-help-outline",
+    "code": "0xf445"
+  },
+  "ios-home": {
+    "label": "ios-home",
+    "code": "0xf448"
+  },
+  "ios-home-outline": {
+    "label": "ios-home-outline",
+    "code": "0xf447"
+  },
+  "ios-infinite": {
+    "label": "ios-infinite",
+    "code": "0xf44a"
+  },
+  "ios-infinite-outline": {
+    "label": "ios-infinite-outline",
+    "code": "0xf449"
+  },
+  "ios-information": {
+    "label": "ios-information",
+    "code": "0xf44d"
+  },
+  "ios-information-empty": {
+    "label": "ios-information-empty",
+    "code": "0xf44b"
+  },
+  "ios-information-outline": {
+    "label": "ios-information-outline",
+    "code": "0xf44c"
+  },
+  "ios-ionic-outline": {
+    "label": "ios-ionic-outline",
+    "code": "0xf44e"
+  },
+  "ios-keypad": {
+    "label": "ios-keypad",
+    "code": "0xf450"
+  },
+  "ios-keypad-outline": {
+    "label": "ios-keypad-outline",
+    "code": "0xf44f"
+  },
+  "ios-lightbulb": {
+    "label": "ios-lightbulb",
+    "code": "0xf452"
+  },
+  "ios-lightbulb-outline": {
+    "label": "ios-lightbulb-outline",
+    "code": "0xf451"
+  },
+  "ios-list": {
+    "label": "ios-list",
+    "code": "0xf454"
+  },
+  "ios-list-outline": {
+    "label": "ios-list-outline",
+    "code": "0xf453"
+  },
+  "ios-location": {
+    "label": "ios-location",
+    "code": "0xf456"
+  },
+  "ios-location-outline": {
+    "label": "ios-location-outline",
+    "code": "0xf455"
+  },
+  "ios-locked": {
+    "label": "ios-locked",
+    "code": "0xf458"
+  },
+  "ios-locked-outline": {
+    "label": "ios-locked-outline",
+    "code": "0xf457"
+  },
+  "ios-loop": {
+    "label": "ios-loop",
+    "code": "0xf45a"
+  },
+  "ios-loop-strong": {
+    "label": "ios-loop-strong",
+    "code": "0xf459"
+  },
+  "ios-medical": {
+    "label": "ios-medical",
+    "code": "0xf45c"
+  },
+  "ios-medical-outline": {
+    "label": "ios-medical-outline",
+    "code": "0xf45b"
+  },
+  "ios-medkit": {
+    "label": "ios-medkit",
+    "code": "0xf45e"
+  },
+  "ios-medkit-outline": {
+    "label": "ios-medkit-outline",
+    "code": "0xf45d"
+  },
+  "ios-mic": {
+    "label": "ios-mic",
+    "code": "0xf461"
+  },
+  "ios-mic-off": {
+    "label": "ios-mic-off",
+    "code": "0xf45f"
+  },
+  "ios-mic-outline": {
+    "label": "ios-mic-outline",
+    "code": "0xf460"
+  },
+  "ios-minus": {
+    "label": "ios-minus",
+    "code": "0xf464"
+  },
+  "ios-minus-empty": {
+    "label": "ios-minus-empty",
+    "code": "0xf462"
+  },
+  "ios-minus-outline": {
+    "label": "ios-minus-outline",
+    "code": "0xf463"
+  },
+  "ios-monitor": {
+    "label": "ios-monitor",
+    "code": "0xf466"
+  },
+  "ios-monitor-outline": {
+    "label": "ios-monitor-outline",
+    "code": "0xf465"
+  },
+  "ios-moon": {
+    "label": "ios-moon",
+    "code": "0xf468"
+  },
+  "ios-moon-outline": {
+    "label": "ios-moon-outline",
+    "code": "0xf467"
+  },
+  "ios-more": {
+    "label": "ios-more",
+    "code": "0xf46a"
+  },
+  "ios-more-outline": {
+    "label": "ios-more-outline",
+    "code": "0xf469"
+  },
+  "ios-musical-note": {
+    "label": "ios-musical-note",
+    "code": "0xf46b"
+  },
+  "ios-musical-notes": {
+    "label": "ios-musical-notes",
+    "code": "0xf46c"
+  },
+  "ios-navigate": {
+    "label": "ios-navigate",
+    "code": "0xf46e"
+  },
+  "ios-navigate-outline": {
+    "label": "ios-navigate-outline",
+    "code": "0xf46d"
+  },
+  "ios-nutrition": {
+    "label": "ios-nutrition",
+    "code": "0xf470"
+  },
+  "ios-nutrition-outline": {
+    "label": "ios-nutrition-outline",
+    "code": "0xf46f"
+  },
+  "ios-paper": {
+    "label": "ios-paper",
+    "code": "0xf472"
+  },
+  "ios-paper-outline": {
+    "label": "ios-paper-outline",
+    "code": "0xf471"
+  },
+  "ios-paperplane": {
+    "label": "ios-paperplane",
+    "code": "0xf474"
+  },
+  "ios-paperplane-outline": {
+    "label": "ios-paperplane-outline",
+    "code": "0xf473"
+  },
+  "ios-partlysunny": {
+    "label": "ios-partlysunny",
+    "code": "0xf476"
+  },
+  "ios-partlysunny-outline": {
+    "label": "ios-partlysunny-outline",
+    "code": "0xf475"
+  },
+  "ios-pause": {
+    "label": "ios-pause",
+    "code": "0xf478"
+  },
+  "ios-pause-outline": {
+    "label": "ios-pause-outline",
+    "code": "0xf477"
+  },
+  "ios-paw": {
+    "label": "ios-paw",
+    "code": "0xf47a"
+  },
+  "ios-paw-outline": {
+    "label": "ios-paw-outline",
+    "code": "0xf479"
+  },
+  "ios-people": {
+    "label": "ios-people",
+    "code": "0xf47c"
+  },
+  "ios-people-outline": {
+    "label": "ios-people-outline",
+    "code": "0xf47b"
+  },
+  "ios-person": {
+    "label": "ios-person",
+    "code": "0xf47e"
+  },
+  "ios-person-outline": {
+    "label": "ios-person-outline",
+    "code": "0xf47d"
+  },
+  "ios-personadd": {
+    "label": "ios-personadd",
+    "code": "0xf480"
+  },
+  "ios-personadd-outline": {
+    "label": "ios-personadd-outline",
+    "code": "0xf47f"
+  },
+  "ios-photos": {
+    "label": "ios-photos",
+    "code": "0xf482"
+  },
+  "ios-photos-outline": {
+    "label": "ios-photos-outline",
+    "code": "0xf481"
+  },
+  "ios-pie": {
+    "label": "ios-pie",
+    "code": "0xf484"
+  },
+  "ios-pie-outline": {
+    "label": "ios-pie-outline",
+    "code": "0xf483"
+  },
+  "ios-pint": {
+    "label": "ios-pint",
+    "code": "0xf486"
+  },
+  "ios-pint-outline": {
+    "label": "ios-pint-outline",
+    "code": "0xf485"
+  },
+  "ios-play": {
+    "label": "ios-play",
+    "code": "0xf488"
+  },
+  "ios-play-outline": {
+    "label": "ios-play-outline",
+    "code": "0xf487"
+  },
+  "ios-plus": {
+    "label": "ios-plus",
+    "code": "0xf48b"
+  },
+  "ios-plus-empty": {
+    "label": "ios-plus-empty",
+    "code": "0xf489"
+  },
+  "ios-plus-outline": {
+    "label": "ios-plus-outline",
+    "code": "0xf48a"
+  },
+  "ios-pricetag": {
+    "label": "ios-pricetag",
+    "code": "0xf48d"
+  },
+  "ios-pricetag-outline": {
+    "label": "ios-pricetag-outline",
+    "code": "0xf48c"
+  },
+  "ios-pricetags": {
+    "label": "ios-pricetags",
+    "code": "0xf48f"
+  },
+  "ios-pricetags-outline": {
+    "label": "ios-pricetags-outline",
+    "code": "0xf48e"
+  },
+  "ios-printer": {
+    "label": "ios-printer",
+    "code": "0xf491"
+  },
+  "ios-printer-outline": {
+    "label": "ios-printer-outline",
+    "code": "0xf490"
+  },
+  "ios-pulse": {
+    "label": "ios-pulse",
+    "code": "0xf493"
+  },
+  "ios-pulse-strong": {
+    "label": "ios-pulse-strong",
+    "code": "0xf492"
+  },
+  "ios-rainy": {
+    "label": "ios-rainy",
+    "code": "0xf495"
+  },
+  "ios-rainy-outline": {
+    "label": "ios-rainy-outline",
+    "code": "0xf494"
+  },
+  "ios-recording": {
+    "label": "ios-recording",
+    "code": "0xf497"
+  },
+  "ios-recording-outline": {
+    "label": "ios-recording-outline",
+    "code": "0xf496"
+  },
+  "ios-redo": {
+    "label": "ios-redo",
+    "code": "0xf499"
+  },
+  "ios-redo-outline": {
+    "label": "ios-redo-outline",
+    "code": "0xf498"
+  },
+  "ios-refresh": {
+    "label": "ios-refresh",
+    "code": "0xf49c"
+  },
+  "ios-refresh-empty": {
+    "label": "ios-refresh-empty",
+    "code": "0xf49a"
+  },
+  "ios-refresh-outline": {
+    "label": "ios-refresh-outline",
+    "code": "0xf49b"
+  },
+  "ios-reload": {
+    "label": "ios-reload",
+    "code": "0xf49d"
+  },
+  "ios-reverse-camera": {
+    "label": "ios-reverse-camera",
+    "code": "0xf49f"
+  },
+  "ios-reverse-camera-outline": {
+    "label": "ios-reverse-camera-outline",
+    "code": "0xf49e"
+  },
+  "ios-rewind": {
+    "label": "ios-rewind",
+    "code": "0xf4a1"
+  },
+  "ios-rewind-outline": {
+    "label": "ios-rewind-outline",
+    "code": "0xf4a0"
+  },
+  "ios-rose": {
+    "label": "ios-rose",
+    "code": "0xf4a3"
+  },
+  "ios-rose-outline": {
+    "label": "ios-rose-outline",
+    "code": "0xf4a2"
+  },
+  "ios-search": {
+    "label": "ios-search",
+    "code": "0xf4a5"
+  },
+  "ios-search-strong": {
+    "label": "ios-search-strong",
+    "code": "0xf4a4"
+  },
+  "ios-settings": {
+    "label": "ios-settings",
+    "code": "0xf4a7"
+  },
+  "ios-settings-strong": {
+    "label": "ios-settings-strong",
+    "code": "0xf4a6"
+  },
+  "ios-shuffle": {
+    "label": "ios-shuffle",
+    "code": "0xf4a9"
+  },
+  "ios-shuffle-strong": {
+    "label": "ios-shuffle-strong",
+    "code": "0xf4a8"
+  },
+  "ios-skipbackward": {
+    "label": "ios-skipbackward",
+    "code": "0xf4ab"
+  },
+  "ios-skipbackward-outline": {
+    "label": "ios-skipbackward-outline",
+    "code": "0xf4aa"
+  },
+  "ios-skipforward": {
+    "label": "ios-skipforward",
+    "code": "0xf4ad"
+  },
+  "ios-skipforward-outline": {
+    "label": "ios-skipforward-outline",
+    "code": "0xf4ac"
+  },
+  "ios-snowy": {
+    "label": "ios-snowy",
+    "code": "0xf4ae"
+  },
+  "ios-speedometer": {
+    "label": "ios-speedometer",
+    "code": "0xf4b0"
+  },
+  "ios-speedometer-outline": {
+    "label": "ios-speedometer-outline",
+    "code": "0xf4af"
+  },
+  "ios-star": {
+    "label": "ios-star",
+    "code": "0xf4b3"
+  },
+  "ios-star-half": {
+    "label": "ios-star-half",
+    "code": "0xf4b1"
+  },
+  "ios-star-outline": {
+    "label": "ios-star-outline",
+    "code": "0xf4b2"
+  },
+  "ios-stopwatch": {
+    "label": "ios-stopwatch",
+    "code": "0xf4b5"
+  },
+  "ios-stopwatch-outline": {
+    "label": "ios-stopwatch-outline",
+    "code": "0xf4b4"
+  },
+  "ios-sunny": {
+    "label": "ios-sunny",
+    "code": "0xf4b7"
+  },
+  "ios-sunny-outline": {
+    "label": "ios-sunny-outline",
+    "code": "0xf4b6"
+  },
+  "ios-telephone": {
+    "label": "ios-telephone",
+    "code": "0xf4b9"
+  },
+  "ios-telephone-outline": {
+    "label": "ios-telephone-outline",
+    "code": "0xf4b8"
+  },
+  "ios-tennisball": {
+    "label": "ios-tennisball",
+    "code": "0xf4bb"
+  },
+  "ios-tennisball-outline": {
+    "label": "ios-tennisball-outline",
+    "code": "0xf4ba"
+  },
+  "ios-thunderstorm": {
+    "label": "ios-thunderstorm",
+    "code": "0xf4bd"
+  },
+  "ios-thunderstorm-outline": {
+    "label": "ios-thunderstorm-outline",
+    "code": "0xf4bc"
+  },
+  "ios-time": {
+    "label": "ios-time",
+    "code": "0xf4bf"
+  },
+  "ios-time-outline": {
+    "label": "ios-time-outline",
+    "code": "0xf4be"
+  },
+  "ios-timer": {
+    "label": "ios-timer",
+    "code": "0xf4c1"
+  },
+  "ios-timer-outline": {
+    "label": "ios-timer-outline",
+    "code": "0xf4c0"
+  },
+  "ios-toggle": {
+    "label": "ios-toggle",
+    "code": "0xf4c3"
+  },
+  "ios-toggle-outline": {
+    "label": "ios-toggle-outline",
+    "code": "0xf4c2"
+  },
+  "ios-trash": {
+    "label": "ios-trash",
+    "code": "0xf4c5"
+  },
+  "ios-trash-outline": {
+    "label": "ios-trash-outline",
+    "code": "0xf4c4"
+  },
+  "ios-undo": {
+    "label": "ios-undo",
+    "code": "0xf4c7"
+  },
+  "ios-undo-outline": {
+    "label": "ios-undo-outline",
+    "code": "0xf4c6"
+  },
+  "ios-unlocked": {
+    "label": "ios-unlocked",
+    "code": "0xf4c9"
+  },
+  "ios-unlocked-outline": {
+    "label": "ios-unlocked-outline",
+    "code": "0xf4c8"
+  },
+  "ios-upload": {
+    "label": "ios-upload",
+    "code": "0xf4cb"
+  },
+  "ios-upload-outline": {
+    "label": "ios-upload-outline",
+    "code": "0xf4ca"
+  },
+  "ios-videocam": {
+    "label": "ios-videocam",
+    "code": "0xf4cd"
+  },
+  "ios-videocam-outline": {
+    "label": "ios-videocam-outline",
+    "code": "0xf4cc"
+  },
+  "ios-volume-high": {
+    "label": "ios-volume-high",
+    "code": "0xf4ce"
+  },
+  "ios-volume-low": {
+    "label": "ios-volume-low",
+    "code": "0xf4cf"
+  },
+  "ios-wineglass": {
+    "label": "ios-wineglass",
+    "code": "0xf4d1"
+  },
+  "ios-wineglass-outline": {
+    "label": "ios-wineglass-outline",
+    "code": "0xf4d0"
+  },
+  "ios-world": {
+    "label": "ios-world",
+    "code": "0xf4d3"
+  },
+  "ios-world-outline": {
+    "label": "ios-world-outline",
+    "code": "0xf4d2"
+  },
+  "ipad": {
+    "label": "ipad",
+    "code": "0xf1f9"
+  },
+  "iphone": {
+    "label": "iphone",
+    "code": "0xf1fa"
+  },
+  "ipod": {
+    "label": "ipod",
+    "code": "0xf1fb"
+  },
+  "jet": {
+    "label": "jet",
+    "code": "0xf295"
+  },
+  "key": {
+    "label": "key",
+    "code": "0xf296"
+  },
+  "knife": {
+    "label": "knife",
+    "code": "0xf297"
+  },
+  "laptop": {
+    "label": "laptop",
+    "code": "0xf1fc"
+  },
+  "leaf": {
+    "label": "leaf",
+    "code": "0xf1fd"
+  },
+  "levels": {
+    "label": "levels",
+    "code": "0xf298"
+  },
+  "lightbulb": {
+    "label": "lightbulb",
+    "code": "0xf299"
+  },
+  "link": {
+    "label": "link",
+    "code": "0xf1fe"
+  },
+  "load-a": {
+    "label": "load-a",
+    "code": "0xf29a"
+  },
+  "load-b": {
+    "label": "load-b",
+    "code": "0xf29b"
+  },
+  "load-c": {
+    "label": "load-c",
+    "code": "0xf29c"
+  },
+  "load-d": {
+    "label": "load-d",
+    "code": "0xf29d"
+  },
+  "location": {
+    "label": "location",
+    "code": "0xf1ff"
+  },
+  "lock-combination": {
+    "label": "lock-combination",
+    "code": "0xf4d4"
+  },
+  "locked": {
+    "label": "locked",
+    "code": "0xf200"
+  },
+  "log-in": {
+    "label": "log-in",
+    "code": "0xf29e"
+  },
+  "log-out": {
+    "label": "log-out",
+    "code": "0xf29f"
+  },
+  "loop": {
+    "label": "loop",
+    "code": "0xf201"
+  },
+  "magnet": {
+    "label": "magnet",
+    "code": "0xf2a0"
+  },
+  "male": {
+    "label": "male",
+    "code": "0xf2a1"
+  },
+  "man": {
+    "label": "man",
+    "code": "0xf202"
+  },
+  "map": {
+    "label": "map",
+    "code": "0xf203"
+  },
+  "medkit": {
+    "label": "medkit",
+    "code": "0xf2a2"
+  },
+  "merge": {
+    "label": "merge",
+    "code": "0xf33f"
+  },
+  "mic-a": {
+    "label": "mic-a",
+    "code": "0xf204"
+  },
+  "mic-b": {
+    "label": "mic-b",
+    "code": "0xf205"
+  },
+  "mic-c": {
+    "label": "mic-c",
+    "code": "0xf206"
+  },
+  "minus": {
+    "label": "minus",
+    "code": "0xf209"
+  },
+  "minus-circled": {
+    "label": "minus-circled",
+    "code": "0xf207"
+  },
+  "minus-round": {
+    "label": "minus-round",
+    "code": "0xf208"
+  },
+  "model-s": {
+    "label": "model-s",
+    "code": "0xf2c1"
+  },
+  "monitor": {
+    "label": "monitor",
+    "code": "0xf20a"
+  },
+  "more": {
+    "label": "more",
+    "code": "0xf20b"
+  },
+  "mouse": {
+    "label": "mouse",
+    "code": "0xf340"
+  },
+  "music-note": {
+    "label": "music-note",
+    "code": "0xf20c"
+  },
+  "navicon": {
+    "label": "navicon",
+    "code": "0xf20e"
+  },
+  "navicon-round": {
+    "label": "navicon-round",
+    "code": "0xf20d"
+  },
+  "navigate": {
+    "label": "navigate",
+    "code": "0xf2a3"
+  },
+  "network": {
+    "label": "network",
+    "code": "0xf341"
+  },
+  "no-smoking": {
+    "label": "no-smoking",
+    "code": "0xf2c2"
+  },
+  "nuclear": {
+    "label": "nuclear",
+    "code": "0xf2a4"
+  },
+  "outlet": {
+    "label": "outlet",
+    "code": "0xf342"
+  },
+  "paintbrush": {
+    "label": "paintbrush",
+    "code": "0xf4d5"
+  },
+  "paintbucket": {
+    "label": "paintbucket",
+    "code": "0xf4d6"
+  },
+  "paper-airplane": {
+    "label": "paper-airplane",
+    "code": "0xf2c3"
+  },
+  "paperclip": {
+    "label": "paperclip",
+    "code": "0xf20f"
+  },
+  "pause": {
+    "label": "pause",
+    "code": "0xf210"
+  },
+  "person": {
+    "label": "person",
+    "code": "0xf213"
+  },
+  "person-add": {
+    "label": "person-add",
+    "code": "0xf211"
+  },
+  "person-stalker": {
+    "label": "person-stalker",
+    "code": "0xf212"
+  },
+  "pie-graph": {
+    "label": "pie-graph",
+    "code": "0xf2a5"
+  },
+  "pin": {
+    "label": "pin",
+    "code": "0xf2a6"
+  },
+  "pinpoint": {
+    "label": "pinpoint",
+    "code": "0xf2a7"
+  },
+  "pizza": {
+    "label": "pizza",
+    "code": "0xf2a8"
+  },
+  "plane": {
+    "label": "plane",
+    "code": "0xf214"
+  },
+  "planet": {
+    "label": "planet",
+    "code": "0xf343"
+  },
+  "play": {
+    "label": "play",
+    "code": "0xf215"
+  },
+  "playstation": {
+    "label": "playstation",
+    "code": "0xf30a"
+  },
+  "plus": {
+    "label": "plus",
+    "code": "0xf218"
+  },
+  "plus-circled": {
+    "label": "plus-circled",
+    "code": "0xf216"
+  },
+  "plus-round": {
+    "label": "plus-round",
+    "code": "0xf217"
+  },
+  "podium": {
+    "label": "podium",
+    "code": "0xf344"
+  },
+  "pound": {
+    "label": "pound",
+    "code": "0xf219"
+  },
+  "power": {
+    "label": "power",
+    "code": "0xf2a9"
+  },
+  "pricetag": {
+    "label": "pricetag",
+    "code": "0xf2aa"
+  },
+  "pricetags": {
+    "label": "pricetags",
+    "code": "0xf2ab"
+  },
+  "printer": {
+    "label": "printer",
+    "code": "0xf21a"
+  },
+  "pull-request": {
+    "label": "pull-request",
+    "code": "0xf345"
+  },
+  "qr-scanner": {
+    "label": "qr-scanner",
+    "code": "0xf346"
+  },
+  "quote": {
+    "label": "quote",
+    "code": "0xf347"
+  },
+  "radio-waves": {
+    "label": "radio-waves",
+    "code": "0xf2ac"
+  },
+  "record": {
+    "label": "record",
+    "code": "0xf21b"
+  },
+  "refresh": {
+    "label": "refresh",
+    "code": "0xf21c"
+  },
+  "reply": {
+    "label": "reply",
+    "code": "0xf21e"
+  },
+  "reply-all": {
+    "label": "reply-all",
+    "code": "0xf21d"
+  },
+  "ribbon-a": {
+    "label": "ribbon-a",
+    "code": "0xf348"
+  },
+  "ribbon-b": {
+    "label": "ribbon-b",
+    "code": "0xf349"
+  },
+  "sad": {
+    "label": "sad",
+    "code": "0xf34a"
+  },
+  "sad-outline": {
+    "label": "sad-outline",
+    "code": "0xf4d7"
+  },
+  "scissors": {
+    "label": "scissors",
+    "code": "0xf34b"
+  },
+  "search": {
+    "label": "search",
+    "code": "0xf21f"
+  },
+  "settings": {
+    "label": "settings",
+    "code": "0xf2ad"
+  },
+  "share": {
+    "label": "share",
+    "code": "0xf220"
+  },
+  "shuffle": {
+    "label": "shuffle",
+    "code": "0xf221"
+  },
+  "skip-backward": {
+    "label": "skip-backward",
+    "code": "0xf222"
+  },
+  "skip-forward": {
+    "label": "skip-forward",
+    "code": "0xf223"
+  },
+  "social-android": {
+    "label": "social-android",
+    "code": "0xf225"
+  },
+  "social-android-outline": {
+    "label": "social-android-outline",
+    "code": "0xf224"
+  },
+  "social-angular": {
+    "label": "social-angular",
+    "code": "0xf4d9"
+  },
+  "social-angular-outline": {
+    "label": "social-angular-outline",
+    "code": "0xf4d8"
+  },
+  "social-apple": {
+    "label": "social-apple",
+    "code": "0xf227"
+  },
+  "social-apple-outline": {
+    "label": "social-apple-outline",
+    "code": "0xf226"
+  },
+  "social-bitcoin": {
+    "label": "social-bitcoin",
+    "code": "0xf2af"
+  },
+  "social-bitcoin-outline": {
+    "label": "social-bitcoin-outline",
+    "code": "0xf2ae"
+  },
+  "social-buffer": {
+    "label": "social-buffer",
+    "code": "0xf229"
+  },
+  "social-buffer-outline": {
+    "label": "social-buffer-outline",
+    "code": "0xf228"
+  },
+  "social-chrome": {
+    "label": "social-chrome",
+    "code": "0xf4db"
+  },
+  "social-chrome-outline": {
+    "label": "social-chrome-outline",
+    "code": "0xf4da"
+  },
+  "social-codepen": {
+    "label": "social-codepen",
+    "code": "0xf4dd"
+  },
+  "social-codepen-outline": {
+    "label": "social-codepen-outline",
+    "code": "0xf4dc"
+  },
+  "social-css3": {
+    "label": "social-css3",
+    "code": "0xf4df"
+  },
+  "social-css3-outline": {
+    "label": "social-css3-outline",
+    "code": "0xf4de"
+  },
+  "social-designernews": {
+    "label": "social-designernews",
+    "code": "0xf22b"
+  },
+  "social-designernews-outline": {
+    "label": "social-designernews-outline",
+    "code": "0xf22a"
+  },
+  "social-dribbble": {
+    "label": "social-dribbble",
+    "code": "0xf22d"
+  },
+  "social-dribbble-outline": {
+    "label": "social-dribbble-outline",
+    "code": "0xf22c"
+  },
+  "social-dropbox": {
+    "label": "social-dropbox",
+    "code": "0xf22f"
+  },
+  "social-dropbox-outline": {
+    "label": "social-dropbox-outline",
+    "code": "0xf22e"
+  },
+  "social-euro": {
+    "label": "social-euro",
+    "code": "0xf4e1"
+  },
+  "social-euro-outline": {
+    "label": "social-euro-outline",
+    "code": "0xf4e0"
+  },
+  "social-facebook": {
+    "label": "social-facebook",
+    "code": "0xf231"
+  },
+  "social-facebook-outline": {
+    "label": "social-facebook-outline",
+    "code": "0xf230"
+  },
+  "social-foursquare": {
+    "label": "social-foursquare",
+    "code": "0xf34d"
+  },
+  "social-foursquare-outline": {
+    "label": "social-foursquare-outline",
+    "code": "0xf34c"
+  },
+  "social-freebsd-devil": {
+    "label": "social-freebsd-devil",
+    "code": "0xf2c4"
+  },
+  "social-github": {
+    "label": "social-github",
+    "code": "0xf233"
+  },
+  "social-github-outline": {
+    "label": "social-github-outline",
+    "code": "0xf232"
+  },
+  "social-google": {
+    "label": "social-google",
+    "code": "0xf34f"
+  },
+  "social-google-outline": {
+    "label": "social-google-outline",
+    "code": "0xf34e"
+  },
+  "social-googleplus": {
+    "label": "social-googleplus",
+    "code": "0xf235"
+  },
+  "social-googleplus-outline": {
+    "label": "social-googleplus-outline",
+    "code": "0xf234"
+  },
+  "social-hackernews": {
+    "label": "social-hackernews",
+    "code": "0xf237"
+  },
+  "social-hackernews-outline": {
+    "label": "social-hackernews-outline",
+    "code": "0xf236"
+  },
+  "social-html5": {
+    "label": "social-html5",
+    "code": "0xf4e3"
+  },
+  "social-html5-outline": {
+    "label": "social-html5-outline",
+    "code": "0xf4e2"
+  },
+  "social-instagram": {
+    "label": "social-instagram",
+    "code": "0xf351"
+  },
+  "social-instagram-outline": {
+    "label": "social-instagram-outline",
+    "code": "0xf350"
+  },
+  "social-javascript": {
+    "label": "social-javascript",
+    "code": "0xf4e5"
+  },
+  "social-javascript-outline": {
+    "label": "social-javascript-outline",
+    "code": "0xf4e4"
+  },
+  "social-linkedin": {
+    "label": "social-linkedin",
+    "code": "0xf239"
+  },
+  "social-linkedin-outline": {
+    "label": "social-linkedin-outline",
+    "code": "0xf238"
+  },
+  "social-markdown": {
+    "label": "social-markdown",
+    "code": "0xf4e6"
+  },
+  "social-nodejs": {
+    "label": "social-nodejs",
+    "code": "0xf4e7"
+  },
+  "social-octocat": {
+    "label": "social-octocat",
+    "code": "0xf4e8"
+  },
+  "social-pinterest": {
+    "label": "social-pinterest",
+    "code": "0xf2b1"
+  },
+  "social-pinterest-outline": {
+    "label": "social-pinterest-outline",
+    "code": "0xf2b0"
+  },
+  "social-python": {
+    "label": "social-python",
+    "code": "0xf4e9"
+  },
+  "social-reddit": {
+    "label": "social-reddit",
+    "code": "0xf23b"
+  },
+  "social-reddit-outline": {
+    "label": "social-reddit-outline",
+    "code": "0xf23a"
+  },
+  "social-rss": {
+    "label": "social-rss",
+    "code": "0xf23d"
+  },
+  "social-rss-outline": {
+    "label": "social-rss-outline",
+    "code": "0xf23c"
+  },
+  "social-sass": {
+    "label": "social-sass",
+    "code": "0xf4ea"
+  },
+  "social-skype": {
+    "label": "social-skype",
+    "code": "0xf23f"
+  },
+  "social-skype-outline": {
+    "label": "social-skype-outline",
+    "code": "0xf23e"
+  },
+  "social-snapchat": {
+    "label": "social-snapchat",
+    "code": "0xf4ec"
+  },
+  "social-snapchat-outline": {
+    "label": "social-snapchat-outline",
+    "code": "0xf4eb"
+  },
+  "social-tumblr": {
+    "label": "social-tumblr",
+    "code": "0xf241"
+  },
+  "social-tumblr-outline": {
+    "label": "social-tumblr-outline",
+    "code": "0xf240"
+  },
+  "social-tux": {
+    "label": "social-tux",
+    "code": "0xf2c5"
+  },
+  "social-twitch": {
+    "label": "social-twitch",
+    "code": "0xf4ee"
+  },
+  "social-twitch-outline": {
+    "label": "social-twitch-outline",
+    "code": "0xf4ed"
+  },
+  "social-twitter": {
+    "label": "social-twitter",
+    "code": "0xf243"
+  },
+  "social-twitter-outline": {
+    "label": "social-twitter-outline",
+    "code": "0xf242"
+  },
+  "social-usd": {
+    "label": "social-usd",
+    "code": "0xf353"
+  },
+  "social-usd-outline": {
+    "label": "social-usd-outline",
+    "code": "0xf352"
+  },
+  "social-vimeo": {
+    "label": "social-vimeo",
+    "code": "0xf245"
+  },
+  "social-vimeo-outline": {
+    "label": "social-vimeo-outline",
+    "code": "0xf244"
+  },
+  "social-whatsapp": {
+    "label": "social-whatsapp",
+    "code": "0xf4f0"
+  },
+  "social-whatsapp-outline": {
+    "label": "social-whatsapp-outline",
+    "code": "0xf4ef"
+  },
+  "social-windows": {
+    "label": "social-windows",
+    "code": "0xf247"
+  },
+  "social-windows-outline": {
+    "label": "social-windows-outline",
+    "code": "0xf246"
+  },
+  "social-wordpress": {
+    "label": "social-wordpress",
+    "code": "0xf249"
+  },
+  "social-wordpress-outline": {
+    "label": "social-wordpress-outline",
+    "code": "0xf248"
+  },
+  "social-yahoo": {
+    "label": "social-yahoo",
+    "code": "0xf24b"
+  },
+  "social-yahoo-outline": {
+    "label": "social-yahoo-outline",
+    "code": "0xf24a"
+  },
+  "social-yen": {
+    "label": "social-yen",
+    "code": "0xf4f2"
+  },
+  "social-yen-outline": {
+    "label": "social-yen-outline",
+    "code": "0xf4f1"
+  },
+  "social-youtube": {
+    "label": "social-youtube",
+    "code": "0xf24d"
+  },
+  "social-youtube-outline": {
+    "label": "social-youtube-outline",
+    "code": "0xf24c"
+  },
+  "soup-can": {
+    "label": "soup-can",
+    "code": "0xf4f4"
+  },
+  "soup-can-outline": {
+    "label": "soup-can-outline",
+    "code": "0xf4f3"
+  },
+  "speakerphone": {
+    "label": "speakerphone",
+    "code": "0xf2b2"
+  },
+  "speedometer": {
+    "label": "speedometer",
+    "code": "0xf2b3"
+  },
+  "spoon": {
+    "label": "spoon",
+    "code": "0xf2b4"
+  },
+  "star": {
+    "label": "star",
+    "code": "0xf24e"
+  },
+  "stats-bars": {
+    "label": "stats-bars",
+    "code": "0xf2b5"
+  },
+  "steam": {
+    "label": "steam",
+    "code": "0xf30b"
+  },
+  "stop": {
+    "label": "stop",
+    "code": "0xf24f"
+  },
+  "thermometer": {
+    "label": "thermometer",
+    "code": "0xf2b6"
+  },
+  "thumbsdown": {
+    "label": "thumbsdown",
+    "code": "0xf250"
+  },
+  "thumbsup": {
+    "label": "thumbsup",
+    "code": "0xf251"
+  },
+  "toggle": {
+    "label": "toggle",
+    "code": "0xf355"
+  },
+  "toggle-filled": {
+    "label": "toggle-filled",
+    "code": "0xf354"
+  },
+  "transgender": {
+    "label": "transgender",
+    "code": "0xf4f5"
+  },
+  "trash-a": {
+    "label": "trash-a",
+    "code": "0xf252"
+  },
+  "trash-b": {
+    "label": "trash-b",
+    "code": "0xf253"
+  },
+  "trophy": {
+    "label": "trophy",
+    "code": "0xf356"
+  },
+  "tshirt": {
+    "label": "tshirt",
+    "code": "0xf4f7"
+  },
+  "tshirt-outline": {
+    "label": "tshirt-outline",
+    "code": "0xf4f6"
+  },
+  "umbrella": {
+    "label": "umbrella",
+    "code": "0xf2b7"
+  },
+  "university": {
+    "label": "university",
+    "code": "0xf357"
+  },
+  "unlocked": {
+    "label": "unlocked",
+    "code": "0xf254"
+  },
+  "upload": {
+    "label": "upload",
+    "code": "0xf255"
+  },
+  "usb": {
+    "label": "usb",
+    "code": "0xf2b8"
+  },
+  "videocamera": {
+    "label": "videocamera",
+    "code": "0xf256"
+  },
+  "volume-high": {
+    "label": "volume-high",
+    "code": "0xf257"
+  },
+  "volume-low": {
+    "label": "volume-low",
+    "code": "0xf258"
+  },
+  "volume-medium": {
+    "label": "volume-medium",
+    "code": "0xf259"
+  },
+  "volume-mute": {
+    "label": "volume-mute",
+    "code": "0xf25a"
+  },
+  "wand": {
+    "label": "wand",
+    "code": "0xf358"
+  },
+  "waterdrop": {
+    "label": "waterdrop",
+    "code": "0xf25b"
+  },
+  "wifi": {
+    "label": "wifi",
+    "code": "0xf25c"
+  },
+  "wineglass": {
+    "label": "wineglass",
+    "code": "0xf2b9"
+  },
+  "woman": {
+    "label": "woman",
+    "code": "0xf25d"
+  },
+  "wrench": {
+    "label": "wrench",
+    "code": "0xf2ba"
+  },
+  "xbox": {
+    "label": "xbox",
+    "code": "0xf30c"
+  }
+}

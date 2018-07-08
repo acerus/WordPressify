@@ -1,0 +1,62 @@
+.jobify-alert {
+    margin: 2.0em auto;
+	padding: 1.25em 3em;
+	background-color: #ffffff;
+	border-radius: 4px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: transparent;
+
+	a {
+		text-decoration: underline;
+	}
+
+	&:before {
+		@extend .ion;
+		font-size: 20px;
+		margin: -2px 10px 0 0;
+		vertical-align: middle;
+	}
+
+	&.success,
+	&.jobify-alert--success {
+		@extend .jobify-alert--success;
+	}
+
+	&.info,
+	&.jobify-alert--info {
+		@extend .jobify-alert--info;
+	}
+
+	&.error,
+	&.jobify-alert--error {
+		@extend .jobify-alert--error;
+	}
+}
+
+.jobify-alert--success,
+.jobify-alert--info {
+	border-color: #7dc246;
+
+	&:before {
+		content: $ionicon-var-checkmark;
+	}
+
+	&:before,
+	[class^="ion"]:before {
+		color: #7dc246;
+	}
+}
+
+.jobify-alert--error {
+	border-color: #d50000;
+
+	&:before {
+		content: $ionicon-var-alert-circled;
+	}
+
+	&:before,
+	[class^="ion"]:before {
+		color: #d50000;
+	}
+}

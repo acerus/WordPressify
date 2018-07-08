@@ -1,0 +1,289 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-03 18:52+0800\n"
+"PO-Revision-Date: 2016-05-03 18:53+0800\n"
+"Last-Translator: \n"
+"Language-Team: Ultimate Member <umplugin@gmail.com>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: EDD_SL_Plugin_Updater.php:191
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:199
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:360
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:360
+msgid "Error"
+msgstr ""
+
+#: core/actions/um-notifications-log-mycred.php:17
+#, php-format
+msgid "%s point"
+msgstr ""
+
+#: core/actions/um-notifications-log-mycred.php:17
+#: core/actions/um-notifications-log-mycred.php:42
+#: core/actions/um-notifications-log-mycred.php:62
+#, php-format
+msgid "%s points"
+msgstr ""
+
+#: core/actions/um-notifications-log-mycred.php:65
+msgid "logging into site"
+msgstr ""
+
+#: core/actions/um-notifications-log-mycred.php:66
+msgid "completing your registration"
+msgstr ""
+
+#: core/actions/um-notifications-log-mycred.php:67
+msgid "updating your profile"
+msgstr ""
+
+#: core/actions/um-notifications-log-mycred.php:68
+msgid "adding a profile photo"
+msgstr ""
+
+#: core/actions/um-notifications-log-mycred.php:69
+msgid "adding a cover photo"
+msgstr ""
+
+#: core/filters/um-notifications-account.php:10
+msgid "Web notifications"
+msgstr ""
+
+#: core/filters/um-notifications-account.php:34
+msgid "Update Settings"
+msgstr ""
+
+#: core/filters/um-notifications-account.php:60
+msgid "Receiving Notifications"
+msgstr ""
+
+#: core/filters/um-notifications-settings.php:13
+msgid "Enable real-time instant notification"
+msgstr ""
+
+#: core/filters/um-notifications-settings.php:14
+msgid "Turn off please If your server is getting some load."
+msgstr ""
+
+#: core/filters/um-notifications-settings.php:22
+msgid "Where should the notification icon appear?"
+msgstr ""
+
+#: core/filters/um-notifications-settings.php:25
+msgid "Right bottom"
+msgstr ""
+
+#: core/filters/um-notifications-settings.php:26
+msgid "Left bottom"
+msgstr ""
+
+#: core/filters/um-notifications-settings.php:28
+msgid "Select..."
+msgstr ""
+
+#: core/filters/um-notifications-settings.php:35
+msgid ""
+"How often do you want the ajax notifier to check for new notifications? (in "
+"seconds)"
+msgstr ""
+
+#: core/filters/um-notifications-settings.php:44
+msgid "Always display the notification icon"
+msgstr ""
+
+#: core/filters/um-notifications-settings.php:45
+msgid "If turned off, the icon will only show when there's a new notification."
+msgstr ""
+
+#: core/filters/um-notifications-settings.php:52
+msgid "Account Tab"
+msgstr ""
+
+#: core/filters/um-notifications-settings.php:54
+msgid "Show or hide an account tab that shows the web notifications."
+msgstr ""
+
+#: core/filters/um-notifications-settings.php:55
+msgid "On"
+msgstr ""
+
+#: core/filters/um-notifications-settings.php:56
+msgid "Off"
+msgstr ""
+
+#: core/filters/um-notifications-settings.php:71
+msgid "Template"
+msgstr ""
+
+#: core/filters/um-notifications-settings.php:85
+#: core/um-notifications-setup.php:66 templates/no-notifications.php:2
+#: templates/notifications.php:2
+msgid "Notifications"
+msgstr ""
+
+#: core/um-notifications-api.php:31
+msgid "Role upgrade"
+msgstr ""
+
+#: core/um-notifications-api.php:33
+msgid "When my membership level is changed"
+msgstr ""
+
+#: core/um-notifications-api.php:37
+msgid "New comment reply"
+msgstr ""
+
+#: core/um-notifications-api.php:39
+msgid "When a member replies to one of my comments"
+msgstr ""
+
+#: core/um-notifications-api.php:43
+msgid "New user comment"
+msgstr ""
+
+#: core/um-notifications-api.php:45
+msgid "When a member comments on my posts"
+msgstr ""
+
+#: core/um-notifications-api.php:49
+msgid "New guest comment"
+msgstr ""
+
+#: core/um-notifications-api.php:51
+msgid "When a guest comments on my posts"
+msgstr ""
+
+#: core/um-notifications-api.php:55
+msgid "User view profile"
+msgstr ""
+
+#: core/um-notifications-api.php:57
+msgid "When a member views my profile"
+msgstr ""
+
+#: core/um-notifications-api.php:61
+msgid "Guest view profile"
+msgstr ""
+
+#: core/um-notifications-api.php:63
+msgid "When a guest views my profile"
+msgstr ""
+
+#: core/um-notifications-api.php:67
+msgid "User leaves a reply to bbpress topic"
+msgstr ""
+
+#: core/um-notifications-api.php:69
+msgid "When a member replies to one of my topics"
+msgstr ""
+
+#: core/um-notifications-api.php:73
+msgid "Guest leaves a reply to bbpress topic"
+msgstr ""
+
+#: core/um-notifications-api.php:75
+msgid "When a guest replies to one of my topics"
+msgstr ""
+
+#: core/um-notifications-api.php:80
+msgid "New user review"
+msgstr ""
+
+#: core/um-notifications-api.php:82
+msgid "When someone leaves me a review"
+msgstr ""
+
+#: core/um-notifications-api.php:88
+msgid "User awarded points for action"
+msgstr ""
+
+#: core/um-notifications-api.php:90
+msgid "When I receive points by completing an action"
+msgstr ""
+
+#: core/um-notifications-api.php:94
+msgid "User deducted points for action"
+msgstr ""
+
+#: core/um-notifications-api.php:96
+msgid "Points deducted when incompleted an action"
+msgstr ""
+
+#: core/um-notifications-api.php:100
+msgid "User receives points from another person"
+msgstr ""
+
+#: core/um-notifications-api.php:102
+msgid "When I receive points balance from another member"
+msgstr ""
+
+#: core/um-notifications-api.php:196
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: core/um-notifications-init.php:22
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+
+#: core/um-notifications-init.php:27
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires a <a href=\"https://wordpress.org/"
+"plugins/ultimate-member\">newer version</a> of Ultimate Member to work "
+"properly."
+msgstr ""
+
+#: templates/no-notifications.php:16 templates/notifications.php:32
+msgid "No new notifications"
+msgstr ""
+
+#: templates/notifications.php:36
+msgid "See all notifications"
+msgstr ""
+
+#: um-notifications.php:185
+msgid "Invalid License Key"
+msgstr ""
+
+#~ msgid "outdatedBrowser_page_message"
+#~ msgstr ""
+#~ "The site you are visiting can only be viewed using a modern browser. "
+#~ "Please upgrade your browser to increase safety and your browsing "
+#~ "experience. Choose one of the browsers above. If you don't care <a href="
+#~ "\"?forwardOutdatedBrowser=1\">click here</a>"
+
+#~ msgid "404_page_message"
+#~ msgstr ""
+#~ "The Page you are looking for doesn't exist or an other error occurred. <a "
+#~ "href=\"javascript:history.go(-1)\">Go back</a>, or head over to <a href="
+#~ "\"%s\">%s</a> to choose a new direction."

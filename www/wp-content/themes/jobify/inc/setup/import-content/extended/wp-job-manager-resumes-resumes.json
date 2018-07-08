@@ -1,0 +1,306 @@
+[
+	{
+		"id": "jennifer-smith",
+		"type": "object",
+		"priority": 100,
+		"data": {
+			"post_title": "Jennifer Smith",
+			"post_type": "resume",
+			"post_content": "Spent several years working on sheep on Wall Street. Had moderate success investing in Yugos on Wall Street. Managed a small team buying and selling pogo sticks for farmers. Spent several years licensing licorice in West Palm Beach, FL. Developed several new methods for working with banjos in the aftermarket. Spent a weekend importing banjos in West Palm Beach, FL.\n<h4>Personal Characteristics:</h4>\n<ul><li>Excellent customer service skills, communication skills, and a happy, smiling attitude are essential.</li><li>Available to work required shifts including weekends, evenings and holidays.</li><li>I have great time management skills.</li><li>I take constructive criticism well and I am comfortable voicing opinions.</li></ul>",
+			"location": "Mountain View, CA",
+			"featured": true,
+			"meta": {
+				"_resume_author": 1,
+				"_candidate_email": "job@mailinator.com",
+				"_candidate_title": "UX/UI Graphic Designer",
+				"_candidate_photo": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/resume-1.jpg",
+				"_links": [ 
+					{
+						"name": "Twitter", 
+						"url": "https://twitter.com"
+					},
+					{
+						"name": "Facebook", 
+						"url": "https://facebook.com"
+					},
+					{
+						"name": "Website", 
+						"url": "https://astoundify.com"
+					}
+				],
+				"_candidate_experience": [ 
+					{
+						"employer": "Shopify", 
+						"job_title": "Senior Design Lead",
+						"date": "January 2014 March 2016",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					},
+					{
+						"employer": "AirBnB", 
+						"job_title": "Jr Design Lead",
+						"date": "August 2011 - March 2013",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					},
+					{
+						"employer": "BestBuy", 
+						"job_title": "Retail Sales",
+						"date": "June 2008 - March 2010",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					}
+				],
+				"_candidate_education": [ 
+					{
+						"location": "Stanford University", 
+						"qualification": "Bachelor of Applied Science",
+						"date": "January 2014 March 2016",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					},
+					{
+						"location": "University of Pennsylvania",
+						"qualification": "Doctor of Veterinary Medicine",
+						"date": "August 2011 - March 2013",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					},
+					{
+						"location": "Massachusetts Institute of Technology",
+						"qualification": "Bachelor of Science",
+						"date": "June 2008 - March 2010",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					}
+				]
+			},
+			"terms": {
+				"resume_category": [ "web-design-development" ],
+				"resume_skill": [ "after-effects", "html-css", "illustrator", "indesign", "sketch", "sword-wielding" ]
+			}
+		}
+	},
+	{
+		"id": "paul-richards",
+		"type": "object",
+		"priority": 100,
+		"data": {
+			"post_title": "Paul Richards",
+			"post_type": "resume",
+			"post_content": "Spent several years working on sheep on Wall Street. Had moderate success investing in Yugos on Wall Street. Managed a small team buying and selling pogo sticks for farmers. Spent several years licensing licorice in West Palm Beach, FL. Developed several new methods for working with banjos in the aftermarket. Spent a weekend importing banjos in West Palm Beach, FL.\n<h4>Personal Characteristics:</h4>\n<ul><li>Excellent customer service skills, communication skills, and a happy, smiling attitude are essential.</li><li>Available to work required shifts including weekends, evenings and holidays.</li><li>I have great time management skills.</li><li>I take constructive criticism well and I am comfortable voicing opinions.</li></ul>",
+			"location": "Houston, TX",
+			"featured": true,
+			"meta": {
+				"_resume_author": 1,
+				"_candidate_email": "job@mailinator.com",
+				"_candidate_title": "Professional Copyrighter",
+				"_candidate_photo": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/resume-2.jpg",
+				"_links": [ 
+					{
+						"name": "Twitter", 
+						"url": "https://twitter.com"
+					},
+					{
+						"name": "Facebook", 
+						"url": "https://facebook.com"
+					},
+					{
+						"name": "Website", 
+						"url": "https://astoundify.com"
+					}
+				],
+				"_candidate_experience": [ 
+					{
+						"employer": "Shopify", 
+						"job_title": "Senior Design Lead",
+						"date": "January 2014 March 2016",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					},
+					{
+						"employer": "AirBnB", 
+						"job_title": "Jr Design Lead",
+						"date": "August 2011 - March 2013",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					},
+					{
+						"employer": "BestBuy", 
+						"job_title": "Retail Sales",
+						"date": "June 2008 - March 2010",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					}
+				],
+				"_candidate_education": [ 
+					{
+						"location": "Stanford University", 
+						"qualification": "Bachelor of Applied Science",
+						"date": "January 2014 March 2016",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					},
+					{
+						"location": "University of Pennsylvania",
+						"qualification": "Doctor of Veterinary Medicine",
+						"date": "August 2011 - March 2013",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					},
+					{
+						"location": "Massachusetts Institute of Technology",
+						"qualification": "Bachelor of Science",
+						"date": "June 2008 - March 2010",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					}
+				]
+			},
+			"terms": {
+				"resume_category": [ "web-design-development", "designer", "management-and-finance" ],
+				"resume_skill": [ "after-effects", "html-css", "illustrator", "indesign", "sketch", "sword-wielding" ]
+			}
+		}
+	},
+	{
+		"id": "kevin-parker",
+		"type": "object",
+		"priority": 100,
+		"data": {
+			"post_title": "Kevin Parker",
+			"post_type": "resume",
+			"post_content": "Spent several years working on sheep on Wall Street. Had moderate success investing in Yugos on Wall Street. Managed a small team buying and selling pogo sticks for farmers. Spent several years licensing licorice in West Palm Beach, FL. Developed several new methods for working with banjos in the aftermarket. Spent a weekend importing banjos in West Palm Beach, FL.\n<h4>Personal Characteristics:</h4>\n<ul><li>Excellent customer service skills, communication skills, and a happy, smiling attitude are essential.</li><li>Available to work required shifts including weekends, evenings and holidays.</li><li>I have great time management skills.</li><li>I take constructive criticism well and I am comfortable voicing opinions.</li></ul>",
+			"location": "Los Angelos, CA",
+			"featured": true,
+			"meta": {
+				"_resume_author": 1,
+				"_candidate_email": "job@mailinator.com",
+				"_candidate_title": "Software Quality Engineer",
+				"_candidate_photo": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/resume-3.jpg",
+				"_links": [ 
+					{
+						"name": "Twitter", 
+						"url": "https://twitter.com"
+					},
+					{
+						"name": "Facebook", 
+						"url": "https://facebook.com"
+					},
+					{
+						"name": "Website", 
+						"url": "https://astoundify.com"
+					}
+				],
+				"_candidate_experience": [ 
+					{
+						"employer": "Shopify", 
+						"job_title": "Senior Design Lead",
+						"date": "January 2014 March 2016",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					},
+					{
+						"employer": "AirBnB", 
+						"job_title": "Jr Design Lead",
+						"date": "August 2011 - March 2013",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					},
+					{
+						"employer": "BestBuy", 
+						"job_title": "Retail Sales",
+						"date": "June 2008 - March 2010",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					}
+				],
+				"_candidate_education": [ 
+					{
+						"location": "Stanford University", 
+						"qualification": "Bachelor of Applied Science",
+						"date": "January 2014 March 2016",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					},
+					{
+						"location": "University of Pennsylvania",
+						"qualification": "Doctor of Veterinary Medicine",
+						"date": "August 2011 - March 2013",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					},
+					{
+						"location": "Massachusetts Institute of Technology",
+						"qualification": "Bachelor of Science",
+						"date": "June 2008 - March 2010",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					}
+				]
+			},
+			"terms": {
+				"resume_category": [ "web-design-development", "designer", "management-and-finance" ],
+				"resume_skill": [ "after-effects", "html-css", "illustrator", "indesign", "sketch", "sword-wielding" ]
+			}
+		}
+	},
+	{
+		"id": "jim-james",
+		"type": "object",
+		"priority": 100,
+		"data": {
+			"post_title": "Jim James",
+			"post_type": "resume",
+			"post_content": "Spent several years working on sheep on Wall Street. Had moderate success investing in Yugos on Wall Street. Managed a small team buying and selling pogo sticks for farmers. Spent several years licensing licorice in West Palm Beach, FL. Developed several new methods for working with banjos in the aftermarket. Spent a weekend importing banjos in West Palm Beach, FL.\n<h4>Personal Characteristics:</h4>\n<ul><li>Excellent customer service skills, communication skills, and a happy, smiling attitude are essential.</li><li>Available to work required shifts including weekends, evenings and holidays.</li><li>I have great time management skills.</li><li>I take constructive criticism well and I am comfortable voicing opinions.</li></ul>",
+			"location": "Lousiville, Kentucky",
+			"featured": true,
+			"meta": {
+				"_resume_author": 1,
+				"_candidate_email": "job@mailinator.com",
+				"_candidate_title": "Senior Web Developer",
+				"_candidate_photo": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/resume-4.jpg",
+				"_links": [ 
+					{
+						"name": "Twitter", 
+						"url": "https://twitter.com"
+					},
+					{
+						"name": "Facebook", 
+						"url": "https://facebook.com"
+					},
+					{
+						"name": "Website", 
+						"url": "https://astoundify.com"
+					}
+				],
+				"_candidate_experience": [ 
+					{
+						"employer": "Shopify", 
+						"job_title": "Senior Design Lead",
+						"date": "January 2014 March 2016",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					},
+					{
+						"employer": "AirBnB", 
+						"job_title": "Jr Design Lead",
+						"date": "August 2011 - March 2013",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					},
+					{
+						"employer": "BestBuy", 
+						"job_title": "Retail Sales",
+						"date": "June 2008 - March 2010",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					}
+				],
+				"_candidate_education": [ 
+					{
+						"location": "Stanford University", 
+						"qualification": "Bachelor of Applied Science",
+						"date": "January 2014 March 2016",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					},
+					{
+						"location": "University of Pennsylvania",
+						"qualification": "Doctor of Veterinary Medicine",
+						"date": "August 2011 - March 2013",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					},
+					{
+						"location": "Massachusetts Institute of Technology",
+						"qualification": "Bachelor of Science",
+						"date": "June 2008 - March 2010",
+						"notes": "Maximus faucibus non non nibh. Cras luctus velit et ante vehicula, sit amet commodo magna eleifend. Fusce congue ante id urna porttitor luctus."
+					}
+				]
+			},
+			"terms": {
+				"resume_category": [ "web-design-development", "designer", "management-and-finance" ],
+				"resume_skill": [ "after-effects", "html-css", "illustrator", "indesign", "sketch", "sword-wielding" ]
+			}
+		}
+	}
+]

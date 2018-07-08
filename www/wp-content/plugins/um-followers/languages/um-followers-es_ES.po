@@ -1,0 +1,231 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-29 14:10+0200\n"
+"PO-Revision-Date: 2015-05-16 14:41-0500\n"
+"Last-Translator: Calum Allison <umplugin@gmail.com>\n"
+"Language-Team: Ultimate Member <umplugin@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.5\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Language: es\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: EDD_SL_Plugin_Updater.php:177
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"Hay una nueva versión disponible %1$s . <a target=\"_blank\" class=\"thickbox"
+"\" href=\"%2$s\">View version %3$s details</a>."
+
+#: EDD_SL_Plugin_Updater.php:184
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"Hay una nueva versión disponible %1$s . <a target=\"_blank\" class=\"thickbox"
+"\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s\">update "
+"now</a>."
+
+#: EDD_SL_Plugin_Updater.php:324
+msgid "You do not have permission to install plugin updates"
+msgstr "Usted no tiene el permiso para instalar la actualización del plugin."
+
+#: EDD_SL_Plugin_Updater.php:324
+msgid "Error"
+msgstr "Error"
+
+#: admin/templates/role/followers.php:8
+msgid "Can follow others?"
+msgstr "¿Puede seguir a otros?"
+
+#: admin/templates/role/followers.php:8
+msgid "Can this role follow other members or not."
+msgstr "Puede este rol seguir a otros usuarios o no."
+
+#: admin/templates/role/followers.php:13
+msgid "Can follow these user roles only"
+msgstr "Puede ser solo a este rol de usuario."
+
+#: core/actions/um-followers-admin.php:22
+#: core/filters/um-followers-profile.php:9
+#: core/filters/um-followers-profile.php:41
+#: core/filters/um-followers-profile.php:63
+#: core/filters/um-followers-settings.php:60 core/um-followers-widget.php:126
+msgid "Followers"
+msgstr "Seguidores"
+
+#: core/actions/um-followers-members.php:14 core/um-followers-shortcode.php:33
+msgid "followers"
+msgstr "Seguidores"
+
+#: core/actions/um-followers-members.php:15 core/um-followers-shortcode.php:37
+msgid "following"
+msgstr "Siguiendo"
+
+#: core/actions/um-followers-members.php:24 templates/followers.php:16
+#: templates/following.php:31
+msgid "Edit profile"
+msgstr "Editar Perfil"
+
+#: core/filters/um-followers-account.php:23
+#: core/filters/um-followers-account.php:31
+msgid "I'm followed by someone new"
+msgstr "Tengo un nuevo seguidor."
+
+#: core/filters/um-followers-profile.php:8
+#: core/filters/um-followers-profile.php:46
+#: core/filters/um-followers-profile.php:69
+msgid "Only people I follow can view my profile"
+msgstr "Mi perfil solo puede ser visto por las personas que sigo."
+
+#: core/filters/um-followers-profile.php:43
+msgid "You must follow this user to view profile"
+msgstr "Debe seguir al usuario para ver el perfil."
+
+#: core/filters/um-followers-profile.php:48
+msgid "You cannot view this profile because the user has not followed you"
+msgstr "Usted no puede ver este perfil porque el usuario no lo sigue."
+
+#: core/filters/um-followers-settings.php:13
+msgid "Show followers stats in member directory"
+msgstr "Mostrar el número de seguidores en el directorio de miembros."
+
+#: core/filters/um-followers-settings.php:20
+msgid "Show follow button in member directory"
+msgstr "Mostrar el botón de seguir en el directorio de miembros."
+
+#: core/filters/um-followers-settings.php:27
+#: core/filters/um-followers-settings.php:35
+#: core/filters/um-followers-settings.php:45
+msgid "New Follower Notification"
+msgstr "Notificación de nuevo seguidor."
+
+#: core/filters/um-followers-settings.php:29
+msgid "Send a notification to user when he receives a new review"
+msgstr "Enviar una notificación al usuario cuando reciba una nueva revisión."
+
+#: core/filters/um-followers-settings.php:36
+msgid "Subject Line"
+msgstr "Tema"
+
+#: core/filters/um-followers-settings.php:39
+msgid "This is the subject line of the e-mail"
+msgstr "Esta el tema del e-mail"
+
+#: core/filters/um-followers-settings.php:46
+msgid "Message Body"
+msgstr "Mensaje"
+
+#: core/filters/um-followers-settings.php:76
+msgid "User get followed by a person"
+msgstr "El usuario ha sido seguido."
+
+#: core/filters/um-followers-settings.php:78
+msgid "When someone follows me"
+msgstr "Cuando alguien me sigue."
+
+#: core/um-followers-api.php:52 core/um-followers-api.php:59
+msgid "Follow"
+msgstr "Seguir"
+
+#: core/um-followers-api.php:61 core/um-followers-widget.php:47
+msgid "Following"
+msgstr "Siguiendo"
+
+#: core/um-followers-api.php:61
+msgid "Unfollow"
+msgstr "Dejar de Seguir"
+
+#: core/um-followers-init.php:22
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+"La extensión <strong>%s</strong> requiere Ultimate Member Plugin para "
+"activarse y funcionar. Usted puede descargarlo <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">Aquí</a>"
+
+#: core/um-followers-init.php:27
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires a <a href=\"https://wordpress.org/"
+"plugins/ultimate-member\">newer version</a> of Ultimate Member to work "
+"properly."
+msgstr ""
+"La extensión <strong>%s</strong> requiere <a href=\"https://wordpress.org/"
+"plugins/ultimate-member\">la última versión</a> de Ultimate Member para "
+"funcionar correctamente."
+
+#: core/um-followers-widget.php:13
+msgid "Ultimate Member - Following"
+msgstr "Ultimate Member - Seguiendo"
+
+#: core/um-followers-widget.php:16
+msgid "Shows users they follow in a widget."
+msgstr "Mostrar usuarios que siguen en un widget."
+
+#: core/um-followers-widget.php:60 core/um-followers-widget.php:139
+msgid "Title:"
+msgstr "Título:"
+
+#: core/um-followers-widget.php:65 core/um-followers-widget.php:144
+msgid "Maximum number of users in first view:"
+msgstr "Número máximo de usuarios en la primera vista:"
+
+#: core/um-followers-widget.php:92
+msgid "Ultimate Member - Followers"
+msgstr "Ultimate Member - Seguidores"
+
+#: core/um-followers-widget.php:95
+msgid "Shows user followers in a widget."
+msgstr "Mostrar usuarios seguidores en un widget."
+
+#: templates/followers-mini.php:15 templates/followers.php:50
+msgid "You do not have any followers yet."
+msgstr "Usted aún no tiene seguidores."
+
+#: templates/followers-mini.php:15 templates/followers.php:50
+msgid "This user do not have any followers yet."
+msgstr "Este usuario aún no tiene seguidores."
+
+#: templates/followers.php:29 templates/following.php:19
+msgid "You"
+msgstr "Usted"
+
+#: templates/followers.php:31 templates/following.php:21
+msgid "Follows you"
+msgstr "Sus seguidores"
+
+#: templates/following-mini.php:15 templates/following.php:50
+msgid "You did not follow anybody yet."
+msgstr "Usted aún no esta siguiendo a nadie."
+
+#: templates/following-mini.php:15 templates/following.php:50
+msgid "This user did not follow anybody yet."
+msgstr "Este usuario aún no sigue a nadie."
+
+msgid "outdatedBrowser_page_message"
+msgstr ""
+"The site you are visiting can only be viewed using a modern browser. Please "
+"upgrade your browser to increase safety and your browsing experience. Choose "
+"one of the browsers above. If you don't care <a href=\"?"
+"forwardOutdatedBrowser=1\">click here</a>"
+
+msgid "404_page_message"
+msgstr ""
+"The Page you are looking for doesn't exist or an other error occurred. <a "
+"href=\"javascript:history.go(-1)\">Go back</a>, or head over to <a href=\"%s"
+"\">%s</a> to choose a new direction."

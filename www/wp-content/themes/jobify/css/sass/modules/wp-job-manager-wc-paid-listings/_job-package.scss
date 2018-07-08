@@ -1,0 +1,8 @@
+.job_listing_packages ul.job_packages {
+	@extend .jobify-level-selection;
+
+	li.package-section,
+	li.job-package {
+		@extend .jobify-level-selection__item;
+	}
+}

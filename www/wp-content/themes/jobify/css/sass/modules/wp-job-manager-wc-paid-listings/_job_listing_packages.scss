@@ -1,0 +1,17 @@
+.entry-content {
+	.job_listing_packages {
+		border: 0;
+	}
+
+	.job_listing_packages_title {
+		@extend .clear;
+		background: none;
+		padding: 0;
+		margin-bottom: 2em;
+
+		h2 {
+			font-weight: normal;
+			line-height: 66px;
+		}
+	}
+}

@@ -1,0 +1,6 @@
+.page-template-jobify .widget_text,
+.page-template-template-widgetized .widget_text {
+	@extend .container;
+	padding-left: 15px;
+	padding-right: 15px;
+}

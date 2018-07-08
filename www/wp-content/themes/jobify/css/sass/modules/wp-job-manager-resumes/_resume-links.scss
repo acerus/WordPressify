@@ -1,0 +1,36 @@
+.resume-links {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+	li {
+		display: inline-block;
+		margin-right: 0.75em;
+	}
+
+	a {
+		color: inherit;
+
+		&:before {
+			@extend .ion;
+			content: $ionicon-var-link;
+			margin-right: 5px;
+		}
+	}
+}
+
+.resume-link-twitter a:before {
+	content: $ionicon-var-social-twitter;
+}
+
+.resume-link-facebook a:before {
+	content: $ionicon-var-social-facebook;
+}
+
+.resume-link-instagram a:before {
+	content: $ionicon-var-social-instagram;
+}
+
+.resume-link-linkedin a:before {
+	content: $ionicon-var-social-linkedin;
+}

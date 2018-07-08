@@ -1,0 +1,17 @@
+.jobify_widget_slider_generic:first-child,
+.jobify_widget_slider_hero {
+	margin-top: 0;
+}
+
+.rev_slider .button,
+.rev_slider .button-secondary {
+	line-height: normal !important;
+	color: #fff !important;
+	border-color: #fff !important;
+	text-shadow: none !important;
+	background: none !important;
+
+	&:hover {
+		background-color: none;
+	}
+}

@@ -1,0 +1,50 @@
+.page-subtitle {
+	font: normal 14px/normal 'Montserrat', sans-serif;
+	margin-top: 0;
+
+	&:not(:empty) {
+		margin-top: -15px;
+	}
+
+	a {
+		color: inherit;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	li {
+		display: block;
+		margin: 5px 0;
+
+        @include bp(md) {
+            padding: 0 20px;
+            border-right: 1px solid #ccc;
+            display: inline-block;
+	    }
+
+        &.location:before,
+		&.date-posted:before {
+            @extend .ion;
+            content: $ionicon-var-ios-location;
+			margin-right: 5px;
+        }
+
+        &.date-posted:before {
+            content: $ionicon-var-calendar;
+        }
+
+		&.job-type {
+			padding: 3px 10px;
+			border-right: 0;
+			display: inline-block;
+		}
+
+		&:last-child {
+			border-right: 0;
+		}
+	}
+}

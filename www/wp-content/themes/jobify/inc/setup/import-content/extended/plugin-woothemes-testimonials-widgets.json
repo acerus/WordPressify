@@ -1,0 +1,49 @@
+[
+	{
+		"id": "widget-feature-callout-testimonials",
+		"type": "widget",
+		"priority": 10,
+		"data": {
+			"sidebar": "widget-area-page-customer-testimonials",
+			"widget": "jobify_widget_feature_callout",
+			"background": "cover",
+			"background_position": "center center",
+			"cover_overlay": "none",
+			"cover_overlay_transparency": 0.30,
+			"margin": 0,
+			"text_align": "center",
+			"text_color": "#ffffff",
+			"background_color": "#ffffff",
+			"title": "What People Think of Us",
+			"image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/extended/widget-home-feature-callout-1.jpg",
+			"content": "What other people thought about the service provided by Jobify"
+		}
+	},
+	{
+		"id": "jobify_widget_testimonials",
+		"type": "widget",
+		"priority": 20,
+		"data": {
+			"sidebar": "widget-area-page-customer-testimonials",
+			"widget": "jobify_widget_testimonials",
+			"title": "",
+			"description": "",
+			"number": 5,
+			"background-color": "#ffffff",
+			"background": ""
+		}
+	},
+
+	{
+		"id": "jobify_widget_companies",
+		"type": "widget",
+		"priority": 30,
+		"data": {
+			"sidebar": "widget-area-front-page",
+			"widget": "jobify_widget_companies",
+			"title": "Companies We've Helped",
+			"description": "Some of the companies we've helped recruit excellent applicants over the years.",
+			"number": 12
+		}
+	}
+]

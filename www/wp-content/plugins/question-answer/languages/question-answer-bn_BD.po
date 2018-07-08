@@ -1,0 +1,1986 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Question Answer\n"
+"POT-Creation-Date: 2017-11-07 13:55+0600\n"
+"PO-Revision-Date: 2017-11-07 13:55+0600\n"
+"Last-Translator: \n"
+"Language-Team: pickplugins <support@pickplugins.com>\n"
+"Language: bn_BD\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: includes\n"
+"X-Poedit-SearchPath-1: templates\n"
+
+#: includes/classes/class-admin-setup-wizard.php:29
+msgid ""
+"<strong>Welcome to Question Answer</strong> &#8211; You did not run the "
+"setup wizard yet. You can do that now."
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:31
+msgid "Run setup wizard"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:32
+msgid "Skip setup"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:48
+msgid "Introduction"
+msgstr "পরিচিতি"
+
+#: includes/classes/class-admin-setup-wizard.php:53
+#: includes/classes/class-admin-setup-wizard.php:160
+msgid "Page setup"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:58
+#: includes/classes/class-post-types.php:25 includes/menus/settings.php:133
+msgid "Question"
+msgstr "প্রশ্ন"
+
+#: includes/classes/class-admin-setup-wizard.php:63
+#: includes/classes/class-post-types.php:140 includes/menus/settings.php:229
+#: templates/question-archive/answer-count.php:31
+msgid "Answer"
+msgstr "উত্তর"
+
+#: includes/classes/class-admin-setup-wizard.php:68
+msgid "Ready!"
+msgstr "আপনি প্রস্তুত!"
+
+#: includes/classes/class-admin-setup-wizard.php:113
+msgid "Question Answer &rsaquo; Setup sizard"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:127
+msgid "Return to the WordPress dashboard"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:162
+#, php-format
+msgid ""
+"Your website needs a few essential %spages%s. The following will be created "
+"automatically (if they do not already exist):"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:166
+msgid "Page name"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:167
+msgid "Description"
+msgstr "বর্ননা"
+
+#: includes/classes/class-admin-setup-wizard.php:173
+msgid "This page will display a form where visitor can submit new question."
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:177
+msgid "This page will show all the live questions."
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:181
+msgid "This page will show your user account info."
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:186
+#, php-format
+msgid ""
+"Once created, these pages can be managed from your admin dashboard on the "
+"%sPages screen%s. <br> You can control which pages are shown on your website "
+"via %sAppearance > Menus%s."
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:190
+#: includes/classes/class-admin-setup-wizard.php:295
+#: includes/classes/class-admin-setup-wizard.php:362
+msgid "Skip this step"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:256
+#: includes/classes/class-admin-setup-wizard.php:329
+msgid "Question settings"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:261
+#: includes/classes/class-admin-setup-wizard.php:334
+msgid "Item per page"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:267
+msgid "Excerpt length in question archive"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:273
+msgid "Account required to submit question?"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:276
+#: includes/classes/class-admin-setup-wizard.php:343
+#: includes/menus/settings.php:32 includes/menus/settings.php:100
+#: includes/menus/settings.php:116 includes/menus/settings.php:126
+#: includes/menus/settings.php:149 includes/menus/settings.php:165
+#: includes/menus/settings.php:284 includes/menus/settings.php:293
+#: includes/menus/settings.php:302 includes/menus/settings.php:321
+#: includes/menus/settings.php:425
+msgid "Yes"
+msgstr "হা"
+
+#: includes/classes/class-admin-setup-wizard.php:277
+#: includes/classes/class-admin-setup-wizard.php:344
+#: includes/menus/settings.php:32 includes/menus/settings.php:100
+#: includes/menus/settings.php:116 includes/menus/settings.php:126
+#: includes/menus/settings.php:149 includes/menus/settings.php:165
+#: includes/menus/settings.php:284 includes/menus/settings.php:293
+#: includes/menus/settings.php:302 includes/menus/settings.php:321
+#: includes/menus/settings.php:425
+msgid "No"
+msgstr "না"
+
+#: includes/classes/class-admin-setup-wizard.php:282
+msgid "New submitted question status ?"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:285
+#: includes/classes/class-admin-setup-wizard.php:352
+#: includes/classes/class-answer-column.php:98
+#: includes/classes/class-question-column.php:40
+#: includes/classes/class-question-column.php:129
+#: includes/menus/settings.php:108 includes/menus/settings.php:157
+#: templates/my-account/question-list.php:97
+msgid "Pending"
+msgstr "অপেক্ষমান"
+
+#: includes/classes/class-admin-setup-wizard.php:286
+#: includes/classes/class-admin-setup-wizard.php:353
+#: includes/menus/settings.php:108 includes/menus/settings.php:157
+msgid "Draft"
+msgstr "ড্রাফট"
+
+#: includes/classes/class-admin-setup-wizard.php:287
+#: includes/classes/class-admin-setup-wizard.php:354
+#: includes/menus/settings.php:108 includes/menus/settings.php:157
+msgid "Published"
+msgstr "প্রকাশিত"
+
+#: includes/classes/class-admin-setup-wizard.php:288
+#: includes/classes/class-admin-setup-wizard.php:355
+msgid "Privated"
+msgstr "ব্যক্তিগত"
+
+#: includes/classes/class-admin-setup-wizard.php:289
+#: includes/classes/class-admin-setup-wizard.php:356
+msgid "Trashed"
+msgstr "ট্র্যাশড"
+
+#: includes/classes/class-admin-setup-wizard.php:340
+msgid "Account required to submit answer?"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:349
+msgid "New submitted answer status ?"
+msgstr ""
+
+#: includes/classes/class-admin-setup-wizard.php:390
+msgid "Your website is ready!"
+msgstr ""
+
+#: includes/classes/class-answer-column.php:60
+#: includes/classes/class-post-types.php:38
+#: includes/classes/class-post-types.php:153
+#: includes/classes/class-post-types.php:202
+#: templates/single-question/answer-content.php:99
+msgid "Edit"
+msgstr "সম্পাদনা"
+
+#: includes/classes/class-answer-column.php:62
+#: templates/question-archive/view-count.php:35
+msgid "View"
+msgstr "দেখা হয়েছে"
+
+#: includes/classes/class-answer-column.php:66
+#: includes/classes/class-post-meta-answer.php:37
+msgid "This question is not exist any more !"
+msgstr ""
+
+#: includes/classes/class-answer-column.php:97
+#: includes/classes/class-question-column.php:39
+msgid "Any status"
+msgstr ""
+
+#: includes/classes/class-answer-column.php:99
+#: includes/classes/class-question-column.php:41
+#: includes/classes/class-question-column.php:135
+#: templates/my-account/question-list.php:102
+msgid "On discussion"
+msgstr ""
+
+#: includes/classes/class-answer-column.php:100
+#: includes/classes/class-question-column.php:42
+#: includes/classes/class-question-column.php:138
+msgid "On hold"
+msgstr ""
+
+#: includes/classes/class-answer-column.php:101
+#: includes/classes/class-functions.php:206
+#: includes/classes/class-question-column.php:43
+#: includes/classes/class-question-column.php:141 includes/functions.php:312
+#: includes/functions.php:2042 includes/functions.php:2708
+#: templates/my-account/question-list.php:108
+#: templates/my-notifications.php:355
+#: templates/question-archive/single-question.php:66
+#: templates/single-question/meta.php:76
+msgid "Solved"
+msgstr "সমাধান হয়েছে"
+
+#: includes/classes/class-dashboard.php:67
+#, fuzzy
+#| msgid "My Account"
+msgid "Account"
+msgstr "একাউন্ট"
+
+#: includes/classes/class-dashboard.php:74
+#, fuzzy
+#| msgid "My Account"
+msgid "Account edit"
+msgstr "একাউন্ট"
+
+#: includes/classes/class-dashboard.php:80
+#, fuzzy
+#| msgid "Notifications"
+msgid "My notifications"
+msgstr "বিজ্ঞপ্তি গুলো"
+
+#: includes/classes/class-dashboard.php:86
+#, fuzzy
+#| msgid "My Question"
+msgid "My questions"
+msgstr "আমার প্রশ্ন"
+
+#: includes/classes/class-dashboard.php:92
+#, fuzzy
+#| msgid "Answers"
+msgid "My answers"
+msgstr "উত্তর"
+
+#: includes/classes/class-functions.php:30
+msgid "Core"
+msgstr ""
+
+#: includes/classes/class-functions.php:35
+msgid "Single question page full width issue"
+msgstr ""
+
+#: includes/classes/class-functions.php:41
+msgid "Question page 404 error"
+msgstr ""
+
+#: includes/classes/class-functions.php:78
+msgid "Facebook"
+msgstr ""
+
+#: includes/classes/class-functions.php:86
+msgid "Twitter"
+msgstr ""
+
+#: includes/classes/class-functions.php:93
+msgid "Google Plus"
+msgstr ""
+
+#: includes/classes/class-functions.php:138
+msgid "Ask Question"
+msgstr "প্রশ্ন করুন"
+
+#: includes/classes/class-functions.php:143
+msgid "Dashboard"
+msgstr ""
+
+#: includes/classes/class-functions.php:148
+msgid "My Question"
+msgstr "আমার প্রশ্ন"
+
+#: includes/classes/class-functions.php:161
+msgid "Default Sorting"
+msgstr "সাধারন"
+
+#: includes/classes/class-functions.php:162
+msgid "Sort by Title"
+msgstr "শিরোনাম অনুসারে সাজান"
+
+#: includes/classes/class-functions.php:163
+msgid "Sort by Comment Count"
+msgstr "মন্তব্য সংখ্যা অনুসারে সাজান"
+
+#: includes/classes/class-functions.php:164
+msgid "Sort by Older Questions"
+msgstr "পুরাতন প্রশ্ন অনুসারে সাজান"
+
+#: includes/classes/class-functions.php:181
+#: includes/classes/class-functions.php:249
+msgid "Question Title"
+msgstr "প্রশ্নের শিরোনাম"
+
+#: includes/classes/class-functions.php:185
+#: templates/single-question/answer-posting.php:172
+msgid "Status"
+msgstr "অবস্থা"
+
+#: includes/classes/class-functions.php:189
+msgid "Date"
+msgstr "তারিখ"
+
+#: includes/classes/class-functions.php:193
+#: includes/classes/class-post-types.php:141
+#: templates/my-account/question-list.php:131
+#: templates/single-question/answer-section.php:68
+#: templates/single-question/meta.php:58
+msgid "Answers"
+msgstr "উত্তর"
+
+#: includes/classes/class-functions.php:203
+msgid "All"
+msgstr "সবগুলো"
+
+#: includes/classes/class-functions.php:204
+msgid "Processing"
+msgstr "আলোচনা চলছে"
+
+#: includes/classes/class-functions.php:205
+msgid "Hold"
+msgstr "সাময়িক বন্ধ"
+
+#: includes/classes/class-functions.php:211
+msgid "None"
+msgstr "নাই"
+
+#: includes/classes/class-functions.php:238
+msgid "reCaptcha"
+msgstr ""
+
+#: includes/classes/class-functions.php:239
+msgid "reCaptcha test."
+msgstr ""
+
+#: includes/classes/class-functions.php:250
+msgid "Write question title"
+msgstr "প্রশ্নের শিরোনাম লিখুন"
+
+#: includes/classes/class-functions.php:260
+msgid "Question Descriptions"
+msgstr "প্রশ্নের বর্ননা"
+
+#: includes/classes/class-functions.php:261
+msgid "Write question descriptions here"
+msgstr "এখানে প্রশ্নের বিস্তারিত লিখুন"
+
+#: includes/classes/class-functions.php:273
+#: includes/classes/class-post-meta.php:42
+msgid "Question Status"
+msgstr "প্রশ্নের অবস্থা"
+
+#: includes/classes/class-functions.php:274
+msgid "Set the question status"
+msgstr "প্রশ্নের অবস্থা নির্বাচন করুন"
+
+#: includes/classes/class-functions.php:277
+msgid "Default"
+msgstr "স্বাভাবিক"
+
+#: includes/classes/class-functions.php:277 includes/menus/settings.php:108
+#: includes/menus/settings.php:157
+#: templates/single-question/answer-content.php:135
+msgid "Private"
+msgstr "ব্যক্তিগত"
+
+#: includes/classes/class-functions.php:289
+#: includes/classes/class-post-types.php:65
+msgid "Question Category"
+msgstr "প্রশ্নের বিভাগ"
+
+#: includes/classes/class-functions.php:290
+msgid "Select question category."
+msgstr "প্রশ্নের বিভাগ নির্বাচন করুন"
+
+#: includes/classes/class-functions.php:301
+msgid "Question tags"
+msgstr "প্রশ্নের ট্যাগ"
+
+#: includes/classes/class-functions.php:302
+msgid "Choose question tags, comma separated."
+msgstr "প্রশ্নের ট্যাগ, কমা দিয়ে পৃথক করুন"
+
+#: includes/classes/class-post-meta-answer.php:32
+msgid "See more"
+msgstr ""
+
+#: includes/classes/class-post-meta-answer.php:48
+msgid "Databox"
+msgstr "ডাটা বক্স"
+
+#: includes/classes/class-post-meta.php:24
+msgid "Question Data Box"
+msgstr "প্রশ্নের তথ্য"
+
+#: includes/classes/class-post-meta.php:57
+msgid "Featured question?"
+msgstr ""
+
+#: includes/classes/class-post-meta.php:59
+msgid "<option value=\"no\">No</option>"
+msgstr ""
+
+#: includes/classes/class-post-meta.php:60
+#, php-format
+msgid "<option %s value=\"yes\">Yes</option>"
+msgstr ""
+
+#: includes/classes/class-post-types.php:26
+#: templates/question-archive/question-archive.php:190
+msgid "Questions"
+msgstr "প্রশ্ন"
+
+#: includes/classes/class-post-types.php:35
+#: includes/classes/class-post-types.php:80
+#, php-format
+msgid "All %s"
+msgstr "সকল %s"
+
+#: includes/classes/class-post-types.php:36
+#: includes/classes/class-post-types.php:151
+#: includes/classes/class-post-types.php:200
+msgid "Add "
+msgstr "যোগ করুন"
+
+#: includes/classes/class-post-types.php:37
+#: includes/classes/class-post-types.php:152
+#: includes/classes/class-post-types.php:201
+#, php-format
+msgid "Add %s"
+msgstr "যোগ করুন  %s"
+
+#: includes/classes/class-post-types.php:39
+#: includes/classes/class-post-types.php:83
+#: includes/classes/class-post-types.php:118
+#: includes/classes/class-post-types.php:154
+#: includes/classes/class-post-types.php:203
+#, php-format
+msgid "Edit %s"
+msgstr "সম্পাদনা %s"
+
+#: includes/classes/class-post-types.php:40
+#: includes/classes/class-post-types.php:155
+#: includes/classes/class-post-types.php:204
+#, php-format
+msgid "New %s"
+msgstr "নতুন %s"
+
+#: includes/classes/class-post-types.php:41
+#: includes/classes/class-post-types.php:42
+#: includes/classes/class-post-types.php:156
+#: includes/classes/class-post-types.php:157
+#: includes/classes/class-post-types.php:205
+#: includes/classes/class-post-types.php:206
+#, php-format
+msgid "View %s"
+msgstr "দেখুন %s"
+
+#: includes/classes/class-post-types.php:43
+#: includes/classes/class-post-types.php:79
+#: includes/classes/class-post-types.php:114
+#: includes/classes/class-post-types.php:158
+#: includes/classes/class-post-types.php:207
+#, php-format
+msgid "Search %s"
+msgstr "খুজুন %s"
+
+#: includes/classes/class-post-types.php:44
+#: includes/classes/class-post-types.php:159
+#: includes/classes/class-post-types.php:208
+#, php-format
+msgid "No %s found"
+msgstr "কোন %s পাওয়া যায়নি"
+
+#: includes/classes/class-post-types.php:45
+#: includes/classes/class-post-types.php:160
+#: includes/classes/class-post-types.php:209
+#, php-format
+msgid "No %s found in trash"
+msgstr "কোন %s ট্রাশে পাওয়া যায়নি"
+
+#: includes/classes/class-post-types.php:46
+#: includes/classes/class-post-types.php:81
+#: includes/classes/class-post-types.php:116
+#: includes/classes/class-post-types.php:161
+#: includes/classes/class-post-types.php:210
+#, php-format
+msgid "Parent %s"
+msgstr "জনক %s"
+
+#: includes/classes/class-post-types.php:48
+#: includes/classes/class-post-types.php:163
+#: includes/classes/class-post-types.php:212
+#, php-format
+msgid "This is where you can create and manage %s."
+msgstr "এইখানে আপনি নতুন এবং মানেজ করতে পারেন %s"
+
+#: includes/classes/class-post-types.php:66
+msgid "Questions Categories"
+msgstr "প্রশ্নের বিভাগ"
+
+#: includes/classes/class-post-types.php:82
+#: includes/classes/class-post-types.php:117
+#, php-format
+msgid "Parent %s:"
+msgstr "জনক %s"
+
+#: includes/classes/class-post-types.php:84
+#: includes/classes/class-post-types.php:119
+#, php-format
+msgid "Update %s"
+msgstr "আপডেট %s"
+
+#: includes/classes/class-post-types.php:85
+#: includes/classes/class-post-types.php:120
+#, php-format
+msgid "Add New %s"
+msgstr "নতুন %s"
+
+#: includes/classes/class-post-types.php:86
+#: includes/classes/class-post-types.php:121
+#, php-format
+msgid "New %s Name"
+msgstr "নতুন %s নাম"
+
+#: includes/classes/class-post-types.php:100
+msgid "Question Tag"
+msgstr "প্রশ্নের ট্যাগ"
+
+#: includes/classes/class-post-types.php:101
+msgid "Question Tags"
+msgstr "প্রশ্নের ট্যাগ"
+
+#: includes/classes/class-post-types.php:189
+msgid "Keyword"
+msgstr ""
+
+#: includes/classes/class-post-types.php:190
+msgid "Keywords"
+msgstr ""
+
+#: includes/classes/class-settings.php:21
+msgid "Settings"
+msgstr "সেটিংস"
+
+#: includes/classes/class-settings.php:22
+msgid "Help"
+msgstr ""
+
+#: includes/classes/class-settings.php:23
+msgid "Addons"
+msgstr ""
+
+#: includes/classes/class-widget-categories.php:15
+msgid "Question Answer - Categories"
+msgstr ""
+
+#: includes/classes/class-widget-categories.php:15
+msgid "Show Categories."
+msgstr ""
+
+#: includes/classes/class-widget-categories.php:108
+#: includes/classes/class-widget-categories.php:116
+msgid "Categories"
+msgstr ""
+
+#: includes/classes/class-widget-categories.php:111
+#: includes/classes/class-widget-latest-questions.php:65
+#: includes/classes/class-widget-leaderboard.php:296
+#: includes/classes/class-widget-tags.php:90
+#: includes/classes/class-widget-top-questions.php:353
+#: includes/classes/class-widget-website-stats.php:88
+msgid "Title:"
+msgstr ""
+
+#: includes/classes/class-widget-categories.php:119
+#: includes/classes/class-widget-tags.php:107
+#: includes/classes/class-widget-website-stats.php:101
+msgid "Display count:"
+msgstr ""
+
+#: includes/classes/class-widget-categories.php:133
+#: includes/classes/class-widget-tags.php:121
+#: includes/classes/class-widget-website-stats.php:115
+msgid "Display type:"
+msgstr ""
+
+#: includes/classes/class-widget-latest-questions.php:15
+msgid "Question Answer - Latest Questions"
+msgstr ""
+
+#: includes/classes/class-widget-latest-questions.php:15
+msgid "Show Latest Questions."
+msgstr ""
+
+#: includes/classes/class-widget-latest-questions.php:48
+#, php-format
+msgid "<b>%s</b> Answer(s)"
+msgstr ""
+
+#: includes/classes/class-widget-latest-questions.php:59
+msgid "Latest Questions"
+msgstr ""
+
+#: includes/classes/class-widget-latest-questions.php:70
+msgid "Title Word Limit:"
+msgstr ""
+
+#: includes/classes/class-widget-latest-questions.php:78
+msgid "Total Question:"
+msgstr ""
+
+#: includes/classes/class-widget-leaderboard.php:15
+msgid "Question Answer - Leaderboard"
+msgstr ""
+
+#: includes/classes/class-widget-leaderboard.php:15
+msgid "Show Leaderboard."
+msgstr ""
+
+#: includes/classes/class-widget-leaderboard.php:250
+#, php-format
+msgid "Total answers: %s"
+msgstr ""
+
+#: includes/classes/class-widget-leaderboard.php:289
+#: includes/classes/class-widget-leaderboard.php:301
+msgid "Leaderboard"
+msgstr ""
+
+#: includes/classes/class-widget-leaderboard.php:304
+#: includes/classes/class-widget-top-questions.php:361
+msgid "Limit:"
+msgstr ""
+
+#: includes/classes/class-widget-leaderboard.php:309
+#: includes/classes/class-widget-top-questions.php:381
+msgid "Date Ranges:"
+msgstr ""
+
+#: includes/classes/class-widget-tags.php:15
+msgid "Question Answer - Tags"
+msgstr ""
+
+#: includes/classes/class-widget-tags.php:15
+msgid "Show Tags."
+msgstr ""
+
+#: includes/classes/class-widget-tags.php:86
+msgid "Tags"
+msgstr ""
+
+#: includes/classes/class-widget-tags.php:96
+msgid "Max Count:"
+msgstr ""
+
+#: includes/classes/class-widget-top-questions.php:15
+#, fuzzy
+#| msgid "Question Descriptions"
+msgid "Question Answer - Top Questions"
+msgstr "প্রশ্নের বর্ননা"
+
+#: includes/classes/class-widget-top-questions.php:15
+#, fuzzy
+#| msgid "New Question"
+msgid "Show Top Questions."
+msgstr "নতুন প্রশ্ন"
+
+#: includes/classes/class-widget-top-questions.php:304
+msgid "View count."
+msgstr ""
+
+#: includes/classes/class-widget-top-questions.php:305
+msgid "Total vote."
+msgstr ""
+
+#: includes/classes/class-widget-top-questions.php:306
+msgid "Total up vote."
+msgstr ""
+
+#: includes/classes/class-widget-top-questions.php:307
+msgid "Total down vote."
+msgstr ""
+
+#: includes/classes/class-widget-top-questions.php:325
+#, fuzzy
+#| msgid "No Question found"
+msgid "No question found."
+msgstr "কোন প্রশ্ন পাওয়া যায়নি"
+
+#: includes/classes/class-widget-top-questions.php:343
+#, fuzzy
+#| msgid "Questions"
+msgid "Top Questions"
+msgstr "প্রশ্ন"
+
+#: includes/classes/class-widget-top-questions.php:366
+#, fuzzy
+#| msgid "Sort By:"
+msgid "Sort by:"
+msgstr "ক্রমানুসারে সাজানঃ"
+
+#: includes/classes/class-widget-website-stats.php:15
+msgid "Question Answer - Website Stats"
+msgstr ""
+
+#: includes/classes/class-widget-website-stats.php:15
+msgid "Website Stats."
+msgstr ""
+
+#: includes/classes/class-widget-website-stats.php:46
+#, fuzzy
+#| msgid "Questions"
+msgid "Total Question"
+msgstr "প্রশ্ন"
+
+#: includes/classes/class-widget-website-stats.php:54
+#, fuzzy
+#| msgid "Voted Answers"
+msgid "Total Answer"
+msgstr "ভোটপ্রাপ্ত উত্তর"
+
+#: includes/classes/class-widget-website-stats.php:63
+#, fuzzy
+#| msgid "Commented"
+msgid "Total Comments"
+msgstr "মন্তব্য করেছে"
+
+#: includes/classes/class-widget-website-stats.php:70
+#, fuzzy
+#| msgid "Total:"
+msgid "Total user"
+msgstr "মোটঃ"
+
+#: includes/classes/class-widget-website-stats.php:84
+msgid "Website Stats"
+msgstr ""
+
+#: includes/functions.php:49 includes/functions.php:2443
+#: templates/my-notifications.php:84
+#: templates/single-question/answer-reply.php:82
+#: templates/single-question/answer-reply.php:205
+#: templates/single-question/content.php:35
+#: templates/single-question/content.php:241
+msgid "Anonymous"
+msgstr ""
+
+#: includes/functions.php:63 includes/functions.php:2459
+#: templates/my-notifications.php:106
+msgid "posted"
+msgstr "প্রকাশ করেছে"
+
+#: includes/functions.php:63 includes/functions.php:2459
+#: templates/my-notifications.php:106
+msgid "New Question"
+msgstr "নতুন প্রশ্ন"
+
+#: includes/functions.php:78 includes/functions.php:2474
+#: templates/my-notifications.php:121
+msgid "Answered"
+msgstr "উত্তর দিয়েছে"
+
+#: includes/functions.php:93 includes/functions.php:2489
+#: templates/my-notifications.php:136
+msgid "Choosed best answer"
+msgstr ""
+
+#: includes/functions.php:108 includes/functions.php:2504
+#: templates/my-notifications.php:151
+msgid "Removed best answer"
+msgstr ""
+
+#: includes/functions.php:146 includes/functions.php:2542
+#: templates/my-notifications.php:189
+msgid "Commented"
+msgstr "মন্তব্য করেছে"
+
+#: includes/functions.php:185 includes/functions.php:2581
+#: templates/my-notifications.php:228
+msgid "Flagged comment"
+msgstr ""
+
+#: includes/functions.php:221 includes/functions.php:2617
+#: templates/my-notifications.php:264
+msgid "comment vote up"
+msgstr ""
+
+#: includes/functions.php:256 includes/functions.php:2652
+#: templates/my-notifications.php:299
+#, fuzzy
+#| msgid "Commented"
+msgid "comment vote down"
+msgstr "মন্তব্য করেছে"
+
+#: includes/functions.php:279 includes/functions.php:2675
+#: templates/my-notifications.php:322
+msgid "Vote Up"
+msgstr "ভোট দিয়েছে"
+
+#: includes/functions.php:295 includes/functions.php:2691
+#: templates/my-notifications.php:338
+msgid "Vote Down"
+msgstr "ভোট নামিয়ে দিয়েছে"
+
+#: includes/functions.php:312 includes/functions.php:327
+#: includes/functions.php:2708 includes/functions.php:2723
+#: templates/my-notifications.php:355 templates/my-notifications.php:370
+msgid "marked"
+msgstr "চিহ্নিত করেছে"
+
+#: includes/functions.php:327 includes/functions.php:2723
+#: templates/my-notifications.php:370
+#: templates/question-archive/single-question.php:71
+msgid "Not Solved"
+msgstr "সমাধান হয়নি"
+
+#: includes/functions.php:355 includes/functions.php:2751
+#: templates/my-notifications.php:398
+#, php-format
+msgid "flagged your %s"
+msgstr ""
+
+#: includes/functions.php:383 includes/functions.php:2779
+#: templates/my-notifications.php:426
+msgid "unflagged "
+msgstr ""
+
+#: includes/functions.php:417
+msgid "Search Count"
+msgstr ""
+
+#: includes/functions.php:457
+msgid "Ask question"
+msgstr "প্রশ্ন করুন"
+
+#: includes/functions.php:494
+msgid "Polls"
+msgstr ""
+
+#: includes/functions.php:495
+msgid "Add your polls"
+msgstr ""
+
+#: includes/functions.php:573 includes/functions.php:623
+msgid "year ago"
+msgstr ""
+
+#: includes/functions.php:577 includes/functions.php:627
+msgid "month ago"
+msgstr ""
+
+#: includes/functions.php:581 includes/functions.php:631
+msgid "day ago"
+msgstr ""
+
+#: includes/functions.php:585 includes/functions.php:635
+msgid "hour ago"
+msgstr ""
+
+#: includes/functions.php:589 includes/functions.php:639
+msgid "minute ago"
+msgstr ""
+
+#: includes/functions.php:593 includes/functions.php:643
+msgid "second ago"
+msgstr ""
+
+#: includes/functions.php:1041
+msgid "Please login first."
+msgstr ""
+
+#: includes/functions.php:1048
+msgid "Sorry you can't choose best answer."
+msgstr ""
+
+#: includes/functions.php:1058
+msgid "Removed Best answer"
+msgstr ""
+
+#: includes/functions.php:1075
+msgid "Marked as Best answer"
+msgstr ""
+
+#: includes/functions.php:1167
+msgid "Removed from featured"
+msgstr ""
+
+#: includes/functions.php:1173
+msgid "Successfully featured"
+msgstr ""
+
+#: includes/functions.php:1234 templates/single-question/answer-content.php:106
+#: templates/single-question/answer-reply.php:238
+#: templates/single-question/content.php:105
+#: templates/single-question/content.php:255
+msgid "Unflag"
+msgstr "সতর্ক মুছে ফেলুন"
+
+#: includes/functions.php:1234
+msgid "Undo Report"
+msgstr "অভিযোগ বাতিল"
+
+#: includes/functions.php:1236 templates/single-question/answer-content.php:110
+#: templates/single-question/answer-reply.php:242
+#: templates/single-question/content.php:109
+#: templates/single-question/content.php:259
+msgid "Flag"
+msgstr "সতর্ক করুন"
+
+#: includes/functions.php:1236 templates/single-question/answer-content.php:35
+#: templates/single-question/answer-reply.php:181
+#: templates/single-question/content.php:227
+msgid "Report this"
+msgstr "অভিযোগ"
+
+#: includes/functions.php:1264 includes/functions.php:1414
+#: includes/functions.php:1582
+msgid "Please login"
+msgstr ""
+
+#: includes/functions.php:1285 includes/functions.php:1598
+msgid "Report removed."
+msgstr ""
+
+#: includes/functions.php:1296 includes/functions.php:1309
+#: includes/functions.php:1330 includes/functions.php:1608
+#: includes/functions.php:1619 includes/functions.php:1636
+msgid "Thanks for report."
+msgstr ""
+
+#: includes/functions.php:1431 includes/functions.php:1452
+#: includes/functions.php:1480
+#, fuzzy
+#| msgid "Vote Down"
+msgid "Vote Down."
+msgstr "ভোট নামিয়ে দিয়েছে"
+
+#: includes/functions.php:1439 includes/functions.php:1460
+#: includes/functions.php:1489
+#, fuzzy
+#| msgid "Vote Up"
+msgid "Vote Up."
+msgstr "ভোট দিয়েছে"
+
+#: includes/functions.php:1777
+msgid "Something went wrong !"
+msgstr ""
+
+#: includes/functions.php:1782
+msgid "Please login to post comments"
+msgstr ""
+
+#: includes/functions.php:1821
+#: templates/question-archive/question-archive.php:190
+#: templates/single-question/content.php:159
+msgid "Total:"
+msgstr "মোটঃ"
+
+#: includes/functions.php:1831
+msgid "Please login."
+msgstr ""
+
+#: includes/functions.php:1862 includes/functions.php:1909
+msgid "Login first to Review !"
+msgstr ""
+
+#: includes/functions.php:1888
+msgid "Already Reviewed !"
+msgstr "ইতোমধ্যে হয়েছে"
+
+#: includes/functions.php:1935
+msgid "Already Reviewed!"
+msgstr ""
+
+#: includes/functions.php:1967
+msgid "Unsubscribe from this question"
+msgstr ""
+
+#: includes/functions.php:1981
+msgid "Subscribed to this question"
+msgstr ""
+
+#: includes/functions.php:1994
+msgid "Please login first!"
+msgstr ""
+
+#: includes/functions.php:2021
+msgid "Successfully marked as unsolved"
+msgstr "সমাধান হয়নি সফল চিহ্নিত হয়েছে"
+
+#: includes/functions.php:2022 includes/functions.php:2024
+#: templates/single-question/meta.php:83 templates/single-question/meta.php:85
+msgid "Mark as Solved"
+msgstr ""
+
+#: includes/functions.php:2041
+msgid "Successfully marked as Solved"
+msgstr "সমাধান হয়েছে সফল ভাবে চিহ্নিত হয়েছে"
+
+#: includes/functions.php:2044
+msgid "Mark as Unsolved"
+msgstr ""
+
+#: includes/functions.php:2063
+msgid "Access Denied!"
+msgstr ""
+
+#: includes/functions.php:2209
+msgid "Select category"
+msgstr "বিভাগ নির্বাচন করুন"
+
+#: includes/functions.php:2291
+msgid "Select a Category"
+msgstr ""
+
+#: includes/functions.php:2311
+msgid "Category"
+msgstr "বিভাগ"
+
+#: includes/functions.php:2344
+msgid "Word moderate."
+msgstr ""
+
+#: includes/functions.php:2408
+msgid "Notifications"
+msgstr "বিজ্ঞপ্তি গুলো"
+
+#: includes/functions.php:2409 templates/my-notifications.php:52
+msgid "Refresh"
+msgstr ""
+
+#: includes/menus/addons.php:93
+msgid "Version:"
+msgstr ""
+
+#: includes/menus/addons.php:97
+msgid "Free"
+msgstr ""
+
+#: includes/menus/addons.php:103
+msgid "Price:"
+msgstr ""
+
+#: includes/menus/addons.php:104
+msgid "Download"
+msgstr ""
+
+#: includes/menus/addons.php:142
+#, php-format
+msgid "%s - Addons"
+msgstr ""
+
+#: includes/menus/help.php:21
+#, php-format
+msgid "%s Help"
+msgstr ""
+
+#: includes/menus/help.php:26
+msgid "Help & Support"
+msgstr ""
+
+#: includes/menus/help.php:36
+msgid "Need Help ?"
+msgstr ""
+
+#: includes/menus/help.php:37
+msgid ""
+"Feel free to contact with any issue for this plugin, Ask any question via "
+"forum"
+msgstr ""
+
+#: includes/menus/help.php:44
+msgid "FAQ"
+msgstr ""
+
+#: includes/menus/settings.php:28
+msgid "Filter badword ?"
+msgstr ""
+
+#: includes/menus/settings.php:29
+msgid "Do you want to filter badwords automatically? <br>Default: Yes."
+msgstr ""
+
+#: includes/menus/settings.php:37
+msgid "Define badwords ?"
+msgstr ""
+
+#: includes/menus/settings.php:38
+msgid "Add all the possible badwords here.(Comma separeted)"
+msgstr ""
+
+#: includes/menus/settings.php:45
+msgid "Badwords replacer ?"
+msgstr ""
+
+#: includes/menus/settings.php:46
+msgid ""
+"What you want to show in the place of any badwords. You can use HTML "
+"formating also."
+msgstr ""
+
+#: includes/menus/settings.php:53
+msgid "Quick note for answers ?"
+msgstr ""
+
+#: includes/menus/settings.php:54
+msgid "Useful for quick reply."
+msgstr ""
+
+#: includes/menus/settings.php:57
+msgid "Dummy"
+msgstr ""
+
+#: includes/menus/settings.php:63
+msgid "Who can see quick notes (by role) ?"
+msgstr ""
+
+#: includes/menus/settings.php:64
+msgid "You can select roles to set who can see quick notes."
+msgstr ""
+
+#: includes/menus/settings.php:76
+msgid "Options"
+msgstr ""
+
+#: includes/menus/settings.php:82
+msgid "Question - Item per Page"
+msgstr "প্রশ্ন - প্রতি পাতায় সংখ্যা"
+
+#: includes/menus/settings.php:83
+msgid "Question per page in Question Archive page. <br>Default: 10."
+msgstr "প্রতি পাতায় প্রশ্নের সংখ্যা, <br> সাধারনঃ ১০"
+
+#: includes/menus/settings.php:89
+msgid "Question - Excerpt Length in Question Archive"
+msgstr "প্রশ্ন - সংক্ষিপ্ত অক্ষর সংখ্যা"
+
+#: includes/menus/settings.php:90
+msgid ""
+"Set the maximum words count should show in the question archove. "
+"<br>Default: 20."
+msgstr ""
+
+#: includes/menus/settings.php:96 includes/menus/settings.php:145
+msgid "Account Required ?"
+msgstr "একাউন্ট দরকার ?"
+
+#: includes/menus/settings.php:97
+msgid "Account required to post new Question from frontend. <br>Default: Yes"
+msgstr ""
+
+#: includes/menus/settings.php:104
+msgid "New Submitted Question Status ?"
+msgstr "নতুন প্রশ্নের অবস্থা"
+
+#: includes/menus/settings.php:105
+msgid "Submitted question status.<br>Default: Pending."
+msgstr ""
+
+#: includes/menus/settings.php:108 includes/menus/settings.php:157
+msgid "Trash"
+msgstr "ট্রাশ"
+
+#: includes/menus/settings.php:112
+msgid "Allow Comments in Question ?"
+msgstr ""
+
+#: includes/menus/settings.php:113
+msgid "<br>Default: Yes."
+msgstr ""
+
+#: includes/menus/settings.php:122
+msgid "Enable poll ?"
+msgstr ""
+
+#: includes/menus/settings.php:123
+msgid "Enable polls on question"
+msgstr ""
+
+#: includes/menus/settings.php:138
+msgid "Answer - Item per Page"
+msgstr ""
+
+#: includes/menus/settings.php:139
+msgid "Answer per page in Answer list. <br>Default: 10."
+msgstr ""
+
+#: includes/menus/settings.php:146
+msgid "Account required to post new Answer from frontend. <br>Default: Yes"
+msgstr ""
+
+#: includes/menus/settings.php:153
+msgid "New Submitted Answer Status ?"
+msgstr "নতুন উত্তরের অবস্থা"
+
+#: includes/menus/settings.php:154
+msgid "Submitted answer status.<br>Default: Pending."
+msgstr ""
+
+#: includes/menus/settings.php:161
+msgid "Show Answer filtering ?"
+msgstr ""
+
+#: includes/menus/settings.php:162
+msgid ""
+"Do you want to show filtering in answer section under single question. "
+"<br>Default: Yes."
+msgstr ""
+
+#: includes/menus/settings.php:169
+msgid "Select Filter Options."
+msgstr ""
+
+#: includes/menus/settings.php:170
+msgid "Select answer filtering options. <br>Default: All."
+msgstr ""
+
+#: includes/menus/settings.php:174
+msgid "Voted Answer"
+msgstr ""
+
+#: includes/menus/settings.php:175
+msgid "Top Voted Answer"
+msgstr ""
+
+#: includes/menus/settings.php:176
+msgid "Older Answer"
+msgstr ""
+
+#: includes/menus/settings.php:184
+msgid "Who can post answer (by role) ?"
+msgstr ""
+
+#: includes/menus/settings.php:185
+msgid "You can select roles to set who can only post answer for question."
+msgstr ""
+
+#: includes/menus/settings.php:193
+msgid "Who can post comment on answer (by role) ?"
+msgstr ""
+
+#: includes/menus/settings.php:194
+msgid "You can select roles to set who can only post comment on answer."
+msgstr ""
+
+#: includes/menus/settings.php:203
+msgid "Editor type for answer posting."
+msgstr ""
+
+#: includes/menus/settings.php:204
+msgid "Choose editor type on answer posting."
+msgstr ""
+
+#: includes/menus/settings.php:213
+msgid "Enable media upload button on editor."
+msgstr ""
+
+#: includes/menus/settings.php:235
+msgid "Page - Question Submission"
+msgstr ""
+
+#: includes/menus/settings.php:236
+msgid ""
+"Select the page where you want to do question submission. <br>Default: N/A."
+msgstr ""
+
+#: includes/menus/settings.php:242
+msgid "Page - Question Archive"
+msgstr ""
+
+#: includes/menus/settings.php:243
+msgid ""
+"Select the page where you want to display all questions. <br>Default: N/A."
+msgstr ""
+
+#: includes/menus/settings.php:250
+msgid "Page - Account"
+msgstr ""
+
+#: includes/menus/settings.php:251
+msgid "Select the page where you want to display Account. <br>Default: N/A."
+msgstr ""
+
+#: includes/menus/settings.php:265
+msgid "Pages"
+msgstr ""
+
+#: includes/menus/settings.php:271
+msgid "Question Per Page"
+msgstr ""
+
+#: includes/menus/settings.php:272
+msgid ""
+"Set the value for question per page in my account page. <br>Default: 10."
+msgstr ""
+
+#: includes/menus/settings.php:275
+msgid "10"
+msgstr ""
+
+#: includes/menus/settings.php:280
+msgid "Show profile management?"
+msgstr ""
+
+#: includes/menus/settings.php:281
+msgid "Show profile management in My Account page. <br>Default: Yes."
+msgstr ""
+
+#: includes/menus/settings.php:289
+msgid "Show Question List?"
+msgstr ""
+
+#: includes/menus/settings.php:290
+msgid "Show questions by you list in My Account page. <br>Default: Yes."
+msgstr ""
+
+#: includes/menus/settings.php:298
+msgid "Show Login Form?"
+msgstr ""
+
+#: includes/menus/settings.php:299
+msgid ""
+"Show login form in My Account page for logged out users. <br>Default: Yes."
+msgstr ""
+
+#: includes/menus/settings.php:308
+msgid "After login redirect to page"
+msgstr ""
+
+#: includes/menus/settings.php:309
+msgid "You can set custom page to redirect after login."
+msgstr ""
+
+#: includes/menus/settings.php:317
+msgid "Show Register Form?"
+msgstr ""
+
+#: includes/menus/settings.php:318
+msgid ""
+"Show register form in My Account page for logged out users. <br>Default: Yes."
+msgstr ""
+
+#: includes/menus/settings.php:326
+msgid "My Account"
+msgstr "একাউন্ট"
+
+#: includes/menus/settings.php:332 templates/template-breadcrumb.php:43
+msgid "Question Archive"
+msgstr ""
+
+#: includes/menus/settings.php:333
+msgid "Answer count text color"
+msgstr ""
+
+#: includes/menus/settings.php:340
+msgid "Question view count color"
+msgstr ""
+
+#: includes/menus/settings.php:341
+msgid "View count text color"
+msgstr ""
+
+#: includes/menus/settings.php:349
+msgid "User role text color"
+msgstr ""
+
+#: includes/menus/settings.php:350
+msgid "User role text color in single question page."
+msgstr ""
+
+#: includes/menus/settings.php:356
+msgid "User role background color"
+msgstr ""
+
+#: includes/menus/settings.php:357
+msgid "User role background color in single question page."
+msgstr ""
+
+#: includes/menus/settings.php:363
+msgid "Comment button background color"
+msgstr ""
+
+#: includes/menus/settings.php:364
+msgid "Comment button background color in single question page."
+msgstr ""
+
+#: includes/menus/settings.php:370
+msgid "Best answer background color"
+msgstr ""
+
+#: includes/menus/settings.php:371
+msgid "Best answer background color in single question page."
+msgstr ""
+
+#: includes/menus/settings.php:378
+msgid "Ask button background color"
+msgstr ""
+
+#: includes/menus/settings.php:379
+msgid "Select background color for ask button on top."
+msgstr ""
+
+#: includes/menus/settings.php:386
+msgid "Ask button text color"
+msgstr ""
+
+#: includes/menus/settings.php:387
+msgid "Select text color for ask button on top."
+msgstr ""
+
+#: includes/menus/settings.php:395
+msgid "Vote button background color"
+msgstr ""
+
+#: includes/menus/settings.php:396
+msgid "Select Vote button background color."
+msgstr ""
+
+#: includes/menus/settings.php:403
+msgid "Flag button background color"
+msgstr ""
+
+#: includes/menus/settings.php:404
+msgid "Select Flag button background color."
+msgstr ""
+
+#: includes/menus/settings.php:414
+msgid "Colors"
+msgstr ""
+
+#: includes/menus/settings.php:421
+msgid "reCAPTCHA enable in Question?"
+msgstr ""
+
+#: includes/menus/settings.php:422
+msgid ""
+"Enable reCAPTCHA to protect spam while posting new Question. <br>Default: No."
+msgstr ""
+
+#: includes/menus/settings.php:429
+msgid "reCAPTCHA site key"
+msgstr ""
+
+#: includes/menus/settings.php:430
+msgid ""
+"reCAPTCHA site key, please go <a href=\"https://www.google.com/recaptcha"
+"\">google.com/reCAPTCHA</a> and register your site to get site key."
+msgstr ""
+
+#: includes/menus/settings.php:436
+msgid "reCAPTCHA secret key"
+msgstr ""
+
+#: includes/menus/settings.php:437
+msgid ""
+"reCAPTCHA site key, please go <a href=\"https://www.google.com/recaptcha"
+"\">google.com/reCAPTCHA</a> and register your site to get secret key."
+msgstr ""
+
+#: includes/menus/settings.php:443
+msgid "Recapcha"
+msgstr ""
+
+#: includes/menus/settings.php:516 includes/menus/settings.php:525
+#: includes/menus/settings.php:530
+#: includes/pickform/class-pickform-creator.php:381
+#: includes/pickform/class-pickform-creator.php:393
+#: includes/pickform/class-pickform-creator.php:403
+#: includes/pickform/class-pickform.php:515
+#: includes/pickform/class-pickform.php:527
+#: includes/pickform/class-pickform.php:537
+msgid "Remove"
+msgstr ""
+
+#: includes/menus/settings.php:534
+#: includes/pickform/class-pickform-creator.php:410
+#: includes/pickform/class-pickform.php:544
+msgid "Add more"
+msgstr ""
+
+#: includes/menus/settings.php:605
+msgid "Choose File"
+msgstr ""
+
+#: includes/menus/settings.php:713
+msgid "Changes Saved."
+msgstr ""
+
+#: includes/menus/settings.php:731
+#, php-format
+msgid "%s Settings"
+msgstr ""
+
+#: includes/menus/settings.php:753
+msgid "Save Changes"
+msgstr ""
+
+#: includes/pickform/class-pickform-creator.php:567
+#: includes/pickform/class-pickform.php:744
+msgid "Drop files here"
+msgstr ""
+
+#: includes/pickform/class-pickform-creator.php:568
+#: includes/pickform/class-pickform.php:745
+msgid "Select Files"
+msgstr ""
+
+#: includes/pickform/class-pickform-creator.php:588
+#: includes/pickform/class-pickform.php:765
+msgid "Allowed Files"
+msgstr ""
+
+#: includes/shortcodes/class-shortcode-qa-edit-account.php:54
+#: includes/shortcodes/class-shortcode-qa-my-account.php:40
+#: templates/template-registration-form.php:58
+msgid "Email"
+msgstr "ইমেইল"
+
+#: includes/shortcodes/class-shortcode-qa-edit-account.php:59
+#: includes/shortcodes/class-shortcode-qa-my-account.php:45
+#: templates/my-account/profile.php:90
+msgid "Website"
+msgstr ""
+
+#: includes/shortcodes/class-shortcode-qa-edit-account.php:64
+#: includes/shortcodes/class-shortcode-qa-my-account.php:50
+#: templates/my-account/profile.php:99
+msgid "Biographical Info"
+msgstr ""
+
+#: includes/shortcodes/class-shortcode-qa-edit-account.php:69
+#: templates/single-question/admin-actions.php:68
+msgid "Update"
+msgstr ""
+
+#: includes/shortcodes/class-shortcode-qa-my-account.php:36
+msgid "Logout"
+msgstr ""
+
+#: templates/add-question/add-question.php:35
+#, php-format
+msgid "Please <a href=\"%s\">login</a> to submit question."
+msgstr "দয়া করে প্রশ্ন করতে <a href=\"%s\">লগিন </a> করুন।"
+
+#: templates/add-question/add-question.php:79
+#: templates/add-question/add-question.php:85
+#: templates/add-question/add-question.php:92
+msgid "missing"
+msgstr "বাদ পড়েছে"
+
+#: templates/add-question/add-question.php:105
+#: templates/add-question/add-question.php:122
+#, php-format
+msgid "<b>%s</b> missing"
+msgstr "<b>%s</b> বাদ পড়েছে"
+
+#: templates/add-question/add-question.php:214
+msgid "Question Submitted."
+msgstr "প্রশ্ন জমা হয়েছে"
+
+#: templates/add-question/add-question.php:215
+msgid "Submission Status:"
+msgstr "জমার অবস্থাঃ"
+
+#: templates/add-question/add-question.php:291
+#: templates/single-question/answer-reply.php:383
+#: templates/single-question/content.php:339
+msgid "Submit"
+msgstr "জমা দিন"
+
+#: templates/add-question/ajax-suggestions.php:12
+msgid "Please check these topics first."
+msgstr ""
+
+#: templates/my-account/my-account.php:26
+#: templates/template-registration-form.php:65
+msgid "Register"
+msgstr "রেজিস্টার"
+
+#: templates/my-account/my-account.php:65
+#: templates/my-account/my-account.php:79
+msgid "Login"
+msgstr "লগিন"
+
+#: templates/my-account/my-account.php:76
+msgid "Username or email address"
+msgstr "ব্যবহারকারী নাম অথবা ইমেইল"
+
+#: templates/my-account/my-account.php:77
+#: templates/template-registration-form.php:52
+msgid "Password"
+msgstr "পাসওয়ার্ড"
+
+#: templates/my-account/my-account.php:78
+msgid "Remember Me"
+msgstr "আমাকে মনে রাখ"
+
+#: templates/my-account/my-account.php:93
+#, php-format
+msgid "Please <a href=\"%s\">login</a> to access this page"
+msgstr ""
+
+#: templates/my-account/profile.php:54
+msgid "Profile Management"
+msgstr ""
+
+#: templates/my-account/profile.php:60
+msgid "Name"
+msgstr ""
+
+#: templates/my-account/profile.php:61
+msgid "Contact"
+msgstr ""
+
+#: templates/my-account/profile.php:62
+msgid "About Yourself"
+msgstr ""
+
+#: templates/my-account/profile.php:73
+msgid "First Name"
+msgstr ""
+
+#: templates/my-account/profile.php:74
+msgid "First name"
+msgstr ""
+
+#: templates/my-account/profile.php:76
+msgid "Last Name"
+msgstr ""
+
+#: templates/my-account/profile.php:77
+msgid "Last name"
+msgstr ""
+
+#: templates/my-account/profile.php:87
+msgid "Email (Required)"
+msgstr ""
+
+#: templates/my-account/profile.php:100
+msgid "Some text..."
+msgstr ""
+
+#: templates/my-account/profile.php:108
+msgid "Save Data"
+msgstr ""
+
+#: templates/my-account/question-list.php:32
+msgid "Questions by You"
+msgstr ""
+
+#: templates/my-account/question-list.php:105
+msgid "On Hold"
+msgstr "হোল্ড করা আছে"
+
+#: templates/my-notifications.php:446
+#, fuzzy
+#| msgid "Notifications"
+msgid "No notification right now."
+msgstr "বিজ্ঞপ্তি গুলো"
+
+#: templates/question-archive/question-archive.php:90
+msgid "keywords"
+msgstr "কিওয়ার্ড"
+
+#: templates/question-archive/question-archive.php:95
+msgid "Select a category"
+msgstr "বিভাগ নির্বাচন করুন"
+
+#: templates/question-archive/question-archive.php:125
+msgid "username"
+msgstr "ইউসারনাম"
+
+#: templates/question-archive/question-archive.php:140
+msgid "Search"
+msgstr "খুজুন"
+
+#: templates/question-archive/question-archive.php:145
+msgid "Keyword:"
+msgstr "কিওয়ার্ডঃ"
+
+#: templates/question-archive/question-archive.php:146
+msgid "Date:"
+msgstr "তারিখঃ"
+
+#: templates/question-archive/question-archive.php:147
+msgid "Category:"
+msgstr "বিভাগঃ"
+
+#: templates/question-archive/question-archive.php:148
+#: templates/single-question/answer-section.php:73
+msgid "Sort By:"
+msgstr "ক্রমানুসারে সাজানঃ"
+
+#: templates/question-archive/question-archive.php:149
+msgid "Author:"
+msgstr "লেখকঃ"
+
+#: templates/question-archive/question-archive.php:228
+msgid "No question found"
+msgstr ""
+
+#: templates/single-question/answer-content.php:65
+msgid "Choose best answer"
+msgstr ""
+
+#: templates/single-question/answer-content.php:164
+msgid "Answer is private, only admins or its author or questioner can read."
+msgstr ""
+
+#: templates/single-question/answer-posting.php:36
+#: templates/single-question/answer-posting.php:254
+msgid "Submit Answer"
+msgstr "উত্তর দিন"
+
+#: templates/single-question/answer-posting.php:48
+#, php-format
+msgid ""
+"<form class=\"nodisplay\">Please <a href=\"%s\">login</a> to submit answer.</"
+"form>"
+msgstr ""
+"<form class=\"nodisplay\">দয়া করে উত্তর দিতে <a href=\"%s\">লগিন</a> করুন</"
+"form>"
+
+#: templates/single-question/answer-posting.php:73
+msgid "Quick notes"
+msgstr ""
+
+#: templates/single-question/answer-posting.php:150
+msgid "#Replay"
+msgstr ""
+
+#: templates/single-question/answer-posting.php:168
+#, fuzzy
+#| msgid "Answered"
+msgid "Answer submitted"
+msgstr "উত্তর দিয়েছে"
+
+#: templates/single-question/answer-posting.php:220
+msgid "Content is empty."
+msgstr ""
+
+#: templates/single-question/answer-posting.php:246
+msgid "Make your answer private."
+msgstr ""
+
+#: templates/single-question/answer-posting.php:255
+msgid "Your answer will be under review."
+msgstr "আপনার উত্তর রিভিউ করা হতে পারে"
+
+#: templates/single-question/answer-reply.php:122
+#: templates/single-question/answer-reply.php:357
+msgid "Sign in to Reply"
+msgstr "মন্তব্য দিতে লগিন করুন"
+
+#: templates/single-question/answer-reply.php:131
+#: templates/single-question/answer-reply.php:366
+#: templates/single-question/content.php:332
+msgid "Reply on This"
+msgstr "এটিতে মন্তব্য দিন"
+
+#: templates/single-question/answer-reply.php:381
+#: templates/single-question/content.php:337
+msgid "Replying as"
+msgstr ""
+
+#: templates/single-question/answer-section.php:75
+msgid "All Answers"
+msgstr "সব উত্তরগুলো"
+
+#: templates/single-question/answer-section.php:78
+msgid "Voted Answers"
+msgstr "ভোটপ্রাপ্ত উত্তর"
+
+#: templates/single-question/answer-section.php:82
+msgid "Top Voted Answers"
+msgstr "সর্বোচ্ছ ভোটপ্রাপ্ত উত্তর"
+
+#: templates/single-question/answer-section.php:86
+msgid "Older Answers"
+msgstr "পুরাতন উত্তর"
+
+#: templates/single-question/answer-section.php:116
+msgid "Best Answer"
+msgstr ""
+
+#: templates/single-question/content.php:97
+#, php-format
+msgid "Member Since %s"
+msgstr "%s হইতে সদস্য"
+
+#: templates/single-question/content.php:204
+msgid "N/A"
+msgstr "কিছু নাই"
+
+#: templates/single-question/content.php:208
+msgid "Tags: "
+msgstr "ট্যাগঃ"
+
+#: templates/single-question/content.php:218
+msgid "Login First"
+msgstr "আগে লগিন করুন"
+
+#: templates/single-question/meta.php:107
+msgid "Subscribed"
+msgstr ""
+
+#: templates/single-question/meta.php:113
+msgid "Subscribe"
+msgstr ""
+
+#: templates/single-question/question-edit.php:94
+#, fuzzy
+#| msgid "Edit"
+msgid "Edit:"
+msgstr "সম্পাদনা"
+
+#: templates/single-question/subscriber.php:15
+msgid "Subscribers"
+msgstr ""
+
+#: templates/template-migration.php:26
+msgid "Answers:"
+msgstr ""
+
+#: templates/template-migration.php:31
+msgid "Start Update"
+msgstr ""
+
+#: templates/template-registration-form.php:46
+msgid "Username"
+msgstr "ব্যবহারকারী নাম"
+
+#: templates/template-registration-form.php:83
+msgid "Nonce error"
+msgstr ""
+
+#: templates/template-registration-form.php:88
+msgid "Required form field is missing"
+msgstr "দরকারী ফর্ম তথ্য বাদ পড়েছে"
+
+#: templates/template-registration-form.php:92
+msgid "Username too short. At least 4 characters is required"
+msgstr "ব্যবহারকারী নাম খুব ছোট, কমপক্ষে ৪ অক্ষর হতে হবে"
+
+#: templates/template-registration-form.php:96
+msgid "Sorry, that username already exists!"
+msgstr "দুঃখিত, এই ব্যবহারকারী নাম আগেই ব্যবহৃত হয়েছে"
+
+#: templates/template-registration-form.php:99
+msgid "Sorry, the username you entered is not valid"
+msgstr "দুঃখিত, ব্যবহারকারী নামটি সঠিক নয়"
+
+#: templates/template-registration-form.php:103
+msgid "Password length must be greater than 5"
+msgstr "পাসওয়ার্ড ৫ অক্ষরের বেশী হতে হবে"
+
+#: templates/template-registration-form.php:107
+msgid "Email is not valid"
+msgstr "ইমেইল সঠিক নয়"
+
+#: templates/template-registration-form.php:111
+msgid "Email Already in use"
+msgstr "ইমেইল আগেই ব্যবহার করা হয়েছে"
+
+#: templates/template-registration-form.php:120
+msgid "ERROR"
+msgstr "ভুল"
+
+#: templates/template-registration-form.php:136
+msgid "Registration complete."
+msgstr "নিবন্ধন সম্পুর্ন হয়েছে"
+
+#~ msgid "Cancel"
+#~ msgstr "বাতিল"
+
+#~ msgid "Run Wizard Setup"
+#~ msgstr "সেটাপ চালু করুন"
+
+#~ msgid "Skip Setup"
+#~ msgstr "এড়িয়ে যান"
+
+#~ msgid "Page Setup"
+#~ msgstr "পেজ সেটাপ"
+
+#~ msgid "Question Answer &rsaquo; Setup Wizard"
+#~ msgstr "প্রশ্ন - উত্তর &rsaquo; সেটাপ"
+
+#~ msgid "Return to the WordPress Dashboard"
+#~ msgstr "ড্যাশবোর্ডে ফিরে যান"
+
+#~ msgid "Page Name"
+#~ msgstr "পাতা নাম"
+
+#~ msgid "Account Required to submit Answer?"
+#~ msgstr "উত্তর দিতে একাউন্ট লাগবে ?"
+
+#~ msgid "Your Website is Ready!"
+#~ msgstr "আপনার ওয়েবসাইট প্রস্তুত!"
+
+#~ msgid "Any Status"
+#~ msgstr "যেকোন অবস্থা"
+
+#~ msgid "On Discussion"
+#~ msgstr "আলোচনা চলছে"
+
+#~ msgid "Write question title here"
+#~ msgstr "এখানে প্রশ্নের শিরোনাম লিখুন"
+
+#~ msgid "Question title here"
+#~ msgstr "এখানে প্রশ্নের শিরোনাম"
+
+#~ msgid "Only visible to admin."
+#~ msgstr "শুধু এডমিন দেখতে পারবে"
+
+#~ msgid "Make your Answer Private"
+#~ msgstr "ব্যক্তিগত প্রশ্ন করুন"
+
+#~ msgid "Answer is private, only admins and its author can read."
+#~ msgstr "উত্তরটি গোপনীয়, শুধুমাত্র এডমিন ও উত্তরদাতা দেখতে পারবেন"
+
+#~ msgid "Tags 1, Tags 2"
+#~ msgstr "ট্যাগ ১, ট্যাগ ২"
+
+#~ msgid "Choose question tags, comma separated"
+#~ msgstr "প্রশ্নের ট্যাগ, কমা দিয়ে পৃথক করুন"
+
+#~ msgid "Change the status of this Question"
+#~ msgstr "এই প্রশ্নের অবস্থা পরিবর্তন করুন"
+
+#~ msgid "Upload File"
+#~ msgstr "ফাইল আপলোড"
+
+#~ msgid "Add your Comment"
+#~ msgstr "আপনার মন্তব্য দিন"
+
+#~ msgid "%s Answers"
+#~ msgstr "%s টি উত্তর"
+
+#~ msgid "%s missing"
+#~ msgstr "%s বাদ পড়েছে"
+
+#~ msgid "Order By:"
+#~ msgstr "এভাবে সাজানোঃ"
+
+#~ msgid "Older first"
+#~ msgstr "পুরাতন গুলো প্রথমে"
+
+#~ msgid "missing."
+#~ msgstr "বাদ পড়েছে"
+
+#~ msgid "Log In"
+#~ msgstr "লগ-ইন"

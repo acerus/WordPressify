@@ -1,0 +1,9 @@
+[
+	{
+		"id": "sample-post",
+		"type": "object",
+		"data": {
+			"post_title": "Sample Post"
+		}
+	}
+]

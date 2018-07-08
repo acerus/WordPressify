@@ -1,0 +1,17 @@
+.rss_link {
+	font: 700 12px/normal "Montserrat", sans-serif;
+	color: #f08d3c;
+	text-transform: uppercase;
+	float: right;
+	margin: 2px 0 0 15px;
+	
+	&:before {
+		@extend .ion;
+		content: $ionicon-var-social-rss;
+		margin-right: 4px;
+	}
+
+	&:hover {
+		text-decoration: none;
+	}
+}

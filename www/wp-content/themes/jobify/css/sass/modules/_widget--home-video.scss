@@ -1,0 +1,13 @@
+.widget--home-video {
+	.widget-title {
+		text-align: left;
+	}
+
+	iframe {
+		min-width: 100%;
+	}
+
+	.button {
+		@extend .button--type-inverted;
+	}
+}

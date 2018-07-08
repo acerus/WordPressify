@@ -1,0 +1,9 @@
+.widget-description--home {
+	text-align: center;
+	margin: -1em auto 3em;
+	
+	@include bp(lg) {
+		margin: -2em auto 3em;
+		max-width: 80%;
+	}
+}

@@ -1,0 +1,4 @@
+/vendor/
+/nbproject/private/
+/test/log/
+/test/coverage/

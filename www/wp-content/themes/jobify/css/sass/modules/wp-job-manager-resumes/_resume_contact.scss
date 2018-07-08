@@ -1,0 +1,42 @@
+.resume_contact_button {
+	@extend .button;
+	@extend .button--type-action;
+}
+
+.resume_contact_details_inner {
+    @extend .modal-content;
+
+    p:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+.job-meta.col-md-2 .resume_contact_button {
+	width: 100%;
+}
+
+// the form used on the job listing `apply`
+.apply_with_resume {
+    @extend .modal-content;
+	margin-bottom: -30px;
+
+	p:first-child {
+		margin-right: 30px;
+	}
+
+	p:last-child {
+		@extend .modal-submit;
+		margin: -30px;
+		margin-top: 30px;
+	}
+
+	input[name=wp_job_manager_resumes_apply_with_resume] {
+		display: block;
+	}
+}
+
+// When another form is above this
+hr ~ .apply_with_resume {
+	border-top: 1px solid #ccc;
+}
+

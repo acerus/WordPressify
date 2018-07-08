@@ -1,0 +1,27 @@
+.searchform--header {
+	margin: 2em 0;
+
+	@include bp(sm) {
+		.nav-menu-break-small & {
+			display: none;
+		}
+	}
+
+	@include bp(md) {
+		.nav-menu-break-medium & {
+			display: none;
+		}
+	}
+
+	@include bp(lg) {
+		.nav-menu-break-large & {
+			display: none;
+		}
+	}
+}
+
+input[type=text].searchform--header__input {
+	border: 0;
+	border-radius: 60px;
+	background: rgba(0, 0, 0, .10);
+}

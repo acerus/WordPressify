@@ -1,0 +1,21 @@
+table.variations {
+	.select {
+		width: 90%;
+		margin-right: 10px;
+	}
+}
+
+.reset_variations {
+	color: inherit;
+	font-size: 0;
+
+	&:before {
+		@extend .ion;
+		content: $ionicon-var-close;
+		font-size: 14px;
+	}
+}
+
+.woocommerce-variation-price {
+	margin-bottom: 0.5em;
+}

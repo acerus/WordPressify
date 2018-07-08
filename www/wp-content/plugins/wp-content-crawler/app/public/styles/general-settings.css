@@ -1,0 +1,31 @@
+.details {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  position: relative;
+  margin-bottom: 8px; }
+  .details h2 {
+    font-size: 14px;
+    padding: 8px 12px;
+    margin: 0;
+    line-height: 1.4;
+    border-bottom: 1px solid #eee;
+    font-weight: 600; }
+    .details h2 .small {
+      margin-left: 4px;
+      font-size: 11px;
+      font-weight: normal; }
+  .details .inside {
+    margin: 6px 0 0;
+    position: relative;
+    padding: 0 12px 12px;
+    line-height: 1.4em;
+    font-size: 13px; }
+
+.container-general-settings .nav-tab-wrapper {
+  margin-top: 12px !important; }
+.container-general-settings .button-container.top {
+  margin-bottom: 8px; }
+.container-general-settings .button-container.right {
+  text-align: right; }
+
+/*# sourceMappingURL=general-settings.css.map */

@@ -1,0 +1,290 @@
+/* Sidebar widget */
+.um-followers-m {
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.um-followers-m-user,
+.um-followers-m-pic {
+	float: left;
+}
+
+.um-followers-m-user {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 3px;
+	font-size: 16px;
+	cursor: pointer;
+	margin: 3px;
+}
+
+.um-followers-m-pic a,
+.um-followers-m-pic img {
+	border-radius: 3px !important;
+	display: block;
+	overflow: hidden;
+	max-width: 40px;
+	max-height: 40px;
+	height: auto !important;
+}
+
+.um-followers-m-pic a {opacity: 0.9; transition: none;}
+.um-followers-m-pic a:hover {opacity: 1; box-shadow: 0 0 5px rgba(81, 203, 238, 1)}
+
+.um-followers-m-user.show-all {opacity: 0.8}
+.um-followers-m-user.show-all:hover {opacity: 1}
+
+/* The button in member directory */
+.um-members-follow-btn {
+	margin: 2px 0;
+}
+
+.um-members-follow-btn a {
+	display: inline-block !important;
+	width: auto !important;
+	font-size: 13px;
+}
+
+.um-members-follow-stats {
+	font-size: 13px;
+	margin: 0 0 5px 0;
+	color: #bbb;
+}
+
+.um-members-follow-stats div {
+	display: inline-block;
+	margin: 0 6px;
+}
+
+.um-members-follow-stats span {
+	color: #777;
+	margin: 0 4px 0 0;
+}
+
+/* List item */
+.um-followers-user {
+	padding: 15px 0 15px 70px;
+	position: relative;
+	border-bottom: 1px solid #eee;
+	min-height: 60px;
+}
+
+.um-followers-user p {margin:0!important;padding:0!important}
+
+.um-followers-user a{border-bottom:none}
+
+.um-followers-user-photo {
+	position: absolute;
+	top: 20px;
+	left: 0;
+	border: none !important;
+	opacity: 0.9;
+}
+
+.um-followers-user-photo:hover {opacity: 1}
+
+.um-followers-user-photo img {
+	border-radius: 3px !important;
+	max-width: 50px;
+	max-height: 50px;
+}
+
+.um-followers-user-btn {
+	position: absolute;
+	right: 0;
+	top: 8px;
+}
+
+.um-followers-user-btn a {
+	font-size: 13px;
+}
+
+.um-followers-user-name {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.um-followers-user-bio {
+	margin: 10px 0 0 0;
+	line-height: 23px;
+}
+
+.um-followers-user-bio p {font-size: 14px;}
+
+.um-followers-user-span {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #999;
+	margin-left: 8px;
+	font-weight: 300;
+}
+
+/* The profile bar */
+.um-followers-bar {
+	padding: 10px 10px 10px 0;
+}
+
+.um-followers-rc {
+	display: inline-block;
+	font-size: 13px;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+
+.um-followers-rc a {
+	display: inline-block;
+	text-decoration: none;
+	border: none;
+	padding: 0 15px;
+	border-right: 2px solid #eee;
+	color: #999 !important;
+}
+
+.um-followers-rc a span {
+	display: block;
+	font-weight: bold;
+	font-size: 16px;
+	color: #3ba1da;
+	text-align: center;
+}
+
+.um-followers-rc a.current,
+.um-followers-rc a:hover {color: #3ba1da}
+.um-followers-rc a.current {cursor: default}
+
+.um-followers-btn {
+	float: right;
+	margin: 0 0 0 4px;
+}
+
+/* The buttons */
+a.um-follow-btn,
+a.um-unfollow-btn,
+a.um-unfollow-btn2,
+a.um-login-to-follow-btn,
+a.um-follow-edit {
+	padding: 10px 15px !important;
+	transition: none !important;
+	display: inline-block !important;
+	margin: 0 auto !important;
+	min-width: 110px;
+	width: auto;
+	text-align: center;
+}
+
+a.um_followers_ajax {
+	opacity: 0.8;
+	cursor: default;
+	transition: none !important;
+}
+
+a.um_followers_ajax:before {
+	content: "\f110" !important;
+	-webkit-animation: spin 2s infinite linear;
+	-moz-animation: spin 2s infinite linear;
+	-o-animation: spin 2s infinite linear;
+	animation: spin 2s infinite linear;
+}
+
+a.um_followers_ajax:before,
+a.um-follow-btn:before,
+a.um-login-to-follow-btn:before,
+a.um-follow-edit:before {
+	font-family: "FontAwesome";
+	margin-right: 8px;
+	width: 14px;
+	text-align: left;
+	display: inline-block;
+	font-size: 16px;
+	position: relative;
+	left: 0;
+	top: 1px;
+}
+
+a.um-follow-btn:before,
+a.um-login-to-follow-btn:before {content: "\f007"}
+
+a.um-follow-edit:before {content: "\f013"}
+
+span.um-follows-you {
+	font-size: 11px;
+	color: #aaa;
+	text-transform: uppercase;
+	font-weight: 400;
+	position: relative;
+	top: -2px;
+}
+
+/* Responsive queries */
+@media screen and (max-width: 500px) {
+
+	.um-followers-user-btn {
+		position: relative;
+		top: auto;
+		padding-top: 10px;
+	}
+	
+	.um-followers-user-btn a {width: auto}
+	
+	.um-followers-rc a {
+		border: none;
+		padding: 0 15px !important;
+	}
+	
+	.um-followers-bar {padding-right: 0; text-align: center}
+	
+	.um-followers-btn {
+		float: none;
+		margin-top: 10px;
+	}
+	
+	.um-followers-btn a {width: auto !important}
+	
+	.um-followers-user-bio {margin-top: 5px}
+	
+	.um-followers-user {
+		text-align: center;
+		padding-left: 0 !important;
+	}
+	
+	.um-followers-user-photo {
+		position: relative;
+		top: auto;
+		left: auto;
+		text-align: center;
+		display: inline-block;
+	}
+	
+}
+
+.um-profile-body.following,
+.um-profile-body.followers {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+@media screen and (max-width: 750px) {
+
+	.um-profile-body.following,
+	.um-profile-body.followers {
+		max-width: 94% !important;
+	}
+
+	.um-followers-user-span {
+		display: block;
+		margin: 0;
+	}
+	
+	.um-followers-user-bio p {font-size: 13px}
+
+	a.um-follow-btn,
+	a.um-unfollow-btn,
+	a.um-unfollow-btn2,
+	a.um-login-to-follow-btn,
+	a.um-follow-edit {
+		font-size: 13px;
+	}
+
+}

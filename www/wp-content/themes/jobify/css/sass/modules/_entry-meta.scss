@@ -1,0 +1,14 @@
+.entry-meta {
+	font-size: 13px;
+	margin: 1em 0;
+}
+
+.entry-meta__date,
+.entry-meta__comments-link {
+	font-size: 12px;
+	display: block;
+	
+	a {
+		color: inherit;
+	}
+}

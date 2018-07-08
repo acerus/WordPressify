@@ -1,0 +1,13 @@
+.job_listing-location {
+	&:before {
+		@extend .ion;
+		content: $ionicon-var-ios-location;
+		font-size: 22px;
+		vertical-align: middle;
+		margin: -1px 4px 0 0px;
+	}
+
+	@include bp(md) {
+		width: 25%; // +3% from column margin
+	}
+}

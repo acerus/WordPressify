@@ -1,0 +1,17 @@
+.favorite-notice {
+	@extend .button;
+	@extend .button--type-action;
+	line-height: normal;
+	display: inline-block;
+	vertical-align: middle;
+
+	&:before {
+		display: none;
+	}
+
+	.not-favorited & .notice-favorited,
+	.favorited & .notice-not-favorited,
+	.mfp-content & {
+		display: none;
+	}
+}

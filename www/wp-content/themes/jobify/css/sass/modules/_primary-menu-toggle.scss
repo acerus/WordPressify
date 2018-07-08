@@ -1,0 +1,69 @@
+.primary-menu-toggle {
+	&:before {
+		@extend .ion;
+		content: $ionicon-var-navicon-round;
+		font-size: 26px;
+	}
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.primary-menu-toggle--open {
+	right: 1.5em;
+	position: absolute;
+	top: 50%;
+
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);
+
+	@include bp(sm) {
+		.nav-menu-break-small & {
+			display: none;
+		}
+	}
+
+	@include bp(md) {
+		.nav-menu-break-medium & {
+			display: none;
+		}
+	}
+
+	@include bp(lg) {
+		.nav-menu-break-large & {
+			display: none;
+		}
+	}
+}
+
+.primary-menu-toggle--close {
+	&:before {
+		content: $ionicon-var-close-round;
+		margin: -1px 10px 0 0;
+		vertical-align: middle;
+	}
+
+	@include bp(sm) {
+		.nav-menu-break-small & {
+			display: none;
+		}
+	}
+
+	@include bp(md) {
+		.nav-menu-break-medium & {
+			display: none;
+		}
+	}
+
+	@include bp(lg) {
+		.nav-menu-break-large & {
+			display: none;
+		}
+	}
+}
+
+.primary-menu-toggle--open.primary-menu-toggle--opened {
+	display: none;
+}

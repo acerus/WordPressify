@@ -1,0 +1,13 @@
+.entry-title {
+	font-size: 38px;
+	font-weight: normal;
+	margin: 0 0 0.75em;
+
+	a {
+		color: inherit;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}

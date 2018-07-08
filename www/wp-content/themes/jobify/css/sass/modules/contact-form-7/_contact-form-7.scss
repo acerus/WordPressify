@@ -1,0 +1,20 @@
+.modal {
+    .wpcf7 {
+        max-width: 100%;
+        margin-bottom: 0;
+
+        .wpcf7-form {
+			padding: 30px;
+            padding-top: 60px;
+
+            p:last-of-type {
+                @extend .modal-submit;
+                margin: 0 -30px -30px;
+            }
+        }
+
+        .field-wrap.hidden-wrap {
+            display: none;
+        }
+    }
+}

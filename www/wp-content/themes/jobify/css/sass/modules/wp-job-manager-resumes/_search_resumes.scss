@@ -1,0 +1,11 @@
+.search_resumes {
+	@extend .search_jobs;
+}
+
+.wp-resume-manager-categories-enabled .search_resumes {
+	@extend .jobify-search-jobs-category;
+}
+
+.wp-resume-manager-categories-multi-enabled .search_resumes {
+	@extend .jobify-search-jobs-category-multi;
+}

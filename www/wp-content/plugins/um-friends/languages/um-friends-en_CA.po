@@ -1,0 +1,301 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Friends\n"
+"POT-Creation-Date: 2017-01-17 13:25+0200\n"
+"PO-Revision-Date: 2017-01-17 13:25+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: um-friends.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: EDD_SL_Plugin_Updater.php:195
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:203
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:369
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: EDD_SL_Plugin_Updater.php:369
+msgid "Error"
+msgstr ""
+
+#: admin/templates/role/friends.php:8
+msgid "Can friend others?"
+msgstr ""
+
+#: admin/templates/role/friends.php:8
+msgid "Can this role friend other members or not."
+msgstr ""
+
+#: admin/templates/role/friends.php:13
+msgid "Can friend these user roles only"
+msgstr ""
+
+#: core/actions/um-friends-admin.php:22 core/filters/um-friends-profile.php:36
+#: core/filters/um-friends-settings.php:89 core/um-friends-api.php:102
+#: core/um-friends-widget.php:47
+msgid "Friends"
+msgstr ""
+
+#: core/actions/um-friends-admin.php:43
+msgid "Most friends"
+msgstr ""
+
+#: core/actions/um-friends-admin.php:44
+msgid "Least friends"
+msgstr ""
+
+#: core/actions/um-friends-members.php:13 core/filters/um-friends-profile.php:8
+#: core/filters/um-friends-profile.php:76
+#: core/filters/um-friends-profile.php:93 core/um-friends-shortcode.php:28
+#: core/um-friends-shortcode.php:85
+msgid "Friends only"
+msgstr ""
+
+#: core/actions/um-friends-members.php:24 core/um-friends-shortcode.php:104
+msgid "friends"
+msgstr ""
+
+#: core/actions/um-friends-members.php:33 templates/friends.php:36
+msgid "Edit profile"
+msgstr ""
+
+#: core/filters/um-friends-account.php:27
+#: core/filters/um-friends-account.php:35
+msgid "I have got a new friend"
+msgstr ""
+
+#: core/filters/um-friends-profile.php:22
+msgid "My Friends"
+msgstr ""
+
+#: core/filters/um-friends-profile.php:22
+#, php-format
+msgid "%s's friends"
+msgstr ""
+
+#: core/filters/um-friends-profile.php:40
+msgid "Friend Requests"
+msgstr ""
+
+#: core/filters/um-friends-profile.php:41
+msgid "Friend Requests Sent"
+msgstr ""
+
+#: core/filters/um-friends-profile.php:78
+msgid "You must be a friend of this user to view their profile"
+msgstr ""
+
+#: core/filters/um-friends-settings.php:13
+msgid "Show friends stats in member directory"
+msgstr ""
+
+#: core/filters/um-friends-settings.php:20
+msgid "Show friend button in member directory"
+msgstr ""
+
+#: core/filters/um-friends-settings.php:27
+#: core/filters/um-friends-settings.php:35
+#: core/filters/um-friends-settings.php:45
+msgid "New Friend Request Notification"
+msgstr ""
+
+#: core/filters/um-friends-settings.php:29
+msgid "Send a notification to user when they receive a new friend request"
+msgstr ""
+
+#: core/filters/um-friends-settings.php:36
+#: core/filters/um-friends-settings.php:67
+msgid "Subject Line"
+msgstr ""
+
+#: core/filters/um-friends-settings.php:39
+#: core/filters/um-friends-settings.php:70
+msgid "This is the subject line of the e-mail"
+msgstr ""
+
+#: core/filters/um-friends-settings.php:46
+#: core/filters/um-friends-settings.php:77
+msgid "Message Body"
+msgstr ""
+
+#: core/filters/um-friends-settings.php:48
+#: core/filters/um-friends-settings.php:79
+msgid "Hi {receiver},"
+msgstr ""
+
+#: core/filters/um-friends-settings.php:49
+msgid "{friend} has just sent you a friend request on {site_name}."
+msgstr ""
+
+#: core/filters/um-friends-settings.php:50
+msgid "View their profile to accept/reject this friendship request:"
+msgstr ""
+
+#: core/filters/um-friends-settings.php:52
+#: core/filters/um-friends-settings.php:83
+msgid ""
+"This is an automated notification from {site_name}. You do not need to reply."
+msgstr ""
+
+#: core/filters/um-friends-settings.php:58
+#: core/filters/um-friends-settings.php:66
+#: core/filters/um-friends-settings.php:76
+msgid "New Friend Notification"
+msgstr ""
+
+#: core/filters/um-friends-settings.php:60
+msgid "Send a notification to user when a friend request get appproved"
+msgstr ""
+
+#: core/filters/um-friends-settings.php:68
+msgid "{friend} has accepted your friend request"
+msgstr ""
+
+#: core/filters/um-friends-settings.php:80
+msgid "You are now friends with {friend} on {site_name}."
+msgstr ""
+
+#: core/filters/um-friends-settings.php:81
+msgid "View their profile:"
+msgstr ""
+
+#: core/filters/um-friends-settings.php:105
+msgid "User get a new friend request"
+msgstr ""
+
+#: core/filters/um-friends-settings.php:106
+msgid "<strong>{member}</strong> has sent you a friendship request"
+msgstr ""
+
+#: core/filters/um-friends-settings.php:107
+msgid "When someone requests friendship"
+msgstr ""
+
+#: core/filters/um-friends-settings.php:111
+msgid "User get a new friend"
+msgstr ""
+
+#: core/filters/um-friends-settings.php:112
+msgid "<strong>{member}</strong> has accepted your friendship request"
+msgstr ""
+
+#: core/filters/um-friends-settings.php:113
+msgid "When someone accepts friendship"
+msgstr ""
+
+#: core/um-friends-api.php:62 core/um-friends-api.php:98
+msgid "Add Friend"
+msgstr ""
+
+#: core/um-friends-api.php:77
+msgid "Respond to Friend Request"
+msgstr ""
+
+#: core/um-friends-api.php:80 core/um-friends-api.php:89
+msgid "Confirm"
+msgstr ""
+
+#: core/um-friends-api.php:81 core/um-friends-api.php:90
+msgid "Delete Request"
+msgstr ""
+
+#: core/um-friends-api.php:82
+msgid "Cancel"
+msgstr ""
+
+#: core/um-friends-api.php:94
+msgid "Cancel Friend Request"
+msgstr ""
+
+#: core/um-friends-api.php:94
+msgid "Friend Request Sent"
+msgstr ""
+
+#: core/um-friends-api.php:102
+msgid "Unfriend"
+msgstr ""
+
+#: core/um-friends-init.php:25
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+
+#: core/um-friends-init.php:30
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires a <a href=\"https://wordpress.org/"
+"plugins/ultimate-member\">newer version</a> of Ultimate Member to work "
+"properly."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: core/um-friends-widget.php:13
+msgid "Ultimate Member - Friends"
+msgstr ""
+
+#: core/um-friends-widget.php:16
+msgid "Shows user friends in a widget."
+msgstr ""
+
+#: core/um-friends-widget.php:60
+msgid "Title:"
+msgstr ""
+
+#: core/um-friends-widget.php:65
+msgid "Maximum number of users in first view:"
+msgstr ""
+
+#: templates/friends-mini.php:15 templates/friends.php:3
+msgid "You do not have any friends yet."
+msgstr ""
+
+#: templates/friends-mini.php:15 templates/friends.php:3
+msgid "This user does not have any friends yet."
+msgstr ""
+
+#: templates/friends.php:6
+msgid "You do not have pending friend requests yet."
+msgstr ""
+
+#: templates/friends.php:10
+msgid "You have not sent any friend requests yet."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://ultimatemember.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Add a friendship system for your community users easily."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ultimate Member"
+msgstr ""

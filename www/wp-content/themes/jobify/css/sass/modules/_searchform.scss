@@ -1,0 +1,32 @@
+.searchform {
+	@extend .clear;
+	position: relative;
+}
+
+input[type=text].searchform__input {
+	width: 100%;
+}
+
+button.searchform__submit {
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 2;
+	background: none;
+	padding: 0;
+	width: 55px;
+	height: 40px;
+
+	&:before {
+		@extend .ion;
+		content: $ionicon-var-search;
+		font-size: 22px;
+		color: #797979;
+	}
+
+	&:hover,
+	&:focus {
+		border: 0;
+		background: none;
+	}
+}

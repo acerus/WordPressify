@@ -1,0 +1,142 @@
+.widget--home-hero-search:first-child {
+	margin-top: 0;
+}
+
+.hero-search {
+	padding: 3em 0;
+	position: relative;
+	background-size: cover;
+}
+
+.hero-search--height-medium {
+	@include bp(sm) {
+		padding-top: 6em;
+		padding-bottom: 6em;
+	}
+
+	@include bp(md) { 
+		padding-top: 8em;
+		padding-bottom: 8em;
+	}
+
+	@include bp(lg) {
+		padding-top: 10em;
+		padding-bottom: 10em;
+	}
+}
+
+.hero-search--height-large {
+	padding-top: 6em;
+	padding-bottom: 6em;
+
+	@include bp(md) {
+		padding-top: 10em;
+		padding-bottom: 10em;
+	}
+
+	@include bp(lg) {
+		padding-top: 13em;
+		padding-bottom: 13em;
+	}
+}
+
+.hero-search--has-overlay {
+	&:after {
+		content: ' ';
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		top: 0;
+		width: 100%;
+
+		background: rgba(0,0,0,.50);
+	}
+
+	.container {
+		position: relative;
+		z-index: 2;
+	}
+}
+
+.hero-search__content {
+	text-align: center;
+	margin-bottom: 2em;
+
+	@include bp(md) {
+		p {
+			font-size: 18px;
+		}
+	}
+}
+
+.hero-search--height-medium,
+.hero-search--height-large {
+	.hero-search__content {
+		margin-bottom: 3em;
+
+		@include bp(md) {
+			margin-bottom: 4em;
+		}
+	}
+}
+
+.hero-search__title {
+	margin-top: 0;
+	font-size: 24px;
+	font-weight: normal;
+	margin-bottom: 0.25em;
+
+	@include bp(sm) {
+		font-size: 30px;
+		margin-bottom: 0.5em;
+	}
+
+	@include bp(md) {
+		font-size: 36px;
+	}
+
+	@include bp(md) {
+		font-size: 40px;
+	}
+}
+
+.hero-search--height-large {
+	.hero-search__title {
+		@include bp(lg) {
+			font-size: 45px;
+		}
+	}
+}
+
+.job_search_form--flat {
+	.search_jobs {
+		background: none;
+		box-shadow: none;
+		padding: 0;
+	}
+
+	ul.job_types,
+	.showing_jobs,
+	.filter_by_tag {
+		display: none !important;
+	}
+
+	@include bp(lg) {
+		max-width: 80%;
+		margin: 0 auto;
+	}
+}
+
+.resume_search_form--flat {
+	@extend .job_search_form--flat;
+
+	.search_resumes {
+		background: none;
+		box-shadow: none;
+		padding: 0;
+	}
+
+	.showing_resumes {
+		display: none !important;
+	}
+}

@@ -1,0 +1,156 @@
+.search_jobs {
+	@extend .clear;
+	padding: 30px;
+	box-shadow: inset 0 4px 0 rgba(255, 255, 255, .50);
+
+	> select.search_region {
+		display: none !important;
+	}
+
+	// top level keyword, location, cat, etc
+	> div {
+		margin-bottom: 2%;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		// these inputs should have no border always
+		input,
+		select,
+		.select,
+		.chosen-container {
+			width: 100%;
+			border: 0;
+		}
+
+		input[type="submit" ],
+		input[type="submit"] {
+			color: $body;
+			background-color: white;
+			font-size: 14px;
+			padding: 11px;
+			margin-right: 0;
+			width: 100%;
+		}
+
+		&.search_submit {
+			margin-bottom: 0;
+		}
+	}
+
+	@include bp(sm) {
+		> div {
+			float: left;
+		}
+
+		div.search_keywords,
+		div.search_location,
+	    div.search_region {
+			width: 48%;
+		}
+
+		div.search_keywords {
+			margin-right: 2%;
+		}
+
+		div.search_location,
+	    div.search_region {
+			margin-left: 2%;
+		}
+
+		div.search_submit {
+			width: 100%;
+		}
+	}
+
+	@include bp(md) {
+		div.search_keywords,
+		div.search_location,
+		div.search_region,
+		div.search_submit {
+			width: 37%;
+			margin-bottom: 0;
+		}
+
+		div.search_keywords,
+		div.search_location,
+		div.search_region {
+			margin-right: 2%;
+			margin-left: 0;
+		}
+
+		div.search_submit {
+			width: 20%;
+		}
+	}
+}
+
+// with categories enabled we have only two main inputs and a submit
+.wp-job-manager-categories-enabled .search_jobs {
+	@extend .jobify-search-jobs-category;
+}
+
+// so we can @extend to resumes
+.jobify-search-jobs-category {
+	@include bp(sm) {
+		div.search_categories {
+			width: 100%;
+		}
+	}
+
+	@include bp(md) {
+		div.search_keywords,
+		div.search_location,
+		div.search_region,
+		div.search_categories {
+			width: 26%;
+			margin-bottom: 0;
+		}
+
+		div.search_categories {
+			margin-right: 2%;
+		}
+
+		div.search_submit {
+			width: 16%;
+		}
+	}
+}
+
+// with categories enabled we have two inputs, one full, and one full submit
+.wp-job-manager-categories-multi-enabled .search_jobs {
+	@extend .jobify-search-jobs-category-multi;
+}
+
+// so we can @extend to resumes
+.jobify-search-jobs-category-multi {
+	@include bp(md) {
+		div.search_keywords,
+		div.search_location,
+		div.search_region {
+			width: 49%;
+			margin-bottom: 2%;
+		}
+
+		div.search_keywords {
+			margin-right: 1%;
+		}
+
+		div.search_location,
+		div.search_region {
+			margin-left: 1%;
+			margin-right: 0;
+		}
+
+		div.search_categories {
+			margin-bottom: 2%;
+			margin-right: 0;
+		}
+
+		div.search_categories,
+		div.search_submit {
+			width: 100%;
+		}
+	}
+}

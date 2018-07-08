@@ -1,0 +1,25 @@
+[
+	{
+		"id": "sign-up",
+		"type": "object",
+		"priority": 10,
+		"data": {
+			"post_type": "page",
+			"post_title": "Sign Up",
+			"post_content": "[woocommerce_simple_registration]",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/single-column.php"
+			},
+			"menus": [
+				{
+					"menu-item-title": "Sign Up",
+					"menu-item-position": 6,
+					"menu-item-role": "out",
+					"menu-item-classes": "register",
+					"menu_name": "Primary"
+				}
+			]
+		}
+	}
+]

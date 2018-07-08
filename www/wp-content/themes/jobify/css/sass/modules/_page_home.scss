@@ -1,0 +1,68 @@
+/** Map */
+
+.jobify_widget_map,
+.jobify_widget_map_resumes {
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	ul.job_listings,
+	ul.job_types,
+	.load_more_jobs,
+	.showing_jobs,
+	.filter_by_tag,
+	ul.resumes,
+	.showing_resumes,
+	.load_more_resumes {
+		display: none !important;
+	}
+
+	&.no-filters {
+		div.job_listings,
+		div.resumes {
+			display: none !important;
+		}
+	}
+
+	div.job_listings,
+	div.resumes {
+		@extend .container;
+		position: relative;
+		z-index: 10;
+		padding: 0;
+		max-width: none;
+	}
+
+		@include bp(md) {
+			div.job_listings,
+			div.resumes {
+				max-width: 970px;
+				margin-top: -100px;
+			}
+		}
+
+		@include bp(lg) {
+			div.job_listings,
+			div.resumes {
+				max-width: 1170px;
+			}
+		}
+
+	.chosen-container {
+		border: 0 !important;
+	}
+}
+
+.map-marker-info {
+	text-align: center;
+	font-size: 14px;
+	width: 100%;
+	position: absolute;
+    top: 50%;
+    left: 15px;
+	width: 85%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

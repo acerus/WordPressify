@@ -1,0 +1,25 @@
+.view-video,
+.view-video {
+	@extend .button;
+	@extend .button--type-action;
+
+	margin-top: 1em;
+}
+
+#company-video.modal,
+#candidate-video.modal {
+	padding: 0;
+	max-width: 850px;
+
+	@include bp(lg) {
+		.mfp-close {
+			top: -40px;
+			right: -40px;
+		}
+	}
+
+	iframe {
+		display: block;
+		min-width: 100%;
+	}
+}

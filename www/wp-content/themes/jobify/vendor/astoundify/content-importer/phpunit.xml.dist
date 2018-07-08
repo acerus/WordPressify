@@ -1,0 +1,68 @@
+<phpunit
+	bootstrap="tests/bootstrap.php"
+	backupGlobals="false"
+	colors="true"
+	convertErrorsToExceptions="true"
+	convertNoticesToExceptions="true"
+	convertWarningsToExceptions="true"
+  verbose="true"
+  syntaxCheck="true"
+	>
+	<testsuites>
+		<testsuite name="Astoundify ThemeForest Updater Test Suite">
+			<directory suffix=".php">./tests/unit-tests</directory>
+		</testsuite>
+		<testsuite name="nav-menus">
+			<file>tests/unit-tests/ItemImport_NavMenu.php</file>
+			<file>tests/unit-tests/ItemImport_NavMenuItem.php</file>
+		</testsuite>
+		<testsuite name="objects">
+			<file>tests/unit-tests/ItemImport_Object.php</file>
+		</testsuite>
+		<testsuite name="terms">
+			<file>tests/unit-tests/ItemImport_Term.php</file>
+		</testsuite>
+		<testsuite name="widgets">
+			<file>tests/unit-tests/ItemImport_Widget.php</file>
+		</testsuite>
+		<testsuite name="settings">
+			<file>tests/unit-tests/ItemImport_Setting.php</file>
+		</testsuite>
+		<testsuite name="thememods">
+			<file>tests/unit-tests/ItemImport_ThemeMod.php</file>
+		</testsuite>
+		<testsuite name="childtheme">
+			<file>tests/unit-tests/ItemImport_ChildTheme.php</file>
+		</testsuite>
+		<testsuite name="utils">
+			<file>tests/unit-tests/Utils.php</file>
+		</testsuite>
+		<testsuite name="plugins">
+			<file>tests/unit-tests/Plugin_WooThemesTestimonials.php</file>
+			<file>tests/unit-tests/Plugin_EasyDigitalDownloads.php</file>
+			<file>tests/unit-tests/Plugin_FrontendSubmissions.php</file>
+			<file>tests/unit-tests/Plugin_WooCommerce.php</file>
+			<file>tests/unit-tests/Plugin_WPJobManager.php</file>
+			<file>tests/unit-tests/Plugin_WPJobManagerProducts.php</file>
+			<file>tests/unit-tests/Plugin_MultiplePostThumbnails.php</file>
+		</testsuite>
+		<testsuite name="themes">
+			<file>tests/unit-tests/Theme_Listify.php</file>
+		</testsuite>
+		<testsuite name="utils">
+			<file>tests/unit-tests/Utils.php</file>
+		</testsuite>
+	</testsuites>
+	<filter>
+		<whitelist processUncoveredFilesFromWhitelist="false">
+			<directory suffix=".php">.</directory>
+			<exclude>
+				<directory suffix=".php">dev-lib</directory>
+				<directory suffix=".php">node_modules</directory>
+				<directory suffix=".php">tests</directory>
+				<directory suffix=".php">vendor</directory>
+				<directory suffix=".php">inc/admin/view</directory>
+			</exclude>
+		</whitelist>
+	</filter>
+</phpunit>

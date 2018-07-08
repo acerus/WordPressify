@@ -1,0 +1,34 @@
+[
+	{
+		"id": "category-design",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_category",
+			"name": "Design"
+		}
+	},
+	{
+		"id": "category-development",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_category",
+			"name": "Development"
+		}
+	},
+	{
+		"id": "category-marketify",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_category",
+			"name": "Marketify"
+		}
+	},
+	{
+		"id": "category-sales",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_category",
+			"name": "Sales"
+		}
+	}
+]

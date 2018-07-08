@@ -1,0 +1,119 @@
+[
+	{
+		"id": "job_manager_enable_regions_filter",
+		"type": "setting",
+		"data": false
+	},
+	{
+		"id": "region-daly-city",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_region",
+			"name": "Daly City"
+		}
+	},
+	{
+		"id": "region-kansas",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_region",
+			"name": "Kansas"
+		}
+	},
+	{
+		"id": "region-manhattan",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_region",
+			"name": "Manhattan"
+		}
+	},
+	{
+		"id": "region-mountain-view",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_region",
+			"name": "Mountain View"
+		}
+	},
+	{
+		"id": "region-new-york",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_region",
+			"name": "New York"
+		}
+	},
+	{
+		"id": "region-ontario",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_region",
+			"name": "Ontario"
+		}
+	},
+	{
+		"id": "region-palo-alto",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_region",
+			"name": "Palo Alto"
+		}
+	},
+	{
+		"id": "region-queens",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_region",
+			"name": "Queens"
+		}
+	},
+	{
+		"id": "region-sacramento",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_region",
+			"name": "Sacaramento"
+		}
+	},
+	{
+		"id": "region-san-francisco",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_region",
+			"name": "San Francisco"
+		}
+	},
+	{
+		"id": "region-san-jose",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_region",
+			"name": "San Jose"
+		}
+	},
+	{
+		"id": "region-santa-rosa",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_region",
+			"name": "Santa Rosa"
+		}
+	},
+	{
+		"id": "region-staten-island",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_region",
+			"name": "Staten Island"
+		}
+	},
+	{
+		"id": "region-toronto",
+		"type": "term",
+		"data": {
+			"taxonomy": "job_listing_region",
+			"name": "Toronto"
+		}
+	}
+]

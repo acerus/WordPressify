@@ -1,0 +1,17 @@
+{
+    "name": "tsaricam/wp-content-crawler",
+    "description": "Get content from any site to your WordPress site",
+    "require": {
+      "philo/laravel-blade": "3.*",
+        "fabpot/goutte": "^3.1",
+        "google/cloud-translate": "^1.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "WPCCrawler\\": [""]
+      },
+      "files": [
+        "helpers/translation.php"
+      ]
+    }
+}

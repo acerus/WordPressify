@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="wppipes-processor" method="upgrade">
+	<name>Get Fulltext</name>
+	<author>thimpress.com</author>
+	<creationDate>July 2013</creationDate>
+	<copyright>© 2007-2012 thimpress.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<authorEmail>info@thimpress.com</authorEmail>
+	<authorUrl>http://www.thimpress.com</authorUrl>
+	<version>2.8</version>
+	<description>get_fulltext Processor for WPPipes</description>
+	<files>
+		<filename plugin="get_fulltext">get_fulltext.php</filename>
+		<filename>readability.php</filename>
+		<filename>CHANGELOG</filename>
+		<filename>LICENSE</filename>
+		<filename>README</filename>
+		<filename>index.html</filename>
+		<folder>lib</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="input" type="list" default="0" label="Input" description="Where to get input from?">
+					<option value="0">URL</option>
+					<option value="1">HTML</option>
+				</field>
+				<field name="auto_fulltext" type="list" default="1" label="Auto Fulltext"
+					   description="Auto Get Fulltext">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="clear_space" type="list" default="1" label="Clear Space" description="Clear Space">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="atag" type="list" default="0" label="A tag" description="The options to process A tag">
+					<option value="0">Open in new tab</option>
+					<option value="1">Strip</option>
+					<option value="2">Open in same tab</option>
+				</field>
+				<field name="clear_attribute" type="text" default="id,class,style" label="clear Attribute" class="fullwidth"
+					   description="clear Attribute of Tags"/>
+				<field name="origin_site" type="text" size="30" default="" label="Origin Site" class="fullwidth"
+					   description="Origin Site"/>
+				<field name="code" type="hidden" rows="5" cols="50" class="fullwidth" default="" label="Parser Code"
+					   description="Parser Code" onblur="change_auto_fulltext(this)"/>
+				<field name="curl" type="list" default="1" label="get CURL" description="get CURL">
+					<option value="1">Level 1</option>
+					<option value="2">Level 2</option>
+					<option value="3">Level 3</option>
+					<option value="4">Level 4</option>
+                    <option value="5">Level 5</option>
+				</field>
+				<field name="clear_html_comment" type="list" default="1" label="clear HTML comment"
+					   description="clear HTML comment">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="clear_tags" type="text" default="script,style,link,meta" label="Clear Tags" class="cleartags"
+					   description="Clear Tags"/>
+				<field name="charset" class="charset" type="text" default="UTF-8" label="Charset" description="The charset of original site" />
+				<field name="useragent" type="text" size="30" default="Mozilla/5.0 (Windows; U; Windows NT 5.1; rv:1.7.3) Gecko/20041001 Firefox/0.10.1" label="User Agent" class="fullwidth"
+					   description="You could input the specified USERAGENT when choose 'Level 2' with above get CURL"/>
+				<field name="minimum_word" type="text" default="0" label="Minimum Words" class="minimum_word"
+					   description="Input the minimum number of words if you want to filter the content!"/>
+				<field name="maximum_word" type="text" default="0" label="Maximum Words" class="maximum_word"
+					   description="Input the maximum number of words if you want to filter the content!"/>
+				<field name="note" type="hidden" default=""/>
+                <field name="custom_ck" type="hidden" class="custom_ck" default="location.href=1;"/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

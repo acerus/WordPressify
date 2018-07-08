@@ -1,0 +1,267 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member - Followers\n"
+"POT-Creation-Date: 2018-01-28 15:07+0800\n"
+"PO-Revision-Date: 2018-01-28 15:07+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: um-followers.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/admin/templates/role/followers.php:12
+msgid "Can follow others?"
+msgstr ""
+
+#: includes/admin/templates/role/followers.php:13
+msgid "Can this role follow other members or not."
+msgstr ""
+
+#: includes/admin/templates/role/followers.php:20
+msgid "Can follow these user roles only"
+msgstr ""
+
+#: includes/core/actions/um-followers-admin.php:23
+#: includes/core/actions/um-followers-members.php:14
+#: includes/core/class-followers-shortcode.php:29
+#: includes/core/class-followers-shortcode.php:88
+#: includes/core/filters/um-followers-profile.php:9
+#: includes/core/filters/um-followers-profile.php:17
+#: includes/core/filters/um-followers-profile.php:47
+#: includes/core/filters/um-followers-profile.php:67
+#: includes/core/filters/um-followers-settings.php:20
+#: includes/core/filters/um-followers-settings.php:122
+#: includes/core/um-followers-widget.php:126
+msgid "Followers"
+msgstr ""
+
+#: includes/core/actions/um-followers-admin.php:49
+msgid "Most followed"
+msgstr ""
+
+#: includes/core/actions/um-followers-admin.php:50
+msgid "Least followed"
+msgstr ""
+
+#: includes/core/actions/um-followers-members.php:19
+#: includes/core/class-followers-shortcode.php:34
+#: includes/core/class-followers-shortcode.php:93
+#: includes/core/filters/um-followers-profile.php:8
+#: includes/core/filters/um-followers-profile.php:52
+#: includes/core/filters/um-followers-profile.php:73
+msgid "Only people I follow can view my profile"
+msgstr ""
+
+#: includes/core/actions/um-followers-members.php:28
+#: includes/core/class-followers-shortcode.php:102
+msgid "followers"
+msgstr ""
+
+#: includes/core/actions/um-followers-members.php:29
+#: includes/core/class-followers-shortcode.php:108
+msgid "following"
+msgstr ""
+
+#: includes/core/actions/um-followers-profile.php:17
+msgid "follows you"
+msgstr ""
+
+#: includes/core/class-followers-main-api.php:26
+#: includes/core/class-followers-main-api.php:57
+msgid "You must provide a user ID"
+msgstr ""
+
+#: includes/core/class-followers-main-api.php:32
+#: includes/core/class-followers-main-api.php:63
+msgid "No users were found"
+msgstr ""
+
+#: includes/core/class-followers-main-api.php:127
+#: includes/core/class-followers-main-api.php:134
+msgid "Follow"
+msgstr ""
+
+#: includes/core/class-followers-main-api.php:136
+#: includes/core/um-followers-widget.php:48
+msgid "Following"
+msgstr ""
+
+#: includes/core/class-followers-main-api.php:136
+msgid "Unfollow"
+msgstr ""
+
+#: includes/core/class-followers-setup.php:27
+#: includes/core/filters/um-followers-settings.php:96
+msgid "User get followed by a person"
+msgstr ""
+
+#: includes/core/class-followers-setup.php:29
+#: includes/core/filters/um-followers-settings.php:98
+msgid "When someone follows me"
+msgstr ""
+
+#: includes/core/filters/um-followers-account.php:13
+msgid "Notifications"
+msgstr ""
+
+#: includes/core/filters/um-followers-account.php:14
+msgid "Update Notifications"
+msgstr ""
+
+#: includes/core/filters/um-followers-account.php:48
+msgid "I'm followed by someone new"
+msgstr ""
+
+#: includes/core/filters/um-followers-profile.php:16
+msgid "Only people I follow"
+msgstr ""
+
+#: includes/core/filters/um-followers-profile.php:49
+msgid "You must follow this user to view profile"
+msgstr ""
+
+#: includes/core/filters/um-followers-profile.php:54
+msgid "You cannot view this profile because the user has not followed you"
+msgstr ""
+
+#: includes/core/filters/um-followers-profile.php:152
+msgid "You must follow this user to view their social activity"
+msgstr ""
+
+#: includes/core/filters/um-followers-profile.php:158
+msgid "This user must follow you before you can view their wall"
+msgstr ""
+
+#: includes/core/filters/um-followers-settings.php:12
+msgid "Followers License Key"
+msgstr ""
+
+#: includes/core/filters/um-followers-settings.php:25
+msgid "Show followers stats in member directory"
+msgstr ""
+
+#: includes/core/filters/um-followers-settings.php:30
+msgid "Show follow button in member directory"
+msgstr ""
+
+#: includes/core/filters/um-followers-settings.php:35
+msgid "Allow Administrators to follow users"
+msgstr ""
+
+#: includes/core/filters/um-followers-settings.php:36
+msgid "Displays Follow buttons in profiles & member directory"
+msgstr ""
+
+#: includes/core/filters/um-followers-settings.php:53
+msgid ""
+"Enable integration with followers to convert user names to user profile "
+"links automatically (mention users)?"
+msgstr ""
+
+#: includes/core/filters/um-followers-settings.php:58
+msgid "Show only followed users activity in the social wall"
+msgstr ""
+
+#: includes/core/filters/um-followers-settings.php:72
+msgid "New Follower Notification"
+msgstr ""
+
+#: includes/core/filters/um-followers-settings.php:81
+msgid "Send a notification to user when he receives a new review"
+msgstr ""
+
+#: includes/core/filters/um-followers-settings.php:123
+msgid "People I follow"
+msgstr ""
+
+#: includes/core/um-followers-widget.php:15
+msgid "Ultimate Member - Following"
+msgstr ""
+
+#: includes/core/um-followers-widget.php:18
+msgid "Shows users they follow in a widget."
+msgstr ""
+
+#: includes/core/um-followers-widget.php:61
+#: includes/core/um-followers-widget.php:139
+msgid "Title:"
+msgstr ""
+
+#: includes/core/um-followers-widget.php:66
+#: includes/core/um-followers-widget.php:144
+msgid "Maximum number of users in first view:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: includes/core/um-followers-widget.php:93
+msgid "Ultimate Member - Followers"
+msgstr ""
+
+#: includes/core/um-followers-widget.php:96
+msgid "Shows user followers in a widget."
+msgstr ""
+
+#: templates/followers-mini.php:15 templates/followers.php:50
+msgid "You do not have any followers yet."
+msgstr ""
+
+#: templates/followers-mini.php:15
+msgid "This user do not have any followers yet."
+msgstr ""
+
+#: templates/followers.php:16 templates/following.php:31
+msgid "Edit profile"
+msgstr ""
+
+#: templates/followers.php:29 templates/following.php:19
+msgid "You"
+msgstr ""
+
+#: templates/followers.php:31 templates/following.php:21
+msgid "Follows you"
+msgstr ""
+
+#: templates/followers.php:50
+msgid "This user does not have any followers yet."
+msgstr ""
+
+#: templates/following-mini.php:15 templates/following.php:50
+msgid "You did not follow anybody yet."
+msgstr ""
+
+#: templates/following-mini.php:15 templates/following.php:50
+msgid "This user did not follow anybody yet."
+msgstr ""
+
+#: um-followers.php:36 um-followers.php:52
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://ultimatemember.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Add a follow feature for your community users easily."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Ultimate Member"
+msgstr ""

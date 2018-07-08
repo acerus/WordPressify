@@ -1,0 +1,212 @@
+.featherlight .lightbox-title {
+  position: fixed;
+  display: block;
+  top: calc(5% - 30px);
+  left: 5%;
+  text-align: left;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  -webkit-transition: all .5s;
+  /* Safari */
+  transition: all .5s; }
+  @media screen and (max-height: 630px) {
+    .featherlight .lightbox-title {
+      font-size: 14px;
+      top: calc(5% - 20px); } }
+.featherlight .featherlight-content {
+  position: absolute !important;
+  top: 5%;
+  left: 5%;
+  right: 5%;
+  bottom: 5%;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  overflow: hidden !important; }
+  .featherlight .featherlight-content > .featherlight-close {
+    display: none; }
+
+.lightbox-title {
+  display: none; }
+
+.dev-tools-content-container {
+  display: none; }
+
+.dev-tools-content {
+  width: 100%;
+  height: 100%;
+  background: #ccc; }
+  .dev-tools-content .toolbar {
+    width: 100%;
+    background: #fff;
+    min-height: 60px;
+    max-height: 270px;
+    overflow-y: scroll;
+    -webkit-transition: all .5s;
+    /* Safari */
+    transition: all .5s;
+    padding-bottom: 8px;
+    -webkit-box-shadow: 0 1px 7px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 1px 7px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 1px 7px -1px rgba(0, 0, 0, 0.75); }
+    .dev-tools-content .toolbar .css-selector-tools, .dev-tools-content .toolbar .address-bar {
+      display: flex;
+      margin-bottom: 4px; }
+      .dev-tools-content .toolbar .css-selector-tools .toolbar-input-container, .dev-tools-content .toolbar .address-bar .toolbar-input-container {
+        float: left;
+        width: calc(100% - 222px);
+        padding: 0 2px; }
+        .dev-tools-content .toolbar .css-selector-tools .toolbar-input-container input, .dev-tools-content .toolbar .address-bar .toolbar-input-container input {
+          width: 100%; }
+        @media screen and (max-width: 783px) {
+          .dev-tools-content .toolbar .css-selector-tools .toolbar-input-container, .dev-tools-content .toolbar .address-bar .toolbar-input-container {
+            width: calc(100% - 262px); } }
+      .dev-tools-content .toolbar .css-selector-tools .button-container, .dev-tools-content .toolbar .address-bar .button-container {
+        float: left;
+        text-align: right; }
+    .dev-tools-content .toolbar .css-selector-tools {
+      padding: 0 10px; }
+    .dev-tools-content .toolbar .address-bar {
+      background: #f2f2f2;
+      border-bottom-left-radius: 2px;
+      border-bottom-right-radius: 2px;
+      padding: 5px 10px 2px 10px;
+      border-bottom: 1px solid #e2e2e2; }
+      .dev-tools-content .toolbar .address-bar .toolbar-input-container {
+        width: calc(100% - 112px); }
+        @media screen and (max-width: 783px) {
+          .dev-tools-content .toolbar .address-bar .toolbar-input-container {
+            width: calc(100% - 152px);
+            margin: 4px 4px; } }
+      .dev-tools-content .toolbar .address-bar input {
+        transition: all 0.3s;
+        -webkit-transition: all 0.3s; }
+        .dev-tools-content .toolbar .address-bar input.loading {
+          background: #C5E1A5; }
+      .dev-tools-content .toolbar .address-bar .button-option {
+        font-size: 18px;
+        padding: 1px 4px 0 0; }
+        @media screen and (max-width: 783px) {
+          .dev-tools-content .toolbar .address-bar .button-option {
+            font-size: 24px;
+            padding: 0;
+            margin: 10px 3px; } }
+        .dev-tools-content .toolbar .address-bar .button-option:hover {
+          cursor: pointer; }
+        .dev-tools-content .toolbar .address-bar .button-option.disabled {
+          color: #ccc; }
+          .dev-tools-content .toolbar .address-bar .button-option.disabled:hover {
+            cursor: default; }
+        .dev-tools-content .toolbar .address-bar .button-option.go {
+          -ms-transform: rotate(180deg);
+          /* IE 9 */
+          -webkit-transform: rotate(180deg);
+          /* Safari */
+          transform: rotate(180deg); }
+          @media screen and (max-width: 783px) {
+            .dev-tools-content .toolbar .address-bar .button-option.go {
+              margin-top: 12px;
+              padding-bottom: 16px; } }
+    .dev-tools-content .toolbar .options {
+      display: block;
+      margin-top: 4px;
+      overflow: hidden;
+      padding: 0 10px; }
+      .dev-tools-content .toolbar .options .button-option:hover {
+        cursor: pointer; }
+      .dev-tools-content .toolbar .options .left {
+        float: left; }
+      .dev-tools-content .toolbar .options .right {
+        float: right; }
+      .dev-tools-content .toolbar .options .target-html-tag {
+        width: 100px; }
+    .dev-tools-content .toolbar .dashicons {
+      margin-top: 3px; }
+      .dev-tools-content .toolbar .dashicons.active {
+        color: #7CB342; }
+    .dev-tools-content .toolbar .test-results {
+      margin: 10px; }
+  .dev-tools-content iframe {
+    width: 100%; }
+  .dev-tools-content .sidebar {
+    width: 300px;
+    position: absolute;
+    right: -305px;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    overflow-y: scroll;
+    -webkit-box-shadow: -4px 0px 11px -3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: -4px 0px 11px -3px rgba(0, 0, 0, 0.5);
+    box-shadow: -4px 0px 11px -3px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s; }
+    .dev-tools-content .sidebar.opened {
+      right: 0; }
+    .dev-tools-content .sidebar .sidebar-section .section-title {
+      overflow: auto;
+      padding: 5px 10px;
+      background: #F5F5F5;
+      border-top: 1px solid #E0E0E0;
+      border-bottom: 1px solid #E0E0E0; }
+      .dev-tools-content .sidebar .sidebar-section .section-title span {
+        float: left;
+        font-weight: 300; }
+        .dev-tools-content .sidebar .sidebar-section .section-title span:hover {
+          cursor: pointer; }
+      .dev-tools-content .sidebar .sidebar-section .section-title .section-controls {
+        float: right;
+        margin-right: 10px; }
+        .dev-tools-content .sidebar .sidebar-section .section-title .section-controls .section-title-button {
+          font-size: 16px;
+          padding-top: 1px; }
+          .dev-tools-content .sidebar .sidebar-section .section-title .section-controls .section-title-button:hover {
+            cursor: pointer; }
+    .dev-tools-content .sidebar .sidebar-section:not(.expanded) .section-content {
+      display: none; }
+    .dev-tools-content .sidebar .sidebar-section .section-content {
+      padding: 5px 10px;
+      overflow-y: scroll; }
+      .dev-tools-content .sidebar .sidebar-section .section-content ul {
+        margin: 0; }
+    .dev-tools-content .sidebar .sidebar-section.used-selectors .section-content ul, .dev-tools-content .sidebar .sidebar-section.alternative-selectors .section-content ul, .dev-tools-content .sidebar .sidebar-section.history .section-content ul {
+      margin-left: 20px; }
+      .dev-tools-content .sidebar .sidebar-section.used-selectors .section-content ul li, .dev-tools-content .sidebar .sidebar-section.alternative-selectors .section-content ul li, .dev-tools-content .sidebar .sidebar-section.history .section-content ul li {
+        color: #ccc;
+        list-style-type: decimal; }
+        .dev-tools-content .sidebar .sidebar-section.used-selectors .section-content ul li.active, .dev-tools-content .sidebar .sidebar-section.alternative-selectors .section-content ul li.active, .dev-tools-content .sidebar .sidebar-section.history .section-content ul li.active {
+          color: #7CB342; }
+          .dev-tools-content .sidebar .sidebar-section.used-selectors .section-content ul li.active .url, .dev-tools-content .sidebar .sidebar-section.alternative-selectors .section-content ul li.active .url, .dev-tools-content .sidebar .sidebar-section.history .section-content ul li.active .url {
+            color: #7CB342; }
+        .dev-tools-content .sidebar .sidebar-section.used-selectors .section-content ul li .selector, .dev-tools-content .sidebar .sidebar-section.used-selectors .section-content ul li .url, .dev-tools-content .sidebar .sidebar-section.alternative-selectors .section-content ul li .selector, .dev-tools-content .sidebar .sidebar-section.alternative-selectors .section-content ul li .url, .dev-tools-content .sidebar .sidebar-section.history .section-content ul li .selector, .dev-tools-content .sidebar .sidebar-section.history .section-content ul li .url {
+          color: #000; }
+          .dev-tools-content .sidebar .sidebar-section.used-selectors .section-content ul li .selector:hover, .dev-tools-content .sidebar .sidebar-section.used-selectors .section-content ul li .url:hover, .dev-tools-content .sidebar .sidebar-section.alternative-selectors .section-content ul li .selector:hover, .dev-tools-content .sidebar .sidebar-section.alternative-selectors .section-content ul li .url:hover, .dev-tools-content .sidebar .sidebar-section.history .section-content ul li .selector:hover, .dev-tools-content .sidebar .sidebar-section.history .section-content ul li .url:hover {
+            text-decoration: underline;
+            cursor: pointer; }
+          .dev-tools-content .sidebar .sidebar-section.used-selectors .section-content ul li .selector .count, .dev-tools-content .sidebar .sidebar-section.used-selectors .section-content ul li .url .count, .dev-tools-content .sidebar .sidebar-section.alternative-selectors .section-content ul li .selector .count, .dev-tools-content .sidebar .sidebar-section.alternative-selectors .section-content ul li .url .count, .dev-tools-content .sidebar .sidebar-section.history .section-content ul li .selector .count, .dev-tools-content .sidebar .sidebar-section.history .section-content ul li .url .count {
+            padding-left: 3px;
+            font-style: initial;
+            color: #ff4400; }
+    .dev-tools-content .sidebar .sidebar-section.used-selectors .section-content ul li .selector .count {
+      color: #7CB342; }
+    .dev-tools-content .sidebar .sidebar-close {
+      position: absolute;
+      right: 0; }
+      .dev-tools-content .sidebar .sidebar-close:hover {
+        cursor: pointer; }
+  .dev-tools-content .iframe-status {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #f2f2f2;
+    font-size: 11px;
+    padding: 2px 8px 1px 4px;
+    border: 1px solid #b3b3b3;
+    border-top-right-radius: 4px; }
+
+.todo {
+  border: 1px solid #ff4400;
+  color: #ff4400 !important; }
+
+/*# sourceMappingURL=dev-tools.css.map */

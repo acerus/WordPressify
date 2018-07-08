@@ -1,0 +1,68 @@
+/* PickAdmin css */
+
+
+.classified-maker-admin{}
+
+.classified-maker-admin .option-box {
+  margin: 40px 0;
+}
+.classified-maker-admin .option-box .option-title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.classified-maker-admin .option-box .option-info{}
+
+
+
+
+
+
+
+
+
+
+
+.classified-maker-admin .expandable {
+
+}
+
+.classified-maker-admin .expandable .items {
+  background: none repeat scroll 0 0 rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(153, 153, 153);
+  margin: 2px 0;
+}
+
+.classified-maker-admin .expandable .options {
+	display:none;
+
+}
+
+.classified-maker-admin.help .expandable .items.ui-sortable-helper {
+border: 1px dashed rgb(153, 153, 153);
+}
+
+
+
+.classified-maker-admin .expandable .header {
+  background: rgb(255, 255, 255) none repeat scroll 0 0;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.classified-maker-admin .expandable .active .options {
+  
+  display: block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

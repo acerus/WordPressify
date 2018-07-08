@@ -1,0 +1,26 @@
+.footer-cta {
+	text-align: center;
+	margin: 100px 0 0;
+	padding: 2em 0;
+}
+
+.footer-cta h2 {
+	font-size: 28px;
+	font-weight: normal;
+
+	@include bp(md) {
+		font-size: 38px;
+	}
+}
+
+.footer-cta .button,
+.slider-text .button { // extremely lazy
+	@extend .button--type-inverted;
+	border-color: #fff !important;
+	color: #fff !important;
+	
+	&:hover {
+		background-color: #fff !important;
+		border-color: #fff !important;
+	}
+}

@@ -1,0 +1,73 @@
+[
+	{
+		"id": "resumes",
+		"type": "object",
+		"priority": 30,
+		"data": {
+			"post_type": "page",
+			"post_name": "find-a-candidate",
+			"post_title": "Find a Candidate",
+			"post_content": "[resumes]",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/map-resumes.php"
+			},
+			"menus": [
+				{	
+					"menu-item-title": "Find a Candidate",
+					"menu-item-position": 2,
+					"menu-item-parent-title": "Employers",
+					"menu_name": "Primary"
+				}
+			]
+		}
+	},
+	{
+		"id": "submit_resume_form",
+		"type": "object",
+		"priority": 30,
+		"data": {
+			"post_type": "page",
+			"post_name": "post-a-resume",
+			"post_title": "Post a Resume",
+			"post_content": "[submit_resume_form]",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/single-column.php"
+			},
+			"menus": [
+				{	
+					"menu-item-title": "Submit Your Resume",
+					"menu-item-parent-title": "Candidates",
+					"menu-item-position": 3,
+					"menu_name": "Primary"
+				}
+			]
+		}
+	},
+	{
+		"id": "candidate_dashboard",
+		"type": "object",
+		"priority": 30,
+		"data": {
+			"post_type": "page",
+			"post_name": "manage-resumes",
+			"post_title": "Manage Resumes",
+			"post_content": "[candidate_dashboard]",
+			"post_parent": "myaccount",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/single-column.php"
+			},
+			"menus": [
+				{
+					"menu-item-title": "Candidate Dashboard",
+					"menu-item-position": 4,
+					"menu-item-parent-title": "Candidates",
+					"menu-item-role": "in",
+					"menu_name": "Primary"
+				}
+			]
+		}
+	}
+]

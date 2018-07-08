@@ -1,0 +1,107 @@
+.comments-title {
+	border-top: 1px solid #eee;
+	margin-top: 50px;
+	padding-top: 50px;
+}
+
+.comments-title,
+#reply-title {
+	font-size: 19px;
+	font-weight: normal;
+	margin: 40px 0;
+}
+
+#reply-title {
+	margin: 80px 0 40px;
+}
+
+.commentlist,
+.commentlist .children {
+	list-style-type: none;
+	padding: 0;
+	margin-top: 0;
+}
+
+.comment {
+	margin-bottom: 35px;
+}
+
+.commentlist .children {
+	margin-left: 100px;
+}
+
+.comment-avatar {
+	display: block;
+	margin-bottom: 10px;
+	width: 75px;
+	float: left;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.commentlist .children .comment-avatar {
+	width: 40px;
+}
+
+.commentlist .children .comment-avatar img {
+	width: 40px;
+	height: 40px;
+}
+
+.comment-meta,
+.comment-meta a {
+}
+
+.comment-meta,
+.comment-content,
+.comment-awaiting-moderation {
+	margin-left: 100px;
+}
+
+.comment-content p:last-child {
+	margin-bottom: 0;
+}
+
+.commentlist .children .comment-meta,
+.commentlist .children .comment-content,
+.commentlist .children .comment-awaiting-moderation  {
+	margin-left: 60px;
+}
+
+.comment-author .fn,
+.comment-reply-link {
+	font-size: 14px;
+	font-style: normal;
+}
+
+.commentlist .edit-link {
+	float: right;
+}
+
+.comment-reply-link {
+	margin-left: 10px;
+}
+
+.comment-meta,
+.comment-meta a {
+	font-size: 13px;
+	margin-bottom: 18px;
+}
+
+.ping-meta {
+	font-size: 13px;
+	line-height: 2;
+}
+
+.comment-awaiting-moderation {
+}
+
+#commentform input[type="submit"] {
+	display: inline-block;
+	width: auto;
+}
+
+#commentform input[type="text"] {
+	width: 50%;
+	display: block;
+}

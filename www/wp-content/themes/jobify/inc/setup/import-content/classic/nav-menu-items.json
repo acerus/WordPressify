@@ -1,0 +1,85 @@
+[
+	{
+		"id": "nav-menu-item-pages",
+		"type": "nav-menu-item",
+		"priority": 0,
+		"data": {
+			"menu_name": "Primary",
+			"menu-item-title": "Pages",
+			"menu-item-type": "custom",
+			"menu-item-url": "#",
+			"menu-item-position": 3
+		}
+	},
+
+	{
+		"id": "nav-menu-item-facebook",
+		"type": "nav-menu-item",
+		"data": {
+			"menu_name": "Social",
+			"menu-item-title": "Facebook",
+			"menu-item-type": "custom",
+			"menu-item-url": "http://facebook.com"
+		}
+	},
+	{
+		"id": "nav-menu-item-twitter",
+		"type": "nav-menu-item",
+		"data": {
+			"menu_name": "Social",
+			"menu-item-title": "Twitter",
+			"menu-item-type": "custom",
+			"menu-item-url": "http://twitter.com"
+		}
+	},
+	{
+		"id": "nav-menu-item-google",
+		"type": "nav-menu-item",
+		"data": {
+			"menu_name": "Social",
+			"menu-item-title": "Google",
+			"menu-item-type": "custom",
+			"menu-item-url": "http://plus.google.com"
+		}
+	},
+	{
+		"id": "nav-menu-item-instagram",
+		"type": "nav-menu-item",
+		"data": {
+			"menu_name": "Social",
+			"menu-item-title": "Instgram",
+			"menu-item-type": "custom",
+			"menu-item-url": "http://instagram.com"
+		}
+	},
+	{
+		"id": "nav-menu-item-pinterest",
+		"type": "nav-menu-item",
+		"data": {
+			"menu_name": "Social",
+			"menu-item-title": "Pinterest",
+			"menu-item-type": "custom",
+			"menu-item-url": "http://pinterest.com"
+		}
+	},
+	{
+		"id": "nav-menu-item-vimeo",
+		"type": "nav-menu-item",
+		"data": {
+			"menu_name": "Social",
+			"menu-item-title": "Vimeo",
+			"menu-item-type": "custom",
+			"menu-item-url": "http://vimeo.com"
+		}
+	},
+	{
+		"id": "nav-menu-item-linkedin",
+		"type": "nav-menu-item",
+		"data": {
+			"menu_name": "Social",
+			"menu-item-title": "Linked In",
+			"menu-item-type": "custom",
+			"menu-item-url": "http://linkedin.com"
+		}
+	}
+]

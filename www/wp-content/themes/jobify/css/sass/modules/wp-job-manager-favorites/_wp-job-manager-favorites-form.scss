@@ -1,0 +1,14 @@
+.wp-job-manager-favorites-form {
+	margin: 1em 0;
+	max-width: 100%;
+
+	.mfp-content & {
+		@extend .modal-content;
+		margin: 0;
+
+		p:last-child {
+			@extend .modal-submit;
+			margin: 0 -30px -30px;
+		}
+	}
+}

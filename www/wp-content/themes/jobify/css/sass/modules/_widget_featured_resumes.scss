@@ -1,0 +1,26 @@
+// in the standard sidebar
+.widget-area--sidebar .widget_featured_resumes ul.resumes {
+	.resume-logo,
+	.resume-about,
+	.resume-title,
+	.resume-candidate,
+	.resume-candidate-title,
+	.resume-location,
+	.resume-meta {
+		width: 100%;
+		display: block;
+	}
+
+	.resume-about {
+		margin-top: 0.5em;
+	}
+
+	.resume-location,
+	.resume-meta {
+		margin-top: 0.25em;
+	}
+
+	.resume-date {
+		display: none;
+	}
+}

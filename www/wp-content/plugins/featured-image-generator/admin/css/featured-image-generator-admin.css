@@ -1,0 +1,715 @@
+/* popup */
+.fig_wrap{
+	display: none;
+	position: relative;
+}
+
+#fig_canvas{
+	margin-right: 20px;
+}
+
+.fig_popup_bg{
+	display: block;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 100000;
+	cursor: pointer;
+}
+
+.fig_container{
+	display: block;
+	position: fixed;
+	left: 30px;
+	right: 30px;
+	top: 60px;
+	bottom: 30px;
+	padding: 20px;
+	padding-top: 0;	
+	z-index: 100001;
+	background: #fff;
+	overflow: auto;
+	box-shadow: 0 5px 15px rgba(0,0,0,.7);
+}
+
+.fig_sub_container{
+	position: relative;
+}
+
+.fig_search_result{
+	display: none;
+	min-height: 20px;
+	padding: 7px 10px 7px;
+	line-height: 18px;
+	margin-bottom: 10px;
+	background: #fff;
+	border-left: 4px solid #ff9292;
+}
+
+.fig_search_body{
+	position: fixed;
+	z-index: 100003;
+	left: 30px;
+	right: 30px;
+	top: 60px;
+	background: #fff;
+	padding: 12px 15px;
+	padding-right: 60px;
+	border-bottom: 1px solid #eee;
+}
+
+.fig_search_body .button,
+.fig_editor_button .button{
+	border-radius: 0px;
+	box-shadow: none;
+}
+
+.fig_search_txt{
+	padding: 6px 10px;
+	min-width: 100px;
+}
+
+.fig_search{
+	margin-left: 9px !important;
+	height: 33px !important;
+	vertical-align: top;
+	line-height: 30px !important;
+	text-align: center;
+}
+
+.fig_set_button{
+	display: inline-block;
+	margin-left: 9px !important;
+	height: 33px !important;
+	line-height: 30px !important;
+}
+
+.fig_select_container{
+	margin-top: 70px;
+}
+
+.fig_popup_close{
+	height: 55px !important;
+}
+
+.fig_result{    
+	position: fixed;
+    top: 120px;
+    left: 30px;
+    right: 30px;
+    bottom: 83px;
+    border-bottom: 1px solid #eee;
+    overflow-y: auto;
+    padding-bottom: 10px;
+}
+
+.fig-inside{    
+	padding: 0 12px 0px;
+    line-height: 1.4em;
+    font-size: 13px;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+
+.fig_result_placeholder{    
+	padding-top: 60px;
+    text-align: center;
+    margin: 15px 15px 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.fig_result_placeholder .spinner-load{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.fig_result_pagination{
+	display: none;
+	position: fixed;
+	left: 45px;
+	bottom: 43px;
+	right: 44px;
+}
+
+.fig_thumb_link{
+	position: relative;
+	display: inline-block;
+	margin-top: 1%;
+	margin-left: 1%;
+	width: 32%;
+	vertical-align: middle;
+	cursor: pointer;
+}
+
+.fig_thumb_credit{
+	opacity: 0;
+	text-decoration: none;
+	color: #fff !important;
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 4px 10px;
+	font-weight: 100;
+	background: rgba(0, 0, 0, 0.5);
+    transition: all .2s ease-in-out;
+    outline: none !important;
+}
+
+.fig_thumb_credit:hover, .fig_thumb_credit:active{
+	color: #fff;
+}
+
+.fig_thumb_link:hover > .fig_thumb_overlay{	
+	opacity: 1;
+}
+
+.fig_thumb_link.active > .fig_thumb_overlay{
+	opacity: 1;
+}
+
+.fig_thumb_link:hover > .fig_thumb_credit{
+	opacity: 1;
+}
+
+.fig_thumb_overlay{
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.5);
+    transition: all .2s ease-in-out;
+}
+
+.fig_thumb_overlay div{
+	position: absolute;
+	top: 50%;	
+	left: 0;
+	right: 0;
+    transform: translate(0, -50%);
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.fig_thumb_result{
+	display: block;
+	width: 100%;
+}
+
+
+
+/* Button */
+
+.fig_next{
+	float: right;
+}
+
+.fig_bg{
+	display: none;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(255, 255, 255, 0.5);
+}
+
+.fig_bg > div{	
+	position: absolute;
+	top: 50%;	
+	left: 50%;
+	right: 0;
+    transform: translate(-50%, -50%);
+}
+
+.downloaded-icon{
+	position: absolute;
+	bottom: 3px;
+	right: 3px;
+	color: #fff;
+	background: #000;
+	display: inline-block;
+	padding: 0px;
+}
+
+.downloaded-icon:before{
+	font-size: 15px;
+	line-height: 21px;
+}
+
+
+
+/* Editor */
+
+.fig_editor_area{
+	width: 400px;
+}
+
+.fig_editor{
+	display: none;
+	margin-bottom: 10px;
+}
+
+.thumb_area{    
+    position: fixed;
+    right: 341px;
+    left: 30px;
+    bottom: 30px;
+    top: 60px;
+    padding: 10px 20px 20px;
+    overflow: auto;
+    transition: all .2s ease-in-out;
+}
+
+.thumb_area.hide{
+	right: 71px;
+}
+
+.layer, .layer:active{
+	display: block;
+	position: relative;
+	background: #fff;
+	padding: 10px 15px;
+	margin: 0 -15px;
+	text-decoration: none;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	outline: none !important;
+}
+
+.layer:after{  
+	content: "";
+	width: 0; 
+  	height: 0; 
+  	border-left: 4px solid transparent;
+  	border-right: 4px solid transparent;
+  	border-top: 7px solid #0073aa;
+
+	display: inline-block;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	-ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);    
+    transition: all .2s ease-in-out;
+}
+
+.layer.active:after{
+	-ms-transform: rotate(360deg); /* IE 9 */
+    -webkit-transform: rotate(360deg); /* Chrome, Safari, Opera */
+    transform: rotate(360deg);
+}
+
+.layer-container{
+	padding-bottom: 10px;
+}
+
+.layer-list{
+	margin: 0;
+}
+
+.fig_editor_wrap{
+	position: fixed;
+    right: 30px;
+    padding: 0px 15px 20px;
+    bottom: 30px;
+    top: 60px;
+    width: 280px;
+    background: #eee;
+    border-left: 1px solid #ddd;
+    overflow-y: auto;
+    transition: all .2s ease-in-out;
+}
+
+.fig_editor_wrap .wrap_show{
+	display: none;
+}
+
+.fig_editor_wrap.hide{
+	right: -240px;
+}
+
+.fig_editor_wrap.hide .wrap_hide{
+	display: none;
+}
+
+.fig_editor_wrap.hide .wrap_show{
+	display: block;
+}
+
+.fig_editor_wrap input[type='text']{
+	width: 100%;
+	padding: 8px 10px;
+	margin-bottom: 6px;
+}
+
+.fig_editor h4{
+	margin: 0.4em 0px 0.2em;
+}
+
+.slider-wrap em{
+    min-width: 50px;
+    display: inline-block;
+    text-align: center;
+	vertical-align: top;
+	font-weight: normal;
+}
+
+.slider-wrap input[type='range']{
+	width: 150px;
+}
+
+.container--thumb{
+	display: inline-block;
+	padding: 0px 20px 20px 0;
+}
+
+.fig_thumb_size{
+	width: 60px;
+}
+
+.layer-container{
+	padding-top: 15px;
+}
+
+.fig_filter_container{
+	display: none;
+}
+
+.fig_editor_button{
+	padding-top: 10px;
+}
+
+.wrap_hide{
+	text-decoration: none;
+}
+
+.fig_cancel{
+	margin-left: 10px !important;
+}
+
+.fig_or{
+	display: none;
+}
+
+.fig_register_here{
+	font-size: 13px;
+	margin: 5px 0 0;
+}
+
+.fig_register_here a{
+	text-decoration: none;
+}
+
+
+/* Setting Page */
+.fig-size-text{
+	width: 70px;
+	text-align: center;	
+}
+
+.text-height{
+	margin-left: 10px;
+}
+
+.fig_document{	
+	display: inline-block;
+	line-height: 31px;
+}
+
+.fig_document a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 10px;
+	box-shadow: none;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1024px) {
+	.fig_thumb_link{
+		width: 48.5%;
+	}
+}
+
+@media screen and (max-width: 782px) {
+
+	.fig_container{
+		padding-right: 10px;
+	}
+
+	.fig_search_body{
+		padding: 15px;
+		padding-right: 50px;
+	}
+
+	.fig_search, .fig_search_txt, .fig_set_button{
+		width: 100%;
+	}
+	
+	.fig_search_txt{
+		margin-bottom: 5px;
+		margin-right: 10px;
+	}
+
+	.fig_search, .fig_set_button{
+		margin: 0 !important;
+		line-height: 20px !important;
+	}
+
+	.fig_result{
+		top: 205px;
+		bottom: 85px;
+	}
+
+	.fig_set_button{
+		float: none;
+		text-align: center;
+		line-height: 20px !important;
+	}
+
+	.fig_result_pagination{
+		bottom: 37px;
+	}
+
+	.fig_or{
+		display: block;
+		text-align: center;
+		padding: 10px 0;
+	}
+
+	.fig_document a{
+		padding-top: 5px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	
+	.fig_thumb_link{
+		width: 98%;
+	}
+
+}
+
+
+/* Loading */
+
+.spinner-load {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  margin: 100px auto;
+}
+
+.double-bounce1, .double-bounce2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #333;
+  opacity: 0.6;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  -webkit-animation: sk-bounce 2.0s infinite ease-in-out;
+  animation: sk-bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+@-webkit-keyframes sk-bounce {
+  0%, 100% { -webkit-transform: scale(0.0) }
+  50% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bounce {
+  0%, 100% { 
+    transform: scale(0.0);
+    -webkit-transform: scale(0.0);
+  } 50% { 
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+  }
+}
+
+/* Navigator */
+.fig_tab{
+	position: fixed;
+	top: 30px;
+	left: 30px;
+	z-index: 100009;
+}
+
+.fig_tab ul{
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.fig_tab ul li{
+	display: inline-block;
+	float: left;
+}
+
+.fig_tab ul li a{
+	display: inline-block;
+	color: #000;
+	background: #ddd;
+	padding: 0px 13px;
+	text-decoration: none;
+	height: 30px;
+	line-height: 30px;
+	outline: none;
+	box-shadow: none;
+}
+
+.fig_tab ul li a[for='pixabay']{
+	position: relative;
+}
+
+.fig_tab ul li a[for='pixabay']:after{
+    content: "PRO";
+    position: absolute;
+    top: 1px;
+    font-size: 10px;
+    height: 10px;
+    line-height: 1;
+    right: 2px;
+    color: red;
+    font-weight: bold;
+}
+
+.fig_tab ul li a.active{
+	background: #fff;
+}
+
+.fig_tab ul li a.active:hover{
+	background: #fff;
+}
+
+.fig_tab ul li a:last-child{
+	border-right: none;
+}
+
+.fig_tab ul li a:hover{
+	background: #eee;
+}
+
+/* Add Layer */
+.fig_add_layer{
+	position: fixed;
+	cursor: pointer;
+	bottom: 30px;
+	height: 40px;
+	line-height: 40px;
+	right: 30px;
+	padding: 0 15px;
+	background: #4981e2;
+	color: #fff;
+	text-decoration: none;
+	width: 281px;
+	z-index: 3;
+	border-top: 1px solid #1167fa;
+}
+
+.fig_add_layer:hover{
+	color: #fff;
+}
+
+.fig_add_layer:before{
+	content: "";
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.fig_template_area:before{
+	content: "";
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+
+.fig_add_layer:after{
+    content: "PRO";
+    position: absolute;
+    top: 3px;
+    font-size: 10px;
+    height: 10px;
+    line-height: 1;
+    right: 4px;
+    color: red;
+    font-weight: bold;
+}
+
+.fig_template_area{
+	position: fixed;
+	right: 341px;
+	left: 30px;
+	bottom: 30px;
+	line-height: 37px;
+	min-height: 40px;
+	background: #f6f6f6;
+	border-top: 1px solid #ddd;
+	padding: 0px 17px;
+	overflow-x: overlay;
+	z-index: 3;
+	text-decoration: none;
+}
+
+.fig_template_area:after{
+    content: "PRO";
+    position: absolute;
+    top: 3px;
+    font-size: 10px;
+    height: 10px;
+    line-height: 1;
+    left: 196px;
+    color: red;
+    font-weight: bold;
+}
+
+.fig_template_load--container,
+.fig_template_save--container{
+	display: inline-block;
+}
+
+.fig_editor select {
+    font-size: 13px !important;
+}
+
+.fig_template_save--container {
+    margin-left: 5px;
+}
+
+.button-save-template {
+	line-height: 24px !important;
+	height: 26px !important;
+	margin-top: 7px !important;
+	padding-left: 7px !important;
+	background: #4981e2 !important;
+	color: #fff !important;
+	border: 1px solid #006799 !important;
+}

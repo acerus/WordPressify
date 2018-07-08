@@ -1,0 +1,19 @@
+.resume-spotlight {
+	@extend .job-spotlight;
+}
+
+.resume-spotlight__featured-image {
+	@extend .job-spotlight__featured-image;
+}
+
+.resume-spotlight__title {
+	@extend .job-spotlight__title;
+}
+
+.resume-spotlight__content {
+	@extend .job-spotlight__content;
+}
+
+.resume-spotlight__actions {
+	@extend .job-spotlight__actions;
+}

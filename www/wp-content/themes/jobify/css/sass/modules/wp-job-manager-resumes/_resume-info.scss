@@ -1,0 +1,7 @@
+.resume-meta-top ~ .resume-overview-content .resume-info {
+	@extend .jobify-single-job-row;
+}
+
+.resume-info .widget-title--resume-top:not(:first-child) {
+	margin-top: 2em;
+}

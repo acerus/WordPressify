@@ -1,0 +1,10 @@
+.job-tag {
+    &:before {
+        @extend .ion;
+        content: $ionicon-var-pricetag;
+    }
+
+    &:hover {
+        text-decoration: none;
+    }
+}

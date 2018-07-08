@@ -1,0 +1,18 @@
+[
+	{
+		"id": "category-news",
+		"type": "term",
+		"data": {
+			"taxonomy": "category",
+			"name": "News"
+		}
+	},
+	{
+		"id": "category-development",
+		"type": "term",
+		"data": {
+			"taxonomy": "category",
+			"name": "Development"
+		}
+	}
+]

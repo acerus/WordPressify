@@ -1,0 +1,39 @@
+[
+	{
+		"id": "jobify_widget_resume_logo",
+		"type": "widget",
+		"priority": 10,
+		"data": {
+			"sidebar": "single-resume-top-1",
+			"widget": "jobify_widget_job_company_logo"
+		}
+	},
+	{
+		"id": "jobify_widget_resume_categories",
+		"type": "widget",
+		"priority": 10,
+		"data": {
+			"sidebar": "single-resume-top-2",
+			"widget": "jobify_widget_resume_categories"
+		}
+	},
+	{
+		"id": "jobify_widget_resume_links",
+		"type": "widget",
+		"priority": 10,
+		"data": {
+			"sidebar": "single-resume-top-3",
+			"widget": "jobify_widget_resume_links",
+			"title": "Candidate Details"
+		}
+	},
+	{
+		"id": "jobify_widget_job_apply",
+		"type": "widget",
+		"priority": 20,
+		"data": {
+			"sidebar": "single-resume-top-3",
+			"widget": "jobify_widget_job_apply"
+		}
+	}
+]

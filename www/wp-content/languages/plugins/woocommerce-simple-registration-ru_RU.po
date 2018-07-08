@@ -1,0 +1,88 @@
+# Translation of Plugins - Simple Registration for WooCommerce - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Simple Registration for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-11-14 16:07:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Simple Registration for WooCommerce - Stable (latest release)\n"
+
+#. Plugin URI of the plugin/theme
+msgid "https://astoundify.com/products/woocommerce-simple-registration/"
+msgstr "https://astoundify.com/products/woocommerce-simple-registration/"
+
+#. Plugin Name of the plugin/theme
+msgid "Simple Registration for WooCommerce"
+msgstr "Simple Registration for WooCommerce"
+
+#: woocommerce-simple-registration.php:278
+msgid "Require first and last name fields."
+msgstr "Поля Имя и Фамилия обязательны."
+
+#: woocommerce-simple-registration.php:271
+msgid "Enable first and last name fields."
+msgstr "Включить поля Имя и Фамилия."
+
+#: woocommerce-simple-registration.php:259
+msgid "Select a page&hellip;"
+msgstr "Выберите страницу&hellip;"
+
+#: woocommerce-simple-registration.php:253
+msgid "Use this page as WordPress registration URL. Page contents: [woocommerce_simple_registration]"
+msgstr "Используйте эту страницу в качестве URL-адреса страницы регистрации WordPress. Содержимое страницы: [woocommerce_simple_registration]"
+
+#: woocommerce-simple-registration.php:252
+msgid "Registration page"
+msgstr "Страница регистрации"
+
+#: templates/registration-form.php:58
+msgid "Log in"
+msgstr "Вход"
+
+#: woocommerce-simple-registration.php:208
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: woocommerce-simple-registration.php:203
+msgid "First Name"
+msgstr "Имя"
+
+#: includes/wc-social-login.php:52
+msgid "Simple Registration"
+msgstr "Простая регистрация"
+
+#. Author of the plugin/theme
+msgid "Astoundify"
+msgstr "Astoundify"
+
+#. Description of the plugin/theme
+msgid "A simple plugin to add a [woocommerce_simple_registration] shortcode to display the registration form on a separate page."
+msgstr "Простой плагин для добавления шорткода [woocommerce_simple_registration], который покажет форму для регистрации на отдельной странице. "
+
+#. Author URI of the plugin/theme
+msgid "https://astoundify.com/"
+msgstr "https://astoundify.com/"
+
+#: templates/registration-form.php:47
+msgid "Anti-spam"
+msgstr "Анти-спам"
+
+#: templates/registration-form.php:40
+msgid "Password"
+msgstr "Пароль"
+
+#: templates/registration-form.php:33
+msgid "Email address"
+msgstr "Email"
+
+#: templates/registration-form.php:26
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: templates/registration-form.php:17 templates/registration-form.php:54
+msgid "Register"
+msgstr "Регистрация"

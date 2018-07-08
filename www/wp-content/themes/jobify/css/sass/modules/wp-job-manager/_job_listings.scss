@@ -1,0 +1,37 @@
+@include keyframes( 'rotate' );
+
+ul.job_listings { // wp job manager uses the class on the wrapper <div> too.
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+    background: #fff;
+
+	&.loading {
+		min-height: 96px;
+		position: relative;
+
+		&:before {
+			@include animation('rotate 1s infinite linear');
+			@extend .ion;
+			content: $ionicon-var-load-c;
+			font-size: 30px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-top: -16px;
+			width: 26px;
+			height: 32px;
+		}
+	}
+}
+
+noscript ~ ul.job_listings {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+
+	.job_listing:first-child {
+		border-top-left-radius: 0;
+	}
+}

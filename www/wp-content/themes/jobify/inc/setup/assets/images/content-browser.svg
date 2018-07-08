@@ -1,0 +1,37 @@
+<svg width="301" height="298" viewBox="304 580 301 298" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <path id="a" d="M0 0h263v260H0z"/>
+    <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="b">
+      <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"/>
+      <feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"/>
+      <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+      <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.0354959239 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/>
+      <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter2"/>
+      <feOffset dy="6" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
+      <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter2" result="shadowBlurOuter2"/>
+      <feComposite in="shadowBlurOuter2" in2="SourceAlpha" operator="out" result="shadowBlurOuter2"/>
+      <feColorMatrix values="0 0 0 0 0.389662731 0 0 0 0 0.453842474 0 0 0 0 0.421752603 0 0 0 0.119593524 0" in="shadowBlurOuter2" result="shadowMatrixOuter2"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+      </feMerge>
+    </filter>
+    <mask id="c" x="-1" y="-1" width="265" height="262">
+      <path fill="#fff" d="M-1-1h265v262H-1z"/>
+      <use xlink:href="#a"/>
+    </mask>
+  </defs>
+  <g transform="translate(323 591)" fill="none" fill-rule="evenodd">
+    <mask id="d" fill="#fff">
+      <use xlink:href="#a"/>
+    </mask>
+    <use fill="#000" filter="url(#b)" xlink:href="#a"/>
+    <use fill="#F6F7F7" xlink:href="#a"/>
+    <use stroke-opacity=".03246716" stroke="#000" mask="url(#c)" stroke-width="2" xlink:href="#a"/>
+    <path fill="#D8D8D8" opacity=".13875933" mask="url(#d)" d="M-1 38h264v224H-1z"/>
+    <circle fill="#D0D9D9" mask="url(#d)" cx="18" cy="19" r="3"/>
+    <path d="M32 22c1.6568542 0 3-1.3431458 3-3s-1.3431458-3-3-3-3 1.3431458-3 3 1.3431458 3 3 3z" fill="#D0D9D9" mask="url(#d)"/>
+    <circle fill="#D0D9D9" mask="url(#d)" cx="46" cy="19" r="3"/>
+  </g>
+</svg>

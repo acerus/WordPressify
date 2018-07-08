@@ -1,0 +1,11 @@
+.recent-jobs ~ .job-spotlight-wrapper {
+	margin-top: 2em;
+
+	@include bp(md) {
+		margin-top: 3em;
+	}
+
+	@include bp(lg) {
+		margin-top: 0;
+	}
+}

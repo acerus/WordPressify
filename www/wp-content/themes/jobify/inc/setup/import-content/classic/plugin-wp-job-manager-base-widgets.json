@@ -1,0 +1,152 @@
+[
+	{
+		"id": "jobify_widget_search_hero",
+		"type": "widget",
+		"priority": 10,
+		"data": {
+			"sidebar": "widget-area-front-page",
+			"widget": "jobify_widget_search_hero",
+			"height": "medium",
+			"margin": 0,
+			"text_color": "#666666",
+			"title": "The Easiest Way to Get Your New Job",
+			"description": "Find jobs, create trackable resumes and enrich your applications.",
+			"image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/classic/widget-search-background.jpg",
+			"background_position": "center center",
+			"cover_overlay": 0
+		}
+	},
+	{
+		"id": "widget-feature-callout-1",
+		"type": "widget",
+		"priority": 30,
+		"data": {
+			"sidebar": "widget-area-front-page",
+			"widget": "jobify_widget_feature_callout",
+			"text_align": "right",
+			"background": "cover",
+			"background_position": "center center",
+			"cover_overlay": "gradient-right",
+			"cover_overlay_transparency": 0.70,
+			"margin": 1,
+			"text_color": "#ffffff",
+			"background_color": "#ffffff",
+			"title": "Make Recruiting Your Competitive Advantage",
+			"image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/classic/widget-feature-callout-1-background.jpg",
+			"content": "Talent is a top priority for all startup founders and executives. Jobify offers a way to completely optimize your entire recruiting process. Find better candidates, conduct more focused interviews, and make data-driven hiring decisions.\n\n<a href='#' class='button button--color-white button--size-medium'>Get Started</a>"
+		}
+	},
+	{
+		"id": "jobify_widget_jobs",
+		"type": "widget",
+		"priority": 40,
+		"data": {
+			"sidebar": "widget-area-front-page",
+			"widget": "jobify_widget_jobs",
+			"title": "Hundreds of Jobs From All Over the Globe",
+			"filters": 0,
+			"number": 6,
+			"spotlight": 0
+		}
+	},
+	{
+		"id": "jobify_widget_jobs_spotlight",
+		"type": "widget",
+		"priority": 50,
+		"data": {
+			"sidebar": "widget-area-front-page",
+			"widget": "jobify_widget_jobs_spotlight",
+			"title": "Featured Jobs",
+			"number": 3
+		}
+	},
+	{
+		"id": "widget-feature-callout-2",
+		"type": "widget",
+		"priority": 60,
+		"data": {
+			"sidebar": "widget-area-front-page",
+			"widget": "jobify_widget_feature_callout",
+			"background": "cover",
+			"background_position": "center center",
+			"cover_overlay": "gradient-left",
+			"cover_overlay_transparency": 0.60,
+			"margin": 0,
+			"text_align": "left",
+			"text_color": "#ffffff",
+			"background_color": "#ffffff",
+			"title": "Join Thousands of Companies That Rely on Jobify",
+			"image": "http://f6ca679df901af69ace6-d3d26a34307edc4f7eeb40d85a64c4a7.r91.cf5.rackcdn.com/jobify-xml-images/classic/widget-feature-callout-2-background.jpg",
+			"content": "Jobify offers a way to completely optimize your entire recruiting process. Find better candidates, conduct more focused interviews, and make data-driven hiring decisions.\n\n<a href='#' class='button button--color-white button--size-medium'>Get Started</a>"
+		}
+	},
+	{
+		"id": "jobify_widget_stats",
+		"type": "widget",
+		"priority": 70,
+		"data": {
+			"sidebar": "widget-area-front-page",
+			"widget": "jobify_widget_stats",
+			"title": "Jobify Site Stats",
+			"description": "Here we list our site stats and how many people we’ve helped find a job and companies have found recruits. It's a pretty awesome stats area!"
+		}
+	},
+	{
+		"id": "jobify_widget_blog_posts",
+		"type": "widget",
+		"priority": 90,
+		"data": {
+			"sidebar": "widget-area-front-page",
+			"widget": "jobify_widget_blog_posts",
+			"title": "Recent  News Articles",
+			"description": "Fresh job related news content posted each day.",
+			"number": 3
+		}
+	},
+
+	{
+		"id": "jobify_widget_job_company_logo",
+		"type": "widget",
+		"priority": 10,
+		"data": {
+			"sidebar": "sidebar-single-job_listing",
+			"widget": "jobify_widget_job_company_logo"
+		}
+	},
+	{
+		"id": "jobify_widget_job_type",
+		"type": "widget",
+		"priority": 20,
+		"data": {
+			"sidebar": "sidebar-single-job_listing",
+			"widget": "jobify_widget_job_type"
+		}
+	},
+	{
+		"id": "jobify_widget_job_apply",
+		"type": "widget",
+		"priority": 30,
+		"data": {
+			"sidebar": "sidebar-single-job_listing",
+			"widget": "jobify_widget_job_apply"
+		}
+	},
+	{
+		"id": "jobify_widget_job_company_social",
+		"type": "widget",
+		"priority": 40,
+		"data": {
+			"sidebar": "sidebar-single-job_listing",
+			"widget": "jobify_widget_job_company_social"
+		}
+	},
+	{
+		"id": "jobify_widget_job_categories",
+		"type": "widget",
+		"priority": 50,
+		"data": {
+			"sidebar": "sidebar-single-job_listing",
+			"widget": "jobify_widget_job_categories"
+		}
+	}
+]

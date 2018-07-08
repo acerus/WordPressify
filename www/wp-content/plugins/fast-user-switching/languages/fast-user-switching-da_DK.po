@@ -1,0 +1,113 @@
+# Translation of Plugins - Fast User Switching - Development (trunk) in Danish
+# This file is distributed under the same license as the Plugins - Fast User Switching - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-03-08 10:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: da-DK\n"
+"Project-Id-Version: Plugins - Fast User Switching - Development (trunk)\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-03-08 10:40+0000\n"
+"Last-Translator: mailbouncecatcher <test@7001.dk>\n"
+"Language-Team: Danish"
+
+#: fast-user-switching.php:89 fast-user-switching.php:104 
+#: fast-user-switching.php:476
+msgid "Switch user"
+msgstr "Skift bruger"
+
+#: fast-user-switching.php:288
+msgid "Switch to own user"
+msgstr "Skift til egen bruger"
+
+#: fast-user-switching.php:484
+msgid "Username or ID"
+msgstr "Brugernavn eller ID"
+
+#: fast-user-switching.php:485
+msgid "Search"
+msgstr "Søg"
+
+#: fast-user-switching.php:491
+msgid "Recent Users"
+msgstr "Seneste brugere"
+
+#: fast-user-switching.php:497
+msgid "Settings"
+msgstr "Indstillinger"
+
+#: fast-user-switching.php:592
+msgid "No user found!"
+msgstr "Ingen bruger fundet!"
+
+#: fast-user-switching.php:716
+msgid "Switch to "
+msgstr "Skifte til "
+
+#: admin-option.php:27
+msgid "Show first name and surname"
+msgstr "Vis fornavn og efternavn"
+
+#: admin-option.php:35
+msgid "Show role (access level)"
+msgstr "Vis rolle (adgangsniveau)"
+
+#: admin-option.php:43
+msgid "Show user name"
+msgstr "Vis brugernavn"
+
+#: admin-option.php:51
+msgid "Show last switched date"
+msgstr "Vis sidste dato hvor der blev skiftet"
+
+#: admin-option.php:61
+msgid "Empty WooCommerce cart item during switching"
+msgstr "Tom WooCommerce-kurvemne under skift"
+
+#: admin-option.php:69
+msgid "Switch user from order details page"
+msgstr "Aktivér brugerskift til"
+
+#: admin-option.php:98 admin-option.php:123
+msgid "Enable User Switching For"
+msgstr "Aktiver brugerskifte for"
+
+#: admin-option.php:113 admin-option.php:138
+msgid "Roles"
+msgstr "Roller"
+
+#: admin-option.php:227
+msgid "Role Assign"
+msgstr "Tildel rolle"
+
+#: admin-option.php:243
+msgid "You must have to enable at least one option!"
+msgstr "Du skal vælge mindst en indstilling!"
+
+#. Plugin Name of the plugin/theme
+msgid "Fast User Switching"
+msgstr "Fast User Switching"
+
+#. Description of the plugin/theme
+msgid ""
+"Fast user switching between users and roles directly from the admin bar - "
+"switch from a list or search for users/roles by id, username, mail etc."
+msgstr ""
+"Hurtig brugerskifte mellem brugere og roller direkte fra admin bar-en -skift "
+"via en liste eller søg efter brugere/roller via id, brugernavn, mail etc."
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.tikweb.com/wordpress/plugins/fast-user-switching/"
+msgstr "http://www.tikweb.com/wordpress/plugins/fast-user-switching/"
+
+#. Author of the plugin/theme
+msgid "Tikweb"
+msgstr "Tikweb"
+
+#. Author URI of the plugin/theme
+msgid "http://www.tikweb.dk/"
+msgstr "http://www.tikweb.dk/"

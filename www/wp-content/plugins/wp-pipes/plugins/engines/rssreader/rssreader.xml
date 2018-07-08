@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="wppipes-engine" method="upgrade">
+	<name>RSSReader</name>
+	<author>thimpress.com</author>
+	<creationDate>May 2013</creationDate>
+	<copyright>© 2007-2012 thimpress.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<authorEmail>info@thimpress.com</authorEmail>
+	<authorUrl>http://www.thimpress.com</authorUrl>
+	<version>2.5</version>
+	<description>RSS Reader Source for WPPipes</description>
+	<files>
+		<filename plugin="rssreader">rssreader.php</filename>
+		<filename plugin="rssreader">rssreader.xml</filename>
+		<filename>rssreader.png</filename>
+		<filename>CHANGELOG</filename>
+		<filename>LICENSE</filename>
+		<filename>README</filename>
+		<filename>index.html</filename>
+		<folder>helpers</folder>
+		<folder>language</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_wppipes-engine_rssreader.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="feed_url"
+					   type="textarea"
+					   rows="3"
+					   class="fullwidth"
+					   default=""
+					   label="RSS Feed URL"
+					   onblur="if(this.value!='')call_function_from_addon('engine','rssreader','get_default_item',this.value)"
+					   description="Feed URL, multiple Feed support, each Feed per a new line"/>
+			</fieldset>
+			<fieldset name="advanced">
+				<field name="limit_items"
+					   type="text"
+					   size="6"
+					   class="form-control"
+					   default="100"
+					   label="Limit Items"
+					   description="The limit number of items will be fetched from the Feed source"/>
+				<field name="mode"
+					   type="list"
+					   default="0"
+					   class="form-control"
+					   label="cURL Mode"
+					   description="cURL Mode is for contacting with Feed Source's server. In the most cases, Level 1 will work for you. If it doesn't, please try to change to Level 2.">
+					<option value="0">Level 1</option>
+					<option value="1">Level 2</option>
+				</field>
+				<field name="fix_time"
+					   type="text"
+					   size="6"
+					   class="form-control"
+					   default="-24"
+					   label="Fix Time"
+					   description="Fix Publish Time (default: -24h)"/>
+				<field name="cache"
+					   type="list"
+					   default="1"
+					   class="form-control"
+					   label="Cache"
+					   description="Cache">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="cache_time"
+					   type="text"
+					   size="8"
+					   class="form-control"
+					   default="3600"
+					   label="Cache time"
+					   description="Cache time"/>
+				<field name="separate_character"
+					   type="text"
+					   size="8"
+					   class="form-control"
+					   default="|"
+					   label="Separate Character"
+					   description="You could use this option to define the sparate point between categories if the feed's item has multiple categories. For example: if you put comma (,) here, the [so] category will be category#A, category#B,...,category#n"/>
+				<field name="order_by_date"
+					   type="list"
+					   default="0"
+					   label="Order by date"
+					   description="RSS feeds will be sort by date.">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+				<field name="order_by_date_follow"
+					   type="list"
+					   default="0"
+					   label="Order type"
+					   description="NO: New feeds will be import first. YES: New feeds will be import at last.">
+					<option value="0">No</option>
+					<option value="1">Yes</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

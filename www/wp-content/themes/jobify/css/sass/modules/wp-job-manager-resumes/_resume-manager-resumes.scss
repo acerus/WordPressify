@@ -1,0 +1,7 @@
+.resume-manager-resumes {
+	@extend .job-manager-jobs;
+}
+
+.resume-manager-resumes td.resume-title {
+	font-size: 18px;
+}

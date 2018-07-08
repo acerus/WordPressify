@@ -1,0 +1,8 @@
+.showing_jobs .alert {
+	@extend .rss_link;
+	color: #bf3737;
+
+	&:before {
+		content: $ionicon-var-android-alert;
+	}
+}

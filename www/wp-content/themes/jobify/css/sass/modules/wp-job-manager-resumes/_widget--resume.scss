@@ -1,0 +1,7 @@
+.widget--resume {
+	@extend .widget--job_listing;
+}
+
+.widget--resume-top {
+	@extend .widget--job_listing-top;
+}

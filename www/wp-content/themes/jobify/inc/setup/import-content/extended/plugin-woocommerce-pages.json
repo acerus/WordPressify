@@ -1,0 +1,110 @@
+[
+	{
+		"id": "myaccount",
+		"type": "object",
+		"priority": 10,
+		"data": {
+			"post_type": "page",
+			"post_title": "Account",
+			"post_content": "[woocommerce_my_account]",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/single-column.php"
+			},
+			"menus": [
+				{
+					"menu-item-title": "My Account",
+					"menu-item-parent-title": "Candidates",
+					"menu-item-position": 5,
+					"menu-item-role": "in",
+					"menu_name": "Primary"
+				},
+				{
+					"menu-item-title": "My Account",
+					"menu-item-parent-title": "Employers",
+					"menu-item-position": 5,
+					"menu-item-role": "in",
+					"menu_name": "Primary"
+				},
+				{
+					"menu-item-title": "Login",
+					"menu-item-classes": "login",
+					"menu-item-position": 10,
+					"menu-item-role": "out",
+					"menu-item-class": "login",
+					"menu_name": "Primary"
+				},
+				{
+					"menu-item-title": "Sign Out",
+					"menu-item-position": 10,
+					"menu-item-role": "in",
+					"menu-item-endpoint": "customer-logout",
+					"menu_name": "Primary"
+				}
+			]
+		}
+	},
+	{
+		"id": "shop",
+		"type": "object",
+		"priority": 10,
+		"data": {
+			"post_type": "page",
+			"post_title": "Products",
+			"post_content": "",
+			"comment_status": "closed",
+			"menus": [
+				{
+					"menu-item-title": "Shop",
+					"menu-item-parent-title": "Pages",
+					"menu-item-position": 2,
+					"menu_name": "Primary"
+				}
+			]
+		}
+	},
+	{
+		"id": "cart",
+		"type": "object",
+		"priority": 15,
+		"data": {
+			"post_type": "page",
+			"post_title": "Cart",
+			"post_content": "[woocommerce_cart]",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/single-column.php"
+			},
+			"menus": [
+				{
+					"menu-item-title": "Cart",
+					"menu-item-position": 1,
+					"menu-item-parent-title": "Shop",
+					"menu_name": "Primary"
+				}
+			]
+		}
+	},
+	{
+		"id": "checkout",
+		"type": "object",
+		"priority": 15,
+		"data": {
+			"post_type": "page",
+			"post_title": "Checkout",
+			"post_content": "[woocommerce_checkout]",
+			"comment_status": "closed",
+			"meta": {
+				"_wp_page_template": "page-templates/single-column.php"
+			},
+			"menus": [
+				{
+					"menu-item-title": "Checkout",
+					"menu-item-position": 2,
+					"menu-item-parent-title": "Shop",
+					"menu_name": "Primary"
+				}
+			]
+		}
+	}
+]

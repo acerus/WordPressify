@@ -1,0 +1,303 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Member\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-13 16:49+0200\n"
+"PO-Revision-Date: 2015-05-26 22:52+0100\n"
+"Last-Translator: Calum Allison <umplugin@gmail.com>\n"
+"Language-Team: Ultimate Member <umplugin@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Language: sv_SE\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: EDD_SL_Plugin_Updater.php:177
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"Det finns en ny version av %1$s tillgänglig. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">Visa detaljer för version %3$s</a>."
+
+#: EDD_SL_Plugin_Updater.php:184
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"Det finns en ny version av %1$s tillgänglig. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">Visa detaljer för version %3$s</a> eller <a href="
+"\"%4$s\">uppdatera nu</a>."
+
+#: EDD_SL_Plugin_Updater.php:324
+msgid "You do not have permission to install plugin updates"
+msgstr "Du har inte behörighet att uppdatera denna plugin"
+
+#: EDD_SL_Plugin_Updater.php:324
+msgid "Error"
+msgstr "Fel"
+
+#: admin/templates/role/messaging.php:8
+msgid "Enable Messaging feature?"
+msgstr "Slå på meddelandefunktion?"
+
+#: admin/templates/role/messaging.php:8
+msgid "Enable or disable messaging feature for this role"
+msgstr "Slå på eller av meddelandefunktion för denna roll"
+
+#: admin/templates/role/messaging.php:13
+msgid "Can start conversations?"
+msgstr "Kan starta konversation?"
+
+#: admin/templates/role/messaging.php:13
+msgid "Can this role start conversation with other users?"
+msgstr "Kan denna roll starta konversation med andra användare?"
+
+#: admin/templates/role/messaging.php:18
+msgid "Can read private messages?"
+msgstr "Kan läsa privata meddelanden?"
+
+#: admin/templates/role/messaging.php:18
+msgid "Can this role read private messages from other users?"
+msgstr "Kan denna roll läsa privata meddelanden från andra användare?"
+
+#: admin/templates/role/messaging.php:23
+msgid "Can read private messages but not reply?"
+msgstr "Kan läsa privata meddelanden men inte svara?"
+
+#: admin/templates/role/messaging.php:23
+msgid "Can this role read private messages but not reply?"
+msgstr "Kan denna roll läsa privata meddelanden men inte svara?"
+
+#: admin/templates/role/messaging.php:28
+msgid "Maximum number of messages they can send"
+msgstr "Max antal meddelanden som användare kan skicka"
+
+#: admin/templates/role/messaging.php:31
+msgid "per"
+msgstr "per"
+
+#: admin/templates/role/messaging.php:31
+msgid "Days"
+msgstr "dagar"
+
+#: core/actions/um-messaging-admin.php:13
+msgid "Private Messages"
+msgstr "Privata meddelanden"
+
+#: core/actions/um-messaging-ajax.php:132
+#, php-format
+msgid "%s Please login to message <strong>%s</strong>"
+msgstr ""
+"%s vänligen logga in för att skicka meddelande till <strong>%s</strong>"
+
+#: core/actions/um-messaging-ajax.php:209 core/um-messaging-api.php:376
+msgid "Remove"
+msgstr "Ta bort"
+
+#: core/actions/um-messaging-members.php:10
+msgid "My messages"
+msgstr "Mina meddelanden"
+
+#: core/actions/um-messaging-privacy.php:21
+msgid "Who can send me private messages?"
+msgstr "Vem kan skicka mig privata meddelanden?"
+
+#: core/actions/um-messaging-privacy.php:29
+msgid "Everyone"
+msgstr "Alla"
+
+#: core/actions/um-messaging-privacy.php:30
+msgid "Nobody"
+msgstr "Ingen"
+
+#: core/actions/um-messaging-privacy.php:32
+msgid "Only people I follow"
+msgstr "Bara användare jag följer"
+
+#: core/actions/um-messaging-privacy.php:33
+msgid "Followers"
+msgstr "Följare"
+
+#: core/actions/um-messaging-privacy.php:47
+msgid "Blocked Users"
+msgstr "Blockerade personer"
+
+#: core/actions/um-messaging-privacy.php:60
+msgid "Unblock"
+msgstr "Avblockera"
+
+#: core/filters/um-messaging-account.php:23
+#: core/filters/um-messaging-account.php:31
+msgid "Someone sends me a private message"
+msgstr "Någon skickar mig ett privat meddelade"
+
+#: core/filters/um-messaging-settings.php:13
+msgid "Message character limit"
+msgstr "Längdgräns för meddelande"
+
+#: core/filters/um-messaging-settings.php:21
+msgid "Block users from sending messages"
+msgstr "Blockera användare från att skicka meddelande"
+
+#: core/filters/um-messaging-settings.php:22
+msgid ""
+"A comma seperated list of user IDs that cannot send messages on the site."
+msgstr ""
+"Kommaseparerad lista med användar-ID som inte kan skicka meddelanden på "
+"webbplatsen."
+
+#: core/filters/um-messaging-settings.php:29
+msgid "Primary color"
+msgstr "Primärfärg"
+
+#: core/filters/um-messaging-settings.php:37
+#: core/filters/um-messaging-settings.php:45
+#: core/filters/um-messaging-settings.php:55
+msgid "New Message Notification"
+msgstr "Notifiering nya meddelanden"
+
+#: core/filters/um-messaging-settings.php:39
+msgid "Send a notification to user when he receives a new private message"
+msgstr "Skicka meddelande till användare när denne får nya privata meddelanden"
+
+#: core/filters/um-messaging-settings.php:46
+msgid "Subject Line"
+msgstr "Ämnesrad"
+
+#: core/filters/um-messaging-settings.php:49
+msgid "This is the subject line of the e-mail"
+msgstr "Det här är ämnesraden för e-postmeddelande"
+
+#: core/filters/um-messaging-settings.php:56
+msgid "Message Body"
+msgstr "Meddelandetext"
+
+#: core/filters/um-messaging-settings.php:68
+msgid "Messaging"
+msgstr "Meddelande"
+
+#: core/filters/um-messaging-settings.php:84
+msgid "User get a new private message"
+msgstr "Användaren får nytt privat meddelande"
+
+#: core/filters/um-messaging-settings.php:86
+msgid "When someone sends a private message to me"
+msgstr "När någon skickar ett privat meddelande till mig"
+
+#: core/filters/um-messaging-tabs.php:13
+msgid "Messages"
+msgstr "Meddelanden"
+
+#: core/um-messaging-api.php:262
+msgid "Block user"
+msgstr "Blockera användare"
+
+#: core/um-messaging-api.php:263
+msgid "Delete conversation"
+msgstr "Ta bort konversation"
+
+#: core/um-messaging-api.php:264
+msgid "Close chat"
+msgstr "Stäng chat"
+
+#: core/um-messaging-api.php:275
+msgid "Your membership level does not allow you to view conversations."
+msgstr "Ditt nivå på medlemskap tillåter inte att titta på konversationer."
+
+#: core/um-messaging-api.php:284 core/um-messaging-api.php:288
+msgid "You have reached your limit for sending messages."
+msgstr "Du har nått gränsen för max antal meddelanden."
+
+#: core/um-messaging-api.php:296
+msgid "Type your message..."
+msgstr "Skriv ditt meddelande…"
+
+#: core/um-messaging-api.php:302
+msgid "Send message"
+msgstr "Skicka meddelande"
+
+#: core/um-messaging-api.php:309
+msgid "You are not allowed to reply to private messages."
+msgstr "Du får inte svara på privata meddelanden."
+
+#: core/um-messaging-api.php:429
+#, php-format
+msgid "%ss"
+msgstr "%ss"
+
+#. translators: min=minute
+#: core/um-messaging-api.php:435 core/um-messaging-api.php:455
+#, php-format
+msgid "%sm"
+msgstr "%sm"
+
+#: core/um-messaging-api.php:440
+#, php-format
+msgid "%sh"
+msgstr "%sh"
+
+#: core/um-messaging-api.php:445
+#, php-format
+msgid "%sd"
+msgstr "%sd"
+
+#: core/um-messaging-api.php:450
+#, php-format
+msgid "%sw"
+msgstr "%sw"
+
+#: core/um-messaging-api.php:460
+#, php-format
+msgid "%sy"
+msgstr "%sy"
+
+#: core/um-messaging-init.php:22
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires the Ultimate Member plugin to be "
+"activated to work properly. You can download it <a href=\"https://wordpress."
+"org/plugins/ultimate-member\">here</a>"
+msgstr ""
+"<strong>%s</strong> utökningen kräver Ultimate Member -plugin aktiverad för "
+"att fungera. Du kan ladda ned den <a href=\"https://wordpress.org/plugins/"
+"ultimate-member\">här</a>"
+
+#: core/um-messaging-init.php:27
+#, php-format
+msgid ""
+"The <strong>%s</strong> extension requires a <a href=\"https://wordpress.org/"
+"plugins/ultimate-member\">newer version</a> of Ultimate Member to work "
+"properly."
+msgstr ""
+"<strong>%s</strong> utökningen kräver en <a href=\"https://wordpress.org/"
+"plugins/ultimate-member\">nyare version</a> av Ultimate Member för att "
+"fungera korrekt."
+
+#: core/um-messaging-shortcode.php:46 core/um-messaging-shortcode.php:51
+msgid "Message"
+msgstr "Meddelande"
+
+#: templates/conversations.php:86
+msgid "You do not have any conversations yet."
+msgstr "Du har inga konversationer ännu."
+
+msgid "outdatedBrowser_page_message"
+msgstr ""
+"Webbplatsen kräver modern webbläsare. Vänligen välj annan (förslag ovan) för "
+"ökad säkerhet och bättre användarupplevelse. Om du inte kan eller inte bryr "
+"dig <a href=\"?forwardOutdatedBrowser=1\">klicka här</a>"
+
+msgid "404_page_message"
+msgstr ""
+"Sidan du försöker visa finns inte eller så uppstod ett fel. <a href="
+"\"javascript:history.go(-1)\">Gå tillbaka</a>, eller till <a href=\"%s\">%s</"
+"a> för ett nytt försök."

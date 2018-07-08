@@ -1,0 +1,11 @@
+.widget-title--home {
+	font-size: 28px;
+	text-align: center;
+	font-weight: normal;
+	margin: 0 0 1em;
+
+	@include bp(md) {
+		font-size: 36px;
+		margin-bottom: 1.25em;
+	}
+}

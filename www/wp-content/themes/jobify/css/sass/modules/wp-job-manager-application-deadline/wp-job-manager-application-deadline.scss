@@ -1,0 +1,19 @@
+.application-deadline {
+	label {
+		text-transform: none;
+	}
+
+	&:before {
+		@extend .ion;
+		content: $ionicon-var-calendar;
+		margin-right: 5px;
+	}
+}
+
+.single_job_listing .application-deadline {
+	@extend .application-deadline;
+}
+
+li.type-job_listing .application-deadline {
+	font-size: 14px;
+}

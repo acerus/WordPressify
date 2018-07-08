@@ -1,0 +1,9 @@
+.resume-file {
+	color: inherit;
+
+	&:before {
+		@extend .ion;
+		content: $ionicon-var-document;
+		margin-right: 5px;
+	}
+}

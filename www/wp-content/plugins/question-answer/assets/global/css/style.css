@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+
+/* ===== GENERAL STYLE ===== */
+
+.red { color: #DD4F43; }
+.green { color: #16A05C; }
+.yellow { color: #FFCE43; }
+
+.fs_13 { font-size: 13px !important; }
+.fs_14 { font-size: 14px !important; }
+.fs_16 { font-size: 16px !important; }
+.fs_18 { font-size: 18px !important; }
+.fs_20 { font-size: 20px !important; }
+.fs_22 { font-size: 22px !important; }
+.fs_24 { font-size: 24px !important; }
+.fs_26 { font-size: 26px !important; }
+.fs_28 { font-size: 28px !important;}
+.fs_34 { font-size: 34px !important;}
+.fs_36 { font-size: 36px !important;}
+
+.float_left { float:left; }
+.float_right { float:right; }
+
+.nodisplay { display:none; }
+
+.ml_50 { margin-left:50px; }
+
+.qa_w_160 { width:160px;}
+
+
+
+
+
+@media only screen and ( min-width: 0px ) and ( max-width: 576px ) {
+    .float_left { float:none; }
+    .float_right { float:none; }
+
+}
+
+
+
+
+
+
+
+
+
+/* ===== GENERAL STYLE ===== */
+
+
+
+
+/* ===== TOAST ===== */
+
+
+.toast {
+    width:200px;
+    height:20px;
+    height:auto;
+    position:fixed;
+    right:20px;
+    bottom:30px;
+    background-color: #383838;
+    color: #F0F0F0;
+    font-family: Calibri;
+    font-size: 20px;
+    padding:10px;
+    text-align:center;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    -moz-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+	
+	-webkit-animation-duration: 7s; 
+	animation-duration: 7s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both;
+}
+@-webkit-keyframes qa-shake {
+	0%, 100% {-webkit-transform: translateX(0);} 
+	10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-20px);} 
+}
+.qa-shake { 
+	-webkit-animation-name: qa-shake; 
+	animation-name: qa-shake; 
+}
+
+
+/* ===== TOAST ===== */
+
+
+
+
+/* ===== QA-TOOLTIP ===== */
+.qa_tt {
+    position: relative;
+    display: inline-block;
+}
+.qa_tt .qa_ttt {
+    visibility: hidden;
+    padding:0px 20px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 3px;
+    padding: 5px 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+.qa_tt .qa_ttt::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.qa_tt:hover .qa_ttt {
+    visibility: visible;
+    opacity: 1;
+}
+/* ===== QA-TOOLTIP ===== */
