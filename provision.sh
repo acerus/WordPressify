@@ -148,6 +148,13 @@ CREATE DATABASE IF NOT EXISTS vagrant;
 GRANT ALL PRIVILEGES ON vagrant.* TO 'vagrant'@'localhost' IDENTIFIED BY 'password';
 EOF
 
+
+# restore DB
+echo "# Restore DB ..."
+sudo cp /srv/config/vagrant.sql.zip /tmp/
+sudo unzip /tmp/vagrant.sql.zip -d /tmp/
+mysql -uvagrant -ppassword vagrant < /tmp/vagrant.sql
+
 # phpMyAdmin initial setup
 echo "Configuring phpMyAdmin..."
 cp /srv/config/phpmyadmin/config.inc.php /etc/phpmyadmin/config.inc.php
